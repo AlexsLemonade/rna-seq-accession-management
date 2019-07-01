@@ -1,0 +1,2058 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT request="tax_eq(6183) AND (instrument_model=&quot;HiSeq X Ten&quot; OR instrument_model=&quot;HiSeq X Five&quot; OR instrument_model=&quot;Illumina MiSeq&quot; OR instrument_model=&quot;Illumina NovaSeq 6000&quot; OR instrument_model=&quot;Illumina Genome Analyzer&quot; OR instrument_model=&quot;Illumina Genome Analyzer II&quot; OR instrument_model=&quot;Illumina Genome Analyzer IIx&quot; OR instrument_model=&quot;Illumina HiScanSQ&quot; OR instrument_model=&quot;Illumina HiSeq 1000&quot; OR instrument_model=&quot;Illumina HiSeq 1500&quot; OR instrument_model=&quot;Illumina HiSeq 2000&quot; OR instrument_model=&quot;Illumina HiSeq 2500&quot; OR instrument_model=&quot;Illumina HiSeq 3000&quot; OR instrument_model=&quot;Illumina HiSeq 4000&quot; OR instrument_model=&quot;NextSeq 500&quot; OR instrument_model=&quot;NextSeq 550&quot; OR instrument_model=&quot;Ion Torrent Proton&quot; OR instrument_model=&quot;Ion Torrent S5&quot; OR instrument_model=&quot;Ion Torrent S5 XL&quot;)AND library_strategy=&quot;RNA-Seq&quot; AND library_source=&quot;TRANSCRIPTOMIC&quot;">
+<PROJECT accession="PRJEB1281" alias="Praziquantel_mode_of_action_and_resistance-sc-2013-01-09T14:14:27Z-2484" center_name="Wellcome Sanger Institute">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJEB1281</PRIMARY_ID>
+          <SECONDARY_ID>ERP002113</SECONDARY_ID>
+          <SUBMITTER_ID namespace="SC">Praziquantel_mode_of_action_and_resistance-sc-2013-01-09T14:14:27Z-2484</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Praziquantel mode of action and resistance</NAME>
+     <TITLE>Praziquantel mode of action and resistance</TITLE>
+     <DESCRIPTION>This data is part of a pre-publication release. For information on the proper use of pre-publication data shared by the Wellcome Trust Sanger Institute (including details of any publication moratoria), please see http://www.sanger.ac.uk/datasharing/
+
+The drug Praziquantel is the most commonly used drug for parasitic flatworms. It is currently being increasingly used in mass drug administration programmes, raising concerns over whether resistance will develop. Although widely used, its mode of action was until very recently uncertain.  This study will investigate the praziquantel mode of action and resistance by sequencing the transcriptomes of Dugesia japonica and different stages and strains of S. mansoni.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA185271</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS204891-ERS204901,ERS204934-ERS204955,ERS225198,ERS336454-ERS336455,ERS434592-ERS434639,ERS434675-ERS434722,ERS434827-ERS434922,ERS434924-ERS434971,ERS435025-ERS435072</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX248221-ERX248242,ERX252743-ERX252753,ERX267993-ERX268025,ERX377960-ERX377962,ERX529470-ERX529517,ERX531721-ERX531864,ERX536317-ERX536364,ERX540575-ERX540718,ERX544561-ERX544704,ERX548566-ERX548613</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR273945-ERR273966,ERR279410-ERR279420,ERR294660-ERR294692,ERR411599-ERR411601,ERR570481-ERR570528,ERR572951-ERR573094,ERR578141-ERR578188,ERR582488-ERR582631,ERR586553-ERR586696,ERR590577-ERR590624</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB1281&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB1281&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-05-13</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2016-05-20</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJEB13046" alias="Schistosoma_mansoni_RNASeq__male_and_female_characterisation-sc-4145" center_name="Wellcome Sanger Institute">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJEB13046</PRIMARY_ID>
+          <SECONDARY_ID>ERP014584</SECONDARY_ID>
+          <SUBMITTER_ID namespace="SC">Schistosoma_mansoni_RNASeq__male_and_female_characterisation-sc-4145</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Schistosoma_mansoni_RNASeq__male_and_female_characterisation</NAME>
+     <TITLE>Schistosoma_mansoni_RNASeq__male_and_female_characterisation</TITLE>
+     <DESCRIPTION>This data is part of a pre-publication release. For information on the proper use of pre-publication data shared by the Wellcome Trust Sanger Institute (including details of any publication moratoria), please see http://www.sanger.ac.uk/datasharing/ 
+Analysis of gene expression levels between male and female Schistosoma mansoni worms.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA581545</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS1085199-ERS1085268</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX1399748-ERX1399887</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR1328128-ERR1328267</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB13046&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB13046&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-03-16</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2016-05-20</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJEB14695" alias="S__mansoni_male_and_female_adult_worm_reproductive_organs_pre__and_post_pairing-sc-4304" center_name="Wellcome Sanger Institute">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJEB14695</PRIMARY_ID>
+          <SECONDARY_ID>ERP016356</SECONDARY_ID>
+          <SUBMITTER_ID namespace="SC">S__mansoni_male_and_female_adult_worm_reproductive_organs_pre__and_post_pairing-sc-4304</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>S__mansoni_male_and_female_adult_worm_reproductive_organs_pre__and_post_pairing</NAME>
+     <TITLE>S__mansoni_male_and_female_adult_worm_reproductive_organs_pre__and_post_pairing</TITLE>
+     <DESCRIPTION>Study description:	This data is part of a pre-publication release. For information on the proper use of pre-publication data shared by the Wellcome Trust Sanger Institute (including details of any publication moratoria), please see http://www.sanger.ac.uk/datasharing/ Schistosomes are blood dwelling digenean trematodes that mature as adults in the intestinal or urinary veins, predominantly of mammals. Adult female Schistosomes produce eggs of which approximately 40% fail to pass into faeces or urine (species-dependent) but are dispersed by the blood stream into different organs where they provoke severe inflammation. This parasitic infection is known as schistosomiasis and considered by the WHO as the second most socioeconomically devastating parasitic disease, next only to malaria, with hundreds of millions infected worldwide. As the eggs represent the causative pathogenic agents, the understanding of egg forming processes, and therefore of the schistosomal reproductive biology in general, is of fundamental interest. Additionally the differences between immature (pre-mating) and mature (post-mating) adult worms are of significant interest; adults only reach maturity upon mating. Trasncriptomic sequencing of gonad-specific cellular material will help to unravel signal transduction cascades involved in e.g. gametogenesis and/or vitellogenesis. This project aims to characterize the transcriptome profiles of immature and mature adult ovaries and adult testes.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA672337</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS420088-ERS420110</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX471428-ERX471450,ERX471452-ERX471474,ERX622537-ERX622559,ERX622561-ERX622583,ERX622585-ERX622607,ERX622609-ERX622631</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR506071-ERR506093,ERR506095-ERR506117,ERR667049-ERR667071,ERR667073-ERR667095,ERR667097-ERR667119,ERR667121-ERR667143</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB14695&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB14695&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-07-05</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2016-07-05</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJEB15637" alias="High_throughput_sequencing_of_life_stages_tissues_of_Schistosoma_mansoni_-sc-145" center_name="Wellcome Sanger Institute">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJEB15637</PRIMARY_ID>
+          <SECONDARY_ID>ERP017466</SECONDARY_ID>
+          <SUBMITTER_ID namespace="SC">High_throughput_sequencing_of_life_stages_tissues_of_Schistosoma_mansoni_-sc-145</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>High_throughput_sequencing_of_life_stages_tissues_of_Schistosoma_mansoni_</NAME>
+     <TITLE>High_throughput_sequencing_of_life_stages_tissues_of_Schistosoma_mansoni_</TITLE>
+     <DESCRIPTION>High-throughput sequencing of life stages and tissues of the flatworm Schistosoma mansoni will be used for further gene editing, gene finding and transcriptome analysis.. This data is part of a pre-publication release. For information on the proper use of pre-publication data shared by the Wellcome Trust Sanger Institute (including details of any publication moratoria), please see http://www.sanger.ac.uk/datasharing/</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA716453</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS1382241,ERS1382248-ERS1382253</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX1744634-ERX1744647</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR1674583-ERR1674596</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB15637&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB15637&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-10-05</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2016-10-05</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJEB23253" alias="Characterising_Schistosoma_mansoni_stem_cell_populations-sc-4149" center_name="Wellcome Sanger Institute">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJEB23253</PRIMARY_ID>
+          <SECONDARY_ID>ERP104993</SECONDARY_ID>
+          <SUBMITTER_ID namespace="SC">Characterising_Schistosoma_mansoni_stem_cell_populations-sc-4149</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Characterising_Schistosoma_mansoni_stem_cell_populations</NAME>
+     <TITLE>Characterising_Schistosoma_mansoni_stem_cell_populations</TITLE>
+     <DESCRIPTION>Using RNAseq to characterise bulk preparations from different Schistosoma mansoni cells and somatic (control) cells to find new markers and putative factors involved in controlling their growth and differentiation.
+This data is part of a pre-publication release. For information on the proper use of pre-publication data shared by the Wellcome Trust Sanger Institute (including details of any publication moratoria), please see http://www.sanger.ac.uk/datasharing/</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA1123449</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS1987940-ERS1987966</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX2241404-ERX2241484</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR2185285-ERR2185365</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB23253&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB23253&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-10-30</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2017-10-30</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJEB2350" alias="E-MTAB-451" broker_name="ArrayExpress" center_name="Wellcome Sanger Institute">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJEB2350</PRIMARY_ID>
+          <SECONDARY_ID>ERP000427</SECONDARY_ID>
+          <SECONDARY_ID>ERP000427</SECONDARY_ID>
+          <SUBMITTER_ID namespace="SC">E-MTAB-451</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Schistosoma mansoni transcriptomics at different life stages</NAME>
+     <TITLE>Schistosoma mansoni transcriptomics at different life stages</TITLE>
+     <DESCRIPTION>High-throughput sequencing of life stages and tissues of the flatworm Schistosoma mansoni to be used for further gene editing, gene finding and transcriptome analysis</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <URL_LINK>
+                    <URL>http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-451</URL>
+                    <LABEL>E-MTAB-451 in ArrayExpress</LABEL>
+               </URL_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA015465</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS017676-ERS017686</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX009274-ERX009285</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR022872-ERR022883</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB2350&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB2350&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2010-12-06</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2016-05-20</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJEB4332" alias="STUDY_THE_EFFECT_OF_TGF_beta_ON_SCHISTOSOME_ADULT_WORMS-sc-2013-07-15T13:12:29Z-340" center_name="Wellcome Sanger Institute">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJEB4332</PRIMARY_ID>
+          <SECONDARY_ID>ERP003608</SECONDARY_ID>
+          <SUBMITTER_ID namespace="SC">STUDY_THE_EFFECT_OF_TGF_beta_ON_SCHISTOSOME_ADULT_WORMS-sc-2013-07-15T13:12:29Z-340</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>STUDY_THE_EFFECT_OF_TGF_beta_ON_SCHISTOSOME_ADULT_WORMS</NAME>
+     <TITLE>STUDY_THE_EFFECT_OF_TGF_beta_ON_SCHISTOSOME_ADULT_WORMS</TITLE>
+     <DESCRIPTION>STUDY THE EFFECT OF TGF beta ON SCHISTOSOME ADULT WORMS
+
+
+
+Goal: Primary: Assess the effects of TGF beta on transcription of adult male and female schistosomes.
+
+           Secondary: Identify the pathways regulated by TGF beta in worm pairs, mature males, mature females, immature males and immature females.
+
+
+
+
+
+METHODS:
+
+Parasite: Schistosoma mansoni employed is the NMRI strain that is maintained in a Puerto Rican Biomphalaria glabrata and Golden Syrian hamsters. The life cycle is maintained in the LoVerde lab.
+
+
+
+Cercariae obtained from infected snails were used to infect experimental animals. The cercariae wre shed from snails exposed to multiple miracidia for mixed infections or from snails exposed to a single miracidia for single-sex infections. Schistosome worms were recovered from hamsters by perfusion (Duvall and DeWitt, 1967) 45 days post infection.  
+
+
+
+Freshly perfused adult worms containing mixed-sex or single-sex infections were collected from infected golden hamsters, washed and incubated for overnight at 37Â°C, 5% CO2 in MEM medium supplemented with 1 mM sodium pyruvate, 1 X non-essential amino acid solution, 1 X amino acid solution, 100 U ml penicillin, 100 ug ml streptomycin 1 ug ml amphotericin B (antibiotic antimycotic solution) and 2 mM Glutamax-I. Recombinant human TGF- beta1 was added individually to about 25 pairs or 30 individual schistosomes to a final concentrations of 1.0 nM and incubation was continued for another 24 hr. The controls were treated as above except no TGF-beta1 was added. The worms were placed in RNAlater and sent to WTSI (Anna) for RNA extraction and sequencing.
+
+
+
+Duvall RH, Dewitt WD. An improved perfusion technique for recovering adult schistosomes from laboratory animals. Am J Trop Med Hyg 1967;16:483-486.
+
+. This data is part of a pre-publication release. For information on the proper use of pre-publication data shared by the Wellcome Trust Sanger Institute (including details of any publication moratoria), please see http://www.sanger.ac.uk/datasharing/</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA239796</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS002461-ERS002462,ERS002777-ERS002780,ERS005815-ERS005818,ERS324017-ERS324021,ERS326004-ERS326025</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX540732-ERX540758,ERX1034659-ERX1034668</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR582645-ERR582671,ERR957332-ERR957341</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB4332&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB4332&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-08-20</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2016-05-20</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJEB9836" alias="Single_cell_Schistosoma_mansoni_transcriptomics-sc-3634" center_name="Wellcome Sanger Institute">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJEB9836</PRIMARY_ID>
+          <SECONDARY_ID>ERP010983</SECONDARY_ID>
+          <SUBMITTER_ID namespace="SC">Single_cell_Schistosoma_mansoni_transcriptomics-sc-3634</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Single_cell_Schistosoma_mansoni_transcriptomics</NAME>
+     <TITLE>Single_cell_Schistosoma_mansoni_transcriptomics</TITLE>
+     <DESCRIPTION>This data is part of a pre-publication release. For information on the proper use of pre-publication data shared by the Wellcome Trust Sanger Institute (including details of any publication moratoria), please see http://www.sanger.ac.uk/datasharing/.
+
+This study will undertake single-cell transcriptomic sequencing of life stages and tissues of the flatworm Schistosoma mansoni.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA456081</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS712923-ERS712933,ERS782137-ERS782230</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX1053683-ERX1053693,ERX1773142-ERX1773329</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR976706-ERR976716,ERR1702908-ERR1703095</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB9836&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB9836&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2015-08-04</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2016-05-20</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA183100" alias="PRJNA183100" center_name="University of Illinois at Urbana Champaign">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA183100</PRIMARY_ID>
+          <SECONDARY_ID>SRP017443</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE42757</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="University of Illinois at Urbana Champaign">PRJNA183100</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Schistosoma mansoni</NAME>
+     <TITLE>Adult stem cells in the human parasite Schistosoma mansoni</TITLE>
+     <DESCRIPTION>RNAseq experiments to identify gene expression changes following gamma irradiation Overall design: Adult male Schistosoma mansoni (strain: NMRI) were subjected to 200 Gy of gamma irradiation and cultured in vitro for 48hr hours. After 48hr germ line tissues were removed and RNA was extracted from remaining somatic tissues. Samples were processed for RNAseq using Illumina procedures.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>6183</TAXON_ID>
+               <SCIENTIFIC_NAME>Schistosoma mansoni</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12599"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS378734-SRS378739</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX208934-SRX208939</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR629227-SRR629232</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA183100&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA183100&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>183100</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-05-31</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-05-19</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA195631" alias="PRJNA195631" center_name="Institute for Parasitology">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA195631</PRIMARY_ID>
+          <SECONDARY_ID>SRP020247</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE45628</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Institute for Parasitology">PRJNA195631</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Schistosoma mansoni</NAME>
+     <TITLE>Combinatory microarray and SuperSAGE analyses identify pairing-dependently transcribed genes in Schistosoma mansoni males, including follistatin [SuperSAGE]</TITLE>
+     <DESCRIPTION>Comparing the transcriptomes of pairing-experienced (EM) and pairing-unexperienced (UM) male Schistosoma mansoni (in biological triplicates) we detected 253 genes to be significantly differeantially (p &lt; 1-10; log2ratios &lt; -0.585 or > +0.585) transcribed. Overall design: pairing-experienced (EM) and pairing-unexperienced (UM) male Schistosoma mansoni were compared by SuperSAGE (Matsumura et al., 2003; with minor changes: Molina et al., 2008), sequencing Illumina (Solexa)</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>6183</TAXON_ID>
+               <SCIENTIFIC_NAME>Schistosoma mansoni</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12599"/>
+          </RELATED_PROJECT>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA195630"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS405498-SRS405503</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX256954-SRX256959</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR799676-SRR799681</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA195631&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA195631&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>195631</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-09-11</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-05-19</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA209511" alias="PRJNA209511" center_name="University of Illinois at Urbana Champaign">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA209511</PRIMARY_ID>
+          <SECONDARY_ID>SRP026308</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE48282</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="University of Illinois at Urbana Champaign">PRJNA209511</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Schistosoma mansoni</NAME>
+     <TITLE>Functional genomic characterization of germinal cells in larval Schistosoma mansoni</TITLE>
+     <DESCRIPTION>RNA-seq experiments to identify gene expression changes following miracidia to sporocyst transformation in Schistosoma mansoni. Schistosomes infect hundreds of millions of people in the developing world. Transmission of these parasites relies on a stem cell-driven, clonal expansion of larvae inside a molluscan intermediate host. How this novel asexual reproductive strategy relates to current models of stem cell maintenance and germline specification is unclear. Here, we demonstrate that this proliferative larval cell population (germinal cells) shares some molecular signatures with stem cells from diverse organisms, in particular neoblasts of planarians (free-living relatives of schistosomes). We identify two distinct germinal cell lineages that differ in their proliferation kinetics and expression of a nanos ortholog. We show that a vasa PL10 homolog is required for proliferation and maintenance of both populations; whereas, argonaute2 and a fibroblast growth factor receptor-encoding gene are required only for nanos-negative cells. Our results suggest that an ancient stem cell-based developmental program may have enabled the evolution of the complex life-cycle of parasitic flatworms. Overall design: Total RNA was purified from ~10,000 freshly hatched miracidia or sporocysts 48 h post-transformation.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>6183</TAXON_ID>
+               <SCIENTIFIC_NAME>Schistosoma mansoni</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12599"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS452514-SRS452515</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX315060-SRX315061</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR922067-SRR922068</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA209511&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA209511&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>209511</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-12-31</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-05-20</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA213724" alias="PRJNA213724" center_name="School of Biological Sciences, University of Essex">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA213724</PRIMARY_ID>
+          <SECONDARY_ID>SRP028328</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE49359</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="School of Biological Sciences, University of Essex">PRJNA213724</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Schistosoma mansoni</NAME>
+     <TITLE>Sex-biased expression profile of Schistosoma mansoni microRNAs</TITLE>
+     <DESCRIPTION>Schistosoma mansoni is a dioecious species, that is, it has two differentiated sexes. Interestingly, this sexual species evolved from a hermaphrodite ancestor. Indeed, most Platyhelminthes are hermaphrodites. Here we characterize the microRNAs of S. mansoni and quantify their differential expression between males and females. Overall design: Mice were infected with Schistosoma mansoni 1-2 weeks prior to dissection. RNA from two independent samples were extracted and sequenced with Illumina MiSeq technology and AB SOLiD 4 technology. Reads were mapped to the reference genome and microRNA detected and analyzed.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>6183</TAXON_ID>
+               <SCIENTIFIC_NAME>Schistosoma mansoni</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12599"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>24069470</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS465271-SRS465274</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX329184-SRX329187</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR944954-SRR944957</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA213724&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA213724&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>213724</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-08-01</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA225599" alias="PRJNA225599" center_name="Genetics, Texas Biomedical Research Institute">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA225599</PRIMARY_ID>
+          <SECONDARY_ID>SRP032348</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE51847</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Genetics, Texas Biomedical Research Institute">PRJNA225599</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Schistosoma mansoni</NAME>
+     <TITLE>Genetic and molecular basis of drug resistance and species-specific drug action in Schistosome parasites</TITLE>
+     <DESCRIPTION>Oxamniquine resistance evolved in the human blood fluke (Schistosoma mansoni) in Brazil in the 1970s. We crossed parental parasites differing ~500-fold in drug response, determined drug sensitivity and marker segregation in clonally-derived F2s, and identified a single QTL (LOD=31) on chromosome 6. A sulfotransferase was identified as the causative gene using RNAi knockdown and biochemical complementation assays and we subsequently demonstrated independent origins of loss-of-function mutations in field-derived and laboratory-selected resistant parasites. These results demonstrate the utility of linkage mapping in a human helminth parasite, while crystallographic analyses of protein-drug interactions illuminate the mode of drug action and provide a framework for rational design of oxamniquine derivatives that kill both S. mansoni and S. haematobium, the two species responsible for >99% of schistosomiasis cases worldwide. Overall design: mRNA profiles from adult worms resistant (HR, 3 replicates) and susceptible (LE, 2 replicates) to the oxamniquine drug were compared to identify differential expression in genes related to drug resistance</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>6183</TAXON_ID>
+               <SCIENTIFIC_NAME>Schistosoma mansoni</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12599"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS495646-SRS495650</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX370123-SRX370127</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1020294-SRR1020298</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA225599&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA225599&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>225599</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-12-12</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-05-19</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA235953" alias="PRJNA235953" center_name="UFMG">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA235953</PRIMARY_ID>
+          <SECONDARY_ID>SRP035537</SECONDARY_ID>
+          <SUBMITTER_ID namespace="UFMG">PRJNA235953</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Schistosoma mansoni strain:LE</NAME>
+     <TITLE>SL trans-splicing in Schistosoma mansoni</TITLE>
+     <DESCRIPTION>Although the SLTS must play several distinct roles in mRNA regulatory processes, the functions of this mechanism are not fully understood in S. mansoni, where a small proportion of mRNAs are thought to be trans-spliced. Here we propose a genome-wide characterization of the trans-spliced mRNA subpopulation for the S. mansion parasite.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>6183</TAXON_ID>
+               <SCIENTIFIC_NAME>Schistosoma mansoni</SCIENTIFIC_NAME>
+               <STRAIN>LE</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12599"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS539091</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX442489</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1134198,SRR1134204</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA235953&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA235953&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>235953</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-03-31</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA236156" alias="PRJNA236156" center_name="University of Perpignan/CNRS">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA236156</PRIMARY_ID>
+          <SECONDARY_ID>SRP035609</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of Perpignan/CNRS">PRJNA236156</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Schistosoma mansoni strain:BRE</NAME>
+     <TITLE>Schistosoma mansoni strain:BRE Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>Schistosoma mansoni Transcriptomics</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>6183</TAXON_ID>
+               <SCIENTIFIC_NAME>Schistosoma mansoni</SCIENTIFIC_NAME>
+               <STRAIN>BRE</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12599"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS516532,SRS1091367,SRS1091437,SRS1091440,SRS1091521</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX447203,SRX447380-SRX447381,SRX448442-SRX448444,SRX1292231-SRX1292232,SRX1592102-SRX1592161</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1140763,SRR1140994-SRR1140995,SRR1142421-SRR1142423,SRR2529484-SRR2529487,SRR2529489-SRR2529493,SRR2529503-SRR2529508,SRR2529607,SRR2529609-SRR2529621,SRR2530110-SRR2530113,SRR2530116,SRR2530133-SRR2530142,SRR2530359-SRR2530373,SRR2533571-SRR2533572,SRR3212079</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA236156&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA236156&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>236156</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-01-24</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA247810" alias="PRJNA247810" center_name="The Genome Institute">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA247810</PRIMARY_ID>
+          <SECONDARY_ID>SRP042222</SECONDARY_ID>
+          <SUBMITTER_ID namespace="The Genome Institute">PRJNA247810</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Schistosoma mansoni</NAME>
+     <TITLE>Schistosoma mansoni Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>Schistosomiasis is a highly prevalent Neglected Tropical Disease caused by parasitic flatworms of the genus Schistosoma. Adult female schistosomes produce eggs that allow transmission of the infection, but also induce the immune responses that underlie disease manifestations. This study aims to compare, in an unbiased way, the differences in gene expression between adult fecund females, adult virgin females, and previously fecund females that have been in culture for two weeks to try and identify new targets for intervention in the schistosome life cycle. RNA isolation was preformed in the lab of Edward J. Pearce (edwardpearce@path.wustl.edu) with sequencing and analysis preformed in the lab of Makedonka Mitreva (mmitreva@genome.wustl.edu).</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>6183</TAXON_ID>
+               <SCIENTIFIC_NAME>Schistosoma mansoni</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12599"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS628982-SRS628984</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX575038-SRX575040</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1346220-SRR1346222</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA247810&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA247810&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>247810</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-05-19</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA282009" alias="PRJNA282009" center_name="Aberystwyth University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA282009</PRIMARY_ID>
+          <SECONDARY_ID>SRP057687</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Aberystwyth University">PRJNA282009</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Schistosoma mansoni strain:NMRI</NAME>
+     <TITLE>Schistosoma mansoni strain:NMRI Raw sequence reads</TITLE>
+     <DESCRIPTION>Schistosomes are parasitic flatworms responsible for schistosomiasis, a neglected tropical disease (NTD) affecting 230 million and putting 700 million at risk. Penetration of the skin, migration through tissues and establishment of long-lived intravascular partners require Schistosoma to successfully manipulate definitive host defenses. Previous studies of larva schistosomula have postulated a function for protein excreted/secreted products in initiating these host-modulatory events, the role of extracellular vesicles (EVs) and small non-coding RNA (scnRNA) has yet to be considered. Using preparatory ultracentrifugation and sncRNA-seq analysis, we conducted the first characterization of Schistosoma mansoni schistosomula EVs and their potential host-modulatory cargos.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>6183</TAXON_ID>
+               <SCIENTIFIC_NAME>Schistosoma mansoni</SCIENTIFIC_NAME>
+               <STRAIN>NMRI</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12599"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS922932,SRS923870</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1009961,SRX1012047</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1997974,SRR2000051,SRR2000053-SRR2000054,SRR2000056-SRR2000057</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA282009&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA282009&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>282009</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2015-04-25</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA305542" alias="PRJNA305542" center_name="Pharmacology, UT Southwestern">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA305542</PRIMARY_ID>
+          <SECONDARY_ID>SRP067194</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE75861</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Pharmacology, UT Southwestern">PRJNA305542</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Schistosoma mansoni</NAME>
+     <TITLE>Stem cells rejuvinate the schistosome host-parasite interface</TITLE>
+     <DESCRIPTION>We report the transcriptional effects of long-term stem cell depletion in Schistosoma mansoni Overall design: Examination of stem cell depltion by irradiation, and RNAi</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>6183</TAXON_ID>
+               <SCIENTIFIC_NAME>Schistosoma mansoni</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12599"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1199015-SRS1199028</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1473197-SRX1473210</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR2984282-SRR2984295</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA305542&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA305542&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>305542</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2015-12-11</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA312093" alias="PRJNA312093" center_name="University of Perpignan Via Domitia">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA312093</PRIMARY_ID>
+          <SECONDARY_ID>SRP071285</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of Perpignan Via Domitia">PRJNA312093</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Schistosoma mansoni strain:SmGH2</NAME>
+     <TITLE>Schistosoma mansoni sex determination</TITLE>
+     <DESCRIPTION>Schistosoma mansoni RNA-Seq developmental kinetics, female and male specific</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>6183</TAXON_ID>
+               <SCIENTIFIC_NAME>Schistosoma mansoni</SCIENTIFIC_NAME>
+               <STRAIN>SmGH2</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12599"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1328486,SRS1338154</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1619495,SRX1623575,SRX1625829,SRX1630043-SRX1630052,SRX1630055,SRX1630059-SRX1630064,SRX1630768,SRX1630978,SRX1630986,SRX1631014,SRX1631034,SRX1631082,SRX1631108,SRX1631129,SRX1631160,SRX1631176,SRX1631198-SRX1631205,SRX1631413-SRX1631414,SRX1631435-SRX1631436,SRX1631438-SRX1631439</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR3211868,SRR3216389,SRR3223426-SRR3223436,SRR3223439,SRR3223443-SRR3223448,SRR3224319,SRR3224788,SRR3224816,SRR3224820,SRR3224865,SRR3224905,SRR3224929,SRR3224952,SRR3224978,SRR3224983,SRR3225005-SRR3225007,SRR3225009-SRR3225010,SRR3225013,SRR3225015,SRR3225228-SRR3225229,SRR3225239,SRR3225251-SRR3225254</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA312093&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA312093&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>312093</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-02-17</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA314518" alias="PRJNA314518" center_name="Pharmacology, UT Southwestern">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA314518</PRIMARY_ID>
+          <SECONDARY_ID>SRP071241</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE78967</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Pharmacology, UT Southwestern">PRJNA314518</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Schistosoma mansoni</NAME>
+     <TITLE>Comparison of gene expression between female Schistosoma mansoni heads and tails</TITLE>
+     <DESCRIPTION>We report differences in gene expression between the anterior and posterior of female Schistosoma mansoni parasites Overall design: Three Biological Replicates</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>6183</TAXON_ID>
+               <SCIENTIFIC_NAME>Schistosoma mansoni</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12599"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>27056273</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1327193-SRS1327198</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1617929-SRX1617934</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR3209257-SRR3209262</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA314518&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA314518&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>314518</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-03-09</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA354932" alias="PRJNA354932" center_name="Rene Rachou Research Center">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA354932</PRIMARY_ID>
+          <SECONDARY_ID>SRP093920</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Rene Rachou Research Center">PRJNA354932</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Schistosoma mansoni strain:LE</NAME>
+     <TITLE>Schistosoma mansoni strain:LE Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>Gene silencing generally use a nonrelevant dsRNA from another species as controls and quantitative real time PCR (qPCR) to measure the knockdown levels achieved. Despite the applicability of RNAi to study many genes in schistosomes and others helminthes parasites, several authors have noticed inconsistencies associated with this technique. We used an RNA-seq approach to globally check if there are genes affected by unspecific dsRNA exposure, we cultivated schistosomula and exposed to unspecific dsRNAs synthetized from the Green Fluorescent Protein (GFP) or mCherry, two sequences with no similarity with Schistosoma genome and widely used by the scientific community.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>6183</TAXON_ID>
+               <SCIENTIFIC_NAME>Schistosoma mansoni</SCIENTIFIC_NAME>
+               <STRAIN>LE</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12599"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1818669-SRS1818680</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2375426-SRX2375437</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5054482-SRR5054493</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA354932&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA354932&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>354932</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-12-02</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA361136" alias="PRJNA361136" center_name="University of Sao Paulo - Institute of Chemistry">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA361136</PRIMARY_ID>
+          <SECONDARY_ID>SRP096638</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of Sao Paulo - Institute of Chemistry">PRJNA361136</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <TITLE>RNA-seq for the study of the effect of histone modifying enzymes (HMEs) inhibitors on gene expression in Schistosoma mansoni</TITLE>
+     <DESCRIPTION>We report the application of Illumina HiSeq 2500 sequencing technology for high-throughput profiling of the transcriptome of Schistosoma mansoni treated with different HME's inhibitors.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1916657-SRS1916692,SRS4517976-SRS4517986</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2486610-SRX2486645,SRX5554083-SRX5554093</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5170157-SRR5170192,SRR8763170-SRR8763180</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA361136&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA361136&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>361136</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-01-02</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA389649" alias="PRJNA389649" center_name="University of Perpignan">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA389649</PRIMARY_ID>
+          <SECONDARY_ID>SRP108901</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of Perpignan">PRJNA389649</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Schistosoma mansoni strain:LE</NAME>
+     <TITLE>Schistosoma mansoni strain LE - Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>RNA-Seq analyses for Schistosoma mansoni strain SmLE</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>6183</TAXON_ID>
+               <SCIENTIFIC_NAME>Schistosoma mansoni</SCIENTIFIC_NAME>
+               <STRAIN>LE</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12599"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2267407-SRS2267413</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2900163-SRX2900169</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5664529-SRR5664535</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA389649&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA389649&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>389649</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-07-27</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA395457" alias="PRJNA395457" center_name="Stanford University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA395457</PRIMARY_ID>
+          <SECONDARY_ID>SRP113404</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Stanford University">PRJNA395457</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <TITLE>Single-cell analysis of stem cells driving the parasitic life cycle of Schistosoma</TITLE>
+     <DESCRIPTION>Schistosomes are parasitic flatworms infecting hundreds of millions of people. These parasites alternate between asexual reproduction in molluscan intermediate hosts and sexual reproduction in mammalian definitive hosts. Thriving in such disparate environments requires remarkable developmental plasticity, manifested by five different body plans deployed throughout the life cycle. Stem cells found in both larval and adult schistosomes provide a potential cellular source for this plasticity. To understand the relationships between stem cells from different life-cycle stages, we used single-cell transcriptional profiling. We identified four stem cell classes and validated their distinct spatiotemporal patterns using in situ hybridization. Characterizing these cells at major developmental transitions revealed larvally derived stem cells that are passed to the intramammalian stage; distinct subsets of these cells appear to be the source of either adult somatic stem cells or the germline. This work demonstrates that stem cell heterogeneity drives the propagation of the schistosome life cycle.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2377935-SRS2377973</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3029015-SRX3029053</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5860315-SRR5860353</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA395457&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA395457&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>395457</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-07-26</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA417697" alias="PRJNA417697" center_name="Pharmacology, UT Southwestern">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA417697</PRIMARY_ID>
+          <SECONDARY_ID>SRP124650</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE106693</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Pharmacology, UT Southwestern">PRJNA417697</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Transcriptional Profiling of Schistosoma mansoni f zfp-1-1(RNAi) parasites</NAME>
+     <TITLE>Transcriptional Profiling of Schistosoma mansoni f zfp-1-1(RNAi) parasites</TITLE>
+     <DESCRIPTION>We distrupted the expression of the Schistosoma mansoni zfp-1-1 gene using RNA interference and examined the transcriptional effects by illumina sequencing Overall design: The transcriptional effects of zfp-1-1 RNAi were examined by RNAseq</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>6183</TAXON_ID>
+               <SCIENTIFIC_NAME>Schistosoma mansoni</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12599"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2672175-SRS2672180</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3375885-SRX3375890</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR6269807-SRR6269812</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA417697&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA417697&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>417697</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-11-10</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA428470" alias="PRJNA428470" center_name="Aberystwyth University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA428470</PRIMARY_ID>
+          <SECONDARY_ID>SRP130864</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Aberystwyth University">PRJNA428470</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Schistosoma mansoni</NAME>
+     <TITLE>5-AzaC effect on Schistosoma mansoni Transcriptome</TITLE>
+     <DESCRIPTION>Schistosoma mansoni adult females were cultured in the presence or absence of the demethylating agent 5-AzaC. We subsequently performed an RNA-Seq experiment to investigate an effect of the drug on the parasite's transcriptome.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>6183</TAXON_ID>
+               <SCIENTIFIC_NAME>Schistosoma mansoni</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12599"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2849648-SRS2849653</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3580329-SRX3580334</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR6490480-SRR6490485</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA428470&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA428470&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>428470</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-04-22</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-04-22</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA479336" alias="PRJNA479336" center_name="Stanford University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA479336</PRIMARY_ID>
+          <SECONDARY_ID>SRP151830</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Stanford University">PRJNA479336</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <TITLE>Single-cell RNA sequencing of proliferative stem cell population from juvenile Schistosoma mansoni worms</TITLE>
+     <DESCRIPTION>We applied Smart-Seq2 protocol to sequence 370 single stem cells isolated from 2.5 weeks old Schistosoma mansoni worms, which infect millions of people worldwide. We discovered new stem cell sub-populations using a novel single-cell RNA sequencing analysis method (Self-assembling manifolds, SAM). We found differential expressions in a few transcription factors and marker genes that distinguish these sub-populations. We hope this will be a useful resource for the community interested in the developmental biology of Schistosoma at large.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS3497015-SRS3497383,SRS3497386</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX4335741-SRX4336110</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR7465833-SRR7466202</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA479336&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA479336&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>479336</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-07-04</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-07-04</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA494090" alias="PRJNA494090" center_name="Biology, University of New Mexico">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA494090</PRIMARY_ID>
+          <SECONDARY_ID>SRP163002</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE120682</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Biology, University of New Mexico">PRJNA494090</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Transcriptomic analysis of reduced sensitivity to praziquantel in Schistosoma mansoni</NAME>
+     <TITLE>Transcriptomic analysis of reduced sensitivity to praziquantel in Schistosoma mansoni</TITLE>
+     <DESCRIPTION>Schistosomiasis is a chronic neglected tropical disease caused by digenetic parasitic flatworms of the genus Schistosoma. The disease is estimated to affect over 206 million people, the majority of whom live in Africa where Schistosoma mansoni and Schistosoma japonicum are the major causative agents. While a number of drugs have been used to treat schistosomiasis, praziquantel (PZQ) is the only one that is widely available, relatively cheap, and easy to use. The reliance on a single drug for the treatment of such a prevalent disease is a cause for concern due to the potential for resistance to render PZQ ineffective. In this study we examine the transcriptome of three generations of a laboratory strain of S. mansoni (PR1) whose susceptibility to PZQ has been diminished across 9 passages through exposure to increasing sub-lethal doses of the drug. Miracidial susceptibility was significantly reduced after exposure to 2 x 50 mg/Kg PZQ during the first passage. Susceptibility of worms in vivo was first assessed during passage 5 when mice infected with PZQ-selected schistosomes were dosed with a lethal dose of 3 x 300 mg/Kg PZQ resulting in only a 10% reduction in worm number compared to control treatment. The emergence of reduced sensitivity was marked by a shift in sex ratio from a predominantly male to female population, a reduction in the length of females and ultimately the loss of the PZQ-selected line after passage 9, perhaps due to a selection induced fitness cost. Analysis of differentially regulated transcripts did not suggest that any particular gene product or pathway was associated with drug resistance suggesting either a loss of function mutation to a single gene or an epistatic interaction of multiple gene products. Overall design: Examination of lab selected PZQ resistant Schistosoma mansoni parasites, in quadruplicate, through 3 passages using Illumina NextSeq 500.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>6183</TAXON_ID>
+               <SCIENTIFIC_NAME>Schistosoma mansoni</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12599"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>30658180</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS3860345-SRS3860368</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX4779737-SRX4779760</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR7945639-SRR7945662</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA494090&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA494090&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>494090</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2019-02-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-03-01</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+</ROOT>

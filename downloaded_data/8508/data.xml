@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT request="tax_eq(8508) AND (instrument_model=&quot;HiSeq X Ten&quot; OR instrument_model=&quot;HiSeq X Five&quot; OR instrument_model=&quot;Illumina MiSeq&quot; OR instrument_model=&quot;Illumina NovaSeq 6000&quot; OR instrument_model=&quot;Illumina Genome Analyzer&quot; OR instrument_model=&quot;Illumina Genome Analyzer II&quot; OR instrument_model=&quot;Illumina Genome Analyzer IIx&quot; OR instrument_model=&quot;Illumina HiScanSQ&quot; OR instrument_model=&quot;Illumina HiSeq 1000&quot; OR instrument_model=&quot;Illumina HiSeq 1500&quot; OR instrument_model=&quot;Illumina HiSeq 2000&quot; OR instrument_model=&quot;Illumina HiSeq 2500&quot; OR instrument_model=&quot;Illumina HiSeq 3000&quot; OR instrument_model=&quot;Illumina HiSeq 4000&quot; OR instrument_model=&quot;NextSeq 500&quot; OR instrument_model=&quot;NextSeq 550&quot; OR instrument_model=&quot;Ion Torrent Proton&quot; OR instrument_model=&quot;Ion Torrent S5&quot; OR instrument_model=&quot;Ion Torrent S5 XL&quot;)AND library_strategy=&quot;RNA-Seq&quot; AND library_source=&quot;TRANSCRIPTOMIC&quot;">
+<PROJECT accession="PRJNA418887" alias="PRJNA418887" center_name="University of Otago">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA418887</PRIMARY_ID>
+          <SECONDARY_ID>SRP144081</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of Otago">PRJNA418887</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Sphenodon punctatus isolate:mauimua-1</NAME>
+     <TITLE>Sphenodon punctatus isolate:mauimua-1 Genome sequencing and assembly</TITLE>
+     <DESCRIPTION>The tuatara is phylogenetically unique; the only living member of an archaic reptilian order Rynchocephalia. As such they represent a key link to the now extinct stem reptiles from which dinosaurs, modern reptiles, birds and mammals evolved, providing unique insight into what those early vertebrate ancestors may have been like.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>CVN73</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>FDD69</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>FDD70</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>FDD71</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>FDD72</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>FDD73</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>FDD74</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>FDD75</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>FDD76</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>FDD77</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>FDD78</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>FDD79</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>FDD80</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>FDD81</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>FDD82</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>FDD83</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>FDD84</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>FDD85</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>FDD86</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>FDD87</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>FDD88</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>FDD89</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>FDD90</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>FDD91</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>FDD92</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>FDD93</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>FDD94</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>FDD95</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>FDD96</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+          <ORGANISM>
+               <TAXON_ID>8508</TAXON_ID>
+               <SCIENTIFIC_NAME>Sphenodon punctatus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA454739"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS3236178,SRS4706219-SRS4706246</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX4014663,SRX5772397-SRX5772424</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR7084910,SRR8993455-SRR8993482</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA418887&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA418887&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>418887</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-05-04</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-05-04</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<STUDY accession="SRP012182" alias="Tuatara transcriptome" broker_name="NCBI">
+     <IDENTIFIERS>
+          <PRIMARY_ID>SRP012182</PRIMARY_ID>
+          <SUBMITTER_ID namespace="">Tuatara transcriptome</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>De novo sequence assembly and characterisation of a partial transcriptome for an evolutionarily distinct reptile, the tuatara (Sphenodon punctatus)</STUDY_TITLE>
+          <STUDY_TYPE existing_study_type="Transcriptome Analysis"/>
+          <STUDY_ABSTRACT>The tuatara (Sphenodon punctatus) is a species of extraordinary zoological interest, being the only surviving member of an entire order of reptiles which diverged early in amniote evolution.  In addition to their unique phylogenetic placement, many aspects of tuatara biology, including temperature-dependent sex determination, cold adaptation and extreme longevity have the potential to inform studies of genome evolution and development. Despite increasing interest in the tuatara genome, genomic resources for the species are still very limited.  We aimed to address this by assembling a transcriptome for tuatara from an early-stage embryo, which will provide a resource for genome annotation, molecular marker development and studies of development and adaptation in tuatara. We obtained 30 million paired-end 50 bp reads from an Illumina Genome Analyzer and assembled them with Velvet and Oases using a range of kmers.  After removing redundancy and filtering out low quality transcripts, our transcriptome dataset contained 32911 transcripts, with an N50 of 675 and a mean length of 451 bp.  Almost 50% (15965) of these transcripts could be annotated by comparison with the NCBI non-redundant (NR) protein database or the chicken, green anole and zebrafish UniGene sets.  A scan of candidate genes and repetitive elements revealed genes involved in immune function, sex determination and temperature-sensitivity, as well as over 200 microsatellite markers. This dataset represents a major increase in genomic resources for the tuatara, increasing the number of annotated gene sequences from just 60 to almost 16,000.  This will facilitate future research in sex determination, genome evolution, local adaptation and population genetics of tuatara, as well as inform studies on amniote evolution.</STUDY_ABSTRACT>
+          <CENTER_PROJECT_NAME/>
+          <STUDY_DESCRIPTION/>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>pubmed</DB>
+                    <ID>22938396</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS308945</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX141978</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR485948</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>SRA051647</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=SRP012182&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=SRP012182&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>15159275</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>1515927500</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2012-09-17</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2015-06-22</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+</ROOT>

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT request="tax_eq(34740) AND (instrument_model=&quot;HiSeq X Ten&quot; OR instrument_model=&quot;HiSeq X Five&quot; OR instrument_model=&quot;Illumina MiSeq&quot; OR instrument_model=&quot;Illumina NovaSeq 6000&quot; OR instrument_model=&quot;Illumina Genome Analyzer&quot; OR instrument_model=&quot;Illumina Genome Analyzer II&quot; OR instrument_model=&quot;Illumina Genome Analyzer IIx&quot; OR instrument_model=&quot;Illumina HiScanSQ&quot; OR instrument_model=&quot;Illumina HiSeq 1000&quot; OR instrument_model=&quot;Illumina HiSeq 1500&quot; OR instrument_model=&quot;Illumina HiSeq 2000&quot; OR instrument_model=&quot;Illumina HiSeq 2500&quot; OR instrument_model=&quot;Illumina HiSeq 3000&quot; OR instrument_model=&quot;Illumina HiSeq 4000&quot; OR instrument_model=&quot;NextSeq 500&quot; OR instrument_model=&quot;NextSeq 550&quot; OR instrument_model=&quot;Ion Torrent Proton&quot; OR instrument_model=&quot;Ion Torrent S5&quot; OR instrument_model=&quot;Ion Torrent S5 XL&quot;)AND library_strategy=&quot;RNA-Seq&quot; AND library_source=&quot;TRANSCRIPTOMIC&quot;">
+<PROJECT accession="PRJEB23665" alias="E-MTAB-6249" broker_name="ArrayExpress" center_name="University of California, Irvine">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJEB23665</PRIMARY_ID>
+          <SECONDARY_ID>ERP105432</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of California, Irvine">E-MTAB-6249</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>RNA-seq of Heliconius melpomene adult male and female heads (eye+brain), antennae, mouthparts (labial palps+proboscis) and legs</NAME>
+     <TITLE>RNA-seq of Heliconius melpomene adult male and female heads (eye+brain), antennae, mouthparts (labial palps+proboscis) and legs</TITLE>
+     <DESCRIPTION>The experiment examines expression of mRNAs in adult tissue for the purpose of identifying differentially expressed genes in each tissue. The goal of the experiment is to identify vision-related genes and their relative expression levels as quantified by FPKMs.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <URL_LINK>
+                    <URL>http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-6249</URL>
+                    <LABEL>E-MTAB-6249 in ArrayExpress</LABEL>
+               </URL_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA1146845</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS2025590-ERS2025599</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX2260418-ERX2260427</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR2206056-ERR2206065</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB23665&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB23665&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-03-31</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2017-11-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJEB24062" alias="E-MTAB-6342" broker_name="ArrayExpress" center_name="UC Irvine">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJEB24062</PRIMARY_ID>
+          <SECONDARY_ID>ERP105860</SECONDARY_ID>
+          <SUBMITTER_ID namespace="UC Irvine">E-MTAB-6342</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>RNA-Seq of Heliconius melpomene heads</NAME>
+     <TITLE>RNA-Seq of Heliconius melpomene heads</TITLE>
+     <DESCRIPTION>We made RNA-Seq libraries of Heliconius melpomene heads, antennae, legs and mouth parts to identify genes upregulated in heads. We explored the expression patterns of a gene family that functions in visual pigment chromophore transport in Drosophila to identify a non-orthologous gene that has a similar function.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <URL_LINK>
+                    <URL>http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-6342</URL>
+                    <LABEL>E-MTAB-6342 in ArrayExpress</LABEL>
+               </URL_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA1167510</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS2064501-ERS2064504</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX2281932-ERX2281935</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR2228593-ERR2228596</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB24062&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB24062&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-02-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2017-12-21</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA283415" alias="PRJNA283415" center_name="University of Kansas">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA283415</PRIMARY_ID>
+          <SECONDARY_ID>SRP059840</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of Kansas">PRJNA283415</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Heliconius</NAME>
+     <TITLE>Sex-specific transcriptomes of adult head and abdomen from 3 species of Heliconius butterfly</TITLE>
+     <DESCRIPTION>RNA-sequencing of male and female head and abdomen for H. melpomene, H. cydno, and H. erato</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>33416</TAXON_ID>
+               <SCIENTIFIC_NAME>Heliconius</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS970823-SRS970881,SRS970884</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1071761-SRX1071820</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR2076754-SRR2076813</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA283415&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA283415&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>283415</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2015-05-13</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA386859" alias="PRJNA386859" center_name="University of Cambridge">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA386859</PRIMARY_ID>
+          <SECONDARY_ID>SRP107945</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of Cambridge">PRJNA386859</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Arthropoda</NAME>
+     <TITLE>The evolution of small RNA pathways across the arthropods</TITLE>
+     <DESCRIPTION>A comparison of somatic and germline small RNA pathways across the arthropods</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2222657-SRS2222658,SRS2225835,SRS2225843-SRS2225844,SRS2225850,SRS2225852-SRS2225853,SRS2225889-SRS2225890,SRS2225894-SRS2225895,SRS2225910,SRS2226018,SRS2227581-SRS2227582,SRS2227586,SRS2227590,SRS2228470-SRS2228473,SRS2231229-SRS2231232,SRS2231235-SRS2231236,SRS2231279-SRS2231281,SRS2231323-SRS2231324,SRS2231328-SRS2231329,SRS2231331,SRS2231334-SRS2231335,SRS2231355,SRS2231377-SRS2231378,SRS2231457-SRS2231458,SRS2231468,SRS2231490,SRS2231541,SRS2231543,SRS2231587,SRS2231590,SRS2231889,SRS2231902,SRS2231934,SRS2231982,SRS2236091,SRS2451691,SRS2451720,SRS2452552,SRS2452562,SRS2453898-SRS2453899,SRS2454591</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2850026-SRX2850029,SRX2855077,SRX2855085-SRX2855086,SRX2855092-SRX2855097,SRX2855099,SRX2855101,SRX2855138-SRX2855139,SRX2855143-SRX2855150,SRX2855165,SRX2855273-SRX2855276,SRX2856839-SRX2856840,SRX2856844,SRX2856848,SRX2856850-SRX2856855,SRX2857734-SRX2857743,SRX2861711-SRX2861722,SRX2861725-SRX2861726,SRX2861844-SRX2861846,SRX2861889-SRX2861896,SRX2862015-SRX2862016,SRX2862023-SRX2862032,SRX2862034,SRX2862055-SRX2862056,SRX2862106,SRX2862154-SRX2862157,SRX2862160-SRX2862165,SRX2862333-SRX2862334,SRX2862337-SRX2862340,SRX2862348,SRX2862370-SRX2862373,SRX2862379,SRX2862495-SRX2862496,SRX2862542,SRX2862545-SRX2862551,SRX2862850,SRX2862863,SRX2862914,SRX2862985,SRX2863497-SRX2863504,SRX2864826-SRX2864827,SRX3116744,SRX3116773-SRX3116779,SRX3117614,SRX3117627,SRX3118955-SRX3118960,SRX3119654-SRX3119657,SRX3119668-SRX3119671</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5593238-SRR5593241,SRR5602497,SRR5602500-SRR5602501,SRR5602507-SRR5602514,SRR5602548-SRR5602557,SRR5602569,SRR5602676-SRR5602679,SRR5604243,SRR5604245,SRR5604247,SRR5604252,SRR5604254-SRR5604259,SRR5605143-SRR5605152,SRR5614356,SRR5614358-SRR5614362,SRR5614365-SRR5614370,SRR5614374-SRR5614375,SRR5614825-SRR5614826,SRR5614828,SRR5614871-SRR5614878,SRR5615334-SRR5615335,SRR5615342-SRR5615351,SRR5615353,SRR5615374-SRR5615375,SRR5615551,SRR5615766-SRR5615769,SRR5615772-SRR5615777,SRR5616334-SRR5616335,SRR5616338-SRR5616341,SRR5616349,SRR5616370-SRR5616373,SRR5616379,SRR5616818-SRR5616819,SRR5616874,SRR5616877-SRR5616883,SRR5617270,SRR5617283,SRR5617423,SRR5617494,SRR5618753-SRR5618760,SRR5621290-SRR5621291,SRR5958548,SRR5958578,SRR5958582-SRR5958587,SRR5959427,SRR5959440,SRR5960789-SRR5960794,SRR5961489-SRR5961492,SRR5961503-SRR5961506</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA386859&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA386859&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>386859</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-10-19</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+</ROOT>

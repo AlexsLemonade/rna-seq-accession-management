@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT request="tax_eq(7234) AND (instrument_model=&quot;HiSeq X Ten&quot; OR instrument_model=&quot;HiSeq X Five&quot; OR instrument_model=&quot;Illumina MiSeq&quot; OR instrument_model=&quot;Illumina NovaSeq 6000&quot; OR instrument_model=&quot;Illumina Genome Analyzer&quot; OR instrument_model=&quot;Illumina Genome Analyzer II&quot; OR instrument_model=&quot;Illumina Genome Analyzer IIx&quot; OR instrument_model=&quot;Illumina HiScanSQ&quot; OR instrument_model=&quot;Illumina HiSeq 1000&quot; OR instrument_model=&quot;Illumina HiSeq 1500&quot; OR instrument_model=&quot;Illumina HiSeq 2000&quot; OR instrument_model=&quot;Illumina HiSeq 2500&quot; OR instrument_model=&quot;Illumina HiSeq 3000&quot; OR instrument_model=&quot;Illumina HiSeq 4000&quot; OR instrument_model=&quot;NextSeq 500&quot; OR instrument_model=&quot;NextSeq 550&quot; OR instrument_model=&quot;Ion Torrent Proton&quot; OR instrument_model=&quot;Ion Torrent S5&quot; OR instrument_model=&quot;Ion Torrent S5 XL&quot;)AND library_strategy=&quot;RNA-Seq&quot; AND library_source=&quot;TRANSCRIPTOMIC&quot;">
+<PROJECT accession="PRJNA388952" alias="PRJNA388952" center_name="Developmental Genomics, LCDB, NIDDK, NIH">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA388952</PRIMARY_ID>
+          <SECONDARY_ID>SRP108530</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE99574</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Developmental Genomics, LCDB, NIDDK, NIH">PRJNA388952</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>RNA-seq of sexed adult tissues/body parts from eight Drosophila species</NAME>
+     <TITLE>RNA-seq of sexed adult tissues/body parts from eight Drosophila species</TITLE>
+     <DESCRIPTION>This data set contains polyA+ transcriptional profiling of sexed adult tissues/body parts and whole adults of eight Drosophila species: Drosophila melanogaster (FBsp00000001) from two strains [w1118 (FBst0005905) and Oregon-R (FBst0025211)], Drosophila yakuba (FBsp00000254), Drosophila ananassae (FBsp00000052), Drosophila pseudoobscura (FBsp00000201), Drosophila persimilis (FBsp00000188), Drosophila willistoni (FBsp00000253), Drosophila mojavensis (FBsp00000160), and Drosophila virilis (FBsp00000251). It is worth noting that the Samples (856) section of this series page only lists the top 500 samples, and the rest of the 356 samples are not shown in the list but are available in GEO by putting the GSM ID in the search box at the top of the page. All raw data are available by clicking the SRP108530 link (SRA section). It is noteworthy that all of the fourth replicate of our samples are included in the last 356 samples in this series. Please see the supplementary file "All_samples_with_title.txt" for a complete list of GSM IDs and sample titles. Overall design: Samples were collected in quadruplicate from sexually-mature freely-mated adults (4 to 14 days post-eclosion).  Samples were either sexed whole flies (individual) or tissues/body parts (pooled from 2-5 flies). For the two strains of D. melanogaster, we profiled whole flies along with seven adult tissues/body parts for each sex. Dissection examples are shown in Figure 1. Samples were whole organism (FBbt:00003004), head (FBbt:00003007, Fig. 1A), thorax (FBbt:00003018, Fig. 1B) without digestive system, abdomen (FBbt:00003023, Fig. 1C) without digestive or reproductive system, gonad [female (FBbt:00004865, Fig. 1D) or male (FBbt:00004928, Fig. 1E)], reproductive system [female (FBbt:00004864, Fig. 1F) or male (FBbt:00004927, Fig. 1G)] without gonad or genitalia, genitalia [female (FBbt:00004827, Fig. 1H) or male (FBbt:00004828, Fig. 1I)], and digestive (FBbt:00003123) plus excretory (FBbt:00005724) system (Fig. 1J). For non-melanogaster species, we dissected as above except genitalia were included in the reproductive system without gonad. Non-melanogaster strains were: D. yakuba (Drosophila Species Stock Center ID: 14021-0261.01), D. ananassae (14021-0371.13), D. pseudoobscura (14011-0121.94), D. willistoni (14030-0811.24), D. virilis (15010-1051.87), D. persimilis (14011-0111.49), and D. mojavensis (15081-1352.22).  After extracting RNA from each sample, we mixed equal amounts of total RNA (except genitalia samples from D. melanogaster) from each of three genetically distant species (rate of cross-mapping in simulations &lt; 0.6%). Specifically, we mixed RNA of: 1) D. melanogaster (w1118), D. pseudoobscura, and D. virilis; 2) D. melanogaster (Oregon-R), D. mojavensis, and D. persimilis; 3) D. yakuba, D. ananassae, and D. willistoni. We isolated polyA+ RNA from these pools and prepared RNA-seq libraries, which were further multiplexed with indexed adaptors and pooled for sequencing.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>30599046</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2249445-SRS2249941,SRS2249944-SRS2249948,SRS2249955,SRS2249959-SRS2249966,SRS2249992,SRS2249994-SRS2250096,SRS2250099,SRS2250101,SRS2250104,SRS2250107-SRS2250130,SRS2600810-SRS2601023</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2877669-SRX2878310,SRX3291622-SRX3291835</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5639269-SRR5639910,SRR6181014-SRR6181227,SRR7243190-SRR7244045</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA388952&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA388952&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>388952</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-06-04</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-02-27</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+</ROOT>

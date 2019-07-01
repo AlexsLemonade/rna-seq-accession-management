@@ -1,0 +1,1856 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT request="tax_eq(3983) AND (instrument_model=&quot;HiSeq X Ten&quot; OR instrument_model=&quot;HiSeq X Five&quot; OR instrument_model=&quot;Illumina MiSeq&quot; OR instrument_model=&quot;Illumina NovaSeq 6000&quot; OR instrument_model=&quot;Illumina Genome Analyzer&quot; OR instrument_model=&quot;Illumina Genome Analyzer II&quot; OR instrument_model=&quot;Illumina Genome Analyzer IIx&quot; OR instrument_model=&quot;Illumina HiScanSQ&quot; OR instrument_model=&quot;Illumina HiSeq 1000&quot; OR instrument_model=&quot;Illumina HiSeq 1500&quot; OR instrument_model=&quot;Illumina HiSeq 2000&quot; OR instrument_model=&quot;Illumina HiSeq 2500&quot; OR instrument_model=&quot;Illumina HiSeq 3000&quot; OR instrument_model=&quot;Illumina HiSeq 4000&quot; OR instrument_model=&quot;NextSeq 500&quot; OR instrument_model=&quot;NextSeq 550&quot; OR instrument_model=&quot;Ion Torrent Proton&quot; OR instrument_model=&quot;Ion Torrent S5&quot; OR instrument_model=&quot;Ion Torrent S5 XL&quot;)AND library_strategy=&quot;RNA-Seq&quot; AND library_source=&quot;TRANSCRIPTOMIC&quot;">
+<PROJECT accession="PRJNA140107" alias="PRJNA140107" center_name="RBP, IRD">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA140107</PRIMARY_ID>
+          <SECONDARY_ID>SRP006810</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE29379</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="RBP, IRD">PRJNA140107</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Manihot esculenta</NAME>
+     <TITLE>Cassava sRNA libraries from non-infected and infected tissues with Xanthomonas axonopodis. pv manihotis</TITLE>
+     <DESCRIPTION>microRNAs can play a crucial role in stress response in plants, including biotic stress. Some miRNAs are known to respond to bacterial infection. This work has addressed the role of miRNAs in Manihot esculenta (cassava)-Xanthomonas axonopodis pv. manihotis (Xam) interaction. Illumina sequencing was used for analyzing small RNA libraries from cassava tissue infected and non-infected with Xam. Cassava variety MBRA685 (resistant to Xam-CIO151) Six-week-old plants were inoculated with 36h-old cultures of the aggressive Xanthomonas axonopodis pv. manihotis strain CIO151 in both leaves and stems. Overall design: Leaves were inoculated by piercing six holes in the mesophyll and placing a 5µL drop of a liquid Xam-MgCl2 culture calibrated at OD600nm = 0.002 (1 x108cfu/ml). Two leaflets per leaf and three leaves per plant were inoculated. Stems were inoculated by puncture in the stems as described previously (24). At least three plants per collection time were inoculated. Leaves and stems were collected from inoculated plants (0 hours post inoculation -hpi, 6hpi, 24hpi, 2 days post-inoculation -dpi, 5dpi, 7dpi and 15dpi) and non-inoculated plants. RNA extractions were made using a LiCl-acid phenol:chloroform method.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3983</TAXON_ID>
+               <SCIENTIFIC_NAME>Manihot esculenta</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA13628"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS193289-SRS193290</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX063782-SRX063783</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR210763,SRR315731</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA140107&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA140107&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>140107</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-05-31</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-05-19</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA205160" alias="PRJNA205160" center_name="Shanghai Institute of Plant Physiology &amp; Ecology">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA205160</PRIMARY_ID>
+          <SECONDARY_ID>SRP023110</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE47224</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Shanghai Institute of Plant Physiology &amp; Ecology">PRJNA205160</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Manihot esculenta</NAME>
+     <TITLE>Digital gene expression analysis of ACMV-infected cassava</TITLE>
+     <DESCRIPTION>Cassava mosaic disease caused by cassava begomoviruses is the most serious disease of cassava in Africa. However, the molecular mechanisms leading to symptom development of infected cassava plants are poorly understood. Here a high throughput digital gene expression profiling (DGE) based on Illumina Solexa sequencing technology was used to investigate the global transcriptional response of cassava to the African cassava mosaic virus infection. Results showed that 3,210 genes were differentially expressed in virus-infected cassava leaves. Gene Ontology (GO) term and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway analysis indicated that photosynthesis related genes were most affected, which was consistent with the chlorotic symptom on the infected leaves. The upregulation of chlorophyll degradation genes, e.g. the genes encoding chlorophyllase and pheophorbide a oxygenase, as well as the downregulation of the major apoproteins genes in light harvesting complex II (LHCII) identified by the DGE analysis were confirmed by qRT-PCR. Together with the reduction of chlorophyll b content and fewer grana stacks in the infected leaf cells, this study reveals that the degradation of chlorophyll plays an important role during ACMV symptom development for the first time. Meanwhile, we believe that the non-lethal effect on photosystem is a trick for virus to avoid fierce host immune response and a result of the long-term co-evolution. This study will provide a road map for future investigations into virus symptom development. Overall design: ACMV-infected cassava leaves mixture from three independent replicates were collected for RNA extractions at 20 dpi. Control samples were harvested from empty agrobacteria treated leaves incubated under the same conditions.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3983</TAXON_ID>
+               <SCIENTIFIC_NAME>Manihot esculenta</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA13628"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS429110,SRS429112</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX286275-SRX286276</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR867026-SRR867027</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA205160&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA205160&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>205160</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-04-03</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-05-19</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA227107" alias="PRJNA227107" center_name="Washington university in St Louis">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA227107</PRIMARY_ID>
+          <SECONDARY_ID>SRP032783</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE52177</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Washington university in St Louis">PRJNA227107</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Endogenous small-noncoding RNAs and their roles in cold response and stress acclimation in Cassava</NAME>
+     <TITLE>Endogenous small-noncoding RNAs and their roles in cold response and stress acclimation in Cassava</TITLE>
+     <DESCRIPTION>Small noncoding RNA (sncRNA), including microRNAs (miRNAs) and endogenous small-interfering RNAs (endo-siRNAs) are key gene regulators in eukaryotes, playing critical roles in plant development and stress tolerance. Trans-acting siRNAs (ta-siRNAs), which are secondary siRNAs triggered by miRNAs, and siRNAs from natural antisense transcripts (nat-siRNAs) are two well-studied classes of endo-siRNAs. In order to understand sncRNAs’ roles in plant cold response and stress acclimation, we studied miRNAs and endo-siRNAs in Cassava (Manihot esculenta), a major source of food for the world populations in tropical regions. Combining Next-Generation sequencing and computational and experimental analyses, we profiled and characterized sncRNA species and mRNA genes from the plants that experienced severe and moderate cold stresses, that underwent further severe cold stress after cold acclimation at moderate stress, and that grew under the normal condition. We also included Castor bean (Ricinus communis) to understand conservation of sncRNAs. In addition to known miRNAs, we identified dozens of novel miRNAs as well as ta-siRNA-yielding and nat-siRNA-yielding loci in Cassava and Castor bean, respectively. Among the expressed sncRNAs, many sncRNAs were differentially expressed under cold stresses. Our study provided the results on gene regulation by sncRNAs in cold acclimation of Euphorbiaceous plants and the role of sncRNA-mediated pathways affected by cold stress and stress acclimation in Cassava. Overall design: Examination of small RNA populations in Cassava cultivar SC124 under the normal condition (NC), gradual cold acclimation (CA), cold shock (CS) and stress acclimation Cold stress after cold acclimation (CCA).</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA227105"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>25070534</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS500089-SRS500094</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX374723-SRX374728</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1027040-SRR1027045</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA227107&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA227107&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>227107</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-07-07</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA227109" alias="PRJNA227109" center_name="Washington university in St Louis">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA227109</PRIMARY_ID>
+          <SECONDARY_ID>SRP032782</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE52176</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Washington university in St Louis">PRJNA227109</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Manihot esculenta</NAME>
+     <TITLE>Moderate stress acclimation provides immunity to stress by rewiring regulatory networks and inducing genes with protective functions in Cassava</TITLE>
+     <DESCRIPTION>Stress acclimation is an effective mechanism that plants acquired for adaption to dynamic environmental conditions. After undergoing cold acclimation, plants become more tolerant to cold stress. In order to understand the mechanism of cold acclimation, we performed a systematic, comprehensive study of cold response and acclimation in Cassava (Manihot esculenta), a staple crop and major food source in the tropical regions of the world. We profiled mRNA genes and small-RNA species, using next generation sequencing, and performed an integrative analysis of the transcriptome and microRNAome of Cassava across the normal condition, a moderate cold stress at 14°C, a harsh stress at 4°C after cold acclimation at 14°C, and a cold shock from 24°C to 4°C. Two results from the analysis were striking. First, the moderate stress and cold shock, despite a difference of 10°C between the two, triggered comparable degrees of perturbation to the transcriptome; in contrary, further harsh stress after cold acclimation resulted in a much smaller degree of transcriptome variation. Second and more importantly, about two thirds of the up- or down-regulated genes after moderate stress reversed their expression to down- or up-regulation, respectively, under harsh stress after cold acclimation, resulting in a genome-wide rewiring of regulatory networks. MicroRNAs, which are key post-transcriptional gene regulators, were major players in this massive rewiring of genetic circuitry. Further, a function enrichment analysis of the perturbed genes revealed that cold acclimation helped the plant to develop immunity to further harsh stress by exclusively inducing genes with functions of nutrient reservoir; in contrast, many genes with functions of viral reproduction were induced by cold shock. Our study revealed, for the first time, the molecular basis of stress acclimation in plants, and shed lights on the role of microRNA gene regulation in cold response and acclimation in Euphorbia. Overall design: Three organs/tissues (folded leaf, fully expanded leaf and roots) of Cassava cultivar SC124 harvested at 6h, 24h and 5d for three cold treatments of CA, CCA and CS, for gene expression profiling at the stages of initial response, secondary response, and functional adaption to cold stresses. Total RNA of each sample was isolated individually, and then pooled with an equal amount from each sample into one for profiling. As a result, four mRNA libraries and four small-RNA libraries, corresponding to the conditions of CA, CCA, CS and NC, were constructed.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3983</TAXON_ID>
+               <SCIENTIFIC_NAME>Manihot esculenta</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA13628"/>
+          </RELATED_PROJECT>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA227105"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>25090992</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS500085-SRS500088</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX374719-SRX374722</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1027036-SRR1027039</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA227109&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA227109&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>227109</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-08-20</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA231851" alias="PRJNA231851" center_name="RBP, IRD">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA231851</PRIMARY_ID>
+          <SECONDARY_ID>SRP034526</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE53369</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="RBP, IRD">PRJNA231851</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Manihot esculenta</NAME>
+     <TITLE>Cassava responses to Pathogenic and non-pathogenic Xanthomonas axonopodis pv manihotis</TITLE>
+     <DESCRIPTION>Xanthomonas axonopodis pv. manihotis (Xam) is a gram negative bacterium causing Cassava Bacterial Blight (CBB), an important limitation for cassava production. The genetic bases underlying cassava resistance and susceptibility to different Xam strains are currently unknown. To identify genes and pathways important for the interaction, we used RNA-seq data to study transcriptomic changes in cassava plants inoculated with the non-pathogenic Xam strain, (ORST4) and a pathogenic strain, ORST4 transformed with the TAL effector TALE1Xam (ORST4+TALE1Xam). This analysis revealed that transcriptomic responses to both strains were very similar and were dominated by the induction of genes related to photosynthesis and phenylpropanoid biosynthesis and the down-regulation of genes related to jasmonic acid signaling, features possibly related to defense responses. Among the genes induced exclusively in cassava plants inoculated with ORST4 + TALE1Xam we found one gene containing a predicted binding site for TALE1Xam in its promoter region. This gene encodes for a Heat Shock Transcription Factor B3 (HsfB3) and likely acts a transcriptional repressor. HsfB3 may constitute a new type of susceptibility gene activated by a TAL effector that manages to be sufficient for symptom development without suppressing defense responses in the plant. Overall design: mRNA of Cassava stems inoculated with a non-pathogenic (ORST4) and pathogenic (+TALE1Xam) strain of Xanthomonas axonopodis pv. Manihotis, tissues collected at 0, 5 and7 days post-inoculation, 2 technical replicates used</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3983</TAXON_ID>
+               <SCIENTIFIC_NAME>Manihot esculenta</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA13628"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>25120000</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS515758-SRS515769</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX392768-SRX392779</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1050891-SRR1050902</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA231851&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA231851&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>231851</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-10-03</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA243380" alias="PRJNA243380" center_name="Natural resources Institute">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA243380</PRIMARY_ID>
+          <SECONDARY_ID>SRP040814</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE56467</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Natural resources Institute">PRJNA243380</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Manihot esculenta</NAME>
+     <TITLE>Transcriptional response of virus-infected cassava and identification of putative sources of resistance for cassava brown streak disease</TITLE>
+     <DESCRIPTION>Analysis of transcriptional response of virus-infected cassava and identification of putative sources of resistance for cassava brown streak disease Overall design: transcriptome analysis of two varieties of cassava that differ in their level of resistance to cassava brown streak virus.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3983</TAXON_ID>
+               <SCIENTIFIC_NAME>Manihot esculenta</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA13628"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS586857-SRS586860</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX507960-SRX507963</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1213744-SRR1213747</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA243380&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA243380&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>243380</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-04-04</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-05-19</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA248260" alias="PRJNA248260" center_name="The Institute of Tropical Bioscience and Biotechnology">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA248260</PRIMARY_ID>
+          <SECONDARY_ID>SRP042139</SECONDARY_ID>
+          <SUBMITTER_ID namespace="The Institute of Tropical Bioscience and Biotechnology">PRJNA248260</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Manihot esculenta strain:W14,KU50,Arg7</NAME>
+     <TITLE>Manihot esculenta strain:W14,KU50,Arg7 Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>Cassava transcriptome project</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3983</TAXON_ID>
+               <SCIENTIFIC_NAME>Manihot esculenta</SCIENTIFIC_NAME>
+               <STRAIN>W14,KU50,Arg7</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA13628"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>25300236</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS618804,SRS621087-SRS621097</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX551093,SRX553797-SRX553807</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1298996,SRR1298998-SRR1299003,SRR1299005-SRR1299009,SRR1302047</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA248260&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA248260&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>248260</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-05-22</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA257332" alias="PRJNA257332" center_name="UC Berkeley">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA257332</PRIMARY_ID>
+          <SECONDARY_ID>SRP045199</SECONDARY_ID>
+          <SUBMITTER_ID namespace="UC Berkeley">PRJNA257332</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Manihot esculenta subsp. esculenta strain:60444</NAME>
+     <TITLE>TAL effector induced gene expression changes in Cassava</TITLE>
+     <DESCRIPTION>Transcriptomics approach to identify cassava genes induced by the cassava bacterial blight pathogen, Xanthomonas axonopodis pv. manihotis.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>510188</TAXON_ID>
+               <SCIENTIFIC_NAME>Manihot esculenta subsp. esculenta</SCIENTIFIC_NAME>
+               <STRAIN>60444</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA13628"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>25083909</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS672914,SRS676055-SRS676057,SRS676123,SRS676377,SRS676380-SRS676381,SRS676383-SRS676384,SRS676401,SRS676955</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX668432,SRX671513-SRX671515,SRX671643,SRX671877,SRX671880-SRX671881,SRX671883-SRX671884,SRX671901,SRX672464</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1537519,SRR1538456-SRR1538457,SRR1538484-SRR1538491,SRR1538828-SRR1538829,SRR1538848,SRR1538903-SRR1538905,SRR1538928-SRR1538933,SRR1539556-SRR1539568,SRR1544068</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA257332&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA257332&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>257332</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-08-04</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA282938" alias="PRJNA282938" center_name="ARC-OVI">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA282938</PRIMARY_ID>
+          <SECONDARY_ID>SRP058748</SECONDARY_ID>
+          <SUBMITTER_ID namespace="ARC-OVI">PRJNA282938</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Manihot esculenta cultivar:AR23.1, 98/0581, P40/1</NAME>
+     <TITLE>Cassava raw sequence reads</TITLE>
+     <DESCRIPTION>This project that aims at identifying candidate genes associated with cassava response to mealybugs (Phenacoccus manihoti) through transcriptome profiling of cassava genotypes infested with mealybugs. The study aims to address pest infestation concerns in a sustainable manner by exploiting biodiversity within the cassava species to identify natural sources of pest resistance/tolerance.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3983</TAXON_ID>
+               <SCIENTIFIC_NAME>Manihot esculenta</SCIENTIFIC_NAME>
+               <CULTIVAR>AR23.1, 98/0581, P40/1</CULTIVAR>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA13628"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS945853,SRS946078,SRS946138,SRS946172,SRS946227,SRS946633,SRS946650,SRS946703,SRS947897,SRS1608507,SRS1608510,SRS1610036,SRS1610041,SRS1610076,SRS1610079,SRS1610084,SRS1610089,SRS1610128,SRS1610150,SRS1610177,SRS1610181,SRS1610187,SRS1610197,SRS1610201,SRS1610205,SRS1610207-SRS1610208</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1039064,SRX1039308,SRX1039372,SRX1039409,SRX1039457,SRX1039490,SRX1039887,SRX1039938,SRX1041474,SRX2011224,SRX2011227,SRX2012835,SRX2012913,SRX2012949,SRX2012952,SRX2012957,SRX2012962,SRX2013002,SRX2013024,SRX2013051,SRX2013055,SRX2013061,SRX2013071,SRX2013075,SRX2013079,SRX2013082-SRX2013083</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR2040851,SRR2041050,SRR2041101,SRR2041158,SRR2041192,SRR2041594,SRR2041628,SRR2043186,SRR2043192,SRR4019324,SRR4019384,SRR4019391,SRR4019424,SRR4019429,SRR4019432,SRR4019437,SRR4019444,SRR4019482,SRR4019527,SRR4019530,SRR4019534,SRR4019547,SRR4019550,SRR4019554,SRR4019558,SRR4019561-SRR4019562</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA282938&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA282938&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>282938</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2015-11-30</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA294739" alias="PRJNA294739" center_name="Institute of Plant Physiology and Ecology, SIBS,CAS">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA294739</PRIMARY_ID>
+          <SECONDARY_ID>SRP063338</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE72717</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Institute of Plant Physiology and Ecology, SIBS,CAS">PRJNA294739</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Manihot esculenta</NAME>
+     <TITLE>Transition from somatic embryo to friable embryogenic callus in cassava: Dynamic changes in cellular structure, physiological status, and gene expression profiles</TITLE>
+     <DESCRIPTION>Friable embryogenic callus (FEC) has been considered as the most suitable materials for efficient genetic transformation of cassava. Due to heavy genotype dependence on FEC induction and being amenable to somaclonal variation, the production and maintaining of reliable FEC is a limitation factor for cassava genetic transformation. Identification of key elements involving in biological processes from somatic embryos (SEs) to the FEC at different stages will provide critical insights for FEC improvement. Cytological observation showed the dramatic change of subcellular structures among SEs, fresh FEC (FFEC) and old FEC (OFEC). Decrease of sucrose and increase of fructose and glucose were detected in OFEC. A total of 6871 differentially expressed genes (DEGs) were identified from SEs, FFEC and OFEC by RNA-seq. Analysis of the DEGs showed that FEC induction was accompanied by the process of dedifferentiation, whereas the epigenetics modification occurred during the continuous subculturing process. The cell structure was reconstructed, mainly including the GO terms of "cell periphery" and "external encapsulating structure"; in parallel, the internal mechanisms were changed correspondingly, including the metabolisms of process (glycolysis) and compounds(alanine, aspartate, and glutamate). The significant reduction of genomic DNA methylation in OFEC indicates altered gene expression via chromatin modification. These results indicate that the induction and long-term subculture of FEC is a complicated biological process involving changes of genome modification, gene expression and subcellular reconstruction. The findings will be useful for improving FEC induction and maintenance from farmer-preferred cassava cultivars that are recalcitrant to genetic transformation, hence improving cassava through genetic engineering. Overall design: Two-week-old SEs cultured on GD, FFEC emerging from SEs, and 9-month-old OFEC were used for analysis. Each sample was mixtured from six indepedent replicates and were collected for RNA extraction respectively.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3983</TAXON_ID>
+               <SCIENTIFIC_NAME>Manihot esculenta</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA13628"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>26500668</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1055876-SRS1055878</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1183959-SRX1183961</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR2242886-SRR2242888</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA294739&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA294739&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>294739</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2015-09-05</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA297492" alias="PRJNA297492" center_name="Department of Molecular, Cell and Developmental Biology, University of California, Los Angeles">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA297492</PRIMARY_ID>
+          <SECONDARY_ID>SRP064403</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE73643</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Department of Molecular, Cell and Developmental Biology, University of California, Los Angeles">PRJNA297492</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Manihot esculenta</NAME>
+     <TITLE>Genome-wide methylome study in cassava [RNA-seq]</TITLE>
+     <DESCRIPTION>Bisulfite treatment, and mRNA libraries were made to characterize DNA methylation and expression of cassava. Overall design: Genome-wide RNA profiling of cassava leaves was done by Illumina TruSeq preparation kits followed by high-throughput sequencing with Illumina HiSeq 2000.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3983</TAXON_ID>
+               <SCIENTIFIC_NAME>Manihot esculenta</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA13628"/>
+          </RELATED_PROJECT>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA297484"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>26483493</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1097204-SRS1097206</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1297894-SRX1297896</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR2542435-SRR2542437</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA297492&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA297492&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>297492</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2015-10-12</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA306864" alias="PRJNA306864" center_name="University of the Witwatersrand">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA306864</PRIMARY_ID>
+          <SECONDARY_ID>SRP067749</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of the Witwatersrand">PRJNA306864</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Manihot esculenta cultivar:T200 and TME3</NAME>
+     <TITLE>Manihot esculenta cultivar:T200 and TME3 Raw sequence reads</TITLE>
+     <DESCRIPTION>The aim of this study was to identify small RNAs in Manihot esculenta (cassava). Newly developing leaf samples were collected from two different cassava landraces, T200 and TME3, over three time points. RNA was extracted and small RNA was filtered using the Ambion mirVana kit. The cDNA libraries were sent to LGC Genomics and sequenced on the Illumina HiSeq2000 platform. The resulting NGS data was used to identify small RNAs including microRNAs.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3983</TAXON_ID>
+               <SCIENTIFIC_NAME>Manihot esculenta</SCIENTIFIC_NAME>
+               <CULTIVAR>T200 and TME3</CULTIVAR>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA13628"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1221693,SRS1221856-SRS1221860</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1500158,SRX1500354-SRX1500358</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR3051737,SRR3051996,SRR3052009-SRR3052010,SRR3052014-SRR3052015</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA306864&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA306864&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>306864</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2015-12-25</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA324539" alias="PRJNA324539" center_name="Bart Lab, Donald Danforth Plant Science Center">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA324539</PRIMARY_ID>
+          <SECONDARY_ID>SRP076160</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE82279</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Bart Lab, Donald Danforth Plant Science Center">PRJNA324539</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Manihot esculenta</NAME>
+     <TITLE>Gene expression analysis provides insight into the physiology of the important staple food crop cassava</TITLE>
+     <DESCRIPTION>Cassava (Manihot esculenta) is the food security crop that feeds approximately 800 million people worldwide. Although this crop displays high productivity under drought and poor soil conditions, it is susceptible to disease, postharvest deterioration and the roots contain low nutritional content. Cassava improvement programs are focused on addressing these constraints but are hindered by the crop’s high heterozygosity, difficulty in synchronizing flowering, low seed production and a poor understanding of the physiology of this plant. Among the major food crops, cassava is unique in its ability to develop massive, underground storage roots. Despite the importance of these structures, their basic physiology remains largely unknown, especially the molecular genetic basis of storage root development. Similarly, in cassava, the favored target tissue for transgene integration and genome editing is a friable embryogenic callus (FEC). Little is known concerning gene expression in this tissue, or its relatedness to the somatic organized embryogenic structures (OES) from which it originates. Here, we provide molecular identities for eleven cassava tissue types through RNA sequencing and develop an open access, web-based interface for further interrogation of the data. Through this dataset, we report novel insight into the physiology of cassava and identify promoters able to drive specified tissue expression profiles. The information gained from this study is of value for both conventional and biotechnological improvement programs. Overall design: mRNA quantification in 11 tissue types of cassava and biological replicates for each tissue</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3983</TAXON_ID>
+               <SCIENTIFIC_NAME>Manihot esculenta</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA13628"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1484797-SRS1484828</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1821724-SRX1821755</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR3629818-SRR3629819,SRR3629821-SRR3629822,SRR3629824-SRR3629825,SRR3629827,SRR3629829-SRR3629830,SRR3629832,SRR3629834-SRR3629835,SRR3629837-SRR3629838,SRR3629840,SRR3629842-SRR3629843,SRR3629845,SRR3629847-SRR3629848,SRR3629850-SRR3629851,SRR3629853-SRR3629854,SRR3629856,SRR3629858-SRR3629859,SRR3629861-SRR3629862,SRR3629864-SRR3629865,SRR3629867</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA324539&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA324539&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>324539</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-06-08</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA349783" alias="PRJNA349783" center_name="GuangXi University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA349783</PRIMARY_ID>
+          <SECONDARY_ID>SRP091945</SECONDARY_ID>
+          <SUBMITTER_ID namespace="GuangXi University">PRJNA349783</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Manihot esculenta</NAME>
+     <TITLE>Manihot esculenta Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>RNA-Seq analysis</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3983</TAXON_ID>
+               <SCIENTIFIC_NAME>Manihot esculenta</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA13628"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1756342-SRS1756344,SRS1756346-SRS1756348</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2264030-SRX2264035</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR4444984-SRR4444989</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA349783&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA349783&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>349783</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-10-24</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA359998" alias="PRJNA359998" center_name="ITBB">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA359998</PRIMARY_ID>
+          <SECONDARY_ID>SRP095968</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE93098</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="ITBB">PRJNA359998</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Manihot esculenta</NAME>
+     <TITLE>Genome-wide expression of HD-Zip genes in cassava</TITLE>
+     <DESCRIPTION>To reveal the expression of HD-Zip genes in different tissues of cassava, samples from leaf (90 days after planting), stem (90 days after planting), early storage root (ESR, 90 days after planting), middle storage root (MSR, 150 days after planting) and last storage root (LSR, 210 days after planting) were collected for RNA-seq analysis. In addition, their expression was also examined in folded leaf (FL), full expanded leaf (FEL) and bottom leaf (BL), as well as root (RT) at 0, 3, 24 h after the treatment of PEG 6000. Overall design: Examination of gene expression in different tissues of three genotypes, or in leaves and root in response to PEG treatment in cassava</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3983</TAXON_ID>
+               <SCIENTIFIC_NAME>Manihot esculenta</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA13628"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1891847-SRS1891870</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2458895-SRX2458918</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5140222-SRR5140245</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA359998&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA359998&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>359998</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2019-01-03</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-01-03</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA360340" alias="PRJNA360340" center_name="New York University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA360340</PRIMARY_ID>
+          <SECONDARY_ID>SRP096257</SECONDARY_ID>
+          <SUBMITTER_ID namespace="New York University">PRJNA360340</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Manihot esculenta</NAME>
+     <TITLE>Manihot esculenta Raw RNAseq reads</TITLE>
+     <DESCRIPTION>CBSV Infected and control Cassava samples</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3983</TAXON_ID>
+               <SCIENTIFIC_NAME>Manihot esculenta</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA13628"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1904785-SRS1904880</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2473205-SRX2473300</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5154658-SRR5154753</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA360340&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA360340&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>360340</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-09-01</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA377165" alias="PRJNA377165" center_name="Chinese Academy of Tropical Agricultural Sciences">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA377165</PRIMARY_ID>
+          <SECONDARY_ID>SRP101302</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Chinese Academy of Tropical Agricultural Sciences">PRJNA377165</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Manihot esculenta</NAME>
+     <TITLE>Manihot esculenta Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>Cold and drought stresses seriously affect cassava (Manihot esculenta Crantz) plant growth and yield. Recently, long noncoding RNAs (lncRNAs) have emerged as key regulators of diverse cellular processes in mammals and plants. To date, no systematic screening of lncRNAs and their regulatory roles in cassava has been reported. In this study, we present the first reference catalog of 682 high-confidence lncRNAs based on analysis of strand-specific RNA-seq data from cassava shoot apices and young leaves under cold, drought stress and control conditions. Among them, 16 lncRNAs were identified as putative target mimics of cassava known miRNAs. Additionally, by comparing with small RNA-seq data, we found 42 lncNATs and sense gene pairs can generate nat-siRNAs. We identified 318 lncRNAs responsive to cold and/or drought stress, which were typically co-expressed concordantly or discordantly with their neighboring genes. Trans-regulatory network analysis suggested that many lncRNAs were associated with hormone signal transduction, secondary metabolites biosynthesis, and sucrose metabolism pathway. The study provides an opportunity for future computational and experimental studies to uncover the functions of lncRNAs in cassava.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3983</TAXON_ID>
+               <SCIENTIFIC_NAME>Manihot esculenta</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA13628"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2019028-SRS2019036</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2610800-SRX2610808</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5310827-SRR5310835</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA377165&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA377165&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>377165</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-04-19</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA385393" alias="PRJNA385393" center_name="Guangxi University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA385393</PRIMARY_ID>
+          <SECONDARY_ID>SRP106452</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE98537</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Guangxi University">PRJNA385393</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Manihot esculenta</NAME>
+     <TITLE>RNA-Seq gives insights into genetic regulation of the drought-stress response in the cassava leaves</TITLE>
+     <DESCRIPTION>Cassava is a drought–resistant food crop in tropical and subtropical regions. Although cassava is a relatively drought-tolerant species, the development and yields are greatly affected by the adverse drought conditions. Information about molecular breeding will obtain by studying genetic regulatory mechanism. In this study, we demonstrate the drought-tolerant mechanisms in leaves of both cassava varieties(Xinxuan048 and KU50) by using RNA-Seq technique. 1,880 and 2,066 differentially expressed genes(DEGs) were induced by drought stress in leaves of KU50 and Xinxuan048, respectively. DEGs in the response to drought stress involve in many regulated pathways. ROS- and ABA-associated signaling pathways and photosynthesis-associated regulation are mainly elucidated. In addition, alternative splicing and ingle nucleotide polymorphism also involve in drought-stress responses in both cassava varieties, showing their important roles in response to drought stress in leaves. This study not only increases the understanding of physiological and molecular mechanisms to the drought response in cassava, but also lays a solid foundation on the breeding of drought-resistant varieties using molecular methods. Overall design: plants were treated under normal condition and drought stress.RNA-Seq was performed on leaf of the species under different treatment .</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3983</TAXON_ID>
+               <SCIENTIFIC_NAME>Manihot esculenta</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA13628"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2165403-SRS2165406</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2783266-SRX2783269</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5507556-SRR5507563</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA385393&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA385393&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>385393</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-07-02</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-07-03</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA391307" alias="PRJNA391307" center_name="Donald Danforth Plant Science Center">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA391307</PRIMARY_ID>
+          <SECONDARY_ID>SRP110033</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE100319</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Donald Danforth Plant Science Center">PRJNA391307</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Manihot esculenta</NAME>
+     <TITLE>Provitamin A-enriched Golden Cassava generated through metabolic engineering has reduced dry matter, elevated oil content and enhanced shelf-life</TITLE>
+     <DESCRIPTION>In this study, β-carotene concentrations in cassava storage roots were enhanced by co-expression of transgenes for deoxyxylulose-5-phosphate synthase (DXS) and bacterial phytoene synthase (crtB), mediated by the patatin type-1 promoter. Storage roots harvested from field-grown plants accumulated carotenoids to ≤50 μg/g DW, a 15- to 20-fold increase relative to roots from non-transgenic plants. Approximately 85-90% of these carotenoids accumulated as all-trans-β-carotene, the most nutritionally efficacious carotenoid. β-carotene-accumulating storage roots displayed delayed onset of post-harvest physiological deterioration, a major constraint limiting utilization of cassava products. Significant metabolite changes were detected in β-carotene enhanced storage roots. Most significantly, an inverse correlation was observed between β-carotene and dry matter contents, with reductions of 50% to 60% of dry matter content in the highest carotenoid accumulating storage roots of different cultivars. Further analysis confirmed concomitant reduction in starch content, and increased levels of total fatty acids, triacylglycerols, soluble sugars, and abscisic acid. Irish potato engineered to co-express DXS and crtB displayed a similar correlation between β-carotene accumulation, reduced dry matter and starch content, and elevated oil and soluble sugars in tubers. Transcriptome analyses revealed reduced expression of starch biosynthetic genes, ADP-glucose pyrophosphorylase genes, in transgenic, carotene-accumulating cassava roots relative to non-transgenic roots. These findings highlight unintended metabolic consequences of provitamin A biofortification of starch-rich organs and point to strategies for redirecting metabolic flux to restore starch production. Overall design: Transcriptom data was generated from cassava storage roots harvetsed at 12 months after planting from confined field trial conducted in Puerto Rico. Two transgenic cassava lines DXS//PS-20 and DXS//PS-37 and a non-tranegnic control cultivar 60444 were used for the study each replicated three-times</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3983</TAXON_ID>
+               <SCIENTIFIC_NAME>Manihot esculenta</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA13628"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>29193665</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2302649-SRS2302657</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2941558-SRX2941566</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5725620-SRR5725628</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA391307&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA391307&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>391307</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-06-23</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-07-16</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA396755" alias="PRJNA396755" center_name="Universidad Nacional de Colombia">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA396755</PRIMARY_ID>
+          <SECONDARY_ID>SRP114532</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Universidad Nacional de Colombia">PRJNA396755</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <TITLE>Xam challenges cassava Protein Interaction Network reveals key regulatory elements of immunity processes</TITLE>
+     <DESCRIPTION>To gain insights on the kinetics of cassava gene expression in response to Xam an RNAseq analysis was performed. Cassava stem cuttings from TMS30572 variety were grown under greenhouse conditions and inoculated with Xam strain Xam681 by puncturing at the third internode from the apical region using sterile tips. The inoculum was adjusted to an OD600nm of 0.2. The control plants were inoculated with 10 nm of MgCl2 meanwhile treatment plants with 10 ul of the inoculum. In addition, to assay the inoculation puncturing effect, not inoculated plants were grown under the same conditions. Three biological replicates were performed for each treatment. The stem samples were collected at 1, 3 and 5 days post inoculation (dpi). Total RNA was isolated using Trizol protocol (Invitrogen) following manufacturer's instructions. Concentration and purity were evaluated by Agilent 2100 (Agilent Technologies, Santa Clara, USA). The paired-end libraries were construct using 3 ug of total RNA and size selection of 101 pb according to Illumina instructions. The libraries were sequenced by Illumina HiSeqTM 2000 platform. In total 98 downregulated genes and 72 upregulated genes comparing day3 and day5 of inoculation with the non treated plants were identified and used to construct a cassava coexpression network.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2399123-SRS2399143</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3052775-SRX3052795</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5886920-SRR5886940</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA396755&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA396755&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>396755</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-08-03</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA400637" alias="PRJNA400637" center_name="University of Lausanne">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA400637</PRIMARY_ID>
+          <SECONDARY_ID>SRP151544</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of Lausanne">PRJNA400637</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Manihot esculenta, Rhizophagus irregularis</NAME>
+     <TITLE>Manihot esculenta (cassava) fine roots colonized by Rhizophagus irregularis (AMF) Raw sequence reads</TITLE>
+     <DESCRIPTION>dual RNA-seq experiment on fine roots of cassava (Manihot esculenta) colonized by the arbuscular mycorrhizal fungus Rhizophagus irregularis grown in the greenhouse. one plant- one fungi experiment. in total 5 different plant cultivars x 2 strains of fungi tested independently</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS3480980-SRS3481020,SRS3481022</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX4318395-SRX4318436</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR7447848-SRR7447889</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA400637&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA400637&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>400637</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-08-31</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA434559" alias="PRJNA434559" center_name="Guangxi Academy of Agricultural Science">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA434559</PRIMARY_ID>
+          <SECONDARY_ID>SRP133051</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Guangxi Academy of Agricultural Science">PRJNA434559</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <TITLE>cassavaRNASeqData</TITLE>
+     <DESCRIPTION>Comparison of Leaf Transcriptomes of Cassava "Xinxuan 048" Diploid and Autotetraploid Plants</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2978841-SRS2978844</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3721104-SRX3721115</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR6748426-SRR6748437</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA434559&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA434559&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>434559</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-03-01</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-03-01</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA491633" alias="PRJNA491633" center_name="ITBB, CATAS">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA491633</PRIMARY_ID>
+          <SECONDARY_ID>SRP162280</SECONDARY_ID>
+          <SUBMITTER_ID namespace="ITBB, CATAS">PRJNA491633</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Manihot esculenta cultivar:ku50</NAME>
+     <TITLE>Manihot esculenta peg_simulated drought Transcriptome</TITLE>
+     <DESCRIPTION>To reveal the roles of lncRNA in cassava under drought stress, forty-five days old cassava seedlings were chosen and subjected to drought stress simulated by using 20% PEG 6000 solution. Different developmental leaves, including folded leaf (FL), full expanded leaf (FEL) and bottom leaf (BL), as well as root (RT) were collected at 0, 3 and 24 h after PEG treatment and frozen immediately in liquid nitrogen. Subsequently, two replicates of these samples were chosen for ssRNA-seq sequencing.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3983</TAXON_ID>
+               <SCIENTIFIC_NAME>Manihot esculenta</SCIENTIFIC_NAME>
+               <CULTIVAR>ku50</CULTIVAR>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA13628"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS3808324-SRS3808347</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX4723422-SRX4723445</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR7885771-SRR7885794</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA491633&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA491633&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>491633</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2019-03-01</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-03-01</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA494798" alias="PRJNA494798" center_name="University of Lausanne">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA494798</PRIMARY_ID>
+          <SECONDARY_ID>SRP168026</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of Lausanne">PRJNA494798</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Cassava inoculated with AM fungi</NAME>
+     <TITLE>RNA-sequencing on cassava fine roots colonized by Rhizophagus irregularis</TITLE>
+     <DESCRIPTION>We evaluated the plant and fungal genome wide RNA expression of the AM fungi Rhizophagus irregularis when colonizing cassava fine roots in a greenhouse experiment. The plants were grown in sterile soil and inoculated with Rhizophagus irregularis spores.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS4026704-SRS4026737</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX4991127-SRX4991160</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR8170480-SRR8170513</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA494798&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA494798&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>494798</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-10-09</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-10-09</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+</ROOT>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT request="tax_eq(9627) AND (instrument_model=&quot;HiSeq X Ten&quot; OR instrument_model=&quot;HiSeq X Five&quot; OR instrument_model=&quot;Illumina MiSeq&quot; OR instrument_model=&quot;Illumina NovaSeq 6000&quot; OR instrument_model=&quot;Illumina Genome Analyzer&quot; OR instrument_model=&quot;Illumina Genome Analyzer II&quot; OR instrument_model=&quot;Illumina Genome Analyzer IIx&quot; OR instrument_model=&quot;Illumina HiScanSQ&quot; OR instrument_model=&quot;Illumina HiSeq 1000&quot; OR instrument_model=&quot;Illumina HiSeq 1500&quot; OR instrument_model=&quot;Illumina HiSeq 2000&quot; OR instrument_model=&quot;Illumina HiSeq 2500&quot; OR instrument_model=&quot;Illumina HiSeq 3000&quot; OR instrument_model=&quot;Illumina HiSeq 4000&quot; OR instrument_model=&quot;NextSeq 500&quot; OR instrument_model=&quot;NextSeq 550&quot; OR instrument_model=&quot;Ion Torrent Proton&quot; OR instrument_model=&quot;Ion Torrent S5&quot; OR instrument_model=&quot;Ion Torrent S5 XL&quot;)AND library_strategy=&quot;RNA-Seq&quot; AND library_source=&quot;TRANSCRIPTOMIC&quot;">
+<PROJECT accession="PRJEB7790" alias="ena-STUDY-BIODIVERSITY AND CLIMATE RESEARCH CENTER, FRANKFUR-20-11-2014-08:01:03:718-1596" center_name="BIODIVERSITY AND CLIMATE RESEARCH CENTER, FRANKFUR">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJEB7790</PRIMARY_ID>
+          <SECONDARY_ID>ERP008762</SECONDARY_ID>
+          <SUBMITTER_ID namespace="BIODIVERSITY AND CLIMATE RESEARCH CENTER, FRANKFUR">ena-STUDY-BIODIVERSITY AND CLIMATE RESEARCH CENTER, FRANKFUR-20-11-2014-08:01:03:718-1596</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Transcriptomic studies in Arctic fox and red fox</NAME>
+     <TITLE>Genetic signatures of adaptation revealed from transcriptome sequencing of Arctic and red foxes</TITLE>
+     <DESCRIPTION>Background
+
+The genus Vulpes (true foxes) comprises numerous species that inhabit a wide range of habitats and climatic conditions, including one species, the Arctic fox (Vulpes lagopus) which is adapted to the arctic region. A close relative to the Arctic fox, the red fox (Vulpes vulpes), occurs in subarctic to subtropical habitats. To study the genetic basis of their adaptations to different environments, transcriptome sequences from two Arctic foxes and one red fox individual were generated and analyzed for signatures of positive selection. In addition, the data allowed for a phylogenetic analysis and divergence time estimate between the two fox species.
+Results
+
+The de novo assembly of reads resulted in more than 160,000 contigs/transcripts per individual. Approximately 17,000 homologous genes were identified using human and the non-redundant databases. Positive selection analyses revealed several genes involved in various metabolic and molecular processes such as energy metabolism, cardiac gene regulation, apoptosis and blood coagulation to be under positive selection in foxes. Branch site tests identified four genes to be under positive selection in the Arctic fox transcriptome, two of which are fat metabolism genes. In the red fox transcriptome eight genes are under positive selection, including molecular process genes, notably genes involved in ATP metabolism. Analysis of the three transcriptomes and five Sanger re-sequenced genes in additional individuals identified a lower genetic variability within Arctic foxes compared to red foxes, which is consistent with distribution range differences and demographic responses to past climatic fluctuations. A phylogenomic analysis estimated that the Arctic and red fox lineages diverged about three million years ago.
+Conclusions
+
+Transcriptome data are an economic way to generate genomic resources for evolutionary studies. Despite not representing an entire genome, this transcriptome analysis identified numerous genes that are relevant to arctic adaptation in foxes. Similar to polar bears, fat metabolism seems to play a central role in adaptation of Arctic foxes to the cold climate, as has been identified in the polar bear, another arctic specialist.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>BN2370</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA386923</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS610082-ERS610084</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX632793-ERX632795</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR687853-ERR687855</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB7790&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB7790&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2015-08-08</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2016-05-20</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA307604" alias="PRJNA307604" center_name="Cornell University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA307604</PRIMARY_ID>
+          <SECONDARY_ID>SRP068062</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE76517</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Cornell University">PRJNA307604</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Vulpes vulpes</NAME>
+     <TITLE>Transcriptome responses to selection for tame/aggressive behaviors in silver foxes (Vulpes vulpes)</TITLE>
+     <DESCRIPTION>Domestication leads to a spectrum of striking behavioral changes whose genetic basis remains largely unknown. Silver foxes have been selectively bred for tame and aggressive behaviors for over 50 years at the Institute for Cytology and Genetics in Novosibirsk, Russia. To further understand the genetic basis and molecular mechanisms underlying tame and aggressive behavioral phenotypes segregating in selected strains of the silver fox, we quantified genome-wide gene expression levels using RNA-seq in two selected brain tissues, right prefrontal cortex and basal forebrain, from 12 aggressive and 12 tame individuals. Expression analysis reveals 146 differentially expressed genes in prefrontal cortex between tame and aggressive individuals at a 5% FDR, and 33 hits were found in basal forebrain. These candidates include genes in key pathways known to be critical to neurological processing, such as serotonin and glutamate receptor pathways. The data relate in interesting ways to neurological and pharmacological effects that are actively being studied to understand human aggression. In addition, we identified 31,000 high quality exonic SNPs, 295 of which show significant allele frequency differences between tame and aggressive individuals at an adjust P-value &lt; 0.05 level from gene dropping simulation based on the entire pedigrees. A non-synonymous change in a glutamate receptor, GRM3, is among these significant SNPs, indicating that expression and allele-frequency changes are hitting the same pathways. These changes in expression level and allele frequency might be the direct response to the artificial selection and will help understand the genetic basis of mammalian domestication process. Overall design: Profile of transcriptome-wide gene expression levels in 1.5-year old tame and aggressive fox brain</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>9627</TAXON_ID>
+               <SCIENTIFIC_NAME>Vulpes vulpes</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA270377"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>30228118</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1234600-SRS1234605,SRS1234607-SRS1234634,SRS1234636-SRS1234649</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1515903-SRX1515916,SRX1515918-SRX1515945,SRX1515947-SRX1515952</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR3084289-SRR3084336</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA307604&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA307604&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>307604</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-06-01</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-09-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA387034" alias="PRJNA387034" center_name="University of Illinois">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA387034</PRIMARY_ID>
+          <SECONDARY_ID>SRP107226</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of Illinois">PRJNA387034</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <TITLE>RNA-seq of tame and aggressive fox pituitary</TITLE>
+     <DESCRIPTION>Gene expression study of tame and aggressive farmed fox pituitary.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2207102-SRS2207113</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2832159-SRX2832170</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5573823-SRR5573834</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA387034&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA387034&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>387034</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-06-02</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-06-02</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+</ROOT>

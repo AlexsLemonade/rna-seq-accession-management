@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT request="tax_eq(8083) AND (instrument_model=&quot;HiSeq X Ten&quot; OR instrument_model=&quot;HiSeq X Five&quot; OR instrument_model=&quot;Illumina MiSeq&quot; OR instrument_model=&quot;Illumina NovaSeq 6000&quot; OR instrument_model=&quot;Illumina Genome Analyzer&quot; OR instrument_model=&quot;Illumina Genome Analyzer II&quot; OR instrument_model=&quot;Illumina Genome Analyzer IIx&quot; OR instrument_model=&quot;Illumina HiScanSQ&quot; OR instrument_model=&quot;Illumina HiSeq 1000&quot; OR instrument_model=&quot;Illumina HiSeq 1500&quot; OR instrument_model=&quot;Illumina HiSeq 2000&quot; OR instrument_model=&quot;Illumina HiSeq 2500&quot; OR instrument_model=&quot;Illumina HiSeq 3000&quot; OR instrument_model=&quot;Illumina HiSeq 4000&quot; OR instrument_model=&quot;NextSeq 500&quot; OR instrument_model=&quot;NextSeq 550&quot; OR instrument_model=&quot;Ion Torrent Proton&quot; OR instrument_model=&quot;Ion Torrent S5&quot; OR instrument_model=&quot;Ion Torrent S5 XL&quot;)AND library_strategy=&quot;RNA-Seq&quot; AND library_source=&quot;TRANSCRIPTOMIC&quot;">
+<PROJECT accession="PRJNA191034" alias="PRJNA191034" center_name="Princeton University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA191034</PRIMARY_ID>
+          <SECONDARY_ID>SRP018901</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Princeton University">PRJNA191034</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Xiphophorus maculatus</NAME>
+     <TITLE>Xiphophorus maculatus Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>Whole transcriptome sequencing of RNAseq library derived from brain tissue.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>8083</TAXON_ID>
+               <SCIENTIFIC_NAME>Xiphophorus maculatus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA72613"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS398609</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX246435</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR767714</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA191034&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA191034&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>191034</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-05-31</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA420092" alias="PRJNA420092" center_name="Xiphophorus Genetic Stock Center">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA420092</PRIMARY_ID>
+          <SECONDARY_ID>SRP125767</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE107449</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Xiphophorus Genetic Stock Center">PRJNA420092</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Xiphophorus maculatus JP163 A RNA-Seq data for PacBio Genome Annotation (Nov.2017)</NAME>
+     <TITLE>Xiphophorus maculatus JP163 A RNA-Seq data for PacBio Genome Annotation (Nov.2017)</TITLE>
+     <DESCRIPTION>RNA from Xiphophorus maculatus (X. maculatus) are isolated and sequenced for annotation of enhanced X. maculatus genome Overall design: 26 Xiphophorus maculatus (X. maculatus) fish at various developmental stages were sacrified for tissue specific RNA or whole fish RNA isolation, RNA-sequencing and for genome annotation.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>8083</TAXON_ID>
+               <SCIENTIFIC_NAME>Xiphophorus maculatus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA72613"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2718247-SRS2718264,SRS2718266,SRS2725671-SRS2725677</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3426729-SRX3426754</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR6327069-SRR6327094</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA420092&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA420092&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>420092</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-11-30</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-05-17</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA447434" alias="PRJNA447434" center_name="Xiphophorus Genetic Stock Center">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA447434</PRIMARY_ID>
+          <SECONDARY_ID>SRP136668</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE112473</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Xiphophorus Genetic Stock Center">PRJNA447434</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Waveband Specific Transcriptional Control of Select Genetic Pathways in Xiphophorus maculatus Skin</NAME>
+     <TITLE>Waveband Specific Transcriptional Control of Select Genetic Pathways in Xiphophorus maculatus Skin</TITLE>
+     <DESCRIPTION>Changes in the transcriptional profiles of Xiphophorus maculatus skin was assessed by RNA-Seq after exposure to fluorescent (i.e., FL, 4,100K or “cool white”), or narrow wavelength regions of light between 300-600 nm (i.e., 50 nm or 10 nm regions, herein termed ”wavebands”). Exposure to varied 50 nm wavebands allowed identification of waveband specific transcriptional modulation within gene sets representing discrete functional pathways within Xiphophorus skin. For example, exposure to either 350-400 or 450-500 nm wavebands resulted in opposite transcriptional effects in necrosis and apoptosis gene sets that predict selective differential suppression or activation of these pathways (i.e., 350-400 nm; necrosis suppression, apoptosis activation, and 450-500 nm; apoptosis suppression, necrosis activation). Further investigation of waveband specific transcription employing successive 10 nm waveband exposures within the genetically responsive 500-550 nm waveband show; (a) greater numbers of genes may be transcriptionally modulated after 10 nm exposures, than observed for either 50 nm or FL exposures. (b) the 10 nm wavebands incite greater functional specificity than either 50 nm or FL exposures. (c) The principal genetic effects of FL are primarily due to the 30 nm between 500 to 530 nm. Overall design: Xiphophorus maculatus fish were exposed to 4,100K fluorescent light, 50 nm wavelength window (waveband) between 300 to 600 nm wavelength region, or 10 nm waveband between 500 and 550 nm wavelength region. Gene expression were profiled by mRNA-Seq following exposure to each type of light exposre and were compared to the baseline gene expression (i.e., no light exposure)</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>8083</TAXON_ID>
+               <SCIENTIFIC_NAME>Xiphophorus maculatus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA72613"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS3102503-SRS3102534</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3859951-SRX3859952,SRX3859954-SRX3859983</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR6912021-SRR6912030,SRR6912032,SRR6912034-SRR6912054</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA447434&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA447434&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>447434</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-05-01</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-05-01</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+</ROOT>

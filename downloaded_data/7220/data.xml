@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT request="tax_eq(7220) AND (instrument_model=&quot;HiSeq X Ten&quot; OR instrument_model=&quot;HiSeq X Five&quot; OR instrument_model=&quot;Illumina MiSeq&quot; OR instrument_model=&quot;Illumina NovaSeq 6000&quot; OR instrument_model=&quot;Illumina Genome Analyzer&quot; OR instrument_model=&quot;Illumina Genome Analyzer II&quot; OR instrument_model=&quot;Illumina Genome Analyzer IIx&quot; OR instrument_model=&quot;Illumina HiScanSQ&quot; OR instrument_model=&quot;Illumina HiSeq 1000&quot; OR instrument_model=&quot;Illumina HiSeq 1500&quot; OR instrument_model=&quot;Illumina HiSeq 2000&quot; OR instrument_model=&quot;Illumina HiSeq 2500&quot; OR instrument_model=&quot;Illumina HiSeq 3000&quot; OR instrument_model=&quot;Illumina HiSeq 4000&quot; OR instrument_model=&quot;NextSeq 500&quot; OR instrument_model=&quot;NextSeq 550&quot; OR instrument_model=&quot;Ion Torrent Proton&quot; OR instrument_model=&quot;Ion Torrent S5&quot; OR instrument_model=&quot;Ion Torrent S5 XL&quot;)AND library_strategy=&quot;RNA-Seq&quot; AND library_source=&quot;TRANSCRIPTOMIC&quot;">
+<PROJECT accession="PRJNA242736" alias="PRJNA242736" center_name="Department of Biological Statistics and Computational Biology, Cornell University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA242736</PRIMARY_ID>
+          <SECONDARY_ID>SRP040593</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE56244</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Department of Biological Statistics and Computational Biology, Cornell University">PRJNA242736</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Small RNAs from four Drosophila melanogaster-subgroup species</NAME>
+     <TITLE>Small RNAs from four Drosophila melanogaster-subgroup species</TITLE>
+     <DESCRIPTION>Curration of small RNAs from four melanogaster-subgroup species (Drosophila simulans, Drosophila sechellia, Drosophila erecta, and Drosophila yakuba) for the purpose of non-coding RNA annotation and comparative genomics assessment. Overall design: Non-replicated small RNA samples from four melanogaster-subgroup species.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>24942624</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS582712-SRS582715</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX501655-SRX501658</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1205790-SRR1205793</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA242736&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA242736&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>242736</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-07-24</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA264407" alias="PRJNA264407" center_name="Biochemistry, Boston University School of Medicine">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA264407</PRIMARY_ID>
+          <SECONDARY_ID>SRP049103</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE62556</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Biochemistry, Boston University School of Medicine">PRJNA264407</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>The evolution of genic piRNA cluster loci expression patterns</NAME>
+     <TITLE>The evolution of genic piRNA cluster loci expression patterns</TITLE>
+     <DESCRIPTION>This study examines the conservation of Piwi-interacting RNA (piRNA) clusters that come from protein coding gene transcripts. By sequencing small RNA libraries from gonad tissues of Drosophilids and Glires we discover a diverse set of genic piRNA clusters conserved across animals. This dataset reveals new expression patterns for genic piRNA clusters and examines whether changing piRNA expression patterns correlates with sequence changes in piRNA cluster genomic sequence across a variety of animal species. Overall design: We dissected gonad tissues consisting of ovaries from wildtype adult Drosophilids (D.melanogaster, D.erecta, D.yakuba, D.virilis) and testes from wildtype pre-pubsecent and adult mouse and rats. Adult testes from rabbits were purchased from Pel-Freez Biologicals. Total or immunopreciptated RNAs were extracted from the pulvirized gonad tissues of Drosophilids and Glires. Small RNAs were purified from these samples, converted into cDNA libraries, and sequenced on an Illumina HiSeq2000.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>26588211</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS725044-SRS725068</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX737146-SRX737170</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1617561-SRR1617585</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA264407&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA264407&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>264407</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2015-11-03</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA337934" alias="PRJNA337934" center_name="Volkan, Biology, Duke University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA337934</PRIMARY_ID>
+          <SECONDARY_ID>SRP080993</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE85239</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Volkan, Biology, Duke University">PRJNA337934</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Developmental hotspots drive transcriptional variability and convergence in the Drosophila olfactory system</NAME>
+     <TITLE>Developmental hotspots drive transcriptional variability and convergence in the Drosophila olfactory system</TITLE>
+     <DESCRIPTION>The goal of this study was to identify the preponderance of developmental hotspots in the Drosophila olfactory system. Using RNASeq-derived transcriptome profiles of the developing and adult antennae for six different Drosophila species, we show that a few highly variable transcription factors may drive, likely in a combinatorial fashion, high variability in a few select olfactory receptor neuron (ORN) developmental lineages (i.e. developmental hotspots) in an otherwise mostly conserved background. Furthermore, the high variability of these few ORN lineages leads to a correspondingly high probability that they will recruited during the adaptation of the Drosophila olfactory system to specific ecological pressures, one potential example being the remarkably convergent antennal transcriptome profiles in two Drosophila species that have independently evolved the ability to specialize on specific host plants.  Overall design: mRNA profiles from antenna and antennal discs across 4 developmental time points for 6 Drosophila species</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1603634-SRS1603673</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2004067-SRX2004106</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR4003920-SRR4003959</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA337934&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA337934&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>337934</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-04-19</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-06-17</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA351835" alias="PRJNA351835" center_name="Gingeras, CSHL">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA351835</PRIMARY_ID>
+          <SECONDARY_ID>SRP092333</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE89304</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Gingeras, CSHL">PRJNA351835</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Drosophila erecta</NAME>
+     <TITLE>Drosophila erecta embryonic development RAMPAGE time series</TITLE>
+     <DESCRIPTION>Multicellular development is largely determined by transcriptional regulatory programs that orchestrate the expression of thousands of protein-coding and noncoding genes. To decipher the genomic regulatory code that specifies these programs, and to investigate globally the developmental relevance of noncoding transcription, we profiled genome-wide promoter activity throughout embryonic development in 5 Drosophila species. We show that core promoters, generally not thought to play a significant regulatory role, in fact impart broad restrictions on the developmental timing of gene expression on a genome-wide scale. We propose a hierarchical model of transcriptional regulation during development in which core promoters define broad windows of opportunity for expression, by defining a limited range of transcription factors from which they are able to receive regulatory inputs. This two-tiered mechanism globally orchestrates developmental gene expression, including noncoding transcription on a scale that defies our current understanding of ontogenesis. Indeed, noncoding transcripts are far more prevalent than ever reported before, with ~4,000 long noncoding RNAs expressed during embryogenesis. Over 1,500 are functionally conserved throughout the melanogaster subgroup, and hundreds are under strong purifying selection. Overall, this work introduces a hierarchical model for the developmental regulation of transcription, and reveals the central role of noncoding transcription in animal development. Overall design: 23 Samples of Drosophila erecta</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7220</TAXON_ID>
+               <SCIENTIFIC_NAME>Drosophila erecta</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12660"/>
+          </RELATED_PROJECT>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA351836"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1768893-SRS1768915</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2310953-SRX2310975</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR4733676-SRR4733698</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA351835&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA351835&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>351835</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-12-21</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA414017" alias="PRJNA414017" center_name="Harvard Medical School">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA414017</PRIMARY_ID>
+          <SECONDARY_ID>SRP119808</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Harvard Medical School">PRJNA414017</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <TITLE>Comparative Transcriptomics across 14 Drosophila Species Reveals Signatures of Longevity</TITLE>
+     <DESCRIPTION>Lifespan varies dramatically among species, but the biological basis is not well understood. Previous studies in model organisms revealed the importance of nutrient sensing, mTOR, NAD/sirtuins and insulin/IGF1 signaling in lifespan control. By studying life history traits and transcriptomes of 14 Drosophila species differing more than 6-fold in lifespan, we explored expression divergence and identified genes and processes that correlate with longevity. These longevity signatures suggested that longer-lived flies up-regulate fatty acid metabolism, down-regulate neuronal system development and activin signaling, and alter dynamics of RNA splicing. Interestingly, these gene expression patterns resembled those of flies under dietary restriction and several other lifespan-extending interventions, although on the individual gene level, there was no significant overlap with genes previously reported to have lifespan extension effects. We experimentally tested the lifespan regulation potential of several candidate genes and found no consistent effects, suggesting that individual genes generally do not explain the observed longevity patterns. Instead, it appears that lifespan regulation across species is modulated by complex relationships at the system level represented by global gene expression.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2584616-SRS2584627,SRS2584634,SRS2584636</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3273310-SRX3273323</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR6161773-SRR6161786</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA414017&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA414017&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>414017</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-01-02</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+</ROOT>

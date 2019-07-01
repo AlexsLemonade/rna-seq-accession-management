@@ -1,0 +1,3659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT request="tax_eq(3880) AND (instrument_model=&quot;HiSeq X Ten&quot; OR instrument_model=&quot;HiSeq X Five&quot; OR instrument_model=&quot;Illumina MiSeq&quot; OR instrument_model=&quot;Illumina NovaSeq 6000&quot; OR instrument_model=&quot;Illumina Genome Analyzer&quot; OR instrument_model=&quot;Illumina Genome Analyzer II&quot; OR instrument_model=&quot;Illumina Genome Analyzer IIx&quot; OR instrument_model=&quot;Illumina HiScanSQ&quot; OR instrument_model=&quot;Illumina HiSeq 1000&quot; OR instrument_model=&quot;Illumina HiSeq 1500&quot; OR instrument_model=&quot;Illumina HiSeq 2000&quot; OR instrument_model=&quot;Illumina HiSeq 2500&quot; OR instrument_model=&quot;Illumina HiSeq 3000&quot; OR instrument_model=&quot;Illumina HiSeq 4000&quot; OR instrument_model=&quot;NextSeq 500&quot; OR instrument_model=&quot;NextSeq 550&quot; OR instrument_model=&quot;Ion Torrent Proton&quot; OR instrument_model=&quot;Ion Torrent S5&quot; OR instrument_model=&quot;Ion Torrent S5 XL&quot;)AND library_strategy=&quot;RNA-Seq&quot; AND library_source=&quot;TRANSCRIPTOMIC&quot;">
+<PROJECT accession="PRJEB14142" alias="E-MTAB-4724" broker_name="ArrayExpress" center_name="NC State University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJEB14142</PRIMARY_ID>
+          <SECONDARY_ID>ERP015760</SECONDARY_ID>
+          <SUBMITTER_ID namespace="NC State University">E-MTAB-4724</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Longitudinal and Diurnal Experiments of M. hapla and M. truncatula</NAME>
+     <TITLE>Longitudinal and Diurnal Experiments of M. hapla and M. truncatula</TITLE>
+     <DESCRIPTION>We have infected the model legume Medicago truncatula with Meloidogyne hapla and harvested tissue over a time course.  Transcriptome sequencing was performed on each sample using the Illumina RNA-Seq method.  [Longitudinal Experiment] RNA was isolated from M. hapla eggs and pre-penetration juveniles (J2)  and also from a time course of M. truncatula infected with M. hapla J2 at five time points: 1, 2, 4, 5, and 7 days after inoculation (DAI).  Roots (local) and shoots (global) tissues from infected and uninfected plants were sampled.  Each sample was loaded on five lanes for sequencing.  Collectively, 22 samples were generated in total from - M. hapla egg and J2 (two samples),  - infected M. truncatula root 1-2-4-5-7 DAI (five samples),  - infected M. truncatula shoot 1-2-4-5-7 DAI (five samples),  - uninfected M. truncatula root 1-2-4-5-7 DAI (five samples),  - and uninfected M. truncatula shoot 1-2-4-5-7 DAI (five samples).  Thus, 110 fastq files (= 22 samples x 5 lanes).  [Diunrnal Experiment] M. truncatula roots inoculated with M. hapla was sampled at 6 time-points: 22:30, 2:00, 5:00, 6:30, 14:00, and 21:00.  Lighting was turned off at 22:00 and turned on at 06:00.  Four biological replicates were taken for each time point, providing 24 samples in total.  Thus, 24 fastq files (= 6 time points x 4 replicates).</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <URL_LINK>
+                    <URL>http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-4724</URL>
+                    <LABEL>E-MTAB-4724 in ArrayExpress</LABEL>
+               </URL_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA625422</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS1174763-ERS1174808</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX1492303-ERX1492348</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR1421633-ERR1421766</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB14142&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB14142&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-07-29</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2016-05-23</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJEB23399" alias="E-MTAB-3007_2" broker_name="ArrayExpress" center_name="Wageningen University, Laboratory of Molecular Biology">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJEB23399</PRIMARY_ID>
+          <SECONDARY_ID>ERP105151</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Wageningen University, Laboratory of Molecular Biology">E-MTAB-3007_2</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>CK dependent Rhizobium LCO induced signalling in Medicago truncatula</NAME>
+     <TITLE>CK dependent Rhizobium LCO induced signalling in Medicago truncatula</TITLE>
+     <DESCRIPTION>RNAseq analysis of Medicago truncatula WT and Mtcre1 3h post rhizobium LCO application 4 sample with 3 biological replicates each, sequenced in both directions</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <URL_LINK>
+                    <URL>http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-3007</URL>
+                    <LABEL>E-MTAB-3007 in ArrayExpress</LABEL>
+               </URL_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA1131599</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS2000956-ERS2000967</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX2249183-ERX2249194</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR2193160-ERR2193171</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB23399&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB23399&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-11-10</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2017-11-09</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJEB9179" alias="E-MTAB-3532" broker_name="ArrayExpress" center_name="Department of Plant Biotechnology and Bioinformatics, Ghent University, Gent, Belgium Department of Plant Systems Biology,VIB, Gent, Belgium">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJEB9179</PRIMARY_ID>
+          <SECONDARY_ID>ERP010262</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Department of Plant Biotechnology and Bioinformatics, Ghent University, Gent, Belgium Department of Plant Systems Biology,VIB, Gent, Belgium">E-MTAB-3532</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>TSAR1 and TSAR2 activate triterpene saponin production in Medicago truncatula</NAME>
+     <TITLE>TSAR1 and TSAR2 activate triterpene saponin production in Medicago truncatula</TITLE>
+     <DESCRIPTION>We identified two novel transcription factors ‘Triterpene Saponin Activation Regulator’ (TSAR) 1 and 2 that each activate a specific branch of saponin synthesis in M. truncatula. Therefore we generated three independent TSAR1 and three independent TSAR2 overexpression (OE) hairy root lines. As a control we raised three independent hairy root lines expressing a non-functional GUS gene.  By qRT-PCR analyses and metabolite profiling of these lines, we found that TSAR1 OE leads to accumulation of non-haemolytic saponins whereas TSAR2 instigates accumulation of haemolytic saponins. To identify additional targets of TSAR1 and TSAR2 we carried out a genome-wide transcript profiling study by RNA-Seq.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <URL_LINK>
+                    <URL>http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-3532</URL>
+                    <LABEL>E-MTAB-3532 in ArrayExpress</LABEL>
+               </URL_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA433848</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS713352-ERS713360</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX945120-ERX945128</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR865492-ERR865500</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB9179&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB9179&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2015-11-30</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2016-05-20</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA142331" alias="PRJNA142331" center_name="Bioinformatics Core, Luxembourg Centre for Systems Biomedicine, University of Luxembourg">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA142331</PRIMARY_ID>
+          <SECONDARY_ID>SRP004969</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE26216</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Bioinformatics Core, Luxembourg Centre for Systems Biomedicine, University of Luxembourg">PRJNA142331</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Medicago truncatula</NAME>
+     <TITLE>Small RNA sequencing in Medicago truncatula roots (Glomus intraradices colonized and non-colonized)</TITLE>
+     <DESCRIPTION>Identification of microRNA expressed in M. truncatula roots Overall design: Small RNA sequencing of mycorrhizal and non-mycorrhiza M. truncatula roots</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3880</TAXON_ID>
+               <SCIENTIFIC_NAME>Medicago truncatula</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA134973"/>
+          </RELATED_PROJECT>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA9508"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS150821-SRS150822</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX036737-SRX036738</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR088874-SRR088875</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA142331&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA142331&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>142331</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-05-31</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-05-19</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA142333" alias="PRJNA142333" center_name="Bioinformatics Core, Luxembourg Centre for Systems Biomedicine, University of Luxembourg">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA142333</PRIMARY_ID>
+          <SECONDARY_ID>SRP004970</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE26217</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Bioinformatics Core, Luxembourg Centre for Systems Biomedicine, University of Luxembourg">PRJNA142333</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Medicago truncatula</NAME>
+     <TITLE>Degradome sequencing in Medicago truncatula roots (Glomus intraradices colonized and non-colonized)</TITLE>
+     <DESCRIPTION>Identification of microRNA targets in M. truncatula roots Overall design: Degradome sequencing of mycorrhizal and non-mycorrhiza M. truncatula roots</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3880</TAXON_ID>
+               <SCIENTIFIC_NAME>Medicago truncatula</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA134973"/>
+          </RELATED_PROJECT>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA9508"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS150823-SRS150824</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX036739-SRX036740</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR088877-SRR088878</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA142333&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA142333&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>142333</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-05-31</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-05-19</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA146213" alias="PRJNA146213" center_name="Meyers lab, Donald Danforth Plant Science Center">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA146213</PRIMARY_ID>
+          <SECONDARY_ID>SRP007610</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE31061</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Meyers lab, Donald Danforth Plant Science Center">PRJNA146213</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>miRNAs target conserved motifs of diverse genes encoding NB-LRRs to trigger trans-acting siRNAs in legumes.</NAME>
+     <TITLE>miRNAs target conserved motifs of diverse genes encoding NB-LRRs to trigger trans-acting siRNAs in legumes.</TITLE>
+     <DESCRIPTION>Trans-acting siRNAs (tasiRNAs) negatively regulate target transcripts and are characterized by siRNAs spaced in 21-nucleotide 'phased' intervals. TasiRNAs have not been extensively described in many plant species. We identified dozens of new miRNAs in Medicago and soybean and confirmed 119 Medicago targets. A search for phased tasiRNA-like small RNAs ('phasiRNAs') found at least 114 Medicago loci, the majority of which were NB-LRR encoding genes. Notably, conserved domains in NB-LRR-encoding RNAs are targeted by several 22-nt miRNA families to trigger phasiRNA production. DCL2 and SGS3 transcripts were also cleaved by these 22-nt miRNAs, generating phased small RNAs, suggesting synchronization between silencing and pathogen defense pathways. A second example of 'two-hit' phasiRNA processing was identified, utilizing miR156-miR172 sites. Our data illustrate a complex tasiRNA-mediated regulatory circuit that potentially modulates plant-microbe interactions. A few miRNA triggers regulate an extremely large gene family by targeting highly conserved protein motif-encoding sequences, representing a new paradigm for miRNA function. Overall design: Examination of different tissue types in legumes (Medicago, soybean, common bean, peanut) by high throughput sequencing for small RNA profiling</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS254692-SRS254707</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX087133-SRX087148</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR324689-SRR324704</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA146213&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA146213&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>146213</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-05-31</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-05-17</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA167982" alias="PRJNA167982" center_name="Università di Verona - Functional Genomics Centre">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA167982</PRIMARY_ID>
+          <SECONDARY_ID>SRP013555</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Università di Verona - Functional Genomics Centre">PRJNA167982</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Medicago truncatula cultivar:Jemalong</NAME>
+     <TITLE>Medicago truncatula cultivar:Jemalong Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>Expression analysis of MtTdp1 depleted plants</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3880</TAXON_ID>
+               <SCIENTIFIC_NAME>Medicago truncatula</SCIENTIFIC_NAME>
+               <CULTIVAR>Jemalong</CULTIVAR>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA9508"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS344226-SRS344231</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX151632-SRX151637</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR504352-SRR504357</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA167982&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA167982&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>167982</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-05-31</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA170846" alias="PRJNA170846" center_name="LIPM, Plant Health and the Environment, INRA/CNRS">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA170846</PRIMARY_ID>
+          <SECONDARY_ID>SRP014441</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE39421</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="LIPM, Plant Health and the Environment, INRA/CNRS">PRJNA170846</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Medicago truncatula</NAME>
+     <TITLE>small RNA sequencing of the M.truncatula rdr6.1 mutant</TITLE>
+     <DESCRIPTION>The rdr6.1 missense allele was found by TILLING in EMS mutagenized plants of Medicago truncatula. To analyse the impact of this point mutation on small RNA populations, we sequenced small RNA from two sibling lines carrying the mutation and the corresponding wild-type plants. Overall design: libraries from two sibling lines carrying the rdr6.1 mutation and the corresponding wild-type plants</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3880</TAXON_ID>
+               <SCIENTIFIC_NAME>Medicago truncatula</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA9508"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS350612-SRS350615</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX160456-SRX160459</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR522480-SRR522483</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA170846&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA170846&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>170846</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-05-31</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-05-19</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA188381" alias="PRJNA188381" center_name="University of Wisconsin-Madison">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA188381</PRIMARY_ID>
+          <SECONDARY_ID>SRP018396</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of Wisconsin-Madison">PRJNA188381</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Medicago truncatula strain:Jemalong A17/J5</NAME>
+     <TITLE>Medicago truncatula strain:Jemalong A17/J5 Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>This experiment was part of a larger study to elucidate the early effects of Nod factor treatment on the Medicago truncatula phosphoproteome, transcriptome and metabolome in wildtype and two mutant strains. In this experiment, RNA-Seq was used to measure transcriptional changes in plant roots treated +/- Nod factors for 1 hr. RNA was extracted and sequenced from three biological replicates of each treatment condition in wildtype as well as mutants in nfp and dmi3, two genes known to be involved in the response pathway.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3880</TAXON_ID>
+               <SCIENTIFIC_NAME>Medicago truncatula</SCIENTIFIC_NAME>
+               <STRAIN>Jemalong A17/J5</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA9508"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>22683509</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>22774004</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS390495-SRS390507,SRS390511-SRS390512,SRS390515,SRS390517,SRS390519</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX224753-SRX224765,SRX224778-SRX224779,SRX224786,SRX224790,SRX224795</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR670345-SRR670358,SRR670383,SRR670400,SRR670403-SRR670404</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA188381&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA188381&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>188381</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-05-31</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA196134" alias="PRJNA196134" center_name="Australian National University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA196134</PRIMARY_ID>
+          <SECONDARY_ID>SRP020488</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE45726</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Australian National University">PRJNA196134</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Medicago truncatula</NAME>
+     <TITLE>microRNA profiling of root tissues and root forming explant cultures in Medicago truncatula</TITLE>
+     <DESCRIPTION>To identify key miRNAs involved in root meristem formation in M. truncatula, deep sequencing was used to compare the miRNA populations dreived from four tissues. These were; root tip tissue, containing the root apical meristem, elongation zone tissue, root forming callus tissue and non-root forming callus tissue. We identified 83 previously reported miRNAs, 24 new to M. truncatula, in 44 families. For the first time in M. truncatula, members of conserved miRNA families mir165, miR181 and miR397 were found. Bioinformatic analysis identified 38 potential novel miRNAs. Many miRNAs were differentially expressed between tissues, particularly RFC and NRFC. Overall design: Examination and comparison of the microRNA population of four Medicago truncatula tissue types</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3880</TAXON_ID>
+               <SCIENTIFIC_NAME>Medicago truncatula</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA9508"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS406744-SRS406747</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX258980-SRX258983</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR804912-SRR804915</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA196134&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA196134&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>196134</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-05-31</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-05-19</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA213313" alias="PRJNA213313" center_name="LIPM, Plant Health and the Environment, INRA/CNRS">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA213313</PRIMARY_ID>
+          <SECONDARY_ID>SRP028249</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE49226</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="LIPM, Plant Health and the Environment, INRA/CNRS">PRJNA213313</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Medicago truncatula</NAME>
+     <TITLE>The small RNA diversity from Medicago truncatula roots under biotic interactions evidences the environmental plasticity of the miRNAome</TITLE>
+     <DESCRIPTION>Plants show a remarkable plasticity to adapt their root architecture to biotic and abiotic constraints of the soil environment. Although some of these modifications are fine-tuned by miRNAs, there are still shadow zones in these regulations. In the model legume Medicago truncatula, we analyzed the small RNA (smRNA) transcriptome of roots submitted to symbiotic and pathogenic interactions. Mapping on the genome and prediction of pre-miRNA hairpins allowed the identification of 416 candidates. Out of them, we found known and novel variants of 77 miRNA families, already reported in miRBase. In addition, thanks stringent criteria of miRNA prediction, 53 mtr-miRNAs were discovered, including 27 putative miRtrons. Exploring polymorphism in 26 M. truncatula ecotypes, higher polymorphism was observed in conserved rather than legume-specific miRNA genes. An average of 19 targets, mainly involved in environmental responses and signaling, was predicted per novel miRNA. In addition, taking advantage of our large number of smRNA libraries, we identified sets of miRNAs responsive to root pathogens or to symbiotic interactions and the related Nod and myc-LCO signals. Overall design: 23 libraries of small RNA (smRNA) of roots submitted to symbiotic and pathogenic interactions.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3880</TAXON_ID>
+               <SCIENTIFIC_NAME>Medicago truncatula</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA9508"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>25248950</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS464184-SRS464199,SRS464201-SRS464207</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX327823-SRX327845</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR943034-SRR943057</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA213313&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA213313&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>213313</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-08-17</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA213402" alias="PRJNA213402" center_name="INRA">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA213402</PRIMARY_ID>
+          <SECONDARY_ID>SRP028599</SECONDARY_ID>
+          <SUBMITTER_ID namespace="INRA">PRJNA213402</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <TITLE>An integrated analysis of plant and bacterial gene expression in symbiotic root nodules in Medicago truncatula</TITLE>
+     <DESCRIPTION>An integrated analysis of plant and bacterial gene expression in symbiotic root nodules in Medicago truncatula by laser capture microdissection coupled to RNA-seq Transcriptome or Gene expression</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS468108-SRS468129,SRS468131-SRS468154</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX332683-SRX332688,SRX332690-SRX332729</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR949227-SRR949269,SRR949598-SRR949600</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA213402&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA213402&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>213402</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-01-08</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA252090" alias="PRJNA252090" center_name="CNRS">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA252090</PRIMARY_ID>
+          <SECONDARY_ID>SRP043103</SECONDARY_ID>
+          <SUBMITTER_ID namespace="CNRS">PRJNA252090</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Medicago truncatula strain:jemalong A17</NAME>
+     <TITLE>Medicago truncatula Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>M. truncatula wild type (A17), dmi3-1 and nsp1-1 mutants were analysed after 2+4h treatment with sulphated (S) and non sulphated (NS) Myc-LCOs</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3880</TAXON_ID>
+               <SCIENTIFIC_NAME>Medicago truncatula</SCIENTIFIC_NAME>
+               <STRAIN>jemalong A17</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA9508"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS640035-SRS640036,SRS640039-SRS640045</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX589474-SRX589500</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1377055-SRR1377081</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA252090&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA252090&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>252090</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-06-22</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA255840" alias="PRJNA255840" center_name="Institute of Botany, CAS">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA255840</PRIMARY_ID>
+          <SECONDARY_ID>SRP044696</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Institute of Botany, CAS">PRJNA255840</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Medicago truncatula</NAME>
+     <TITLE>Medicago truncatula Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>To identify sequences expressed in different conditions</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3880</TAXON_ID>
+               <SCIENTIFIC_NAME>Medicago truncatula</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA9508"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS664703</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX658552,SRX1029320-SRX1029324,SRX2988236-SRX2988237</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1523070-SRR1523072,SRR1523075,SRR1523077-SRR1523078,SRR5809680-SRR5809681</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA255840&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA255840&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>255840</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-07-23</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA269201" alias="PRJNA269201" center_name="Myongji University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA269201</PRIMARY_ID>
+          <SECONDARY_ID>SRP050577</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Myongji University">PRJNA269201</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Medicago truncatula strain:A17, nfp, lyk3, skl</NAME>
+     <TITLE>Medicago truncatula strain:A17, nfp, lyk3, skl Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>Transcriptome analysis of early transcriptional changes occuring in M. truncatula roots minutes to days after innoculation with Sinorhizobium medicae</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3880</TAXON_ID>
+               <SCIENTIFIC_NAME>Medicago truncatula</SCIENTIFIC_NAME>
+               <STRAIN>A17, nfp, lyk3, skl</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA9508"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS779873</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX818647-SRX818790</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1726469-SRR1726612</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA269201&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA269201&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>269201</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-12-05</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA275656" alias="PRJNA275656" center_name="University of Southern California">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA275656</PRIMARY_ID>
+          <SECONDARY_ID>SRP089710</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of Southern California">PRJNA275656</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Medicago truncatula</NAME>
+     <TITLE>Genetic variation of transgenerational plasticity of offspring germination in response to salinity stress and the seed transcriptome of Medicago truncatula</TITLE>
+     <DESCRIPTION>Transgenerational plasticity, a form of parental environmental effects, provides phenotypic variation that plays an important role in adaptation. For plants, the timing of seed germination is critical for offspring survival in stressful environments, as germination timing can alter the environmental conditions a seedling experiences. Stored seed transcripts are important determinants of seed germination, but have not previously been linked with transgenerational plasticity of germination behavior. In order for transgenerational plasticity to play an ongoing role in adaptation, there must be genetic variation for this trait segregating within species. In this study we used RNAseq and growth chamber experiments of the model legume M. trucantula to test whether parental exposure to salinity stress influences the expression of stored seed transcripts and early offspring traits. We detected genotype-dependent parental environmental effects (transgenerational plasticity) on the expression levels of stored seed transcripts, seed size, and germination behavior of four M. truncatula genotypes. Across all genotypes, more than 50% of the transcripts detected in the mature, ungerminated seed transcriptome were annotated as regulating seed germination, some of which are involved in abiotic stress response and post-embryonic development. Gentoypes TN7.22 and TN8.22, showed increased seed size in response to parental exposure to salinity stress, but no parental environmental influence on germination timing. In contrast, genotypes TN1.13 and TN1.15 showed no seed size differences across contrasting parental conditions but displayed transgenerational plasticity for germimation timing, with significantly delayed germination in saline conditions when parental plants were exposed to salinity. We conducted a coexpression network analysis and found significant sub-networks derived from salt responsive transcripts in TN1.13 and TN1.15 that are involved in post-transcriptional regulation of the germination pathway. Consistent with the delayed germination response to saline conditions in these genotypes, we found significant clustering of correlated genes associated with dormancy and up-regulation of abscisic acid (ABA). Our results demonstrate genetic variation in transgenerational plasticity within M. truncatula and show that parental exposure to salinity stress influences the expression of stored seed transcripts, seed weight, and germination behavior. Observed transgenerational plastic responses to salinity may be adaptive as soil salinity levels decrease during the germination season, but tests of adaptation requires future studies. Furthermore, we observed that parental environmental effects were due to differential seed provisioning or seed transcript expression, suggesting that different mechanisms may play a role in germination and early seedling characters in M. truncatula. We identified potential genes/transcripts that will be the focus of future studies on salinity adaptation in M. truncatula. Our coexpression analysis suggests crosstalk between stress and dormancy pathways that influence germination timing in some genotypes within natural populations. Furthermore, we show that the parental environment influences gene expression to modulate biological pathways that are likely responsible for offspring germination responses to salinity stress.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3880</TAXON_ID>
+               <SCIENTIFIC_NAME>Medicago truncatula</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA9508"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>26943813</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS351894-SRS351917</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX170956-SRX170979</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR527282-SRR527284,SRR527286-SRR527287,SRR527289-SRR527291,SRR527293-SRR527308</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA275656&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA275656&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>275656</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2015-02-19</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-03-01</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA281222" alias="PRJNA281222" center_name="IPS2, INRA - CNRS - UPSUD">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA281222</PRIMARY_ID>
+          <SECONDARY_ID>SRP057198</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE67921</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="IPS2, INRA - CNRS - UPSUD">PRJNA281222</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Medicago truncatula</NAME>
+     <TITLE>Transcriptomic response to Nod Factor treatments on Medicago</TITLE>
+     <DESCRIPTION>NGS2013-04: Transcriptomic response to Nod Factor treatments on Medicago Role of the root hair in water and nutrient uptake and the establishment of the nitrogen-fixing symbiotic interaction with rhizobia. Overall design: The RNA was extracted from root hairs of Medicago: control vs treated by nod factors (2 biological replicates)</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3880</TAXON_ID>
+               <SCIENTIFIC_NAME>Medicago truncatula</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA9508"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>27375649</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS910647-SRS910652</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX996334-SRX996339</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1975014-SRR1975019</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA281222&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA281222&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>281222</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-10-10</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-08-06</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+Entry: PRJNA281452 display type is either not supported or entry is not found.
+<PROJECT accession="PRJNA281454" alias="PRJNA281454" center_name="Plant Science Laboratory - Joint Unit University of Toulouse/CNRS 5546, University of Toulouse/CNRS">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA281454</PRIMARY_ID>
+          <SECONDARY_ID>SRP057298</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE67911</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Plant Science Laboratory - Joint Unit University of Toulouse/CNRS 5546, University of Toulouse/CNRS">PRJNA281454</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>An ancient symbiotic fungal gene network revealed by comparative transcriptomics [Grosea_symbiotic_tissues]</NAME>
+     <TITLE>An ancient symbiotic fungal gene network revealed by comparative transcriptomics [Grosea_symbiotic_tissues]</TITLE>
+     <DESCRIPTION>Purpose: We here wanted to describe the gene regulation of Gigaspora rosea in association with phyllogenetically divergent plant hosts, and compare these results with gene regulation occuring in R. irregularis, the model arbuscular mycorrhizal fungus. Methods: mRNA from Medicago truncatula (legume), Brachypodium distachyon (grass) in association with G. rosea, and extra radical mycelium of G.rosea were sequenced by Illumina. Reads were mapped on a in-house de novo transcript assembly with the software CLC workbench. Fungal gene expression in the different host plants was compared to extra radical hyphae as reference. Results: Sets of 1891 and 1566 G. rosea genes were highly overexpressed (fold change >5 ; FDR &lt;0,05 and experimental value difference > 10) , in M. truncatula and B. distachyon respectively compared to ERM, among which 802 of them were up-regulated in both plants. Non common up-regulated genes are mainly found non statistically robust in one condition. Conclusions: Our study represents the first transcriptomic analysis on several hosts for this fungal species. These results showed that the interaction between plants and AMF is highly conserved. Overall design: Extra radical and intra radical hyphae in association with 2 phylogenetically divergent plants were produced and gene expression in the different plants were compared to gene expression in extra radical hyphae.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>26973612</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS912615-SRS912623</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX998469-SRX998477</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1979258-SRR1979266</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA281454&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA281454&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>281454</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-10-10</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA283476" alias="PRJNA283476" center_name="INRA-CNRS">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA283476</PRIMARY_ID>
+          <SECONDARY_ID>SRP058185</SECONDARY_ID>
+          <SUBMITTER_ID namespace="INRA-CNRS">PRJNA283476</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Medicago truncatula</NAME>
+     <TITLE>Medicago truncatula Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>In order to analyze very early symbiotic stages, we set up an approach based upon RNA-seq coupled to laser micro-dissection to analyze gene expression in response to Nod factors (vs. mock treatment) in root epidermis. Only the fraction of the root known to be responsive to Nod factors (about 1 cm-long) was laser-dissected.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3880</TAXON_ID>
+               <SCIENTIFIC_NAME>Medicago truncatula</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA9508"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS932826-SRS932836,SRS932838-SRS932844,SRS932846-SRS932863,SRS932865-SRS932870,SRS932872-SRS932883,SRS932885-SRS932889,SRS932891-SRS932897</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1023102-SRX1023167</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR2015965-SRR2016030</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA283476&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA283476&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>283476</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-10-10</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+Entry: PRJNA284173 display type is either not supported or entry is not found.
+<PROJECT accession="PRJNA284671" alias="PRJNA284671" center_name="China Agricultural University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA284671</PRIMARY_ID>
+          <SECONDARY_ID>SRP058622</SECONDARY_ID>
+          <SUBMITTER_ID namespace="China Agricultural University">PRJNA284671</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Medicago truncatula cultivar:R108</NAME>
+     <TITLE>Medicago truncatula cultivar:R108 Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>The different expression between wild-type and MtCBF4 overexpression transgenic plants in Medicago truncatula</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3880</TAXON_ID>
+               <SCIENTIFIC_NAME>Medicago truncatula</SCIENTIFIC_NAME>
+               <CULTIVAR>R108</CULTIVAR>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA9508"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS943720,SRS944678</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1036605,SRX1037464</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR2037203,SRR2039080</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA284671&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA284671&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>284671</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2015-05-23</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA284784" alias="PRJNA284784" center_name="China Agricultural University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA284784</PRIMARY_ID>
+          <SECONDARY_ID>SRP058657</SECONDARY_ID>
+          <SUBMITTER_ID namespace="China Agricultural University">PRJNA284784</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Medicago truncatula cultivar:R108</NAME>
+     <TITLE>Medicago truncatula cultivar:R108 Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>The different expression genes between wild-type and WRKY76 overpression transgenic plants in Medicago truncatula</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3880</TAXON_ID>
+               <SCIENTIFIC_NAME>Medicago truncatula</SCIENTIFIC_NAME>
+               <CULTIVAR>R108</CULTIVAR>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA9508"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS944701-SRS944702</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1037483-SRX1037484</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR2039087-SRR2039088</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA284784&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA284784&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>284784</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2015-07-01</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA286829" alias="PRJNA286829" center_name="Harbin Normal University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA286829</PRIMARY_ID>
+          <SECONDARY_ID>SRP059406</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Harbin Normal University">PRJNA286829</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Medicago truncatula</NAME>
+     <TITLE>Medicago truncatula Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>Transcriptomic analysis of Medicago truncatula response to abiotic stress</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3880</TAXON_ID>
+               <SCIENTIFIC_NAME>Medicago truncatula</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA9508"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS959457,SRS959489-SRS959493</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1056987-SRX1056992</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR2060975,SRR2060977-SRR2060980,SRR2060982</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA286829&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA286829&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>286829</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2015-06-19</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA301237" alias="PRJNA301237" center_name="INRA-CNRS">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA301237</PRIMARY_ID>
+          <SECONDARY_ID>SRP065884</SECONDARY_ID>
+          <SUBMITTER_ID namespace="INRA-CNRS">PRJNA301237</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Medicago truncatula strain:Jemalong A17</NAME>
+     <TITLE>Medicago truncatula strain:Jemalong A17 Raw sequence reads</TITLE>
+     <DESCRIPTION>Epigenetic mechanisms are known to regulate gene expression but no regulators have been characterized in the context of nodule development in legumes. Here, we describe DEMETER (DME) in Medicago truncatula, a gene coding for a demethylase that is required for normal symbiosome differentiation during nodule development. MtDMEis strongly upregulated in indeterminate nodules in the differentiation zone. The role of DMEduring nodule development was analyzed by using an RNA interference approach. This study showed that DMEis essential for the production of functional nitrogen fixing nodules which present improperly differentiated bacteroids. Transcriptome analysis of RNAi plants showed that MtDMEis involved in the expression of 1166 genes correlated with nodule differentiation genes such as NCR genes.Our work thus demonstrates the importance of DNA (de)methylation and epigenetic regulations for indeterminate nodule development.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3880</TAXON_ID>
+               <SCIENTIFIC_NAME>Medicago truncatula</SCIENTIFIC_NAME>
+               <STRAIN>Jemalong A17</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA9508"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1154454-SRS1154468</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1421914-SRX1421928</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR2910674-SRR2910688</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA301237&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA301237&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>301237</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2015-11-17</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA327225" alias="PRJNA327225" center_name="University of Minnesota">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA327225</PRIMARY_ID>
+          <SECONDARY_ID>SRP077692</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of Minnesota">PRJNA327225</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Medicago truncatula</NAME>
+     <TITLE>Medicago truncatula Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>Root and/or nodule tissues of four Medicago truncatula accessions were subjected to RNA-Seq. Three treatments were performed for each accession: 14 days post inoculation (dpi) using Sinorhizobium meliloti (KH46c) strain, 14 days dpi using Sinorhizobium Medicae (WSM419) strain as well as uninoculated root tissue as control. Three replications were done for each treatment.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3880</TAXON_ID>
+               <SCIENTIFIC_NAME>Medicago truncatula</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA9508"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1534050-SRS1534051,SRS1534053,SRS1534055-SRS1534057,SRS1534060-SRS1534065</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1891098-SRX1891101,SRX1891103-SRX1891106,SRX1891108-SRX1891114,SRX1891116,SRX1891118-SRX1891137</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR3735545-SRR3735546,SRR3735548-SRR3735550,SRR3735552-SRR3735556,SRR3735558-SRR3735564,SRR3735566-SRR3735571,SRR3735573-SRR3735585</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA327225&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA327225&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>327225</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-07-01</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA328180" alias="PRJNA328180" center_name="University of Miami">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA328180</PRIMARY_ID>
+          <SECONDARY_ID>SRP078249</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of Miami">PRJNA328180</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Medicago truncatula strain:JA17</NAME>
+     <TITLE>Medicago truncatula strain:JA17 Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>Study examines effects of rhizobia and mycorrhizal fungi on genome-wide expression in roots of model legume as well as the effects of rhizobia on mycorrhizal gene expression.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3880</TAXON_ID>
+               <SCIENTIFIC_NAME>Medicago truncatula</SCIENTIFIC_NAME>
+               <STRAIN>JA17</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA9508"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1553844,SRS1600003-SRS1600019,SRS1600021-SRS1600030,SRS1600032-SRS1600034</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1925176,SRX1998611-SRX1998619,SRX1998621-SRX1998629,SRX1998631-SRX1998640,SRX1998642-SRX1998644</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR3825884,SRR3997852-SRR3997867,SRR3997869-SRR3997870,SRR3997872-SRR3997880,SRR3997882-SRR3997884,SRR3997886</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA328180&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA328180&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>328180</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-04-19</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA347579" alias="PRJNA347579" center_name="University of Otago">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA347579</PRIMARY_ID>
+          <SECONDARY_ID>SRP091342</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of Otago">PRJNA347579</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <TITLE>Infiltration-RNAseq: transcriptome profiling of Agrobacterium-mediated infiltration of transcription factors to discover gene function and expression networks in plants</TITLE>
+     <DESCRIPTION>Medicago truncatula leaves were infiltrated with Agrobacterium harbouring different transcription factors (compared to control infiltrations). Agroinfiltration results in specific transcription factor-mediated gene expression profiles. Transcriptome profiling of agroinfiltration of transcription factors allows the discovery of gene function and expression networks in plants.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1736394-SRS1736399,SRS2675800-SRS2675811</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2235515-SRX2235520,SRX3379546-SRX3379557</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR4409153-SRR4409158,SRR6276892-SRR6276903</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA347579&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA347579&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>347579</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-10-12</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA369210" alias="PRJNA369210" center_name="CSIRO">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA369210</PRIMARY_ID>
+          <SECONDARY_ID>SRP098557</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE94260</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="CSIRO">PRJNA369210</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Medicago truncatula</NAME>
+     <TITLE>Ethylene signaling is important for isoflavonoid mediated resistance to Rhizoctonia solani in roots of Medicago truncatula</TITLE>
+     <DESCRIPTION>The root-infecting necrotrophic fungal pathogen Rhizoctonia solani causes significant disease to all the world’s major food crops. As a model for pathogenesis of legumes we have examined the interaction of R. solani AG8 with Medicago truncatula. RNAseq analysis of the moderately resistant M. truncatula accession A17 and highly susceptible sickle (skl) mutant (defective in ethylene sensing) identified major transcriptional reprogramming early in A17. Responses specific to A17 included components of ethylene signalling, numerous class IX ERF transcription factor family members, reactive oxygen species metabolism and consistent up-regulation of the isoflavonoid biosynthesis pathway. Mass-spectrometry revealed accumulation of the isoflavonoid related compounds liquiritigenin, formononetin, medicarpin and biochanin A in A17. Over-expression of an isoflavone synthase (IFS) in M. truncatula roots increased isoflavonoid accumulation and resistance to R. solani. Addition of exogenous medicarpin suggested this phytoalexin may be one of several isoflavonoids required to contribute to resistance to R. solani. Together these results provide evidence for the role of ethylene-mediated accumulation of isoflavonoids during defence against root pathogens in legumes. Overall design: Root tissue of moderately resistant wild type and highly susceptible mutant lines of Medicago truncatula responding to infection from Rhizoctona solani at two time points. Each time point contains mock treated and R. solani inoculated samples. All samples in triplicate, sequenced with strand specific illumina paired end RNA sequencing.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3880</TAXON_ID>
+               <SCIENTIFIC_NAME>Medicago truncatula</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA9508"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>28510484</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1948293-SRS1948316</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2527433-SRX2527456</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5217262-SRR5217285</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA369210&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA369210&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>369210</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-06-08</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA369217" alias="PRJNA369217" center_name="Ané lab, Bacteriology, University of Wisconsin-Madison">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA369217</PRIMARY_ID>
+          <SECONDARY_ID>SRP098561</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE94266</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Ané lab, Bacteriology, University of Wisconsin-Madison">PRJNA369217</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Medicago truncatula</NAME>
+     <TITLE>RNA-seq of mycorrhizal Medicago truncatula roots under K+ deprivation</TITLE>
+     <DESCRIPTION>Arbuscular mycorrhizal (AM) associations enhance the phosphorous and nitrogen nutrition of host plants, but little is known about their role in potassium (K+) nutrition. Medicago truncatula plants were co-cultured with the AM fungus Rhizophagus irregularis under high and low K+ regimes for six weeks. We determined how K+ deprivation affects plant development, mineral acquisition, and how these negative effects are tempered by the AM colonization. The transcriptional response of AM roots under K+ deficiency was analyzed by whole genome RNA-seq. K+ deprivation decreased root biomass, external K+ uptake, and modulated oxidative stress gene expression in M. truncatula roots. AM colonization induced specific transcriptional responses to K+ deprivation that seem to temper these negative effects. A gene network analysis revealed putative key regulators of these responses. This study confirmed that AM associations provide some tolerance to K+ deprivation to host plants, revealed that AM symbiosis modulates the expression of specific root genes to cope with this nutrient stress, and identified putative regulators participating in these tolerance mechanisms. Overall design: Medicago truncatula were inoculated or not with the arbuscular mycorrhizal fungus Rhizophagus irregularis and watered with a high (3.75 mM) or low (0.05 mM) potassium solution for six weeks. RNAs from three to four biological replicates composed of four plants each were sequenced.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3880</TAXON_ID>
+               <SCIENTIFIC_NAME>Medicago truncatula</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA9508"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>28159827</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1948393-SRS1948406</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2527533-SRX2527546</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5217384-SRR5217397</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA369217&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA369217&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>369217</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-04-19</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA374804" alias="PRJNA374804" center_name="John Innes Centre">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA374804</PRIMARY_ID>
+          <SECONDARY_ID>SRP099836</SECONDARY_ID>
+          <SUBMITTER_ID namespace="John Innes Centre">PRJNA374804</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Medicago truncatula</NAME>
+     <TITLE>RNA-sequencing mycorrhizal timecourse in Medicago truncatula</TITLE>
+     <DESCRIPTION>The goal was to identify mycorrhizal-induced genes that are dependent on the GRAS-domain protein RAM1.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>23122845</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1980886-SRS1980897</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2564157-SRX2564204</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5259281-SRR5259328</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA374804&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA374804&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>374804</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-06-18</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA383274" alias="PRJNA383274" center_name="China Agricultural University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA383274</PRIMARY_ID>
+          <SECONDARY_ID>SRP106216</SECONDARY_ID>
+          <SUBMITTER_ID namespace="China Agricultural University">PRJNA383274</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Medicago truncatula cultivar:R108</NAME>
+     <TITLE>Medicago truncatula cultivar:R108 Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>Global studies of MtbHLH2 regulate genes in Medicago truncatula</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3880</TAXON_ID>
+               <SCIENTIFIC_NAME>Medicago truncatula</SCIENTIFIC_NAME>
+               <CULTIVAR>R108</CULTIVAR>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA9508"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2162794,SRS2162811,SRS2162815,SRS2163171-SRS2163173,SRS2168060-SRS2168062</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2779554,SRX2779599,SRX2779610,SRX2780068-SRX2780070,SRX2786031-SRX2786033</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5499446,SRR5499639,SRR5499718,SRR5500563,SRR5500565-SRR5500566,SRR5512116-SRR5512118</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA383274&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA383274&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>383274</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-05-06</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-05-06</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA383288" alias="PRJNA383288" center_name="China Agricultural University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA383288</PRIMARY_ID>
+          <SECONDARY_ID>SRP104107</SECONDARY_ID>
+          <SUBMITTER_ID namespace="China Agricultural University">PRJNA383288</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Medicago truncatula cultivar:R108</NAME>
+     <TITLE>Regulatory module of a lipid-anchored NAC TF</TITLE>
+     <DESCRIPTION>Regulatory module of a lipid-anchored NAC TF</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3880</TAXON_ID>
+               <SCIENTIFIC_NAME>Medicago truncatula</SCIENTIFIC_NAME>
+               <CULTIVAR>R108</CULTIVAR>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA9508"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2127825,SRS2127843,SRS2131477,SRS2131480</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2741221,SRX2741240,SRX2745025,SRX2745034</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5452607,SRR5452688,SRR5456957,SRR5456966</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA383288&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA383288&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>383288</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-04-21</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-04-21</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA384626" alias="PRJNA384626" center_name="Sultan Qaboos University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA384626</PRIMARY_ID>
+          <SECONDARY_ID>SRP107970</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Sultan Qaboos University">PRJNA384626</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Medicago truncatula</NAME>
+     <TITLE>Medicago truncatula Raw sequence reads</TITLE>
+     <DESCRIPTION>Transcriptomes of M. truncatula expressed in roots under normal and salinity conditions</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>B9Z29</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+          <ORGANISM>
+               <TAXON_ID>3880</TAXON_ID>
+               <SCIENTIFIC_NAME>Medicago truncatula</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA9508"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2224314,SRS2224627</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2852457,SRX2852806</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5598339,SRR5598853</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA384626&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA384626&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>384626</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-05-30</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-05-30</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA388818" alias="PRJNA388818" center_name="Noble Research Institute">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA388818</PRIMARY_ID>
+          <SECONDARY_ID>SRP109847</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Noble Research Institute">PRJNA388818</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Medicago truncatula strain:A17</NAME>
+     <TITLE>Genome-wide Analysis of Small Signaling Peptides in Medicago truncatula with an Emphasis on Macro-nutrient Regulation of Root and Nodule Development</TITLE>
+     <DESCRIPTION><![CDATA[PI: Wolf Scheible (Noble Research Institute, LLC)</p><p>Co-PIs: Michael Udvardi and Patrick Xuechun Zhao (Noble Research Institute, LLC) and Hideki Takahashi (Michigan State University)</p><p>Key Collaborators: Michael Sussman (University of Wisconsin-Madison), Hiroo Fukuda (University of Tokyo, Japan), and Fiona McAlister (Southern Oklahoma Technology Center, Ardmore, OK)</p><p>Small signaling peptides (SSPs) emerge as an important class of regulatory molecules in plants, especially in the control of plant growth and development in response to environmental cues. Only a few of the many SSPs encoded in plant genomes have been characterized functionally in plants. In this respect, SSP-encoding genes represent some of the potentially most important "dark matter" of plant genomes. Medicago truncatula is a premier model legume species, which is closely related to the most important forage species in the USA, Medicago sativa (alfalfa), and to food legumes such as soybean and common bean. Legumes are key components of sustainable agricultural systems because they form symbioses with bacteria called rhizobia that reduce molecular nitrogen to ammonium in specialized root organs called nodules. Symbiotic nitrogen fixation provides legumes with a source of nitrogen, obviating the need for synthetic nitrogen fertilizers for these important crop species. Recently, it has become clear that SSPs can control both nodule and root development in legumes and the hunt is on for more SSPs that control important developmental traits in legumes of importance to agriculture. A priority objective of this project therefore is to identify novel SSPs that affect root and nodule development in M. truncatula, with a long-term view of using SSPs in non-transgenic approaches to improve plants for agriculture. Datasets and biological materials generated in this project will be made available through appropriate biological databases and stock centers. A database (MtSSPdb) will be developed and maintained for both project and public access to store, link and present the information on the comparative genomics of peptide-coding genes and to integrate and manage all experimental data emerging from this project. With regard to outreach and training, the project will leverage existing programs to provide research training for postdoctoral associates and graduate, undergraduate and high school students.</p><p>A multidisciplinary strategy will be implemented, including bioinformatics, chemical genomics, genetics, biochemistry, molecular and developmental biology. Activities of this project comprise a genome-wide survey of SSP-encoding genes in Medicago truncatula and the identification of macronutrient (N, P, S, and K) -responsive SSP-encoding genes from transcriptome data. A library of genome-encoded, synthetic peptides will be established as a community resource for biochemical genetics and used to screen for developmental and molecular phenotypes in M. truncatula. Constitutive overexpression lines will be produced in Arabidopsis thaliana and M. truncatula for selected SSP-encoding genes that are prioritized because they have been shown to be either strongly responsive to macronutrients (N, P, S, K), produce strong visual/molecular phenotypes when chemically synthesized peptides are exogenously applied to M. truncatula, and/or have their mature peptides predicted to be produced through posttranslational modifications that make chemical synthesis and/or exogenous application impracticable. The synthetic peptides will be further tested for their effects on root nodule development and nitrogen fixation in M. truncatula. The Medicago HAPMAP genotypes will be employed to identify genetic loci associated with natural diversity in response to bioactive peptides, and specific SSPs will also be tested for their efficacy in improving alfalfa performance in the field. Identification of a peptide receptor through genetic or chemo-proteomic approaches is another activity included in this project.</p><p>Contacts: Wolf Scheible (wrscheible@noble.org); Michael Udvardi (mudvardi@noble.org</p><p>); Patrick Xuechun Zhao (pzhao@noble.org).]]></DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>CDA50</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+          <ORGANISM>
+               <TAXON_ID>3880</TAXON_ID>
+               <SCIENTIFIC_NAME>Medicago truncatula</SCIENTIFIC_NAME>
+               <STRAIN>A17</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA9508"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>DRS041054</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2937958-SRX2938029</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5721220-SRR5721291</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA388818&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA388818&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>388818</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-03-01</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-03-01</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA391290" alias="PRJNA391290" center_name="Noble Research Institute">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA391290</PRIMARY_ID>
+          <SECONDARY_ID>SRP110041</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Noble Research Institute">PRJNA391290</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Medicago truncatula strain:A17</NAME>
+     <TITLE>Comparative transcriptomics during nutrient limitation</TITLE>
+     <DESCRIPTION>Comparative transcriptomics during macronutrient limitation. PI: Wolf Scheible (Noble Research Institute, LLC) Co-PIs: Michael Udvardi (Noble Research Institute, LLC). Comparative transcriptomics of the four plant species-&lt;/p>&lt;p>Arabidopsis, Medicago, Brachypodium and Setaria was studied to find out the conserved and species specific transcriptome responding to Phosphate limitation in root and shoot.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>CET03</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+          <ORGANISM>
+               <TAXON_ID>3880</TAXON_ID>
+               <SCIENTIFIC_NAME>Medicago truncatula</SCIENTIFIC_NAME>
+               <STRAIN>A17</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA9508"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2841708</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2943056-SRX2943070</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5732295-SRR5732309</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA391290&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA391290&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>391290</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-03-01</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-03-01</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA391316" alias="PRJNA391316" center_name="Noble Research Institute">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA391316</PRIMARY_ID>
+          <SECONDARY_ID>SRP110143</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Noble Research Institute">PRJNA391316</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Medicago truncatula strain:A17</NAME>
+     <TITLE>Comparative transcriptomics in Medicago truncatula nodule development</TITLE>
+     <DESCRIPTION><![CDATA[Contributors:</p><p>Michael Udvardi (a), Ivone Torres-Jerez (a), Rebecca Dickstein (b), Vijaykumar Veerappan (b), and Khem Kadel (b).</p><p>a. Noble Research Institute, LLC, Functional Genomics Dept.</p><p>b. University of North Texas, Department of Biological Sciences and the BioDiscovery Institute, College of Sciences]]></DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>CEV16</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+          <ORGANISM>
+               <TAXON_ID>3880</TAXON_ID>
+               <SCIENTIFIC_NAME>Medicago truncatula</SCIENTIFIC_NAME>
+               <STRAIN>A17</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA9508"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>DRS041054</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2946642-SRX2946662</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5740858-SRR5740878</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA391316&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA391316&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>391316</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-03-01</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-03-01</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA418151" alias="PRJNA418151" center_name="University of Minnesota">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA418151</PRIMARY_ID>
+          <SECONDARY_ID>SRP124849</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of Minnesota">PRJNA418151</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <TITLE>Nodule RNAseq from M. truncatula NPD knockout lines</TITLE>
+     <DESCRIPTION>A nodule-specific subset of PLAT domain proteins (NPDs) expanded to 5 members in the Medicago lineage. In order to characterize NPD gene function, a set of cumulative NPD knockout lines was generated. A two-gene knockout line npd2/4, three-gene knockout lines npd1/2/4 and npd2/4/5, and wild type M. truncatula R108 were inoculated with Ensifer meliloti strain 1021. Plants were grown in a growth chamber at 22C and with a 16 h photoperiod in conetainers arranged in a completely randomized design. Trays were watered with sterile deionized water twice a week and with Fahräeus medium lacking nitrogen once a week. Thirty days post inoculation, roots and nodules were harvested and flash-frozen in liquid nitrogen. Total RNA was extracted with a Qiagen RNeasy Plant Mini Kit and sequenced by the University of Minnesota Genomics Center.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2681204-SRS2681211</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3385742-SRX3385765</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR6283627-SRR6283650</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA418151&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA418151&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>418151</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-11-15</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA449544" alias="PRJNA449544" center_name="University of Minnesota">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA449544</PRIMARY_ID>
+          <SECONDARY_ID>SRP139359</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of Minnesota">PRJNA449544</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <TITLE>Medicago truncatula host x Ensifer interaction study</TITLE>
+     <DESCRIPTION>To explore the relationship between expression variation across Ensifer strains and the variation due to its plant host, three Medicago truncatula accessions (HM056, HM101, and HM340) were treated with two different Ensifer strains (E. meliloti KH46c and E. medicae WSM419). Treatments also included co-inoculation of Ensifer strains, no inoculation and the presence or absence of added nitrogen in the soil. Additionally, one root sample and one leaf sample from M. sativa CADL (diploid alfalfa HM342) were included in this experiment. RNA was extracted from leaf, root, and nodule tissues 32-days after planting in a greenhouse environment.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS3154796-SRS3154899</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3919818-SRX3919921</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR6979185-SRR6979288</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA449544&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA449544&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>449544</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-04-12</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-04-12</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA472400" alias="PRJNA472400" center_name="Genetics, University of Georgia">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA472400</PRIMARY_ID>
+          <SECONDARY_ID>SRP148608</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE114730</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Genetics, University of Georgia">PRJNA472400</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Epigenomics of Medicago truncatula</NAME>
+     <TITLE>Epigenomics of Medicago truncatula</TITLE>
+     <DESCRIPTION>Cytosine methylation is a base modification that is often used by genomes to store information that is stably inherited through mitotic cell divisions. Most cytosine DNA methylation is stable throughout different cell types or by exposure to different environmental conditions in plant genomes. Here, we profile the epigenomes of ~100 Medicago truncatula lines to explore the extent of natural epigenomic variation. We also use these data to determine the extent to which DNA methylation variants are linked to genetic variations. Overall design: 97 MethylC-seq, 87 RNA-seq and 89 smallRNA-seq for Medicago truancatula</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3880</TAXON_ID>
+               <SCIENTIFIC_NAME>Medicago truncatula</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA9508"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS3324673-SRS3324945</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX4109019-SRX4109291</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR7192448-SRR7192720</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA472400&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA472400&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>472400</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-05-24</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-05-24</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA473388" alias="PRJNA473388" center_name="Beijing Forestry University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA473388</PRIMARY_ID>
+          <SECONDARY_ID>SRP149110</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Beijing Forestry University">PRJNA473388</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <TITLE>RNA-Seq analysis of Medicago truncatula</TITLE>
+     <DESCRIPTION>RNA-Seq analysis of Medicago truncatula</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS3346899-SRS3346904</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX4132834-SRX4132839</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR7226322-SRR7226327</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA473388&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA473388&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>473388</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-05-30</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-05-30</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA487169" alias="PRJNA487169" center_name="Flowering Lab, School of Biological Sciences, The University of Auckland">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA487169</PRIMARY_ID>
+          <SECONDARY_ID>SRP158577</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE118893</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Flowering Lab, School of Biological Sciences, The University of Auckland">PRJNA487169</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>The transcriptomic response to a short day to long day shift in the reference legume Medicago truncatula</NAME>
+     <TITLE>The transcriptomic response to a short day to long day shift in the reference legume Medicago truncatula</TITLE>
+     <DESCRIPTION>Photoperiod regulated flowering is a well understood developmental pathway in the intensively studied Brassicaceae species Arabidopsis thaliana and in the monocot rice, but less so in other angiosperm groups. One such group, the temperate legumes in the Fabaceae family which are important both agriculturally and ecologically, accelerate their flowering in response to long-day photoperiods (LD), but lack functional homologues of key regulatory genes present in A. thaliana such as CO. Curiously previous work in the reference legume Medicago truncatula has shown that floral activator MtFTa1, which is upregulated by LD and vernalisation, does not exhibit a peak in expression at dusk like its homologue in A. thaliana FLOWERING LOCUS T, instead MtFTa1 maintains a near constant pattern of expression. In addition legumes possess for other FT-like genes such as the MtFTb genes expressed in LD which may also act in the regulation of flowering time. This study utilises RNA-Seq to identify genes which may regulate or be co-expressed with these FT-like genes in Medicago truncatula. Following a shift from short-day photoperiods to inductive long-days genes which alter their pattern of expression are distinguished from those which just alter their magnitude of expression (and those that do neither). Specifically this study focuses on the first few hours of the day in the young leaves which coincides with the first diurnal peak of the FTb genes. It goes on to categorise these genes into groups with similar patterns of expression using c-means clustering. In the process this study identifies a number of potential candidate genes for future studies to consider. Overall design: Combines two similar experiments where plants were grown in short-day photoperiods and shifted to long-day photoperiods after 10 days. Triplicate RNA-seq libraries from both short-day and long-day leaf tissue were generated in experiment 1 at ZT0 and ZT4 at 13 days. In experiment 2 at ZT4 at 15 days.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3880</TAXON_ID>
+               <SCIENTIFIC_NAME>Medicago truncatula</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA9508"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS3700710-SRS3700725,SRS3700766,SRS3700782</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX4594569-SRX4594586</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR7738211-SRR7738228</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA487169&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA487169&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>487169</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-08-23</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-08-23</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA488693" alias="PRJNA488693" center_name="Beijing Forestry University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA488693</PRIMARY_ID>
+          <SECONDARY_ID>SRP159219</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Beijing Forestry University">PRJNA488693</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <TITLE>RNA-Seq analysis of Medicago truncatula</TITLE>
+     <DESCRIPTION>Transcriptome analysis of cytokinin-response in Medicago truncatula</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS3728960-SRS3728968</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX4627665-SRX4627673</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR7772258-SRR7772266</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA488693&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA488693&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>488693</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-09-03</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-09-03</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA490370" alias="PRJNA490370" center_name="Noble Research Institute">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA490370</PRIMARY_ID>
+          <SECONDARY_ID>SRP161571</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Noble Research Institute">PRJNA490370</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Medicago truncatula cultivar:A17</NAME>
+     <TITLE>Medicago truncatula hormone treated roots</TITLE>
+     <DESCRIPTION>RNA-seq libraries were obtained from root tissues of Medicago truncatula A17 plants three days post germination. The seedlings were immersed in B&amp;amp;D full nutrient media containing the hormones at different concentrations; 1 µM IAA (Auxin), 100 nM BAP (Cytokinin), and an equal volume of the solvent control (DMSO). The seedlings were placed in the dark for three hours after which the root tips were removed and 40-60 roots per replicate were used.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3880</TAXON_ID>
+               <SCIENTIFIC_NAME>Medicago truncatula</SCIENTIFIC_NAME>
+               <CULTIVAR>A17</CULTIVAR>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA9508"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS3767942</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX4673365-SRX4673373</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR7822198-SRR7822206</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA490370&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA490370&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>490370</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-09-13</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-09-14</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA498047" alias="PRJNA498047" center_name="Ghent University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA498047</PRIMARY_ID>
+          <SECONDARY_ID>SRP166446</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Ghent University">PRJNA498047</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <TITLE>Medicago roots emitting methyl anthranilate</TITLE>
+     <DESCRIPTION>Through transcript profiling of jasmonate-treated Medicago truncatula suspension cells we identified Emission of Methyl Anthranilate (EMA) 1, a MYB transcription factor that is involved in the emission of the volatile compound methyl anthranilate when expressed in M. truncatula hairy roots, giving them a fruity scent. Here, we carried out an RNA-Seq analysis to identify regulatory and biosynthesis genes involved in this volatile emission.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS3966102-SRS3966106</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX4920766-SRX4920780</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR8093908-SRR8093922</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA498047&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA498047&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>498047</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-10-25</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-10-25</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA524006" alias="PRJNA524006" center_name="Department of Botany, Warsaw University of Life Sciences">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA524006</PRIMARY_ID>
+          <SECONDARY_ID>SRP186731</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE126986</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Department of Botany, Warsaw University of Life Sciences">PRJNA524006</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Transcriptomic changes in Medicago truncatula and Lotus japonicus root nodules during drought stress</NAME>
+     <TITLE>Transcriptomic changes in Medicago truncatula and Lotus japonicus root nodules during drought stress</TITLE>
+     <DESCRIPTION>Drought is one of the major environmental factors limiting biomass and seed yield production in agriculture. In this research we focused on plants from Fabaceae family, which have a unique ability for establishment of symbiosis with nitrogen-fixing bacteria, and are relatively susceptible to water limitation. We present the changes in nitrogenase activity and global gene expression occurring in Medicago truncatula and Lotus japonicus root nodules during water deficit. Our results prove a decrease in the efficiency of nitrogen fixation as well as extensive changes in plant and bacterial transcriptomes shortly after watering cessation. We show for the first time that not only symbiotic plant component, but also Sinorhizobium meliloti and Mesorhizobium loti bacteria residing in the root nodules of M. truncatula and L. japonicus, respectively, adjust their gene expression in response to water shortage. Although our results demonstrate that both M. truncatula and L. japonicus root nodules are susceptible to water deprivation, they indicate significant differences in plant and bacterial response to drought between tested species, which may be related to various type of root nodules formed by these species. Overall design: RNA was obtained from Medicago truncatula and Lotus japonicus non-inoculated roots (R) and root nodules either subjected to drought for two (T2) or four (T4) days, or well-watered control (T0). Two biological replicates for each sample was obtained. Each biological replicate consisted of roots or nodules harvested from 10-12 plants. RNA obtained from root nodules contained both plant and bacterial RNA. For Medicago truncatula the compatible rhizobium species is Sinorhizobium meliloti, for Lotus japonicus - Mesorhizobium loti.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS4396981-SRS4396996</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX5416227-SRX5416242</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR8617277-SRR8617340</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA524006&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA524006&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>524006</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2019-02-27</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-02-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA526801" alias="PRJNA526801" center_name="UItrecht University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA526801</PRIMARY_ID>
+          <SECONDARY_ID>SRP189439</SECONDARY_ID>
+          <SUBMITTER_ID namespace="UItrecht University">PRJNA526801</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Arabidopsis thaliana Col-0, Medicago truncatula A17 and Rhizophagus irregularis BEG21</NAME>
+     <TITLE>Molecular dialogue between arbuscular mycorrhizal fungi and the non-host plant Arabidopsis thaliana switches from initial detection to antagonism</TITLE>
+     <DESCRIPTION>• Here, we investigated the non-host-AM fungus interaction by analyzing transcriptional changes in Rhizophagus, Arabidopsis, and the host plant Medicago truncatula while growing in the same mycorrhizal network.&lt;/p>&lt;p>• In early interaction stages, Rhizophagus activated the Arabidopsis strigolactone biosynthesis genes CCD7 and CCD8, suggesting that detection of AM fungi is not completely impaired. However, in colonized Arabidopsis roots, fungal nutrient transporter genes GintPT, GintAMT2, GintMST2 and GintMST4, essential for AM symbiosis, were not activated. RNA-seq transcriptome analysis pointed to activation of costly defenses in colonized Arabidopsis roots. Moreover, Rhizophagus colonization caused a 50% reduction in shoot biomass, but also led to enhanced systemic immunity against Botrytis cinerea.&lt;/p>&lt;p>• This suggests that early signaling between AM fungi and Arabidopsis is not completely impaired and that incompatibility appears at later interaction stages. Moreover, Rhizophagus-mediated defenses coincide with reduced Arabidopsis growth, but also with systemic disease resistance, highlighting the multifunctional role of AM fungi in host and non-host interactions.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS4538245-SRS4538256</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX5576220-SRX5576231</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR8786382-SRR8786393</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA526801&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA526801&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>526801</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2019-03-15</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-03-15</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA79233" alias="PRJNA79233" center_name="Università degli Studi di Verona">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA79233</PRIMARY_ID>
+          <SECONDARY_ID>SRP009893</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Università degli Studi di Verona">PRJNA79233</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Medicago truncatula strain:Jemalong A17</NAME>
+     <TITLE>Medicago truncatula strain:Jemalong A17 Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>Medicago truncatula roots and nodules transcriptome. Medicago truncatula cv. Jemalong A17 roots, Medicago truncatula cv. Jemalong A17 roots 4 dpi with S.meliloti, Medicago truncatula cv. Jemalong A17 nodules , Medicago truncatula cv. Jemalong A17 roots 4 dpi with S.meliloti treated with CPTIO.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3880</TAXON_ID>
+               <SCIENTIFIC_NAME>Medicago truncatula</SCIENTIFIC_NAME>
+               <STRAIN>Jemalong A17</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA9508"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>23136381</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS282941-SRS282948</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX112202-SRX112209</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR391514-SRR391521</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA79233&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA79233&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>79233</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-05-31</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<STUDY accession="SRP133059" alias="MtF83_smallRNA_STUDY" center_name="LIPM-INRA-CNRS" broker_name="NCBI">
+     <IDENTIFIERS>
+          <PRIMARY_ID>SRP133059</PRIMARY_ID>
+          <SUBMITTER_ID namespace="LIPM-INRA-CNRS">MtF83_smallRNA_STUDY</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>Ralstonia solanacearum GMI1000-infected F83 root</STUDY_TITLE>
+          <STUDY_TYPE existing_study_type="Transcriptome Analysis"/>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2979047-SRS2979049</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3721327-SRX3721329</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR6748649-SRR6748651</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>SRA660341</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=SRP133059&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=SRP133059&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>50740348</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>1826652528</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-08-29</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-08-29</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+<STUDY accession="SRP133060" alias="MtSeed_smallRNA_STUDY" center_name="LIPM-INRA-CNRS" broker_name="NCBI">
+     <IDENTIFIERS>
+          <PRIMARY_ID>SRP133060</PRIMARY_ID>
+          <SUBMITTER_ID namespace="LIPM-INRA-CNRS">MtSeed_smallRNA_STUDY</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>Seed at 20 DAP</STUDY_TITLE>
+          <STUDY_TYPE existing_study_type="Transcriptome Analysis"/>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2979050-SRS2979051</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3721330-SRX3721331</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR6748652-SRR6748653</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>SRA660342</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=SRP133060&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=SRP133060&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>21969850</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>790914600</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-08-29</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-08-29</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+<STUDY accession="SRP133066" alias="MtInfLeave_smallRNA_STUDY" center_name="LIPM-INRA-CNRS" broker_name="NCBI">
+     <IDENTIFIERS>
+          <PRIMARY_ID>SRP133066</PRIMARY_ID>
+          <SUBMITTER_ID namespace="LIPM-INRA-CNRS">MtInfLeave_smallRNA_STUDY</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>Virus infected leaves</STUDY_TITLE>
+          <STUDY_TYPE existing_study_type="Transcriptome Analysis"/>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2979085</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3721362</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR6748698</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>SRA660348</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=SRP133066&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=SRP133066&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>29785194</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>1072266984</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-08-29</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-08-29</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+</ROOT>
