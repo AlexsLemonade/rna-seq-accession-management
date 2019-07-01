@@ -1,0 +1,135 @@
+---
+title: "Determine most common causes of failed accessions" 
+output:   
+  html_notebook: 
+    toc: true
+    toc_float: true
+---
+
+C. Savonen 7-1-19
+
+Background of issues: #1358 and #642 of refine.bio 
+
+### Question: What are the primary cause(s) of failure experiments failing to add to the API?
+
+- "previous_human.txt" is the full list of human accessions that have been tried to add to the API. 
+- "previous_rat.txt" is the full list of rat accessions that have been tried to add to the API. 
+
+### Objectives: 
+
+1) Obtain the list of full experiments in the API to date. 
+
+2) Cross reference (by species) the full API experiment list with the lists of all accessions that have been tried: "previous_human.txt" and "previous_rat". Accessions that are in "previous" lists but NOT in the API are our list of "failed to add to the API"
+
+3) Look for differences between "failed to add to API" and "successfully added to API". 
+A not at all comprehensive list of potential suspects: 
+* non-supported platforms
+* non-supported technologies
+* non-supported library strategies
+* non-supported libraries
+
+## Set up 
+
+```{r Set Up}
+`%>%` <- dplyr::`%>%`
+```
+
+## Obtain a full list of the experiments that are on the API
+
+Set up the data frame we will store it in. 
+Read the first page.
+
+```{r}
+# This will store the experiment info for all the api registered experiments
+all_api_experiments <- data.frame()
+
+# Read in that first page
+seq_experiments_json <- jsonlite::fromJSON("https://api.refine.bio/experiments/")
+
+# Start at page 1
+seq_counter <- 1
+```
+
+Run the loop. 
+
+```{r}
+# While there's still another page, get more experiments!
+while (!is.null(seq_experiments_json$`next`)) {
+  # Print message so we know the progress
+  message(paste0("RNA-seq experiment page ", seq_counter, "..."))
+  
+  # Skip this for the first page since we already read it in
+  if (seq_counter > 1) {
+    seq_experiments_json <- jsonlite::fromJSON(seq_experiments_json$`next`)
+  }
+  # Collecting a list with species individual
+  organism_list <- seq_experiments_json$results$organisms
+  names(organism_list) <- seq_experiments_json$results$accession_code
+  
+  # Melt into a data.frame
+  seq_api_experiments <- reshape2::melt(organism_list)
+  
+  # Add this set of experiments/organisms to the running data.frame
+  all_api_experiments <- rbind.data.frame(all_api_experiments, seq_api_experiments)
+  
+  # Go on to the next page
+  seq_counter <- seq_counter + 1 
+}
+```
+
+Set up the data.frame with appropriate column names and save to a TSV.
+
+```{r}
+# Make the column names more sensible
+colnames(all_api_experiments) <- c("organisms", "experiment_acc")
+
+# Write these experiments and their info to a file
+readr::write_tsv(all_api_experiments, file.path("api_registered_experiments.tsv"))
+```
+  
+## Read in the "previous" lists 
+  
+```{r}
+all_attempted_human_acc <- readr::read_delim("previous_human.txt", "\n", col_names = FALSE) %>%
+  dplyr::pull("X1")
+all_attempted_rat_acc  <- readr::read_delim("previous_rat.txt", "\n", col_names = FALSE) %>%
+  dplyr::pull("X1")
+```
+
+## Cross reference the API list with the attempted list
+
+Do this for human first: 
+
+```{r}
+# Extract just the human accessions
+api_human_acc <- all_api_experiments %>% 
+  dplyr::filter(organisms == "HOMO_SAPIENS") %>%
+  dplyr::pull(experiment_acc)
+
+# Failed human accessions
+failed_human <- all_attempted_human_acc[!is.na(match(all_attempted_human_acc, api_human_acc))]
+```
+
+Now rat.
+
+```{r}
+# Extract just the rat accessions
+api_rat_acc <- all_api_experiments %>% 
+  dplyr::filter(organisms == "RATTUS_NORVEGICUS") %>%
+  dplyr::pull(experiment_acc)
+
+# Failed rat accessions
+failed_rat <- all_attempted_rat_acc[!is.na(match(all_attempted_rat_acc, api_rat_acc))]
+```
+
+## Check that these lists make sense
+
+```{r}
+failed_human == 'SRP013985'
+```
+
+### Print session info
+
+```{r}
+sessionInfo()
+```
