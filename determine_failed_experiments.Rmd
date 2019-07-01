@@ -62,12 +62,11 @@ while (!is.null(seq_experiments_json$`next`)) {
   if (seq_counter > 1) {
     seq_experiments_json <- jsonlite::fromJSON(seq_experiments_json$`next`)
   }
-  # Collecting a list with species individual
-  organism_list <- seq_experiments_json$results$organisms
-  names(organism_list) <- seq_experiments_json$results$accession_code
   
   # Melt into a data.frame
-  seq_api_experiments <- reshape2::melt(organism_list)
+  seq_api_experiments <- data.frame(cbind(seq_experiments_json$results$accession_code,
+                                    seq_experiments_json$results$organisms,
+                                    seq_experiments_json$results$technologies))
   
   # Add this set of experiments/organisms to the running data.frame
   all_api_experiments <- rbind.data.frame(all_api_experiments, seq_api_experiments)
@@ -81,10 +80,10 @@ Set up the data.frame with appropriate column names and save to a TSV.
 
 ```{r}
 # Make the column names more sensible
-colnames(all_api_experiments) <- c("organisms", "experiment_acc")
+colnames(all_api_experiments) <- c("acc", "organisms", "technology")
 
 # Write these experiments and their info to a file
-readr::write_tsv(all_api_experiments, file.path("api_registered_experiments.tsv"))
+readr::write_tsv(file.path("api_registered_experiments.tsv"))
 ```
   
 ## Read in the "previous" lists 
@@ -103,8 +102,8 @@ Do this for human first:
 ```{r}
 # Extract just the human accessions
 api_human_acc <- all_api_experiments %>% 
-  dplyr::filter(organisms == "HOMO_SAPIENS") %>%
-  dplyr::pull(experiment_acc)
+  dplyr::filter(grep(organisms, "HOMO_SAPIENS")) %>%
+  dplyr::pull(acc)
 
 # Failed human accessions
 failed_human <- all_attempted_human_acc[!is.na(match(all_attempted_human_acc, api_human_acc))]
@@ -115,8 +114,8 @@ Now rat.
 ```{r}
 # Extract just the rat accessions
 api_rat_acc <- all_api_experiments %>% 
-  dplyr::filter(organisms == "RATTUS_NORVEGICUS") %>%
-  dplyr::pull(experiment_acc)
+  dplyr::filter(grep(organisms, "RATTUS_NORVEGICUS")) %>%
+  dplyr::pull(acc)
 
 # Failed rat accessions
 failed_rat <- all_attempted_rat_acc[!is.na(match(all_attempted_rat_acc, api_rat_acc))]
@@ -125,7 +124,7 @@ failed_rat <- all_attempted_rat_acc[!is.na(match(all_attempted_rat_acc, api_rat_
 ## Check that these lists make sense
 
 ```{r}
-failed_human == 'SRP013985'
+
 ```
 
 ### Print session info
