@@ -31,7 +31,7 @@ A not at all comprehensive list of potential suspects:
 ## Set up 
 
 ```{r Set Up}
-# magrittr pipe
+# Magrittr pipe
 `%>%` <- dplyr::`%>%`
 
 # Make a folder for the output here
@@ -173,7 +173,7 @@ api_human_acc <- all_api_experiments %>%
   dplyr::filter(grepl("HOMO_SAPIENS", organisms)) %>%
   dplyr::filter(grepl("RNA-SEQ", technology)) %>%
   dplyr::filter(!grepl("GSE", acc)) %>%
-  readr::write_tsv(file.path("data", "human_failed_survey_accessions.tsv"))
+  readr::write_tsv(file.path("data", "human_succeeded_survey_accessions.tsv"))
 
 # Extract just the accessions
 api_human_acc <- api_human_acc %>%
@@ -190,7 +190,8 @@ Now rat.
 api_rat_acc <- all_api_experiments %>% 
   dplyr::filter(organisms == "RATTUS_NORVEGICUS") %>%
   dplyr::filter(grepl("RNA-SEQ", technology)) %>%
-  dplyr::filter(!grepl("GSE", acc)) 
+  dplyr::filter(!grepl("GSE", acc)) %>%
+  readr::write_tsv(file.path("data", "rat_succeeded_survey_accessions.tsv"))
 
 # Extract just the accessions
 api_rat_acc <- api_rat_acc %>%
