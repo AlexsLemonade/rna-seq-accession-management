@@ -34,6 +34,27 @@ A not at all comprehensive list of potential suspects:
 `%>%` <- dplyr::`%>%`
 ```
 
+We will use this function when setting up the experiment data.
+
+```{r}
+# Make a function that collapses variable info into one row per accession
+collapse_experiment <- function(variable) {
+  # Collapses info by the experiment level so we can store one row per accession
+  # in a data.frame
+  #
+  # Args:
+  #   variable: A list formatted variable from the json read that has one list 
+  #   per accession
+  # Returns:
+  #   An unlisted variable that has collapsed each experiment's info into one 
+  #   string with comma separated values
+  collapsed_info <- lapply(variable, function(exp_info) {
+    paste0(exp_info, collapse = ",")
+  })
+  unlist(collapsed_info)
+}
+```
+
 ## Obtain a full list of the experiments that are on the API
 
 Set up the data frame we will store it in. 
@@ -63,10 +84,14 @@ while (!is.null(seq_experiments_json$`next`)) {
     seq_experiments_json <- jsonlite::fromJSON(seq_experiments_json$`next`)
   }
   
+  
   # Melt into a data.frame
-  seq_api_experiments <- data.frame(cbind(seq_experiments_json$results$accession_code,
-                                    seq_experiments_json$results$organisms,
-                                    seq_experiments_json$results$technologies))
+  seq_api_experiments <- 
+    data.frame(acc = unlist(seq_experiments_json$results$accession_code),
+               organisms = collapse_experiment(seq_experiments_json$results$organisms),
+               technology = collapse_experiment(seq_experiments_json$results$technologies),
+               platforms = collapse_experiment(seq_experiments_json$results$platforms),
+               samples = collapse_experiment(seq_experiments_json$results$processed_samples))
   
   # Add this set of experiments/organisms to the running data.frame
   all_api_experiments <- rbind.data.frame(all_api_experiments, seq_api_experiments)
