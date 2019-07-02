@@ -1,0 +1,1197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT request="tax_eq(9685) AND (instrument_model=&quot;HiSeq X Ten&quot; OR instrument_model=&quot;HiSeq X Five&quot; OR instrument_model=&quot;Illumina MiSeq&quot; OR instrument_model=&quot;Illumina NovaSeq 6000&quot; OR instrument_model=&quot;Illumina Genome Analyzer&quot; OR instrument_model=&quot;Illumina Genome Analyzer II&quot; OR instrument_model=&quot;Illumina Genome Analyzer IIx&quot; OR instrument_model=&quot;Illumina HiScanSQ&quot; OR instrument_model=&quot;Illumina HiSeq 1000&quot; OR instrument_model=&quot;Illumina HiSeq 1500&quot; OR instrument_model=&quot;Illumina HiSeq 2000&quot; OR instrument_model=&quot;Illumina HiSeq 2500&quot; OR instrument_model=&quot;Illumina HiSeq 3000&quot; OR instrument_model=&quot;Illumina HiSeq 4000&quot; OR instrument_model=&quot;NextSeq 500&quot; OR instrument_model=&quot;NextSeq 550&quot; OR instrument_model=&quot;Ion Torrent Proton&quot; OR instrument_model=&quot;Ion Torrent S5&quot; OR instrument_model=&quot;Ion Torrent S5 XL&quot;)AND library_strategy=&quot;RNA-Seq&quot; AND library_source=&quot;TRANSCRIPTOMIC&quot;">
+<PROJECT accession="PRJEB13074" alias="E-MTAB-4550" broker_name="ArrayExpress" center_name="Cambridge Institute - Cancer Research UK and University of Cambridge">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJEB13074</PRIMARY_ID>
+          <SECONDARY_ID>ERP014610</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Cambridge Institute - Cancer Research UK and University of Cambridge">E-MTAB-4550</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>RNA-Seq analysis of gene expression divergence in mammalian liver</NAME>
+     <TITLE>RNA-Seq analysis of gene expression divergence in mammalian liver</TITLE>
+     <DESCRIPTION>The connection between evolution of regulatory elements and downstream gene expression is incompletely understood in mammals. We carried out a large-scale comparison of matched ChIP-seq and RNA-seq experiments across twenty species of mammals, using liver as a model somatic tissue. Herein we report the RNA-seq dataset, comprising twenty five species of mammals. When analysed alongside our previously reported ChIP-seq experiments, these data reveal a number of insights into how mammalian regulatory evolution propagates into differences in gene expression levels. Please note that all mouse RNA-seq libraries and three out of four human libraries have been previously reported in Array Express submission E-MTAB-4052 and are thus omitted here.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <URL_LINK>
+                    <URL>http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-4550</URL>
+                    <LABEL>E-MTAB-4550 in ArrayExpress</LABEL>
+               </URL_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA582952</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS1090459-ERS1090521</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX1403285-ERX1403347</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR1331665-ERR1331727</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB13074&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB13074&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-10-12</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2016-05-20</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJEB24183" alias="ena-STUDY-ED-04-01-2018-08:51:49:903-634" center_name="University of Edinburgh">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJEB24183</PRIMARY_ID>
+          <SECONDARY_ID>ERP105992</SECONDARY_ID>
+          <SUBMITTER_ID namespace="ED">ena-STUDY-ED-04-01-2018-08:51:49:903-634</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Feline tooth resorption</NAME>
+     <TITLE>Feline tooth transcriptome changes involvement in feline tooth resorption (TR)</TITLE>
+     <DESCRIPTION>Advanced next generation sequencing approaches have started to reveal the cellular and molecular complexity of microenvironment in many tissues. As clinical archived dental samples derived from humans and animals are valuable resources in dental research, there is a necessity to maximise utility of such samples for research purposes. However, it is challenging to obtain high quality and good yield of RNA especially in mineralised tissues such as bone and teeth. We compared two methods and developed an optimised method of RNA extraction from feline teeth collected in a clinical setting and at post mortem. Tooth samples were homogenised in phenol-guanidinium solution while maintaining near-freezing temperatures and followed by solid-phase nucleic acid extraction utilising a commercially available kit. This method produced a good yield of RNA ranging from 2.0 to 12 µg of total RNA from teeth with a minimum wet weight of 100 mg. We report that this optimised protocol improved the quality of RNA based on RNA integrity numbers equivalent (RINe) from an average of 3.6 to 5.6. These RINe values were lower than those of RNA extracted from soft tissues but this limitation has been previously reported for mineralised tissues. There was no correlation found between RNA purity parameters measured by the A260:280 or A230:260 ratios and the degree of RNA degradation defined as RINe. This implies that these RNA purity indicators cannot be reliably used as parameters of RNA integrity and quality. The stability of reference gene expression varied depending on the choice of reference genes rather than the degree of RNA degradation. Furthermore, we investigated the effect of quantity and quality of RNA from feline teeth on RNA-seq results. Thirteen RNA-seq data showed similar duplication rates and high mapping rates (94 to 95%) against the feline genome regardless of RINe value. However one low yield sample with a high RINe score showed a high duplication rate and was clearly represented as an outlier on the RNA-seq multidimensional scaling plot. We concluded that the overall yield of the RNA for input into RNA-seq was more important than quality of RNA for RNA-seq quality control. These results will hopefully guide others who wish to perform RNA extractions from mineralised tissues, especially when the tissues have to be collected in a clinical setting with the restraints that impose on a study.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA1169592</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS2070412-ERS2070425</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX2286435-ERX2286462</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR2233456-ERR2233483</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB24183&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB24183&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-01-04</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-04</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJEB4969" alias="E-MTAB-2083" broker_name="ArrayExpress" center_name="University of Veterinary Medicine Vienna">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJEB4969</PRIMARY_ID>
+          <SECONDARY_ID>ERP004311</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of Veterinary Medicine Vienna">E-MTAB-2083</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>FIV host cell response</NAME>
+     <TITLE>FIV host cell response</TITLE>
+     <DESCRIPTION>Transcriptional profiling of the host cell response to feline immunodeficiency virus (FIV) infection. Feline T-cells were infected with FIV and virus-induced gene expression changes were investigated at 24 hours post infection.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <URL_LINK>
+                    <URL>http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-2083</URL>
+                    <LABEL>E-MTAB-2083 in ArrayExpress</LABEL>
+               </URL_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA266993</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS370966-ERS370973</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX344464-ERX344471</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR371789-ERR371796</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB4969&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB4969&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-02-02</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2016-05-20</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA177330" alias="PRJNA177330" center_name="TAMU">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA177330</PRIMARY_ID>
+          <SECONDARY_ID>SRP016073</SECONDARY_ID>
+          <SUBMITTER_ID namespace="TAMU">PRJNA177330</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Felis catus</NAME>
+     <TITLE>Felis catus Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>RNA-seq of testicle transcriptome.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>9685</TAXON_ID>
+               <SCIENTIFIC_NAME>Felis catus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA10703"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS367901</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX193575</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR586041</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA177330&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA177330&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>177330</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-06-18</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA184055" alias="PRJNA184055" center_name="EWHA">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA184055</PRIMARY_ID>
+          <SECONDARY_ID>SRP017611</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE43013</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="EWHA">PRJNA184055</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Gene Expression Defines Natural Changes in Mammalian Lifespan</NAME>
+     <TITLE>Gene Expression Defines Natural Changes in Mammalian Lifespan</TITLE>
+     <DESCRIPTION>Mammals differ more than hundred fold in maximum lifespan, which can be altered in either direction during evolution, but the molecular basis for natural changes in longevity is not understood. Divergent evolution of mammals also led to extensive changes in gene expression within and between lineages. To understand the relationship between lifespan and variation in gene expression, we carried out RNA-seq-based gene expression analyses of liver, kidney and brain of 33 diverse species of mammals. Our analysis uncovered parallel evolution of gene expression and lifespan, as well as the associated life history traits, and identified the processes and pathways involved. These findings provide direct insights into how Nature reversibly adjusts lifespan and other traits during adaptive radiation of lineages. Overall design: RNA-seq gene expression profiling in normal liver, kidney and brain of 33 mammalian species.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>25677554</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS380690-SRS380715,SRS380717-SRS380739,SRS380741-SRS380832</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX211576-SRX211601,SRX211603-SRX211625,SRX211627-SRX211718</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR636836-SRR636861,SRR636863-SRR636885,SRR636887-SRR636978</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA184055&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA184055&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>184055</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2015-02-19</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA200316" alias="PRJNA200316" center_name="University of Illinois">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA200316</PRIMARY_ID>
+          <SECONDARY_ID>SRP021539</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE46431</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="University of Illinois">PRJNA200316</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Felis catus</NAME>
+     <TITLE>Effect of photoperiod on feline adipose transcriptome profiles as assessed by RNA sequencing</TITLE>
+     <DESCRIPTION>Purpose: Photoperiod is known to cause physiological changes in seasonal mammals, including body weight, physical activity, and reproductive status. Because cats are seasonal breeders, we recently tested the effects of day length on resting metabolic rate, voluntary physical activity, and food intake. In that study, resting metabolic rate, physical activity, and food intake to maintain body weight were greater in cats exposed to long days vs. short days. Because photoperiod has also been demonstrated to affect adipose tissue gene expression in several species, including dairy cows, sheep, and Siberian hamsters, the objective of this study was to determine the effects of day length on the adipose transcriptome profile of cats as assessed by RNA-seq. Methods: Ten healthy adult neutered male domestic shorthair cats were used in a randomized crossover design study. During two 12-wk periods, cats were exposed to either short days (8 hr light:16 hr dark) or long days (16 hr light:8 hr dark). Cats were fed a commercial diet to maintain baseline body weight. Subcutaneous adipose biopsies were collected at wk 12 of each period for RNA isolation and Illumina sequencing. Results: A total of 578 million sequences (28.9 million/sample) were generated by Illumina sequencing. Using a raw p value of P&lt;0.005, 170 mRNA transcripts were differentially expressed between short day- and long day-housed cats. Of the 170 transcripts highlighted, 25 annotated transcripts were up-regulated, while 116 annotated transcripts were down-regulated by long days. Another 29 un-annotated transcripts (name and function not known) were also different between groups. In general, adipose tissue of long day-housed cats had greater expression of genes involved with cholesterol trafficking, fatty acid synthesis and immune function, and lower expression of genes involved with cell cycle and growth, cell development and structure, and protein processing, when compared to short day-housed cats. Overall design: Subcutaneous adipose tissue mRNA profiles of healthy adult neutered male cats exposed to short days (8 hr light: 16 hr dark) or long days (16 hr light: 8 hr dark) using Illumina sequencing.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>9685</TAXON_ID>
+               <SCIENTIFIC_NAME>Felis catus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA10703"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS416444-SRS416451,SRS416454-SRS416465</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX272130-SRX272149</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR835484-SRR835503</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA200316&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA200316&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>200316</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-01-01</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-05-19</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA251633" alias="PRJNA251633" center_name="AECOM">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA251633</PRIMARY_ID>
+          <SECONDARY_ID>SRP042944</SECONDARY_ID>
+          <SUBMITTER_ID namespace="AECOM">PRJNA251633</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Felis catus strain:domestic short hair</NAME>
+     <TITLE>Felis catus strain:domestic short hair Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>Directional Transcriptome RNAseq</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>9685</TAXON_ID>
+               <SCIENTIFIC_NAME>Felis catus</SCIENTIFIC_NAME>
+               <STRAIN>domestic short hair</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA10703"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS627271,SRS627391</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX569484,SRX569925</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1334787,SRR1334837</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA251633&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA251633&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>251633</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-06-06</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+Entry: PRJNA281478 display type is either not supported or entry is not found.
+<PROJECT accession="PRJNA296490" alias="PRJNA296490" center_name="Center for Bioinformatics &amp; Computational Biology, Ophthalmology &amp; Visual Sciences, The University of Iowa">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA296490</PRIMARY_ID>
+          <SECONDARY_ID>SRP063937</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE73263</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Center for Bioinformatics &amp; Computational Biology, Ophthalmology &amp; Visual Sciences, The University of Iowa">PRJNA296490</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Felis catus</NAME>
+     <TITLE>A Mutation in LTBP2 Causes Congenital Glaucoma in Domestic Cats (Felis catus)</TITLE>
+     <DESCRIPTION>The glaucomas are a group of diseases characterized by optic nerve damage that together represent a leading cause of blindness in the human population and in domestic animals. Here we report a mutation in LTBP2 that causes primary congenital glaucoma (PCG) in domestic cats. We identified a spontaneous form of PCG in cats and established a breeding colony segregating for PCG consistent with fully penetrant, autosomal recessive inheritance of the trait. Elevated intraocular pressure, globe enlargement and elongated ciliary processes were consistently observed in all affected cats by 8 weeks of age. Varying degrees of optic nerve damage resulted by 6 months of age. Although subtle lens zonular instability was a common feature in this cohort, pronounced ectopia lentis was identified in less than 10% of cats examined. Thus, glaucoma in this pedigree is attributed to histologically confirmed arrest in the early post-natal development of the aqueous humor outflow pathways in the anterior segment of the eyes of affected animals. Using a candidate gene approach, significant linage was established on cat chromosome B3 (LOD 18.38, q = 0.00) using tightly linked short tandem repeat (STR) loci to the candidate gene, LTBP2. A 4 base-pair insertion was identified in exon 8 of LTBP2 in affected individuals that generates a frame shift that completely alters the downstream open reading frame and eliminates functional domains. Thus, we describe the first spontaneous and highly penetrant non-rodent model of PCG, identifying a valuable animal model for primary glaucoma that closely resembles the human disease providing valuable insights into mechanisms underlying the disease and a valuable animal model for testing therapies. Overall design: Polyadenylated RNA from the iridiocorneal angles of one PCG-affected cat and one normal cat was sequenced to confirm expression of LTBP2.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>9685</TAXON_ID>
+               <SCIENTIFIC_NAME>Felis catus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA10703"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>27149523</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1076768-SRS1076769</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1268863-SRX1268864</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR2470307-SRR2470308</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA296490&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA296490&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>296490</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-10-10</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA296557" alias="PRJNA296557" center_name="Lanzhou Veterinary Research Institute, Chinese Academy of Agricultural Sciences">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA296557</PRIMARY_ID>
+          <SECONDARY_ID>SRP063963</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Lanzhou Veterinary Research Institute, Chinese Academy of Agricultural Sciences">PRJNA296557</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Felis catus</NAME>
+     <TITLE>Felis catus Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>Transcriptome analysis of cat tissues infected with T.gondii Pru strain</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>9685</TAXON_ID>
+               <SCIENTIFIC_NAME>Felis catus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA10703"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1078765</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1271494</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR2495945</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA296557&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA296557&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>296557</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-10-10</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA312519" alias="PRJNA312519" center_name="Zoetis">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA312519</PRIMARY_ID>
+          <SECONDARY_ID>SRP071078</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Zoetis">PRJNA312519</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Felis catus</NAME>
+     <TITLE>Felis catus Raw sequence reads</TITLE>
+     <DESCRIPTION>99 Lives Cat Genome Sequencing Initiative. This project proposes to sequence 99 cats to support health care for the normal household cat and fancy cat breeds too. In this experiment, RNA sequencing was performed across a variety of animals and tissues in order to improve gene annotation in the cat.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>9685</TAXON_ID>
+               <SCIENTIFIC_NAME>Felis catus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA10703"/>
+          </RELATED_PROJECT>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA308208"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1319194,SRS1319367-SRS1319381,SRS1319384-SRS1319385,SRS1319390-SRS1319391,SRS1319395,SRS1319716-SRS1319720,SRS1335428-SRS1335433</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1610301-SRX1610326,SRX1625943-SRX1625946,SRX1625948-SRX1625949</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR3200448-SRR3200473,SRR3218712,SRR3218714-SRR3218718</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA312519&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA312519&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>312519</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-02-20</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA342639" alias="PRJNA342639" center_name="University of California Davis">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA342639</PRIMARY_ID>
+          <SECONDARY_ID>SRP090125</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of California Davis">PRJNA342639</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>feline metagenome</NAME>
+     <TITLE>Transcriptome analysis of FIPV infected cats</TITLE>
+     <DESCRIPTION>To understand the mechanism underlying severe outcome of feline infectious peritonitis, gene expression profiles in FIPV infected peritoneal cells and omentum were examined.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>1899496</TAXON_ID>
+               <SCIENTIFIC_NAME>feline metagenome</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1702856-SRS1702857,SRS1826533-SRS1826534</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2384389-SRX2384423</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5063997-SRR5064031</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA342639&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA342639&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>342639</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-04-19</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA374021" alias="PRJNA374021" center_name="Biochemistry and Molecular Medicine, UC Davis School of Medicine">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA374021</PRIMARY_ID>
+          <SECONDARY_ID>SRP099203</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE94773</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Biochemistry and Molecular Medicine, UC Davis School of Medicine">PRJNA374021</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Felis catus</NAME>
+     <TITLE>Human and feline adipose-derived mesenchymal stem cells have comparable immunomodulatory functions</TITLE>
+     <DESCRIPTION>Adipose-derived mesenchymal stem cells (ASCs) are a promising cell therapy to treat inflammatory and immune-mediated diseases. Development of appropriate pre-clinical animal models is critical to determine safety and attain early efficacy data for the most promising therapeutic candidates. Naturally occurring diseases in cats already serve as valuable models to inform human clinical trials in oncologic, cardiovascular and genetic diseases. The objective of this study was to complete a comprehensive side-by-side comparison of human and feline ASCs with an emphasis on their immunomodulatory capacity and transcriptome. Similar to human ASCs, feline ASCs were highly proliferative at low passages and fit the minimal criteria of multipotent stem cells including a compatible surface protein phenotype, osteogenic capacity and normal karyotype. Like ASCs from all species, feline ASCs inhibited mitogen activated lymphocyte proliferation in vitro, with or without direct ASC-lymphocyte contact. Feline ASCs mimic human ASCs in their mediator secretion pattern including prostaglandin E2, indoleamine 2,3 dioxygenase, transforming growth factor beta and interleukin-6, all augmented by interferon gamma secretion by lymphocytes. The transcriptome of 3 unactivated feline ASC lines were highly similar. Functional analysis of the most highly expressed genes highlighted processes including: 1) the regulation of apoptosis, 2) cell adhesion, 3) response to oxidative stress, and 4) regulation of cell differentiation. Finally, feline ASCs had a similar gene expression profile to noninduced human ASCs. These data will help inform clinical trials using cats with naturally occurring diseases as surrogate models for human clinical trials in the regenerative medicine arena. Overall design: A total of 3 total RNA samples were analyzed in this study. The study included primary adipose-derived mesenchymal stem cell (MSC) cultures derived from 3 individual feline subjects: Gray Boy, Luna, and SPF2. The MSC cultures were cultured in standard tissue culture medium. At the desired density, total RNA was isolated and then submitted for RNA-sequencing analysis.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>9685</TAXON_ID>
+               <SCIENTIFIC_NAME>Felis catus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA10703"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>28320483</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1968182-SRS1968184</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2549941-SRX2549943</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5243167-SRR5243169</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA374021&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA374021&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>374021</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-04-19</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA432069" alias="PRJNA432069" center_name="Biotechnology Building rm 333, Biomedical Sciences, Cornell University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA432069</PRIMARY_ID>
+          <SECONDARY_ID>SRP131692</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE109806</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Biotechnology Building rm 333, Biomedical Sciences, Cornell University">PRJNA432069</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Transcriptome profiling of alphaherpesvirus-infected cells treated with the HIV-integrase inhibitor raltegravir reveals profound and specific alterations in host transcription.</NAME>
+     <TITLE>Transcriptome profiling of alphaherpesvirus-infected cells treated with the HIV-integrase inhibitor raltegravir reveals profound and specific alterations in host transcription.</TITLE>
+     <DESCRIPTION>Purpose: To study the effects of raltegravir treatment for corneal cells on host gene expression during FHV-1 infection and in uninfected cells. Method: For examination of effects in infected cells, corneal cells were infected with FHV-1 for 2 hours and treated with raltegravir or DMSO for 2 h. For examination of effects in uninfected cells, corneal cells were infected with FHV-1 for 2 h. Data was analyzed using a standard pipeline. Follow up of results were done with SYBR green based qPCR and functional assays where relevant. Results: In infected cells, we identifed 399 differentially expressed genes following raltegravir therapy. Many of these genes had functions as anti-angiogenic factors and in metabolic pathways. In contrast, in uninfected cells, only 27 genes were identified as differentially regulated by raltegravir, with little overlap with those modulated during infection and little shared biological functions. This indicates that raltegravir is unlikely to induce side effects in vivo. Conclusion: Our study represents the first, to our knowledge, use of RNAseq technology to study the effects of an antiviral on host gene expression during a virus infection. We conclude that such methodology will be useful in future studies to identify bystander effects of drug treatment. Overall design: RNAseq analysis of gene expression of antiviral treated, FHV-1 infected or uninfected corneal cells. For each sample, 3 independent biological replicates were performed</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>9685</TAXON_ID>
+               <SCIENTIFIC_NAME>Felis catus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA10703"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>29916804</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2893803,SRS2893805-SRS2893814,SRS2893864</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3626699-SRX3626710</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR6639047-SRR6639058</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA432069&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA432069&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>432069</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-06-15</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-09-16</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA437171" alias="PRJNA437171" center_name="Oregon State University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA437171</PRIMARY_ID>
+          <SECONDARY_ID>SRP134052</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Oregon State University">PRJNA437171</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <TITLE>Elucidating the transcriptional program of feline injection-site sarcoma using a cross-species approach</TITLE>
+     <DESCRIPTION>We report the first mRNA sequencing-based transcriptome profiling study of feline injection-site sarcoma (FISS), an aggressive iatrogenic soft-tissue malignancy. Using high-throughput short-read paired-end sequencing, we comparatively profiled FISS tumors vs. normal tissue samples as well as cultured FISS-derived cell lines vs. fibroblast-derived cells. We analyzed the mRNA-seq data to compare cancer/normal gene-level expression, identify novel FISS-specific transcripts including fusion transcripts, and identify putative somatic exonic mutations based on paired analysis of tumor and normal tissue. We compared the likelihood for genes that are differentially expressed in FISS to be orthologs of human oncogenes or tumor suppressor genes (TSGs), to the likelihood for genes that are not differentially expressed in FISS to be orthologs of human oncogenes or TSGs; this analysis showed that in FISS, there are substantial differential expression biases in feline orthologs of human oncogenes and TSGs. By averaging differential gene expression signal over ten-megabase blocks in the cat genome, we compared the FISS transcriptome to previously published patterns of somatic genomic copy number gain and loss in FISS tumors, showing substantial overlap. Finally, we compared the transcriptome profile of FISS to human and canine soft tissue sarcomas.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS3023548-SRS3023561</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3769030-SRX3769043</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR6811990-SRR6812003</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA437171&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA437171&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>437171</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2019-03-15</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-03-15</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA495843" alias="PRJNA495843" center_name="HudsonAlpha Institute for Biotechnology">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA495843</PRIMARY_ID>
+          <SECONDARY_ID>SRP166432</SECONDARY_ID>
+          <SUBMITTER_ID namespace="HudsonAlpha Institute for Biotechnology">PRJNA495843</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Felis catus</NAME>
+     <TITLE>Felis catus Raw sequence reads</TITLE>
+     <DESCRIPTION>A recessively inherited developmental abnormality was recognized in a feline colony. Affected cats have perinatal generalized tremors and are ataxic as they begin to ambulate. The animals partially compensate for motor abnormalities by 6 months of age, but develop aggression and sensory abnormalities (fly swatting and stargazing) at approximately 1.5 years of age. At necropsy, affected cats exhibit gross abnormalities including generalized microcephaly, reduced brain weight (~50% reduction in brain weight), and striking cerebral cortex gyrification deficits. These abnormalities are also apparent by MRI, including drastically decreased size of key cortical regions, including the anterior cingulate cortex.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>9685</TAXON_ID>
+               <SCIENTIFIC_NAME>Felis catus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA10703"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS3964111-SRS3964213,SRS3964215-SRS3964227,SRS3964265</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX4919421-SRX4919537</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR8092556-SRR8092672</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA495843&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA495843&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>495843</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-10-13</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-10-13</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA513333" alias="PRJNA513333" center_name="Veterinary Diagnostic Center, Veterinary Medicine, ChaingMai University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA513333</PRIMARY_ID>
+          <SECONDARY_ID>SRP176454</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE124753</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Veterinary Diagnostic Center, Veterinary Medicine, ChaingMai University">PRJNA513333</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Application a Next generation sequencing to analysis differential gene expression for CRFK cell infected by CPV isolate from LaoPDR</NAME>
+     <TITLE>Application a Next generation sequencing to analysis differential gene expression for CRFK cell infected by CPV isolate from LaoPDR</TITLE>
+     <DESCRIPTION>We use the Next generation sequencing (RNAseq) to profiling gene expression of CRFK cell.The purpose of this study are to comparison of CRFK gene expression between uninfected and infected by CPV isolated from Laos PDR Overall design: The experiment are divide in 4 isolate of CRFK cell samples, and separate in 2 group of treatment, group one are CRFK normal cell as: CO1; CO2 and CRFK cell infected by CPV as a C22;VTE034 respectively</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>9685</TAXON_ID>
+               <SCIENTIFIC_NAME>Felis catus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA10703"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS4217872-SRS4217875</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX5213840-SRX5213843</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR8404653-SRR8404656</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA513333&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA513333&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>513333</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2019-01-09</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-01-09</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+</ROOT>

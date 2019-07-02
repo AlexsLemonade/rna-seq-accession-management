@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT request="tax_eq(8010) AND (instrument_model=&quot;HiSeq X Ten&quot; OR instrument_model=&quot;HiSeq X Five&quot; OR instrument_model=&quot;Illumina MiSeq&quot; OR instrument_model=&quot;Illumina NovaSeq 6000&quot; OR instrument_model=&quot;Illumina Genome Analyzer&quot; OR instrument_model=&quot;Illumina Genome Analyzer II&quot; OR instrument_model=&quot;Illumina Genome Analyzer IIx&quot; OR instrument_model=&quot;Illumina HiScanSQ&quot; OR instrument_model=&quot;Illumina HiSeq 1000&quot; OR instrument_model=&quot;Illumina HiSeq 1500&quot; OR instrument_model=&quot;Illumina HiSeq 2000&quot; OR instrument_model=&quot;Illumina HiSeq 2500&quot; OR instrument_model=&quot;Illumina HiSeq 3000&quot; OR instrument_model=&quot;Illumina HiSeq 4000&quot; OR instrument_model=&quot;NextSeq 500&quot; OR instrument_model=&quot;NextSeq 550&quot; OR instrument_model=&quot;Ion Torrent Proton&quot; OR instrument_model=&quot;Ion Torrent S5&quot; OR instrument_model=&quot;Ion Torrent S5 XL&quot;)AND library_strategy=&quot;RNA-Seq&quot; AND library_source=&quot;TRANSCRIPTOMIC&quot;">
+<PROJECT accession="PRJNA221548" alias="PRJNA221548" center_name="University of Victoria">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA221548</PRIMARY_ID>
+          <SECONDARY_ID>SRP040114</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of Victoria">PRJNA221548</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Esox lucius</NAME>
+     <TITLE>Esox lucius Genome sequencing and assembly</TITLE>
+     <DESCRIPTION>The pike (Esox lucius) is a northern hemisphere, circumpolar, fresh water species that is typically the top predator in many lakes. It is an important northern recreational fishery. Pike are morphologically diverse and highly adaptable. Despite their wide distribution, pike populations have low levels of polymorphism and divergence, indicative of a recent common ancestor. Pike often function as sentinel species to monitor pollutants in northern waters. Mitochondrial studies have shown that Escosiformes is the closest living order to Salmoniformes. Esociformes, an old lineage with fossils dating back to 70MYA, contains 10 species (pike, muskellunge and mudminnows) of which most literature concerns pike. The genome size for pike is 1.1pg and its karyotype is 2N=50 NF=50, similar to ancestral karyotypes of many teleosts (2N=48-50, FN=48-50). This compares to the much larger Atlantic salmon karyotype of 2N=56-60, NF=74 and genome size =3.1pg. Recent studies are consistent with the pike having a pre-WGD genome and being much closer to salmon than other fish species (zebrafish, medaka, fugu or stickleback).</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>DVC14</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>MP04</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>MP05</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>MP06</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>MP07</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>MP08</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>MP09</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>MP10</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>MP11</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>MP12</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>MP13</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>MP14</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>MP15</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>MP16</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>Q659</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>WH57</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+          <ORGANISM>
+               <TAXON_ID>8010</TAXON_ID>
+               <SCIENTIFIC_NAME>Esox lucius</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA221736"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>25069045</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>12742752</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>9023104</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS576639,SRS590667,SRS590669-SRS590672,SRS590674-SRS590681,SRS884247</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX494131,SRX514235-SRX514238,SRX514240,SRX514258,SRX514263,SRX514266-SRX514271,SRX969017,SRX2162112</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1197512-SRR1197513,SRR1228710-SRR1228714,SRR1228723-SRR1228727,SRR1228729-SRR1228731,SRR1930096,SRR1931154,SRR1931733,SRR1931755,SRR1931757,SRR1931760,SRR1945106-SRR1945108,SRR4241139</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA221548&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA221548&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>221548</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-09-27</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-04-15</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA256965" alias="PRJNA256965" center_name="INRA">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA256965</PRIMARY_ID>
+          <SECONDARY_ID>SRP045141</SECONDARY_ID>
+          <SUBMITTER_ID namespace="INRA">PRJNA256965</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Esox lucius</NAME>
+     <TITLE>Esox lucius Transcriptome</TITLE>
+     <DESCRIPTION>Transcriptome analysis of 11 Northern pike tissues</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>8010</TAXON_ID>
+               <SCIENTIFIC_NAME>Esox lucius</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA221736"/>
+          </RELATED_PROJECT>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA255979"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS671905-SRS671915</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX667246-SRX667256</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1533651-SRR1533661</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA256965&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA256965&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>256965</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2015-08-18</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+</ROOT>

@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT request="tax_eq(8790) AND (instrument_model=&quot;HiSeq X Ten&quot; OR instrument_model=&quot;HiSeq X Five&quot; OR instrument_model=&quot;Illumina MiSeq&quot; OR instrument_model=&quot;Illumina NovaSeq 6000&quot; OR instrument_model=&quot;Illumina Genome Analyzer&quot; OR instrument_model=&quot;Illumina Genome Analyzer II&quot; OR instrument_model=&quot;Illumina Genome Analyzer IIx&quot; OR instrument_model=&quot;Illumina HiScanSQ&quot; OR instrument_model=&quot;Illumina HiSeq 1000&quot; OR instrument_model=&quot;Illumina HiSeq 1500&quot; OR instrument_model=&quot;Illumina HiSeq 2000&quot; OR instrument_model=&quot;Illumina HiSeq 2500&quot; OR instrument_model=&quot;Illumina HiSeq 3000&quot; OR instrument_model=&quot;Illumina HiSeq 4000&quot; OR instrument_model=&quot;NextSeq 500&quot; OR instrument_model=&quot;NextSeq 550&quot; OR instrument_model=&quot;Ion Torrent Proton&quot; OR instrument_model=&quot;Ion Torrent S5&quot; OR instrument_model=&quot;Ion Torrent S5 XL&quot;)AND library_strategy=&quot;RNA-Seq&quot; AND library_source=&quot;TRANSCRIPTOMIC&quot;">
+<PROJECT accession="PRJNA193353" alias="PRJNA193353" center_name="UC Berkeley">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA193353</PRIMARY_ID>
+          <SECONDARY_ID>SRP019802</SECONDARY_ID>
+          <SUBMITTER_ID namespace="UC Berkeley">PRJNA193353</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Dromaius novaehollandiae</NAME>
+     <TITLE>Dromaius novaehollandiae Embryonic Transcriptome</TITLE>
+     <DESCRIPTION>RNA-sequencing of emu (Dromaius novaehollandiae) male and female embryonic head/brain at 15 and 42 days of development.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>8790</TAXON_ID>
+               <SCIENTIFIC_NAME>Dromaius novaehollandiae</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA10826"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS402874-SRS402877</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX252410-SRX252413</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR787599-SRR787605</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA193353&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA193353&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>193353</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-05-31</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA311140" alias="PRJNA311140" center_name="MCRI">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA311140</PRIMARY_ID>
+          <SECONDARY_ID>SRP106587</SECONDARY_ID>
+          <SUBMITTER_ID namespace="MCRI">PRJNA311140</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Emu (Dromaius novaehollandiae) and Chicken</NAME>
+     <TITLE>Emu wing bud transcriptome</TITLE>
+     <DESCRIPTION>RNA-Seq from emu and chick embryo fore- and hindlimb buds. The purpose of this project is to investigate the mechanism of flight loss in emus.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2169983-SRS2169986,SRS2169989-SRS2169992,SRS2170003-SRS2170005,SRS2173746-SRS2173748</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2788414-SRX2788416,SRX2788419-SRX2788423,SRX2788434-SRX2788436,SRX2788438-SRX2788440</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5515042-SRR5515048,SRR5515050,SRR5518876-SRR5518881</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA311140&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA311140&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>311140</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-04-19</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA349994" alias="PRJNA349994" center_name="European Molecular Biology Laboratory">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA349994</PRIMARY_ID>
+          <SECONDARY_ID>SRP091925</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE89040</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="European Molecular Biology Laboratory">PRJNA349994</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Pervasive concerted evolution in gene expression shapes cell type transcriptomes</NAME>
+     <TITLE>Pervasive concerted evolution in gene expression shapes cell type transcriptomes</TITLE>
+     <DESCRIPTION>Complex multicellular organisms have evolved numerous cell types with many different functions. Comparative transcriptomic data yields valuable insights into cell type, tissue, and organ evolution. However, interpreting this data requires understanding how transcriptomes evolve. A particularly difficult problem is that cell type transcriptomes may not evolve independently, a key assumption of most evolutionary analyses. Non-independence of cell types can occur when cell types share regulatory mechanisms. This leads to concerted evolution in gene expression across different cell types, confounding efforts to unravel the history of cell type evolution, and identify cell type-specific patterns of expression. Here we present a statistical model to estimate the level of concerted transcriptome evolution and apply it to published and new data. The results indicate that tissues undergo pervasive concerted evolution in gene expression. Tissues related by morphology or developmental lineage exhibit higher levels of concerted evolution. Concerted evolution also causes tissues from the same species to be more similar in gene expression to each other than to homologous tissues in another species. This result may explain why some tissue transcriptomes cluster by species rather than homology. Our analysis of bird skin appendages data suggests levels of concerted evolution also varies with phylogenetic age of the tissue. Our study illustrates the importance of accounting for concerted evolution when interpreting comparative transcriptome data, and should serve as a foundation for future investigations of cell type evolution. Overall design: We sampled epidermis from 4 different tracts of developing bird skin appendages in chicken and emu embryos: feather placodes, scutate scale placodes, reticulate scale placodes, and claw placodes. In chicken we sampled two biological replicates for each skin appendages. In emu we sampled 2 biological replicates for feathers and scutate scales, and 1 biological replicate for reticulate scales and claw (due to limitations in available material).</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1755847-SRS1755860</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2263381-SRX2263394</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR4437361-SRR4437374</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA349994&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA349994&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>349994</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-10-14</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA433114" alias="PRJNA433114" center_name="Harvard University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA433114</PRIMARY_ID>
+          <SECONDARY_ID>SRP132742</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Harvard University">PRJNA433114</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Palaeognathae</NAME>
+     <TITLE>Transcriptome sequencing for genome annotation in palaeognaths</TITLE>
+     <DESCRIPTION>Transcriptome sequencing from multiple tissues from emu (Dromaius novaehollandiae) and Chilean tinamou (Nothoprocta perdicaria) to aid in genome annotation.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>30948549</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2946960-SRS2946970</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3686944-SRX3686954</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR6713504-SRR6713514</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA433114&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA433114&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>433114</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-03-01</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-04-11</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA450676" alias="PRJNA450676" center_name="Harvard University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA450676</PRIMARY_ID>
+          <SECONDARY_ID>SRP140732</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Harvard University">PRJNA450676</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <TITLE>Evolutionary dynamics of sex chromosomes of palaeognathous birds</TITLE>
+     <DESCRIPTION>Standard models of sex chromosome evolution propose that recombination suppression leads to the degeneration of the heterogametic chromosome, as is seen for the Y chromosome in mammals and the W chromosome in most birds. Unlike other birds, palaeognaths (ratites and tinamous) possess large non-degenerate regions on their sex chromosomes (PARs or pseudoautosomal regions), despite sharing the same sex determination region as neognaths (all other birds). It remains unclear why the large PARs of palaeognaths are retained over more than 100 MY of evolution, and the impact of these large PARs on sex chromosome evolution. To address this puzzle, we analysed Z chromosome evolution and gene expression across 12 palaeognaths, several of whose genomes have recently been sequenced.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS3188911-SRS3188932</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3958591-SRX3958612</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR7026348-SRR7026369</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA450676&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA450676&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>450676</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-04-19</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-04-19</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA493197" alias="PRJNA493197" center_name="European Molecular Biology Laboratory">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA493197</PRIMARY_ID>
+          <SECONDARY_ID>SRP162630</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE120493</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="European Molecular Biology Laboratory">PRJNA493197</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Subdivision of ancestral scale genetic program underlies origin of feathers and avian scutate scales</NAME>
+     <TITLE>Subdivision of ancestral scale genetic program underlies origin of feathers and avian scutate scales</TITLE>
+     <DESCRIPTION>Birds and other reptiles possess a diversity of feather and scale-like skin appendages. Feathers are commonly assumed to have originated from ancestral scales in theropod dinosaurs. However, most birds also have scaled feet, indicating birds evolved the capacity to grow both ancestral and derived morphologies. This suggests a more complex evolutionary history than a simple linear transition between feathers and scales. We set out to investigate the evolution of feathers via the comparison of transcriptomes assembled from diverse skin appendages in chicken, emu, and alligator. Our data reveal that feathers and the overlapping ‘scutate’ scales of birds share more similar gene expression to each other, and to two types of alligator scales, than they do to the tuberculate ‘reticulate’ scales on bird footpads. Accordingly, we propose a history of skin appendage diversification, in which feathers and bird scutate scales arose from ancestral archosaur body scales, whereas reticulate scales arose earlier in tetrapod evolution. We also show that many “feather-specific genes” are also expressed in alligator scales. In-situ hybridization results in feather buds suggest that these genes represent ancestral scale genes that acquired novel roles in feather morphogenesis and were repressed in bird scales. Our findings suggest that the differential reuse, in feathers, and suppression, in bird scales, of genes ancestrally expressed in archosaur scales has been a key factor in the origin of feathers – and may represent an important mechanism for the origin of evolutionary novelties. Overall design: In chicken and emu we sampled two biological replicates for epidermis from each of five skin tracts at two developmental stages (placode and morphogenesis): dorsal and femoral/flank feathers, scutate scales, reticulate scales, and claws. In chicken, we additionally sampled a single biological replicate from dermis from all 5 skin tracts at both developmental stages. In alligator we sampled two biological replicates for epidermis from 3 skin tracts at two developmental stages (placode and morphogenesis): dorsal scales, femoral scales, and claws.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS3821828-SRS3821887</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX4740497-SRX4740556</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR7904021-SRR7904080</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA493197&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA493197&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>493197</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2019-05-02</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-05-02</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+</ROOT>

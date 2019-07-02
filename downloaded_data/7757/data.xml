@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT request="tax_eq(7757) AND (instrument_model=&quot;HiSeq X Ten&quot; OR instrument_model=&quot;HiSeq X Five&quot; OR instrument_model=&quot;Illumina MiSeq&quot; OR instrument_model=&quot;Illumina NovaSeq 6000&quot; OR instrument_model=&quot;Illumina Genome Analyzer&quot; OR instrument_model=&quot;Illumina Genome Analyzer II&quot; OR instrument_model=&quot;Illumina Genome Analyzer IIx&quot; OR instrument_model=&quot;Illumina HiScanSQ&quot; OR instrument_model=&quot;Illumina HiSeq 1000&quot; OR instrument_model=&quot;Illumina HiSeq 1500&quot; OR instrument_model=&quot;Illumina HiSeq 2000&quot; OR instrument_model=&quot;Illumina HiSeq 2500&quot; OR instrument_model=&quot;Illumina HiSeq 3000&quot; OR instrument_model=&quot;Illumina HiSeq 4000&quot; OR instrument_model=&quot;NextSeq 500&quot; OR instrument_model=&quot;NextSeq 550&quot; OR instrument_model=&quot;Ion Torrent Proton&quot; OR instrument_model=&quot;Ion Torrent S5&quot; OR instrument_model=&quot;Ion Torrent S5 XL&quot;)AND library_strategy=&quot;RNA-Seq&quot; AND library_source=&quot;TRANSCRIPTOMIC&quot;">
+<PROJECT accession="PRJNA294488" alias="PRJNA294488" center_name="Institute of Molecular and Cell Biology, Biopolis, A*STAR, Singapore">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA294488</PRIMARY_ID>
+          <SECONDARY_ID>SRP063084</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Institute of Molecular and Cell Biology, Biopolis, A*STAR, Singapore">PRJNA294488</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Petromyzon marinus</NAME>
+     <TITLE>Petromyzon marinus Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>Protocadherin genes in sea lamprey.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7757</TAXON_ID>
+               <SCIENTIFIC_NAME>Petromyzon marinus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12754"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1052474,SRS1052477</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1177876,SRX1177878</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR2238808,SRR2238818</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA294488&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA294488&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>294488</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2015-11-12</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+Entry: PRJNA297221 display type is either not supported or entry is not found.
+<PROJECT accession="PRJNA306044" alias="PRJNA306044" center_name="Biology, University of Kentucky">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA306044</PRIMARY_ID>
+          <SECONDARY_ID>SRP067409</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE76037</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Biology, University of Kentucky">PRJNA306044</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Petromyzon marinus</NAME>
+     <TITLE>Gene expression analysis of developing Sea Lamprey (Petromyzon marinus)</TITLE>
+     <DESCRIPTION>This project is designed to measure changes in gene expression during sea lamprey development Overall design: RNA was extracted from sea lamprey embryos at 1, 2, 2.5, 3, 4, and 5 days post-fertilization and used to generate RNAseq data</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7757</TAXON_ID>
+               <SCIENTIFIC_NAME>Petromyzon marinus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12754"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>27288344</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1207414-SRS1207419</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1483277-SRX1483282</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR3002835-SRR3002852</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA306044&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA306044&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>306044</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-06-30</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA358429" alias="PRJNA358429" center_name="Universiy of Windsor">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA358429</PRIMARY_ID>
+          <SECONDARY_ID>SRP095493</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Universiy of Windsor">PRJNA358429</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <TITLE>Sea Lamprey transcriptomic response to copper</TITLE>
+     <DESCRIPTION>Copper is a common aquatic toxicant that is known to impair the olfactory system in fish. Sea lamprey, a species of conservation concern in its native areas of Europe and a detrimental invasive species in North America, rely on olfactory cues to migrate to natal streams and initiate spawning. Manipulating these olfactory-mediated behaviors is a critical component of the conservation and management of this species; however, anthropogenic inputs of copper to aquatic habitats have the potential to impede these efforts. To identify the transcriptomic mechanisms of copper-induced olfactory impairment we assay the whole transcriptome of olfactory tissue in lamprey exposed to environmentally relevant concentrations of copper.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1874131-SRS1874146</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2439515-SRX2439530</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5124568-SRR5124583</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA358429&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA358429&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>358429</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-06-02</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA377918" alias="PRJNA377918" center_name="Biology, University of Kentucky">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA377918</PRIMARY_ID>
+          <SECONDARY_ID>SRP101364</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE95686</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Biology, University of Kentucky">PRJNA377918</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Petromyzon marinus</NAME>
+     <TITLE>RNA-Seq analysis after spinal cord injury in lamprey reveals distinct transcriptional responses during functional recovery in spinal cord and brain</TITLE>
+     <DESCRIPTION>The lamprey is a vertebrate that, unlike mammals, achieves spontaneous recovery after spinal cord transection. Despite anatomical, physiological, and behavioral data on spinal cord regeneration in lamprey, the molecular mechanisms underlying this capacity are largely unknown. To address this, we used RNA-Seq to obtain transcriptional profiles from uninjured animals and at 10 time points ranging from 6 hours to 12 weeks post injury. Overall, 4208 (spinal cord) and 3788 (brain) transcripts are differentially expressed (DE). Complex intraspinal and supraspinal responses were induced acutely and occurred even at chronic phases of recovery. Leveraging functional data for mammalian homologs of DE genes (via Enrichr) permitted identification of enriched conserved genes and pathways. These included genes and pathways induced after mammalian peripheral nerve injury, such as those associated with regeneration, immune function, cell growth, proliferation and cell death. For example, ATF3, a transcription factor implicated in mammalian peripheral nerve regeneration, is highly expressed and enriched in lamprey spinal cord and brain after SCI. Other homologs of regeneration-associated genes that are differentially expressed after SCI include members of the WNT, HDAC, SOX, SMAD, KLF, and JUN families. This study provides the first comprehensive view of transcriptional responses during successful anatomical and functional recovery from spinal cord injury in lamprey, and reveals unexpectedly large changes in transcription in the brain, which is quite distant from the spinal lesion site. Gene expression patterns associated with functional recovery in lamprey may be useful in guiding studies aimed at modulating mammalian responses to SCI. Overall design: 22 samples were analyzed in total. RNA was extracted from uninjured animals (control brain and spinal cord tissue). There were 4-6 animals pooled per sample. Timepoints of sample collection post spinal cord injury are listed below.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7757</TAXON_ID>
+               <SCIENTIFIC_NAME>Petromyzon marinus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12754"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>29335507</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2022795-SRS2022816</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2612199-SRX2612220</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5312374-SRR5312395</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA377918&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA377918&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>377918</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-03-04</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-06-06</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA382290" alias="PRJNA382290" center_name="Shanghai Ocean University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA382290</PRIMARY_ID>
+          <SECONDARY_ID>SRP103483</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Shanghai Ocean University">PRJNA382290</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <TITLE>Sea lamprey biliary atresia research</TITLE>
+     <DESCRIPTION>In infant biliary atresia, a rare disease in newborns, patients often die within the first few years without treatment. A striking contrast is found in lampreys, a group of extant jawless vertebrates that go through developmental biliary atresia during metamorphosis. The sea lamprey (Petromyzon marinus) loses the entire biliary tree when their larvae metamorphose into parasitic juveniles. The aductular juveniles feed ferociously and grow exponentially into fecund adults without complications or liver failure that afflict patients with biliary atresia or other forms of cholestasis. The transcriptomic analysis of the sea lamprey livers at different development stages may unravel the mechanism that the sea lamprey goes through developmental biliary atresia.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2112298-SRS2112301</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2721807-SRX2721810</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5431797-SRR5431800</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA382290&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA382290&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>382290</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-04-19</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA439307" alias="PRJNA439307" center_name="Sauka-Spengler lab, University of Oxford, MRC Weatherall Institute of Molecular Medicine">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA439307</PRIMARY_ID>
+          <SECONDARY_ID>SRP136119</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE112072</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Sauka-Spengler lab, University of Oxford, MRC Weatherall Institute of Molecular Medicine">PRJNA439307</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>A genome-wide assessment of the ancestral neural crest gene regulatory network</NAME>
+     <TITLE>A genome-wide assessment of the ancestral neural crest gene regulatory network</TITLE>
+     <DESCRIPTION>The neural crest is an embryonic cell population that contributes to key vertebrate-specific features including the craniofacial skeleton and peripheral nervous system. Here we examine the transcriptional profiles and chromatin accessibility of neural crest cells in the basal sea lamprey, in order to gain insight into the ancestral state of the neural crest gene regulatory network (GRN) at the dawn of vertebrates. Transcriptome analyses reveal clusters of co-regulated genes during neural crest specification and migration that show high conservation across vertebrates for dynamic programmes like Wnt modulation during the epithelial to mesenchymal transition, but also reveal novel transcription factors and cell-adhesion molecules not previously implicated in neural crest migration. ATAC-seq analysis refines the location of known cis-regulatory elements at the Hox-α2 locus and uncovers novel cis-regulatory elements for Tfap2B and SoxE1. Moreover, cross-species deployment of lamprey elements in zebrafish reveals that the lamprey SoxE1 enhancer activity is deeply conserved, mediating homologous expression in jawed vertebrates. Together, our data provide new insight into the core elements of the GRN that are conserved to the base of the vertebrates, as well as expose elements that are unique to lampreys. Overall design: RNA-seq datasets from Tahara stage (T)18 (3 replicates), T20 (2 replicates) and T21 (3 replicates) dissected lamprey (P. marinus) dorsal neural tubes, count table generated with featureCounts, normalised count table generated with DESeq2. Dissected T20 lamprey (P. marinus) head (2 replicates) and whole embryo (2 replicates) RNA-seq datasets which have been merged. Transcriptome from dorsal neural tube, head and embryo RNA-seq datasets generated with cufflinks/cuffmerge. ATAC-seq datasets from T20 (3 replicates) and T21 (3 replicates) dissected lamprey (P. marinus) dorsal neural tubes, and T23 (3 replicates) dissected lamprey (P. marinus) heads. Consensus lamprey (P. marinus) ATAC-seq peakset, from peaks called by MACS2. ATAC-seq datasets from T20 (3 replicates) and T21 (4 replicates) dissected lamprey (L. planeri) dorsal neural tubes, and T23 (3 replicates) dissected lamprey (L. planeri) heads. Consensus lamprey (L. planeri) ATAC-seq peakset, from peaks called by MACS2.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS3074340-SRS3074367</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3825259-SRX3825286</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR6871275-SRR6871302</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA439307&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA439307&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>439307</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2019-04-02</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-04-02</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA472778" alias="PRJNA472778" center_name="University of Edinburgh">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA472778</PRIMARY_ID>
+          <SECONDARY_ID>SRP148903</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of Edinburgh">PRJNA472778</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Petromyzon marinus</NAME>
+     <TITLE>Petromyzon marinus whole brainstem RNA-Seq reads: WAY-100,135 treated and control samples</TITLE>
+     <DESCRIPTION>Petromyzon marinus whole brainstem RNA-Seq reads: WAY-100,135 treated and control samples</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7757</TAXON_ID>
+               <SCIENTIFIC_NAME>Petromyzon marinus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12754"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS3337453-SRS3337458</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX4122830-SRX4122835</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR7215907-SRR7215912</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA472778&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA472778&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>472778</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-06-06</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-06-06</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA50489" alias="PRJNA50489" center_name="Li Lab, Department of Fisheries and Wildlife, Michigan State University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA50489</PRIMARY_ID>
+          <SECONDARY_ID>SRP009480</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Li Lab, Department of Fisheries and Wildlife, Michigan State University">PRJNA50489</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Petromyzon marinus</NAME>
+     <TITLE>Petromyzon marinus genome sequencing project</TITLE>
+     <DESCRIPTION>Animal number 11 provided by Dr. Marianne Bronner-Fraser at the California Institute of Technology; source DNA available from Dr. Weiming Li (liweim@msu.edu) at the Department of Fisheries and Wildlife, Michigan State University.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>PMZ</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+          <ORGANISM>
+               <TAXON_ID>7757</TAXON_ID>
+               <SCIENTIFIC_NAME>Petromyzon marinus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12754"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS281187,SRS281244-SRS281264</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX109761-SRX109762,SRX109764-SRX109770,SRX110023-SRX110035</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR388671,SRR388684-SRR388694,SRR389301-SRR389304,SRR389306-SRR389311</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA50489&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA50489&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>50489</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-05-31</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-02-07</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<STUDY accession="SRP009181" alias="Sequencing of Petromyzon marinus testes transcriptome" center_name="Benaroya Research Institute" broker_name="NCBI">
+     <IDENTIFIERS>
+          <PRIMARY_ID>SRP009181</PRIMARY_ID>
+          <SUBMITTER_ID namespace="Benaroya Research Institute">Sequencing of Petromyzon marinus testes transcriptome</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>Sequencing of Petromyzon marinus testes transcriptome</STUDY_TITLE>
+          <STUDY_TYPE existing_study_type="Transcriptome Analysis"/>
+          <STUDY_ABSTRACT>RNAs isolated from meiotic testes of Petromyzon marinus (sea lamprey) were extracted and sequenced by on an illumina GAIIX to produce 84bp paired-end sequences.</STUDY_ABSTRACT>
+          <CENTER_PROJECT_NAME/>
+          <STUDY_DESCRIPTION/>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>pubmed</DB>
+                    <ID>22818913</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS269524</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX104180</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR369904</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>SRA047838</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=SRP009181&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=SRP009181&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>30841948</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>5181447264</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2012-09-15</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2015-06-22</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+</ROOT>

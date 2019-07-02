@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT request="tax_eq(9785) AND (instrument_model=&quot;HiSeq X Ten&quot; OR instrument_model=&quot;HiSeq X Five&quot; OR instrument_model=&quot;Illumina MiSeq&quot; OR instrument_model=&quot;Illumina NovaSeq 6000&quot; OR instrument_model=&quot;Illumina Genome Analyzer&quot; OR instrument_model=&quot;Illumina Genome Analyzer II&quot; OR instrument_model=&quot;Illumina Genome Analyzer IIx&quot; OR instrument_model=&quot;Illumina HiScanSQ&quot; OR instrument_model=&quot;Illumina HiSeq 1000&quot; OR instrument_model=&quot;Illumina HiSeq 1500&quot; OR instrument_model=&quot;Illumina HiSeq 2000&quot; OR instrument_model=&quot;Illumina HiSeq 2500&quot; OR instrument_model=&quot;Illumina HiSeq 3000&quot; OR instrument_model=&quot;Illumina HiSeq 4000&quot; OR instrument_model=&quot;NextSeq 500&quot; OR instrument_model=&quot;NextSeq 550&quot; OR instrument_model=&quot;Ion Torrent Proton&quot; OR instrument_model=&quot;Ion Torrent S5&quot; OR instrument_model=&quot;Ion Torrent S5 XL&quot;)AND library_strategy=&quot;RNA-Seq&quot; AND library_source=&quot;TRANSCRIPTOMIC&quot;">
+<PROJECT accession="PRJNA218629" alias="PRJNA218629" center_name="Univerity of Lausanne - CIG">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA218629</PRIMARY_ID>
+          <SECONDARY_ID>SRP029760</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE50747</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Univerity of Lausanne - CIG">PRJNA218629</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Origins and functional evolution of Y chromosome gene repertoires across the class Mammalia</NAME>
+     <TITLE>Origins and functional evolution of Y chromosome gene repertoires across the class Mammalia</TITLE>
+     <DESCRIPTION>We collected (Illumina) RNA-seq data (polyadenylated RNA fraction) for a number of tissue samples from common marmoset and elephant. We developed a subtraction approach based on male/female RNA-seq data, Illumina genomic data and available genomes to identify and assemble Y transcripts. For marmoset samples, we added Y coding genes and noncoding sequences to the reference genomes in order to assess their expression levels. We then mapped all RNA-seq reads with TopHat 1.4.0 and used Cufflinks 2.0.0 (all mapped reads, embedded multi-read and fragment bias correction) to calculate the FPKM (Fragments Per Kilobase of transcript per Million mapped reads) values for all genes in the genomes with our refined annotations. Overall design: Sequence and expression levels of reconstructed Y-linked genes</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>24759410</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS478444-SRS478459,SRS510108-SRS510122</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX347653-SRX347668,SRX386099-SRX386113</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR975174-SRR975189,SRR1041765-SRR1041779</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA218629&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA218629&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>218629</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-04-17</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA314981" alias="PRJNA314981" center_name="Computing Genomes for Reproductive Health, Institute for Genomic Biology, University of Illinois at Urbana Champaign">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA314981</PRIMARY_ID>
+          <SECONDARY_ID>SRP071663</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE79121</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Computing Genomes for Reproductive Health, Institute for Genomic Biology, University of Illinois at Urbana Champaign">PRJNA314981</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Expression Profiling of Term Placenta in Viviparous Mammals by RNA-Seq</NAME>
+     <TITLE>Expression Profiling of Term Placenta in Viviparous Mammals by RNA-Seq</TITLE>
+     <DESCRIPTION>The placenta is arguably the most anatomically variable organ in mammals. Understanding gene expression patterns among placentas from multiple species can illuminate the molecular basis of placenta function as well as potentially enrich our knowledge of the biology of obstetrical syndromes. We measured the expression profiles of the term placenta of multiple therian mammals using RNA-Seq. We identified multiple genes and transcripts which are differentially expressed across lineages including prolactin, relaxin, and galectins, as well as identifying the non-housekeeping genes which are core to placenta function (such as components of annexin complexes) in all species studied. Overall design: RNAseq data from term placentas of 8 species with one sample per species</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1336828,SRS1336839-SRS1336845</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1629200-SRX1629207</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR3222425-SRR3222432</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA314981&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA314981&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>314981</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-05-14</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA419061" alias="PRJNA419061" center_name="Chris Gregg Lab, Neurobiology and Anatomy, University of Utah">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA419061</PRIMARY_ID>
+          <SECONDARY_ID>SRP125259</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE107117</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Chris Gregg Lab, Neurobiology and Anatomy, University of Utah">PRJNA419061</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>DNA Damage Response in Elephant Cells</NAME>
+     <TITLE>DNA Damage Response in Elephant Cells</TITLE>
+     <DESCRIPTION>The identity of most functional elements in the mammalian genome and the phenotypes they impact are unclear. Here, we perform a genome-wide comparative analysis of patterns of accelerated evolution in species with highly distinctive traits to discover candidate functional elements for clinically important phenotypes. We identify accelerated regions (ARs) in the elephant, hibernating bat, orca, dolphin, naked mole rat and thirteen-lined ground squirrel lineages in mammalian conserved regions, uncovering ~33,000 elements that bind hundreds of different regulatory proteins in humans and mice. ARs in the elephant, the largest land mammal, are uniquely enriched at elephant DNA damage response genes and changed conserved regulatory sites. The genomic hotspot for elephant ARs is the E3 ligase subunit of the Fanconi Anemia Complex, a master regulator of DNA repair. Additionally, ARs in the six species are associated with specific human clinical phenotypes that have apparent concordance with overt traits in each species. Overall design: Perfrom RNA-seq to identgy genes differentially expressed in irradiated and untreated cells</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>9785</TAXON_ID>
+               <SCIENTIFIC_NAME>Loxodonta africana</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12568"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>29514101</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2706204-SRS2706206,SRS2706390-SRS2706398</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3407582-SRX3407593</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR6307194-SRR6307205</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA419061&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA419061&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>419061</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-01-02</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-02-27</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+</ROOT>

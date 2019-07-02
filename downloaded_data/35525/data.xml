@@ -1,0 +1,1293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT request="tax_eq(35525) AND (instrument_model=&quot;HiSeq X Ten&quot; OR instrument_model=&quot;HiSeq X Five&quot; OR instrument_model=&quot;Illumina MiSeq&quot; OR instrument_model=&quot;Illumina NovaSeq 6000&quot; OR instrument_model=&quot;Illumina Genome Analyzer&quot; OR instrument_model=&quot;Illumina Genome Analyzer II&quot; OR instrument_model=&quot;Illumina Genome Analyzer IIx&quot; OR instrument_model=&quot;Illumina HiScanSQ&quot; OR instrument_model=&quot;Illumina HiSeq 1000&quot; OR instrument_model=&quot;Illumina HiSeq 1500&quot; OR instrument_model=&quot;Illumina HiSeq 2000&quot; OR instrument_model=&quot;Illumina HiSeq 2500&quot; OR instrument_model=&quot;Illumina HiSeq 3000&quot; OR instrument_model=&quot;Illumina HiSeq 4000&quot; OR instrument_model=&quot;NextSeq 500&quot; OR instrument_model=&quot;NextSeq 550&quot; OR instrument_model=&quot;Ion Torrent Proton&quot; OR instrument_model=&quot;Ion Torrent S5&quot; OR instrument_model=&quot;Ion Torrent S5 XL&quot;)AND library_strategy=&quot;RNA-Seq&quot; AND library_source=&quot;TRANSCRIPTOMIC&quot;">
+<PROJECT accession="PRJEB22591" alias="ena-STUDY-INSTITUTE OF EVOLUTIONARY BIOLOGY-11-09-2017-13:47:23:041-164" center_name="INSTITUTE OF EVOLUTIONARY BIOLOGY">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJEB22591</PRIMARY_ID>
+          <SECONDARY_ID>ERP104280</SECONDARY_ID>
+          <SUBMITTER_ID namespace="INSTITUTE OF EVOLUTIONARY BIOLOGY">ena-STUDY-INSTITUTE OF EVOLUTIONARY BIOLOGY-11-09-2017-13:47:23:041-164</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Daphnia magna miRNA maternal effects</NAME>
+     <TITLE>Daphnia magna microRNAs respond to nutritional stress and ageing but are not transgenerational</TITLE>
+     <DESCRIPTION>Maternal effects, where the performance of offspring is determined by the condition of their mother, are widespread and may in some cases be adaptive. The crustacean Daphnia magna shows strong maternal effects: offspring size at birth and other proxies for fitness are altered when their mothers are older or when mothers have experienced dietary restriction. The mechanisms for this transgenerational transmission of maternal experience are unknown, but could include changes in epigenetic patterning. MicroRNAs (miRNAs) are regulators of gene expression that have been shown to play roles in intergenerational information transfer, and here we test whether miRNAs are involved in D. magna maternal effects. We found that miRNAs were differentially expressed in mothers of different ages or nutritional state. We then examined miRNA expression in their eggs, their adult daughters and great granddaughters, which did not experience any treatments. The maternal (treatment) generation exhibited differential expression of miRNAs, as did their eggs, but this was reduced in adult daughters and lost by great granddaughters. Thus, miRNAs are a component of maternal provisioning, but do not appear to be the cause of transgenerational responses under these experimental conditions. Micro RNAs may act in tandem with egg provisioning (for example with carbohydrates or fats), and possibly other small RNAs or epigenetic modifications.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA1088147</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS2175970-ERS2176081</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX2332846-ERX2332957</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR2281488-ERR2281599</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB22591&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB22591&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-12-01</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-02-03</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJEB25137" alias="ena-STUDY-INSTITUTE OF EVOLUTIONARY BIOLOGY-22-02-2018-14:30:51:410-1090" center_name="INSTITUTE OF EVOLUTIONARY BIOLOGY">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJEB25137</PRIMARY_ID>
+          <SECONDARY_ID>ERP107028</SECONDARY_ID>
+          <SUBMITTER_ID namespace="INSTITUTE OF EVOLUTIONARY BIOLOGY">ena-STUDY-INSTITUTE OF EVOLUTIONARY BIOLOGY-22-02-2018-14:30:51:410-1090</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Daphnia magna nutritional transcriptpomics</NAME>
+     <TITLE>Differential expression in response to caloric restriction in Daphnia magna</TITLE>
+     <DESCRIPTION>TBC</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA1221146</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS2221359-ERS2221374</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX2373336-ERX2373351</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR2322373-ERR2322388</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB25137&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB25137&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-09-22</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-02-22</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJEB9781" alias="2012170" center_name="University of Edinburgh">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJEB9781</PRIMARY_ID>
+          <SECONDARY_ID>ERP010925</SECONDARY_ID>
+          <SUBMITTER_ID namespace="ED">2012170</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <TITLE>Transcriptome profiling during a natural host-parasite interaction</TITLE>
+     <DESCRIPTION>Background: Infection outcome in some coevolving host-pathogens is characterised by host-pathogen genetic interactions, where particular host genotypes are susceptible only to a subset of pathogen genotypes. To identify candidate genes responsible for the infection status of the host, we exposed a Daphnia magna host genotype to two bacterial strains of Pasteuria ramosa, one of which results in infection, while the other does not. At three time points (four, eight and 12 hours) post pathogen exposure, we sequenced the complete transcriptome of the hosts using RNA-Seq (Illumina). \n Results: We observed a rapid and transient response to pathogen treatment. Specifically, at the four-hour time point, eight genes were differentially expressed. At the eight-hour time point, a single gene was differentially expressed in the resistant combination only, and no genes were differentially expressed at the 12-hour time point.\nConclusions: We found that pathogen-associated transcriptional activity is greatest soon after exposure.  Genome-wide resistant combinations were more likely to show upregulation of genes, while susceptible combinations were more likely to be downregulated, relative to controls. Our results also provide several novel candidate genes that may play a pivotal role in determining infection outcomes.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA453992</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS785242-ERS785291</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX1030900-ERX1031399</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR951930-ERR952429</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB9781&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB9781&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2015-07-04</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2016-05-20</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA258118" alias="PRJNA258118" center_name="University of Cologne">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA258118</PRIMARY_ID>
+          <SECONDARY_ID>SRP045518</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of Cologne">PRJNA258118</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Daphnia magna strain:Clone A</NAME>
+     <TITLE>Daphnia magna Transcriptome to Decipher Microcystin Tolerance</TITLE>
+     <DESCRIPTION>Cyanobacteria constitute a serious threat to freshwater ecosystems by producing toxic secondary metabolites, e.g. microcystins. These microcystins have been shown to harm livestock, pets and humans and to affect ecosystem service and functioning. Cyanobacterial blooms are increasing worldwide in intensity and frequency due to eutrophication and global warming. However, Daphnia, the main grazer of planktonic algae and cyanobacteria, has been shown to be able to suppress bloom-forming cyanobacteria and to adapt to cyanobacteria that produce microcystins. Since Daphnia’s genome was published only recently, it is now possible to elucidate the underlying molecular mechanisms of microcystin tolerance of Daphnia. Daphnia magna was fed with either a cyanobacterial strain that produces microcystins or its genetically engineered microcystin knock-out mutant. Thus, it was possible to distinguish between effects due to the ingestion of cyanobacteria and effects caused specifically by microcystins. By using RNAseq the differentially expressed genes between the different treatments were analyzed and affected KOG-categories were calculated. Our analysis of the data showed that the expression of transporter genes in Daphnia was regulated as a specific response to microcystins.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>35525</TAXON_ID>
+               <SCIENTIFIC_NAME>Daphnia magna</SCIENTIFIC_NAME>
+               <STRAIN>Clone A</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA13036"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS685309,SRS685322,SRS685338</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX681649,SRX681728-SRX681731,SRX681733,SRX681750-SRX681752</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1552196-SRR1552201,SRR1552219-SRR1552221</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA258118&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA258118&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>258118</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-08-13</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA280795" alias="PRJNA280795" center_name="The Chinese University of Hong Kong">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA280795</PRIMARY_ID>
+          <SECONDARY_ID>SRP057045</SECONDARY_ID>
+          <SUBMITTER_ID namespace="The Chinese University of Hong Kong">PRJNA280795</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Daphnia magna</NAME>
+     <TITLE>Daphnia magna Raw sequence reads</TITLE>
+     <DESCRIPTION>Transcriptome sequencing of Daphnia Magna</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>35525</TAXON_ID>
+               <SCIENTIFIC_NAME>Daphnia magna</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA13036"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS901152-SRS901155</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX986249-SRX986252</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1964030-SRR1964033</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA280795&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA280795&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>280795</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2015-04-11</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA284518" alias="PRJNA284518" center_name="Indiana University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA284518</PRIMARY_ID>
+          <SECONDARY_ID>SRP059260</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Indiana University">PRJNA284518</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Daphnia magna isolate:XInb3</NAME>
+     <TITLE>Daphnia magna RNA-seq transcriptomic profiling across environmental stressors</TITLE>
+     <DESCRIPTION>The waterflea Daphnia magna is used to explore gene x environment interactions, central to the food web of lentic aquatic habitats and a model for environmental health. This study examines expressed RNA-Seq of two ecotypes and a recombinant line of D. magna exposed to 14 environmental stressors.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>35525</TAXON_ID>
+               <SCIENTIFIC_NAME>Daphnia magna</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA13036"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS956720,SRS959204,SRS959259,SRS959309,SRS959313,SRS959339-SRS959340,SRS959799,SRS959807,SRS959813,SRS960093,SRS960095,SRS960139,SRS960142,SRS960221,SRS960247-SRS960249,SRS960251,SRS960335,SRS960367,SRS960401</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1053858-SRX1053860,SRX1056636-SRX1056639,SRX1056646,SRX1056667,SRX1056705-SRX1056706,SRX1056709,SRX1056711,SRX1056725,SRX1056738-SRX1056744,SRX1057342-SRX1057344,SRX1057347,SRX1057353,SRX1057356,SRX1057358,SRX1057361,SRX1057644-SRX1057648,SRX1057650,SRX1057693,SRX1057695-SRX1057698,SRX1057700,SRX1057772,SRX1057780-SRX1057783,SRX1057808,SRX1057810-SRX1057818,SRX1057821,SRX1057851,SRX1057905-SRX1057906,SRX1057944,SRX1057970-SRX1057971,SRX1057974-SRX1057975,SRX1057977-SRX1057978</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR2062534-SRR2062536,SRR2062779-SRR2062781,SRR2062964-SRR2062966,SRR2063018-SRR2063020,SRR2063033,SRR2063035-SRR2063039,SRR2063278-SRR2063283,SRR2063822-SRR2063824,SRR2063826-SRR2063827,SRR2063829,SRR2063832,SRR2063834,SRR2063836-SRR2063839,SRR2063845-SRR2063847,SRR2063849-SRR2063877</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA284518&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA284518&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>284518</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2015-10-30</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA326660" alias="PRJNA326660" center_name="Environment and Climate Change Canada">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA326660</PRIMARY_ID>
+          <SECONDARY_ID>SRP076999</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Environment and Climate Change Canada">PRJNA326660</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Daphnia magna</NAME>
+     <TITLE>Daphnia magna Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>Evaluating the transcriptional response of D. magna exposed chronically to sublethal concentrations of benzotriazoles</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>35525</TAXON_ID>
+               <SCIENTIFIC_NAME>Daphnia magna</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA13036"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1598727-SRS1598734,SRS1598736-SRS1598751</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1997267-SRX1997274,SRX1997276-SRX1997282,SRX1997285-SRX1997289,SRX1997291-SRX1997294</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR3996388-SRR3996389,SRR3996391-SRR3996404,SRR3996406,SRR3996409-SRR3996412,SRR3996414-SRR3996416</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA326660&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA326660&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>326660</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-06-25</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA389206" alias="PRJNA389206" center_name="North China Electric Power University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA389206</PRIMARY_ID>
+          <SECONDARY_ID>SRP108606</SECONDARY_ID>
+          <SUBMITTER_ID namespace="North China Electric Power University">PRJNA389206</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <TITLE>The molecular mechanism of silver nanoparticles toxicity to Daphnia magna</TITLE>
+     <DESCRIPTION>The objectives of the study were to compare the contribution of different particle sizes and different surface coatings on the toxicity of AgNPs, and further explore the molecular mechanism of the toxicity of AgNPs on an aquatic invertebrate D. magna.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2251408</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2882986-SRX2883000</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5644890-SRR5644904</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA389206&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA389206&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>389206</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-06-06</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA391248" alias="PRJNA391248" center_name="Heinrich Heine University of Duesseldorf">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA391248</PRIMARY_ID>
+          <SECONDARY_ID>SRP109969</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Heinrich Heine University of Duesseldorf">PRJNA391248</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <TITLE>Transcriptomic signatures connected to the essential fatty acid limitation in Daphnia magna</TITLE>
+     <DESCRIPTION>The availability of polyunsaturated fatty acids (PUFAs) in food items influences the fitness of organisms at higher trophic levels. Omega 3 and omega 6 fatty acids are essential compounds that cannot be synthesised de novo in these animals. PUFAS are needed to adjust membrane fluidity, used as building blocks for hormone synthesis and serve as sources for high energetic storage fuel reserves. Especially the omega 3 PUFA eicosapentaenoic acid (EPA) is an important molecule, as it is a limiting nutritional component for growth and reproduction in numerous marine and freshwater zooplankton species. With our transcriptomic study in Daphnia magna we address the transcriptomic network behind the metabolism and conversion that are connected to physiological EPA limitation.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2301429-SRS2301443,SRS2947545-SRS2947559</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2939893-SRX2939907,SRX3687898-SRX3687912</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5723902-SRR5723916,SRR6714459-SRR6714473</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA391248&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA391248&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>391248</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-07-03</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-03-01</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA395368" alias="PRJNA395368" center_name="Dr. William Baldwin, Biological Sciences, Clemson University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA395368</PRIMARY_ID>
+          <SECONDARY_ID>SRP113320</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE101755</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Dr. William Baldwin, Biological Sciences, Clemson University">PRJNA395368</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Daphnia magna</NAME>
+     <TITLE>Effect of atrazine exposure on D. magna gene expression</TITLE>
+     <DESCRIPTION>We report exposure to 40 µM atrazine, a probable HR96 activator in D. magna, induced detoxification and sphingolipid metabolism genes, consistent with previous work on HR96 activation. Overall design: 7-day old D. magna exposed to 40 µM atrazine for 96 hours. 5 samples consisted of 3 daphnids each.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>35525</TAXON_ID>
+               <SCIENTIFIC_NAME>Daphnia magna</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA13036"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>28968576</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2376932-SRS2376935</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3027895-SRX3027898</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5859133-SRR5859136</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA395368&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA395368&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>395368</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-11-01</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA407732" alias="PRJNA407732" center_name="School of Biosciences, University of Birmingham">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA407732</PRIMARY_ID>
+          <SECONDARY_ID>SRP117884</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE103939</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="School of Biosciences, University of Birmingham">PRJNA407732</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>DNA methylation profiling of Daphnia species.</NAME>
+     <TITLE>DNA methylation profiling of Daphnia species.</TITLE>
+     <DESCRIPTION>To profile the Daphnia species methylome and to achieve a better understanding of the level of variations in the methylome of Daphnia species, we performed whole genome bisulfite sequencing (WGBSeq) of adult Daphnia magna Bham2 strain and Daphnia pulex Eloise Butler strain (EB45 and EB31 strains). We also analysed the correlation between gene expression and methylation in the two species, using data generated in this study and RNA-seq data from Orsini, et al. 2016. We found that methylation percentage across the genome of Daphnia spp. follows a bimodal distribution. Furthermore, CpG methylation in Daphnia predominantly occurs at coding regions. Although methylation levels significantly decrease towards the 3’ end of a gene with a significant drop in methylation levels from one exon to the neighbouring intron, there is a clear spike in relative methylation levels between exon and intron boundaries, which may be linked to regulation of splicing. We further demonstrate that DNA methylation in Daphnia is responsive to intrinsic and extrinsic factors. We also compared the methylation and gene expression correlations found in Daphnia to publicly available dataset from two other invertebrate species (Apis mellifera and Nasonia vitripennis) and two vertebrate species (Homo sapiens and Mus musculus). We observed that similar to other invertebrates, Daphnia’s genome is sparsely methylated at a lower level and the methylation is predominantly focused at gene body while in vertebrate species the genome is heavily methylated (global methylation). Although the level and distribution of methylation across CpG sites is different between vertebrates and invertebrates it is possible that methylation density at coding regions has the same function between vertebrates and invertebrates. We demonstrate evolutionary conservation of a positive correlation between high methylation density at coding regions and gene expression across vertebrates and invertebrates, leading to potentially ensuring continuous high expression of genes required throughout the life in both vertebrates and invertebrates. Overall design: Examination of DNA methylation in two different species of Daphnia (Daphnia magna bham2 and Daphnia pulex EB strains) Correlation analysis between levels of gene expression and DNA methylation (Daphnia pulex EB45).</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2522481-SRS2522515,SRS2702886,SRS2702889,SRS3434313,SRS3434317-SRS3434319</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3195192-SRX3195226,SRX3405479-SRX3405480,SRX4236274-SRX4236277</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR6048249-SRR6048283,SRR6305029-SRR6305030,SRR7363321-SRR7363324</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA407732&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA407732&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>407732</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2019-01-03</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-05-17</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA412826" alias="PRJNA412826" center_name="Laboratory of Environmental Toxicology and Aquatic Ecology, Ghent University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA412826</PRIMARY_ID>
+          <SECONDARY_ID>SRP119247</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE104487</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Laboratory of Environmental Toxicology and Aquatic Ecology, Ghent University">PRJNA412826</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Effect of β-adrenergic receptor antagonist and agonist on cardiac structure and function and whole body gene expression in Daphnia magna</NAME>
+     <TITLE>Effect of β-adrenergic receptor antagonist and agonist on cardiac structure and function and whole body gene expression in Daphnia magna</TITLE>
+     <DESCRIPTION>Propranolol (PRO), a human β-AR (β-adrenergic receptor) antagonist, is considered to result in specific effects in a non-target species, D. magna, based on our previous studies. The present study investigated the effects of β-AR agents, including an antagonist and agonist using pharmacologically relevant endpoints as well as a more holistic gene expression approach to reveal the impacts and potential mode of actions (MOAs) in the model non-target species. Results show that the responses in cardiac endpoints and gene expression in D. magna are partially similar but distinguishable from the observations in different organisms. No effect was observed on heart size growth in PRO and isoprenaline (ISO) exposure. The contraction capacity of the heart was decreased in ISO exposure, and the heart rate was decreased in PRO exposure. Time-series exposures showed different magnitudes of effect on heart rate and gene expression dependent on the type of chemical exposure. Significant enrichment of gene families involved in protein metabolism and biotransformation was observed within the differentially expressed genes, and we also observed differential expression in juvenile hormone-inducible proteins in ISO and PRO exposure, which is suspected of having endocrine disruption potential. Taken together, deviation between the effects of PRO and ISO in D. magna and other organisms suggests dissimilarity in MOAs or attributes of target bio-molecules between species. Additionally, PRO and ISO may act as endocrine disruptors based on the gene expression observation. Results in the present study confirm that it is challenging to predict ecological impact of active pharmaceutical ingredients (APIs) based on the available data acquired through human-focused studies. Furthermore, the present study provided unique data and a case study on the impact of APIs in a non-target organism. Overall design: The experiment is a 24 hour-exposure experiment, in which daphnia were exposed to different chemicals and their binary mixture. The concentrations were 1mg/L and 4mg/L for propranolol and 100mg/L for isoprenaline respectively. The concentrations in the exposure were chosen to be sufficiently high to observe clear time-series changes of heart rate and corresponding gene expression regulation within 24 hours. 20 individuals of 5 days old D. magna were exposed to different 35 ml chemical solutions separately and were harvested at 1, 6, and 24 hours of exposure. There were three replicates per treatment</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>35525</TAXON_ID>
+               <SCIENTIFIC_NAME>Daphnia magna</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA13036"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>29913414</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2560484,SRS2560486,SRS2560488-SRS2560490,SRS2560492-SRS2560530,SRS2560532</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3236761-SRX3236805</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR6124108-SRR6124152</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA412826&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA412826&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>412826</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-04-21</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-06-23</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA437676" alias="PRJNA437676" center_name="CNRS">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA437676</PRIMARY_ID>
+          <SECONDARY_ID>SRP134480</SECONDARY_ID>
+          <SUBMITTER_ID namespace="CNRS">PRJNA437676</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <TITLE>RNA-Seq of male producers (MP) individuals of Daphnia magna, both males and females, Moscow population</TITLE>
+     <DESCRIPTION>RNA-Seq of male producers (MP) individuals of Daphnia magna, both males and females, Moscow population</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1782279</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3779519-SRX3779526</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR6822980-SRR6822987</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA437676&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA437676&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>437676</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-03-11</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-03-11</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA453118" alias="PRJNA453118" center_name="University of Massachusetts Boston">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA453118</PRIMARY_ID>
+          <SECONDARY_ID>SRP142416</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of Massachusetts Boston">PRJNA453118</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <TITLE>Anticancer drug exposures on an aquatic crustacean</TITLE>
+     <DESCRIPTION>The use of anticancer drugs in chemotherapy is increasing leading to growing environmental concentrations of imatinib mesylate (IMA), cisplatinum (CDDP), etoposide (ETP), and 5-flourouracil (5-FU) in aquatic systems. Previous studies have shown that these anticancer drugs cause DNA damage in the crustacean Daphnia magna at low, environmentally relevant concentrations. To explore the mechanism of action of these compounds and the downstream effects of DNA damage on their growth and development at a sensitive life stage, we exposed D. magna neonates to low level concentrations equivalent to those that elicit DNA damage (i.e., IMA: 2000 ng/L, ETP: 300 ng/L, CDDP: 10 ng/L, 5-FU: 39 and 500 ng/L) and performed transcriptomic analysis using an RNAseq approach.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS3214062-SRS3214075,SRS3214077</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3989601-SRX3989615</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR7058642-SRR7058656</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA453118&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA453118&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>453118</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-04-26</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-04-26</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA490613" alias="PRJNA490613" center_name="Sungkyunkwan University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA490613</PRIMARY_ID>
+          <SECONDARY_ID>SRP161660</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Sungkyunkwan University">PRJNA490613</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Daphnia magna strain:SK</NAME>
+     <TITLE>Daphnia magna strain:SK Raw sequence reads</TITLE>
+     <DESCRIPTION>Whole transcriptome analysis of the water flea, Daphnia magna, strain SK.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>35525</TAXON_ID>
+               <SCIENTIFIC_NAME>Daphnia magna</SCIENTIFIC_NAME>
+               <STRAIN>SK</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA13036"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS3770379</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX4676526</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR7825507</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA490613&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA490613&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>490613</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-09-15</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-09-15</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA504445" alias="PRJNA504445" center_name="Laboratory of Environmental Toxicology and Aquatic Ecology, Ghent University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA504445</PRIMARY_ID>
+          <SECONDARY_ID>SRP168044</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE122265</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Laboratory of Environmental Toxicology and Aquatic Ecology, Ghent University">PRJNA504445</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Genome-wide stress responses to copper and arsenic in a field population of Daphnia.</NAME>
+     <TITLE>Genome-wide stress responses to copper and arsenic in a field population of Daphnia.</TITLE>
+     <DESCRIPTION>Over the past decade, significant advances have been made to unravel molecular mechanisms of stress response in different ecotoxicological model species. Within this study, we focus on population level transcriptomic responses of a natural population of Daphnia magna Straus, (1820), to heavy metals. We aim to characterize the population level transcriptomic responses, which include standing genetic variation, and improve our understanding on how populations respond to environmental stress at a molecular level. We studied population level responses to two heavy metals, copper and arsenic, and their binary mixture across time. Transcriptomic patterns identified significantly regulated gene families and genes at the population level including cuticle proteins and resilins. Furthermore, some of these differentially regulated gene families, such as cuticle proteins, were also significantly enriched for genetic variations including SNPs and MNPs. In general, genetic variation was observed in specific gene families, many of which are known to be involved in stress response. Overall, our results indicate that molecular stress responses can be identified within natural populations and that linking molecular mechanisms with genetic variation at the population level could contribute significantly to adverse outcome frameworks. Overall design: We exposed a field population of daphnia to copper, arsenic and a mixture of copper and arsenic and extracted RNA at different time points</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>35525</TAXON_ID>
+               <SCIENTIFIC_NAME>Daphnia magna</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA13036"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>30817885</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS4028425-SRS4028472</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX4992958-SRX4993005</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR8172415-SRR8172462</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA504445&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA504445&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>504445</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2019-03-06</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-03-07</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA508640" alias="PRJNA508640" center_name="University of Birmingham">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA508640</PRIMARY_ID>
+          <SECONDARY_ID>SRP173419</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of Birmingham">PRJNA508640</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Daphnia magna strain:IXF(hybrid clonal isolate of two parental strains: Xinb3 and Iinb1)</NAME>
+     <TITLE>Mixtures of aluminum and indium induce more than additive phenotypic and toxicogenomic responses in Daphnia magna</TITLE>
+     <DESCRIPTION>Mixtures of aluminum and indium induce more than additive phenotypic and toxicogenomic responses in Daphnia magna</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>EJB04</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+          <ORGANISM>
+               <TAXON_ID>35525</TAXON_ID>
+               <SCIENTIFIC_NAME>Daphnia magna</SCIENTIFIC_NAME>
+               <STRAIN>IXF(hybrid clonal isolate of two parental strains: Xinb3 and Iinb1)</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA13036"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS4142511</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX5129415</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR8316711</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA508640&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA508640&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>508640</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2019-01-03</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-01-03</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA533017" alias="PRJNA533017" center_name="CNRS">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA533017</PRIMARY_ID>
+          <SECONDARY_ID>SRP192677</SECONDARY_ID>
+          <SUBMITTER_ID namespace="CNRS">PRJNA533017</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <TITLE>RNA-Seq of male producers (MP) and non-male producers (NMP) females of Daphnia magna, both under normal culturing conditions and under hormonal treatment, Moscow population</TITLE>
+     <DESCRIPTION>RNA-Seq of male producers (MP) and non-male producers (NMP) females of Daphnia magna, both under normal culturing conditions and under hormonal treatment (methylfarnesoate) for comparison, Moscow population</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1782278-SRS1782279</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX5690822-SRX5690837</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR8904983-SRR8904998</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA533017&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA533017&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>533017</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2019-05-21</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-05-21</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+</ROOT>

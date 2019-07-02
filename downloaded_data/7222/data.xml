@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT request="tax_eq(7222) AND (instrument_model=&quot;HiSeq X Ten&quot; OR instrument_model=&quot;HiSeq X Five&quot; OR instrument_model=&quot;Illumina MiSeq&quot; OR instrument_model=&quot;Illumina NovaSeq 6000&quot; OR instrument_model=&quot;Illumina Genome Analyzer&quot; OR instrument_model=&quot;Illumina Genome Analyzer II&quot; OR instrument_model=&quot;Illumina Genome Analyzer IIx&quot; OR instrument_model=&quot;Illumina HiScanSQ&quot; OR instrument_model=&quot;Illumina HiSeq 1000&quot; OR instrument_model=&quot;Illumina HiSeq 1500&quot; OR instrument_model=&quot;Illumina HiSeq 2000&quot; OR instrument_model=&quot;Illumina HiSeq 2500&quot; OR instrument_model=&quot;Illumina HiSeq 3000&quot; OR instrument_model=&quot;Illumina HiSeq 4000&quot; OR instrument_model=&quot;NextSeq 500&quot; OR instrument_model=&quot;NextSeq 550&quot; OR instrument_model=&quot;Ion Torrent Proton&quot; OR instrument_model=&quot;Ion Torrent S5&quot; OR instrument_model=&quot;Ion Torrent S5 XL&quot;)AND library_strategy=&quot;RNA-Seq&quot; AND library_source=&quot;TRANSCRIPTOMIC&quot;">
+<PROJECT accession="PRJNA317989" alias="PRJNA317989" center_name="Developmental Genomics, LCDB, NIDDK, NIH">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA317989</PRIMARY_ID>
+          <SECONDARY_ID>SRP073087</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE80124</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Developmental Genomics, LCDB, NIDDK, NIH">PRJNA317989</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Expression profiling Hawaiian Drosophila species, tissues, and sexes</NAME>
+     <TITLE>Expression profiling Hawaiian Drosophila species, tissues, and sexes</TITLE>
+     <DESCRIPTION>This is a prepublication dataset that should change as updates are made to the underling genomes and annotations. Additional samples may be deposited and some samples may fail quality control. Please contact Haiwang Yang &lt;haiwang.yang@nih.gov> for details. The RNA-seq data set contains the transcriptional profiling of eight sexed tissue types (head, thorax, carcass, abdomen w/o gonad, gonad, other reproductive tract, genitalia, and digestive system) and/or whole adult flies from five strains of Drosophila grimshawi, two strains of D. silvestris, and one strain each of D. hemipeza, D. heteroneura, and D. hawaiiensis. Overall design: Samples were collected in duplicate to quadruplicate from sexually mature sexed adults (4-5 weeks post eclosion), which had been allowed to freely mate. Single-end stranded 76bp PolyA+ RNA-seq was performed on all samples. Libraries were multiplexed with indexed adaptors, and some were also prepared as mixed libraries with RNA from genetically distant species: Drosophila melanogaster (GSE81142) and Anopheles stephensi (GEO entry in preparation). All whole adult samples were prepared from single flies. Tissues were pooled from 3-5 individuals depending on the size of both the tissue and the species. For the G1 strain (reference assembly strain) of D. grimshawi, we profiled seven adult tissues for each sex in addition to whole flies. Samples were whole fly (one fly per sample), head (5 flies), thorax (5 flies), abdomen w/o gonad (5 flies), gonad (testes or ovaries) (5 flies), other reproductive tract (accessory gland and male reproductive duct or female spermatheca and oviduct; 10 flies per sample), genitalia (10 flies), and digestive system (proventriculus, crop, salivary gland, gut, and renal tubule; 5 flies). We prepared sexed single fly whole body samples in quadruplicate for ZA27Z2, ZA27Z3, and Mo010 strains of D. grimshawi. We also prepared sex-specific head, carcass, gonad, other reproductive tract with genitalia with duplicate for Wm1041 strain of D. grimshawi and other species - D. silvestris (Y11R6 and U26B9 strains), D. hemipeza (W40B14 strain), D. heteroneura (W48B6 strain), and D. hawaiiensis (Y17P5 strain). We used reduced number of flies for the non-grimshawi species (i.e., 3 heads, gonads or carcasses per sample, and 6 reproductive tracts plus genitalia per sample).</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>30599046</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1383745-SRS1383893,SRS3365977-SRS3366166,SRS3366212,SRS3366249</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1689159-SRX1689307,SRX4152399-SRX4152590</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR3355188-SRR3355336,SRR7247573-SRR7247764,SRR7253481-SRR7253629</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA317989&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA317989&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>317989</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-06-03</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-02-27</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+</ROOT>

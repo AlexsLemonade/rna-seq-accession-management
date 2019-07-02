@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT request="tax_eq(29730) AND (instrument_model=&quot;HiSeq X Ten&quot; OR instrument_model=&quot;HiSeq X Five&quot; OR instrument_model=&quot;Illumina MiSeq&quot; OR instrument_model=&quot;Illumina NovaSeq 6000&quot; OR instrument_model=&quot;Illumina Genome Analyzer&quot; OR instrument_model=&quot;Illumina Genome Analyzer II&quot; OR instrument_model=&quot;Illumina Genome Analyzer IIx&quot; OR instrument_model=&quot;Illumina HiScanSQ&quot; OR instrument_model=&quot;Illumina HiSeq 1000&quot; OR instrument_model=&quot;Illumina HiSeq 1500&quot; OR instrument_model=&quot;Illumina HiSeq 2000&quot; OR instrument_model=&quot;Illumina HiSeq 2500&quot; OR instrument_model=&quot;Illumina HiSeq 3000&quot; OR instrument_model=&quot;Illumina HiSeq 4000&quot; OR instrument_model=&quot;NextSeq 500&quot; OR instrument_model=&quot;NextSeq 550&quot; OR instrument_model=&quot;Ion Torrent Proton&quot; OR instrument_model=&quot;Ion Torrent S5&quot; OR instrument_model=&quot;Ion Torrent S5 XL&quot;)AND library_strategy=&quot;RNA-Seq&quot; AND library_source=&quot;TRANSCRIPTOMIC&quot;">
+<PROJECT accession="PRJNA12541" alias="PRJNA12541" center_name="University of California, Davis">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA12541</PRIMARY_ID>
+          <SECONDARY_ID>SRP001603</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of California, Davis">PRJNA12541</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Gossypium hirsutum strain:Maxxa</NAME>
+     <TITLE>Gossypium hirsutum EST projects</TITLE>
+     <DESCRIPTION><![CDATA[To improve the fiber quality in cotton several EST projects are in progress.<br> <b>Cotton Functional Genomics</b> project has been initiated at the University of California, Davis. The project is funded by NSF Plant Genome Project (DBI9876230). <p> Clemson University Genomics Institute have sequenced large number of ESTs from cotton as part of the cotton genome project. <p> As part of <b>Comparative Evolutionary Genomics</b> project, Iowa State University, University of Arizona, and University of Georgia in an collaborative effort are involved in generating ESTs from various cotton species.<br>]]></DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3635</TAXON_ID>
+               <SCIENTIFIC_NAME>Gossypium hirsutum</SCIENTIFIC_NAME>
+               <STRAIN>Maxxa</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12542"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS009661,SRS009669-SRS009673,SRS192913-SRS192924,SRS283085-SRS283086</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX015389,SRX015428-SRX015433,SRX062245-SRX062256,SRX112513-SRX112514</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR032799,SRR032877-SRR032882,SRR203239-SRR203250,SRR391533-SRR391534</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA12541&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA12541&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>12541</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-05-31</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-02-07</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA171342" alias="PRJNA171342" center_name="Iowa State University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA171342</PRIMARY_ID>
+          <SECONDARY_ID>SRP014583</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Iowa State University">PRJNA171342</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Gossypium hirsutum strain:var. yucatanense TX2094</NAME>
+     <TITLE>Gossypium hirsutum Leaf Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>Gene expression changes in polyploids relative to their diploid progenitors using leaf transcriptome.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3635</TAXON_ID>
+               <SCIENTIFIC_NAME>Gossypium hirsutum</SCIENTIFIC_NAME>
+               <STRAIN>var. yucatanense TX2094</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12542"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS351873-SRS351893</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX170955,SRX172454,SRX172473,SRX172480-SRX172485,SRX172513-SRX172524</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR530430,SRR530632,SRR530657,SRR530664-SRR530669,SRR530726-SRR530728,SRR530771-SRR530779</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA171342&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA171342&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>171342</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-05-31</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA179447" alias="PRJNA179447" center_name="ARO-Volcani Center">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA179447</PRIMARY_ID>
+          <SECONDARY_ID>SRP017168</SECONDARY_ID>
+          <SUBMITTER_ID namespace="ARO-Volcani Center">PRJNA179447</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <TITLE>Whole transcriptome sequencing from cotton seeds at various stages (i.e., 10 dpa, 20 dpa, 30 dpa, 40 dpa) from Gossypium raimondii, G. tomentosum, G. arboreum, G. hirsutum cv TM1, and G. hirsutum race Yucatenense. Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>Whole transcriptome sequencing from cotton seeds at various stages (i.e., 10 dpa, 20 dpa, 30 dpa, 40 dpa) from Gossypium raimondii, G. tomentosum, G. arboreum, G. hirsutum cv TM1, and G. hirsutum race Yucatenense. Transcriptome or Gene expression.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS375280,SRS375306-SRS375308,SRS375443-SRS375458</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX204399-SRX204401,SRX204405-SRX204407,SRX204529-SRX204539,SRX204544,SRX204547-SRX204558</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR616993-SRR616994,SRR616998,SRR617002,SRR617005-SRR617021,SRR617036,SRR617039-SRR617076</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA179447&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA179447&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>179447</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-05-31</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA213467" alias="PRJNA213467" center_name="Brigham Young University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA213467</PRIMARY_ID>
+          <SECONDARY_ID>SRP028270</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Brigham Young University">PRJNA213467</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Gossypium</NAME>
+     <TITLE>Polyploidy and the petal transcriptome and of Gossypium</TITLE>
+     <DESCRIPTION>Background: Genes duplicated by polyploidy are called homoeologs and can be differentially expressed in plant tissues. Recent research using DNA microarrays have described a cacophony of complex expression patterns during development of cotton fibers, petals, and leaves. In addition, interpretation of these patterns was dependent on EST assemblies without a reference genome sequence of cotton. This combination of technology and resources resulted in a tentative understanding of gene expression in polyploids. Results: Using the Gossypium raimondii reference genome sequence, homoeologous gene expression levels were quantified in diploid and tetraploid flower petals of Gossypium. In the polyploid, most homoeologous genes were expressed at equal levels, though a subset had an expression bias of AT and DT loci. The direction of gene expression bias was conserved in natural and recent polyploids of cotton. Conservation of direction of bias and additional comparisons between the diploids and tetraploids suggested different regulation mechanisms of gene expression. We described three phases in the evolution of cotton genomes that contribute to gene expression in the polyploid nucleus. Conclusions: This is the first RNA-seq report to thoroughly describe comparative gene expression levels of multiple genomes within a polyploid. Compared to previous studies, a surprising level of expression homeostasis was observed in the evolution of polyploid genomes. Some duplicated genes were intriguing exceptions to general trends. The mechanism of gene regulation for these and other genes in the cotton genome warrants further investigation.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3633</TAXON_ID>
+               <SCIENTIFIC_NAME>Gossypium</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA186997"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS464537</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX328344,SRX331701</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR943768-SRR943773,SRR948083-SRR948087</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA213467&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA213467&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>213467</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-07-31</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA217450" alias="PRJNA217450" center_name="J. Craig Venter Institute">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA217450</PRIMARY_ID>
+          <SECONDARY_ID>SRP029330</SECONDARY_ID>
+          <SUBMITTER_ID namespace="J. Craig Venter Institute">PRJNA217450</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Gossypium</NAME>
+     <TITLE>Tetraploid Cotton and Diploid Progenitor Survey Sequencing of Genomic DNA, Total RNA and Small RNA</TITLE>
+     <DESCRIPTION>Genomic and transcriptomic survey of tetraploid cotton and its diploid progenitors.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3633</TAXON_ID>
+               <SCIENTIFIC_NAME>Gossypium</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS474438,SRS474517-SRS474518,SRS474532,SRS474557,SRS474565,SRS474576-SRS474577,SRS474743,SRS474782</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX341271,SRX341405,SRX341410-SRX341411,SRX341426,SRX341451,SRX341454,SRX341462,SRX341482-SRX341484,SRX341638,SRX341641,SRX341653,SRX341720,SRX341746,SRX341750,SRX341759</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR959402,SRR959501-SRR959503,SRR959508,SRR959521-SRR959522,SRR959547-SRR959548,SRR959551,SRR959577,SRR959585-SRR959587,SRR959590-SRR959591,SRR959748,SRR959750,SRR959856-SRR959858,SRR959884,SRR959890,SRR959899,SRR959924</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA217450&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA217450&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>217450</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-09-03</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA396502" alias="PRJNA396502" center_name="HuaZhong Agricultural University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA396502</PRIMARY_ID>
+          <SECONDARY_ID>SRP114409</SECONDARY_ID>
+          <SUBMITTER_ID namespace="HuaZhong Agricultural University">PRJNA396502</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Gossypium hirsutum</NAME>
+     <TITLE>Gossypium hirsutum Raw sequence reads</TITLE>
+     <DESCRIPTION>cotton 3D genome project</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3635</TAXON_ID>
+               <SCIENTIFIC_NAME>Gossypium hirsutum</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12542"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2396500,SRS2396615,SRS2396632,SRS2396641,SRS2396683,SRS2397848-SRS2397851,SRS2397853-SRS2397855,SRS2397970-SRS2397973</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3049827,SRX3050040,SRX3050042,SRX3050051,SRX3050076,SRX3050096-SRX3050097,SRX3051288-SRX3051291,SRX3051293-SRX3051302,SRX3051435-SRX3051436</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5885461-SRR5885464,SRR5885468-SRR5885479,SRR5885851-SRR5885860,SRR5886140-SRR5886150,SRR5886155-SRR5886156</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA396502&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA396502&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>396502</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-12-20</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA507768" alias="PRJNA507768" center_name="Cotton Germplasm Resources, Cotton research Institute, Chinese Academy of Agricultural Sciences">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA507768</PRIMARY_ID>
+          <SECONDARY_ID>SRP171631</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE123175</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Cotton Germplasm Resources, Cotton research Institute, Chinese Academy of Agricultural Sciences">PRJNA507768</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>RNA-Sequencing, Physiological and RNAi Analyses Provide Insights into the Response Mechanism of the ABC-Mediated Resistance to Verticillium Dahliae Infection In cotton</NAME>
+     <TITLE>RNA-Sequencing, Physiological and RNAi Analyses Provide Insights into the Response Mechanism of the ABC-Mediated Resistance to Verticillium Dahliae Infection In cotton</TITLE>
+     <DESCRIPTION>Verticillium wilt which is caused by Verticillium dahliae causes massive annual losses of cotton yield. Control by conventional mechanisms is not possible due to wide host range and longevity of dormant fungi in the soil in case of absence of a suitable host. Plants have developed various mechanisms to boost their immunity against various diseases, and one of which is through the induction of various genes. In this research work, carried out of RNA sequencing and identified the members of the ABC genes are critical in enhancing resistance to V. dahliae infection. A total of 166 ABC genes were identified in Gossypium raimondii with varying physiochemical properties. A novel ABC gene, Gorai.007G244600 was found to be highly upregulated, its homolog in the tetraploid cotton Gh_D11G3432, was then silenced through virus induced gene silencing (VIGS) in tetraploid cotton, the mutant cotton seedlings that have the ability to tolerate V. dahliae infection were significantly reduced. Evaluation of oxidant, hydrogen peroxide (H2O2) and malondialdehyde (MDA) were found to have increased levels in the leaves of the mutant compared to the wild types. In addition, antioxidant enzymes, peroxidase (POD), catalase (CAT) and superoxide dismutase (SOD) concentration levels were significantly reduced in the mutant cotton compared to the wild types. Moreover, expression levels of the biotic stress genes, cotton polyamine oxidase (GhPAO), cotton ribosomal protein L18(GhRPL18) and cotton polygalacturonase-inhibiting protein-1 (GhPGIP1) were all downregulated in the mutant but highly upregulated in the wild cotton tissues. The outcome of this research has shown that ABC genes could be playing an important role in enhancing immunity of cotton to V. dahliae infection and can be explored in developing more resilient cotton genotypes with improved resistance to V. dahliae infection. Overall design: Examination of three tissues leaf, stem and root of three cotton species in three time points 0h, 12h and 48h with 81 samples which contain three biological duplication.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS4096971-SRS4097051</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX5084479-SRX5084559</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR8267553-SRR8267633</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA507768&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA507768&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>507768</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2019-04-04</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-04-04</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA79005" alias="PRJNA79005" center_name="College of life sciences, Peking University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA79005</PRIMARY_ID>
+          <SECONDARY_ID>SRP009820</SECONDARY_ID>
+          <SUBMITTER_ID namespace="College of life sciences, Peking University">PRJNA79005</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Gossypium raimondii</NAME>
+     <TITLE>Gossypium raimondii Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>RNA-seq of Gossypium raimondii transcriptomes from different tissues and development stages.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>29730</TAXON_ID>
+               <SCIENTIFIC_NAME>Gossypium raimondii</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA53975"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS282396-SRS282398</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX111365-SRX111367</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR389181-SRR389183</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA79005&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA79005&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>79005</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-05-31</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+</ROOT>

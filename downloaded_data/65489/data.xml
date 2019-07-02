@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT request="tax_eq(65489) AND (instrument_model=&quot;HiSeq X Ten&quot; OR instrument_model=&quot;HiSeq X Five&quot; OR instrument_model=&quot;Illumina MiSeq&quot; OR instrument_model=&quot;Illumina NovaSeq 6000&quot; OR instrument_model=&quot;Illumina Genome Analyzer&quot; OR instrument_model=&quot;Illumina Genome Analyzer II&quot; OR instrument_model=&quot;Illumina Genome Analyzer IIx&quot; OR instrument_model=&quot;Illumina HiScanSQ&quot; OR instrument_model=&quot;Illumina HiSeq 1000&quot; OR instrument_model=&quot;Illumina HiSeq 1500&quot; OR instrument_model=&quot;Illumina HiSeq 2000&quot; OR instrument_model=&quot;Illumina HiSeq 2500&quot; OR instrument_model=&quot;Illumina HiSeq 3000&quot; OR instrument_model=&quot;Illumina HiSeq 4000&quot; OR instrument_model=&quot;NextSeq 500&quot; OR instrument_model=&quot;NextSeq 550&quot; OR instrument_model=&quot;Ion Torrent Proton&quot; OR instrument_model=&quot;Ion Torrent S5&quot; OR instrument_model=&quot;Ion Torrent S5 XL&quot;)AND library_strategy=&quot;RNA-Seq&quot; AND library_source=&quot;TRANSCRIPTOMIC&quot;">
+<PROJECT accession="PRJNA209731" alias="PRJNA209731" center_name="UMR DIADE, IRD">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA209731</PRIMARY_ID>
+          <SECONDARY_ID>SRP026352</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE48346</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="UMR DIADE, IRD">PRJNA209731</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>miR2118-triggered phased siRNAs are differentially expressed during the panicle development of wild and domesticated African rice species</NAME>
+     <TITLE>miR2118-triggered phased siRNAs are differentially expressed during the panicle development of wild and domesticated African rice species</TITLE>
+     <DESCRIPTION>Rice was domesticated independently in Asia and Africa, leading to two distinct but closely related crop species, Oryza sativa and Oryza glaberrima, respectively. The two domestications lead to morphological changes, in which a higher branching complexity of the panicles, influencing seed production and crop yield. Although much emphasis was placed on changes in transcriptional regulation during rice domestication and improvement, no large-scale study of small RNA regulation changes during domestication has been reported so far. To analyze whether rice domestication has altered the expression of small RNAs, we performed deep sequencing of small RNA transcriptomes from early developmental stages of panicles from 10 genotypes of the cultivated African species and 10 genotypes of its wild-relative O. barthii. Our study shows a drastic expression change of the 21-nucleotide smallRNA population. A total of 29% of these smallRNAs are overexpressed in panicles of O. barthii vs. O. glaberrima, corresponding mainly to 21-nucleotide phased siRNAs (or phasiRNAs). We also show that these changes are associated with a differential expression of a known regulator of phased siRNAs, miR2118 during early panicle development. Finally, these changes are associated to a heterochronic alteration of phasiRNAs and miR2118 expression pattern, during panicle development with a delayed expression in the domesticated species. Our study suggests a major reshaping of the regulation network from a specific class of small RNA during African rice domestication. Overall design: Examination of panicle-associated smallRNA populations from Oryza glaberrima and Oryza barthii</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>26969003</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS453619-SRS453620</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX316166-SRX316167</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR922416-SRR922417</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA209731&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA209731&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>209731</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-10-10</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA264485" alias="PRJNA264485" center_name="Kunming Institute of Botany, the Chinese Academy of Sciences">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA264485</PRIMARY_ID>
+          <SECONDARY_ID>SRP051137</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Kunming Institute of Botany, the Chinese Academy of Sciences">PRJNA264485</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Oryza barthii</NAME>
+     <TITLE>Oryza barthii Genome sequencing</TITLE>
+     <DESCRIPTION>Asian rice (Oryza sativa) is among the world’s most important crops. The genus Oryza has become a model for the study of plant genome structure, function, and evolution. We have undertaken de novo, full-genome sequence analysis of five diploid AA-genome species that are closely related to O. sativa. These species are native to quite different environments, representing four continents, thus exhibiting very different adaptations. Our studies identify specific genetic changes, in both gene copy number and the degree of diversifying natural selection, that indicate specific genes responsible for these adaptations, particularly in genes related to defense against pathogens and reproductive diversification. This genome discovery and comparative analysis provide a powerful tool for future Oryza study and rice improvement.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>NV42</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>RU76</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>RU77</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>RU78</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>RU79</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+          <ORGANISM>
+               <TAXON_ID>65489</TAXON_ID>
+               <SCIENTIFIC_NAME>Oryza barthii</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA46087"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS791110,SRS796358,SRS796381-SRS796383</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX809864-SRX809868,SRX816083,SRX816107-SRX816109</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1712898-SRR1712901,SRR1712903-SRR1712907,SRR1722231,SRR1722290-SRR1722292</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA264485&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA264485&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>264485</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-10-24</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA30379" alias="PRJNA30379" center_name="Oryza Chr3 Short Arm Comparative Sequencing Project">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA30379</PRIMARY_ID>
+          <SECONDARY_ID>SRP037996</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Oryza Chr3 Short Arm Comparative Sequencing Project">PRJNA30379</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Oryza barthii strain:IRGC 105608</NAME>
+     <TITLE>Oryza barthii</TITLE>
+     <DESCRIPTION>IRRI Accession number 105608 obtained from National Institute of Genetics, Genetic Stock Research Center W1588 &lt;i>O. barthii&lt;/i> is the AA genome progenitor of the West African cultivated rice, &lt;i>O. glaberrima&lt;/i></DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>AGT13</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>AGT14</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>AGT15</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>OBART</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+          <ORGANISM>
+               <TAXON_ID>65489</TAXON_ID>
+               <SCIENTIFIC_NAME>Oryza barthii</SCIENTIFIC_NAME>
+               <STRAIN>IRGC 105608</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA46087"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS558471,SRS558989-SRS558990,SRS583138-SRS583231,SRS667831</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX471823,SRX472434-SRX472435,SRX502162-SRX502255,SRX662937-SRX662945</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1170742,SRR1170744,SRR1170762,SRR1206362-SRR1206455,SRR1528330-SRR1528338</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA30379&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA30379&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>30379</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-05-31</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-02-07</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA478144" alias="PRJNA478144" center_name="China Agricultural University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA478144</PRIMARY_ID>
+          <SECONDARY_ID>SRP151515</SECONDARY_ID>
+          <SUBMITTER_ID namespace="China Agricultural University">PRJNA478144</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Oryza</NAME>
+     <TITLE>Transcriptome analysis of RICE PLANT ARCHITECTURE DOMESTICATION locus</TITLE>
+     <DESCRIPTION>Improving the yield by modifying plant architecture is key to progressive crop domestication. Here, we show that a 110-kb deletion on the short arm of chromosome 7 promotes the critical transition from semi-prostrate growth and low yield in wild rice (Oryza rufipogon), to erect growth and high yield in Asian cultivated rice (O. sativa). The microdeletion harbors a tandem repeat of seven putative Cys2-His2 zinc-finger genes. Three of these genes regulate the plant architecture in O. rufipogon and are closely linked to the previously identified PROSTRATE GROWTH 1 (PROG1) gene. Therefore, we refer to this locus as RICE PLANT ARCHITECTURE DOMESTICATION (RPAD). Furthermore, a similar but independent 113-kb deletion was detected at the RPAD locus in African cultivated rice. These results indicate that the deletions, coupled with the loss of a tandem repeat of zinc-finger genes, drove the parallel domestication of plant architecture in Asian and African rice.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>4527</TAXON_ID>
+               <SCIENTIFIC_NAME>Oryza</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS3479122-SRS3479147</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX4316095-SRX4316120</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR7445556-SRR7445581</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA478144&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA478144&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>478144</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-06-29</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-06-29</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+</ROOT>

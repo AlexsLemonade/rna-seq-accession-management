@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT request="tax_eq(452646) AND (instrument_model=&quot;HiSeq X Ten&quot; OR instrument_model=&quot;HiSeq X Five&quot; OR instrument_model=&quot;Illumina MiSeq&quot; OR instrument_model=&quot;Illumina NovaSeq 6000&quot; OR instrument_model=&quot;Illumina Genome Analyzer&quot; OR instrument_model=&quot;Illumina Genome Analyzer II&quot; OR instrument_model=&quot;Illumina Genome Analyzer IIx&quot; OR instrument_model=&quot;Illumina HiScanSQ&quot; OR instrument_model=&quot;Illumina HiSeq 1000&quot; OR instrument_model=&quot;Illumina HiSeq 1500&quot; OR instrument_model=&quot;Illumina HiSeq 2000&quot; OR instrument_model=&quot;Illumina HiSeq 2500&quot; OR instrument_model=&quot;Illumina HiSeq 3000&quot; OR instrument_model=&quot;Illumina HiSeq 4000&quot; OR instrument_model=&quot;NextSeq 500&quot; OR instrument_model=&quot;NextSeq 550&quot; OR instrument_model=&quot;Ion Torrent Proton&quot; OR instrument_model=&quot;Ion Torrent S5&quot; OR instrument_model=&quot;Ion Torrent S5 XL&quot;)AND library_strategy=&quot;RNA-Seq&quot; AND library_source=&quot;TRANSCRIPTOMIC&quot;">
+<PROJECT accession="PRJNA280591" alias="PRJNA280591" center_name="Gunter Wagner Lab, EEB, Yale University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA280591</PRIMARY_ID>
+          <SECONDARY_ID>SRP056966</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE67659</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Gunter Wagner Lab, EEB, Yale University">PRJNA280591</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Comparative transcriptomics of endometrial stromal fibroblasts</NAME>
+     <TITLE>Comparative transcriptomics of endometrial stromal fibroblasts</TITLE>
+     <DESCRIPTION>We sequenced mRNA of endometrial stromal fibroblasts from six mammalian species. Overall design: Examination of mRNA levels in endometrial stromal fibroblasts from six mammalian species grown in culture with two biological replicates for each species</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>27401177</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS897229-SRS897240</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX982558-SRX982569</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1957084-SRR1957090,SRR1957092-SRR1957093,SRR3874725-SRR3874729</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA280591&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA280591&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>280591</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-10-10</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA297393" alias="PRJNA297393" center_name="ICG">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA297393</PRIMARY_ID>
+          <SECONDARY_ID>SRP064337</SECONDARY_ID>
+          <SUBMITTER_ID namespace="ICG">PRJNA297393</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Neovison vison</NAME>
+     <TITLE>Neovison vison Genome sequencing and assembly</TITLE>
+     <DESCRIPTION>Background: Recently fibroblasts of many mammalian species were reprogrammed to pluripotent state using overexpression of several transcription factors. This technology allows production of induced pluripotent stem (iPS) cells with properties similar to embryonic stem (ES) cells. The completeness of reprogramming process is well studied in such species as mouse and human but there is not enough data on other species. We decided to produce American mink (Neovison vison) ES and iPS cells and to compare these cells using transcriptome analysis.&lt;/p>&lt;p>Results: We report the generation of 10 mink ES and 22 iPS cell lines. The majority of analyzed cell lines had normal diploid chromosome number. We produced teratomas with cell types representing all three germ layers. The only ES cell line with XX chromosome set had both X chromosomes in active state that is characteristic of pluripotent cells. Transcriptome analysis of mink embryonic fibroblasts (EF), two ES and two iPS cell lines allowed us to identify 6891 genes. 3201 of them were differentially expressed between mink EF and ES cells. We analysed expression levels of these genes in iPS cell lines. It allowed us to show that 80% of genes were correctly reprogrammed in iPS cells, about 6% had intermediate, about 7% – not reprogrammed and about 5% – “novel” expression pattern. We observed expression of pluripotency marker genes such as Oct4, Sox2 and Rex1 with notable exception of Nanog.&lt;/p>&lt;p>Conclusions: We had produced and characterized American mink ES and iPS cells. These cells were pluripotent by a number of criteria and iPS cells exhibited effective reprogramming. Interestingly, we had showed lack of Nanog expression, we consider it as species-specific feature.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>AO543</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>AO544</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>AO545</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>AT671</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>AT672</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+          <ORGANISM>
+               <TAXON_ID>452646</TAXON_ID>
+               <SCIENTIFIC_NAME>Neovison vison</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA194060"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1095022,SRS1095141-SRS1095142,SRS1167089,SRS1167091</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1296328,SRX1296635,SRX1296637,SRX1436125,SRX1436127</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR2539793,SRR2539795,SRR2539805,SRR2539808-SRR2539810,SRR2539814-SRR2539816,SRR2922445-SRR2922447,SRR2925016</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA297393&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA297393&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>297393</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2015-10-01</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+</ROOT>

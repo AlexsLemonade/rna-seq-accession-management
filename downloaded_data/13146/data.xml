@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT request="tax_eq(13146) AND (instrument_model=&quot;HiSeq X Ten&quot; OR instrument_model=&quot;HiSeq X Five&quot; OR instrument_model=&quot;Illumina MiSeq&quot; OR instrument_model=&quot;Illumina NovaSeq 6000&quot; OR instrument_model=&quot;Illumina Genome Analyzer&quot; OR instrument_model=&quot;Illumina Genome Analyzer II&quot; OR instrument_model=&quot;Illumina Genome Analyzer IIx&quot; OR instrument_model=&quot;Illumina HiScanSQ&quot; OR instrument_model=&quot;Illumina HiSeq 1000&quot; OR instrument_model=&quot;Illumina HiSeq 1500&quot; OR instrument_model=&quot;Illumina HiSeq 2000&quot; OR instrument_model=&quot;Illumina HiSeq 2500&quot; OR instrument_model=&quot;Illumina HiSeq 3000&quot; OR instrument_model=&quot;Illumina HiSeq 4000&quot; OR instrument_model=&quot;NextSeq 500&quot; OR instrument_model=&quot;NextSeq 550&quot; OR instrument_model=&quot;Ion Torrent Proton&quot; OR instrument_model=&quot;Ion Torrent S5&quot; OR instrument_model=&quot;Ion Torrent S5 XL&quot;)AND library_strategy=&quot;RNA-Seq&quot; AND library_source=&quot;TRANSCRIPTOMIC&quot;">
+<PROJECT accession="PRJNA378643" alias="PRJNA378643" center_name="Stanford University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA378643</PRIMARY_ID>
+          <SECONDARY_ID>SRP101679</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Stanford University">PRJNA378643</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Melopsittacus undulatus</NAME>
+     <TITLE>Melopsittacus undulatus pigmentation trait mapping</TITLE>
+     <DESCRIPTION>Budgerigars exhibit several Mendelian feather color traits, one of which, the blue trait, abolishes yellow pigmentation. These feather pigments, called psittacofulvins, are only found in the parrot family. The purpose of this study is to discover the genetic and biochemical mechanisms that control psittacofulvin pigmentation.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>13146</TAXON_ID>
+               <SCIENTIFIC_NAME>Melopsittacus undulatus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA72615"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2040308-SRS2040309,SRS2040311-SRS2040316,SRS2040360-SRS2040438,SRS2041057-SRS2041058,SRS2041061-SRS2041097,SRS2041110,SRS2041115-SRS2041154,SRS2041202-SRS2041270,SRS2042467-SRS2042480,SRS2042879-SRS2042880,SRS2043163-SRS2043167</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2630728-SRX2630730,SRX2630732-SRX2630736,SRX2630831-SRX2630917,SRX2631774-SRX2631785,SRX2631788-SRX2631827,SRX2631840,SRX2631845-SRX2631885,SRX2631934-SRX2632002,SRX2633230-SRX2633243,SRX2633649-SRX2633650,SRX2633933-SRX2633937</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5331884-SRR5331891,SRR5332005-SRR5332091,SRR5332949-SRR5332960,SRR5332963-SRR5333002,SRR5333015,SRR5333024-SRR5333044,SRR5333046-SRR5333065,SRR5333114-SRR5333182,SRR5335804-SRR5335817,SRR5336227-SRR5336228,SRR5336543-SRR5336547</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA378643&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA378643&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>378643</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-07-02</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+</ROOT>

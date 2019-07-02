@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT request="tax_eq(179676) AND (instrument_model=&quot;HiSeq X Ten&quot; OR instrument_model=&quot;HiSeq X Five&quot; OR instrument_model=&quot;Illumina MiSeq&quot; OR instrument_model=&quot;Illumina NovaSeq 6000&quot; OR instrument_model=&quot;Illumina Genome Analyzer&quot; OR instrument_model=&quot;Illumina Genome Analyzer II&quot; OR instrument_model=&quot;Illumina Genome Analyzer IIx&quot; OR instrument_model=&quot;Illumina HiScanSQ&quot; OR instrument_model=&quot;Illumina HiSeq 1000&quot; OR instrument_model=&quot;Illumina HiSeq 1500&quot; OR instrument_model=&quot;Illumina HiSeq 2000&quot; OR instrument_model=&quot;Illumina HiSeq 2500&quot; OR instrument_model=&quot;Illumina HiSeq 3000&quot; OR instrument_model=&quot;Illumina HiSeq 4000&quot; OR instrument_model=&quot;NextSeq 500&quot; OR instrument_model=&quot;NextSeq 550&quot; OR instrument_model=&quot;Ion Torrent Proton&quot; OR instrument_model=&quot;Ion Torrent S5&quot; OR instrument_model=&quot;Ion Torrent S5 XL&quot;)AND library_strategy=&quot;RNA-Seq&quot; AND library_source=&quot;TRANSCRIPTOMIC&quot;">
+<PROJECT accession="PRJEB19938" alias="ena-STUDY-European Bioinformatics Institute (EMBL-EBI)-10-03-2017-13:50:55:743-485" center_name="European Bioinformatics Institute (EMBL-EBI)">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJEB19938</PRIMARY_ID>
+          <SECONDARY_ID>ERP022026</SECONDARY_ID>
+          <SUBMITTER_ID namespace="European Bioinformatics Institute (EMBL-EBI)">ena-STUDY-European Bioinformatics Institute (EMBL-EBI)-10-03-2017-13:50:55:743-485</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>The genome of the biting midge Culicoides sonorensis and gene expression analyses of vector competence for Bluetongue virus</NAME>
+     <TITLE>De novo sequencing, assembly and annotation of the Culicoides
+sonorensis genome.</TITLE>
+     <DESCRIPTION>The use of the new genomic technologies has led to major advances in control of several arboviruses of medical importance. However, the development of tools and resources available for vectors of non-zoonotic arboviruses remains neglected. Biting midges of the genus Culicoides transmit some of the most important arboviruses of wildlife and livestock worldwide, with a global impact on economic productivity, health and welfare. The absence of a suitable reference genome has hindered genomic analyses to date in this important group of vectors. In the present study, the genome of Culicoides sonorensis, a vector of bluetongue virus (BTV) in the USA, has been sequenced to be used as reference genome for transcriptomic analyses of vector competence for BTV. Results: The genome has a size of 197.4 Mb and has been assembled in 7,974 scaffolds. Its annotation using the transcriptomic data has identified 15,629 genes. Gene expression analyses of C. sonorensis females infected with BTV have identified 165 genes that were differentially expressed between vector competent and refractory females. Two candidate genes, glutathione S-transferase (gst) and the antiviral helicase ski2, were previously recognized as involved in vector competence for BTV in C. sonorensis (gst) and repressing dsRNA virus propagation (ski2). Conclusions: The genome of C. sonorensis has enabled preliminary analyses of the genetic profiles of vector competent and refractory individuals. The C. sonorensis genome and transcriptomes generated in this study provide suitable platforms for future research on arbovirus transmission. They will be a valuable source of comparative data for other important Dipteran vector families including mosquitoes (Culicidae) and sandflies (Psychodidae).</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>CSON</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJEB7012"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA841187</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS1594693-ERS1594694,ERS1972577</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX1940080-ERX1940083,ERX2228407-ERX2228422</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR1879555-ERR1879558,ERR2171964-ERR2171979</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB19938&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB19938&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-01-22</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-31</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJEB7006" alias="ena-STUDY-European Bioinformatics Institute (EMBL-EBI) -18-08-2014-16:34:08:260-473" center_name="European Bioinformatics Institute (EMBL-EBI) ">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJEB7006</PRIMARY_ID>
+          <SECONDARY_ID>ERP006688</SECONDARY_ID>
+          <SUBMITTER_ID namespace="European Bioinformatics Institute (EMBL-EBI) ">ena-STUDY-European Bioinformatics Institute (EMBL-EBI) -18-08-2014-16:34:08:260-473</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Culicoides sonorensis transcriptome assembly</NAME>
+     <TITLE>de novo and reference based assemblies of the transcriptome of Culicoides sonorensis</TITLE>
+     <DESCRIPTION>With the aim of helping the gene prediction and annotation process of the Culicoides sonorensis-derived KC cell genome, we have sequenced the transcriptomes of this cell line under 11 different conditions. With the purpose of boosting gene expression, the cell line was challenged with 10 different treatments (Prostagalndin E1, Prostaglandin A1, 20 Hydroxyecdysome, Staphylococcus aureus Lipoteichoic acid, E. coli Lipopolysaccharide, Polyinosinic:polycytidylic acid, Insulin, Transcription growth factor β1, fMLP and heat-shock at 36 C) and a control. RNA was extracted from each treated cell culture and TrueSeq libraries were barcoded and sequenced on a single lane of the Illumina HiSeq 2000 platform using 100 bp paired-end reads. The transcriptomes were assembled de novo using Trinity, but also using the KC cell assembly as a reference genome with TopHat and Cufflinks. The number of genes in each of the transcriptomes is similar, ranging from 11317 to 11995, and the number of transcripts is also similar between the transcriptomes, 13419 to 14188, and higher than the number of genes, indicating the presence of some differential transcripts. The number of total genes in the merged transcriptome was 11568 and the number of transcripts increased to 17554. Of these, 12535 aligned to 8294 of the predicted genes from the KC cell genome assembly with an identity at DNA level greater than 90%.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJEB7012"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA349072</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS555379-ERS555389</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX594349-ERX594359</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR637904-ERR637914</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB7006&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB7006&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-01-22</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2016-05-20</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA238338" alias="PRJNA238338" center_name="Clemson University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA238338</PRIMARY_ID>
+          <SECONDARY_ID>SRP038014</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Clemson University">PRJNA238338</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Culicoides sonorensis strain:AK</NAME>
+     <TITLE>Culicoides sonorensis strain:AK Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>The transcriptome of the adult female biting midge (Culicoides sonorensis) and differential gene expression profiling during teneral, blood, and sucrose feeding conditions</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>BU40</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>BU41</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>BU42</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>BU43</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>BU44</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>BU45</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>BU46</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>BU47</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>BU48</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>BU49</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>FFQ31</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+          <ORGANISM>
+               <TAXON_ID>179676</TAXON_ID>
+               <SCIENTIFIC_NAME>Culicoides sonorensis</SCIENTIFIC_NAME>
+               <STRAIN>AK</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA435443"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>24866149</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS560202,SRS560213-SRS560221,SRS4789740</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX474217,SRX474230-SRX474237,SRX474239,SRX5866394</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1174028-SRR1174036,SRR1174038,SRR9091274</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA238338&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA238338&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>238338</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-02-27</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-05-23</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+</ROOT>
