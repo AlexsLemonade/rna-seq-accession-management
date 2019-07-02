@@ -31,7 +31,13 @@ A not at all comprehensive list of potential suspects:
 ## Set up 
 
 ```{r Set Up}
+# magrittr pipe
 `%>%` <- dplyr::`%>%`
+
+# Make a folder for the output here
+if (!dir.exists("data")) {
+  dir.create("data")
+}
 ```
 
 We will use this function when setting up the experiment data.
@@ -59,97 +65,173 @@ collapse_experiment <- function(variable) {
 
 Set up the data frame we will store it in. 
 Read the first page.
+If we already have the file though, we will skip this.
 
 ```{r}
-# This will store the experiment info for all the api registered experiments
-all_api_experiments <- data.frame()
+# Only run this part if we haven't ran it and created the file before
+if (file.exists(file.path("data", "api_registered_experiments.tsv"))) {
+  all_api_experiments <- readr::read_tsv(file.path("data",
+                                                   "api_registered_experiments.tsv"))
+} else {
+  # This will store the experiment info for all the api registered experiments
+  all_api_experiments <- data.frame()
 
-# Read in that first page
-seq_experiments_json <- jsonlite::fromJSON("https://api.refine.bio/experiments/")
+  # Read in that first page
+  seq_experiments_json <- jsonlite::fromJSON("https://api.refine.bio/experiments/")
 
-# Start at page 1
-seq_counter <- 1
+  # Start at page 1
+  seq_counter <- 1
+}
 ```
 
-Run the loop. 
+Run the loop. Unless we already have the file.
 
 ```{r}
-# While there's still another page, get more experiments!
-while (!is.null(seq_experiments_json$`next`)) {
-  # Print message so we know the progress
-  message(paste0("RNA-seq experiment page ", seq_counter, "..."))
+# Only run this part if we haven't ran it before
+if (!file.exists(file.path("data", "api_registered_experiments.tsv"))) {
+  # While there's still another page, get more experiments!
+  while (!is.null(seq_experiments_json$`next`)) {
+    # Print message so we know the progress
+    message(paste0("RNA-seq experiment page ", seq_counter, "..."))
   
-  # Skip this for the first page since we already read it in
-  if (seq_counter > 1) {
-    seq_experiments_json <- jsonlite::fromJSON(seq_experiments_json$`next`)
+    # Skip this for the first page since we already read it in
+    if (seq_counter > 1) {
+      seq_experiments_json <- jsonlite::fromJSON(seq_experiments_json$`next`)
+    }
+  
+    # Melt into a data.frame
+    seq_api_experiments <- 
+      data.frame(acc = unlist(seq_experiments_json$results$accession_code),
+                organisms = collapse_experiment(seq_experiments_json$results$organisms),
+                technology = collapse_experiment(seq_experiments_json$results$technologies),
+                platforms = collapse_experiment(seq_experiments_json$results$platforms),
+                samples = collapse_experiment(seq_experiments_json$results$processed_samples))
+  
+    # Add this set of experiments/organisms to the running data.frame
+    all_api_experiments <- rbind.data.frame(all_api_experiments, seq_api_experiments)
+  
+    # Go on to the next page
+    seq_counter <- seq_counter + 1 
   }
-  
-  
-  # Melt into a data.frame
-  seq_api_experiments <- 
-    data.frame(acc = unlist(seq_experiments_json$results$accession_code),
-               organisms = collapse_experiment(seq_experiments_json$results$organisms),
-               technology = collapse_experiment(seq_experiments_json$results$technologies),
-               platforms = collapse_experiment(seq_experiments_json$results$platforms),
-               samples = collapse_experiment(seq_experiments_json$results$processed_samples))
-  
-  # Add this set of experiments/organisms to the running data.frame
-  all_api_experiments <- rbind.data.frame(all_api_experiments, seq_api_experiments)
-  
-  # Go on to the next page
-  seq_counter <- seq_counter + 1 
 }
 ```
 
 Set up the data.frame with appropriate column names and save to a TSV.
 
 ```{r}
-# Make the column names more sensible
-colnames(all_api_experiments) <- c("acc", "organisms", "technology")
-
 # Write these experiments and their info to a file
-readr::write_tsv(file.path("api_registered_experiments.tsv"))
+readr::write_tsv(all_api_experiments, 
+                 file.path("data", "api_registered_experiments.tsv"))
 ```
   
-## Read in the "previous" lists 
+## Read in the "previous" lists
+We want to filter out non-RNA-seq experiment accessions and only keep unique
+accessions. 
+
+Do this for the human list: 
   
 ```{r}
+# Read in the "previous list"
 all_attempted_human_acc <- readr::read_delim("previous_human.txt", "\n", col_names = FALSE) %>%
-  dplyr::pull("X1")
-all_attempted_rat_acc  <- readr::read_delim("previous_rat.txt", "\n", col_names = FALSE) %>%
+  unique() %>%
   dplyr::pull("X1")
 ```
 
-## Cross reference the API list with the attempted list
-
-Do this for human first: 
+How many unique rat accessions are there?
 
 ```{r}
-# Extract just the human accessions
+length(all_attempted_human_acc)
+```
+
+Do this for the rat list: 
+
+```{r}
+# Read in the "previous list"
+all_attempted_rat_acc  <- readr::read_delim("previous_rat.txt", "\n", col_names = FALSE) %>%
+  unique() %>%
+  dplyr::pull("X1")
+```
+
+How many unique rat accessions are there?
+
+```{r}
+length(all_attempted_human_acc)
+```
+
+## Extract only the species' RNA-seq accessions
+
+We are sorting by the accession number rather than the technology because we 
+don't want microarray datasets that happen to have RNA-seq as well to show up. 
+We only care about data from SRA.
+We will write the accessions to a TSV file. 
+
+Obtain this list for human experiments:
+
+```{r}
+# Extract just human RNA-seq accessions
 api_human_acc <- all_api_experiments %>% 
-  dplyr::filter(grep(organisms, "HOMO_SAPIENS")) %>%
+  dplyr::filter(grepl("HOMO_SAPIENS", organisms)) %>%
+  dplyr::filter(grepl("RNA-SEQ", technology)) %>%
+  dplyr::filter(!grepl("GSE", acc)) %>%
+  readr::write_tsv(file.path("data", "human_failed_survey_accessions.tsv"))
+
+# Extract just the accessions
+api_human_acc <- api_human_acc %>%
   dplyr::pull(acc)
 
-# Failed human accessions
-failed_human <- all_attempted_human_acc[!is.na(match(all_attempted_human_acc, api_human_acc))]
+# How many human RNA-seq accessions?
+length(unique(api_human_acc))
 ```
 
 Now rat.
 
 ```{r}
-# Extract just the rat accessions
+# Extract just the rat RNA-seq accessions
 api_rat_acc <- all_api_experiments %>% 
-  dplyr::filter(grep(organisms, "RATTUS_NORVEGICUS")) %>%
+  dplyr::filter(organisms == "RATTUS_NORVEGICUS") %>%
+  dplyr::filter(grepl("RNA-SEQ", technology)) %>%
+  dplyr::filter(!grepl("GSE", acc)) 
+
+# Extract just the accessions
+api_rat_acc <- api_rat_acc %>%
   dplyr::pull(acc)
 
-# Failed rat accessions
-failed_rat <- all_attempted_rat_acc[!is.na(match(all_attempted_rat_acc, api_rat_acc))]
+# How many rat RNA-seq accessions?
+length(unique(api_rat_acc))
 ```
 
-## Check that these lists make sense
+## Cross reference these lists with the all_attempted lists. 
+And write these to a TSV file. 
+
+For human:
 
 ```{r}
+# Failed human accessions
+failed_human <- setdiff(all_attempted_human_acc, api_human_acc)
 
+# How long is this list?
+length(failed_human)
+```
+
+For rat: 
+
+```{r}
+# Failed rat accessions
+failed_rat <- setdiff(all_attempted_rat_acc, api_rat_acc) 
+
+# How long is this list?
+length(failed_rat)
+```
+
+## Write the failed accessions to a TSV file
+
+```{r}
+# Write these to a TSV file
+readr::write_tsv(data.frame(failed_human),
+                 file.path("data", "human_failed_survey_accessions.tsv"))
+
+readr::write_tsv(data.frame(failed_rat),
+                 file.path("data", "rat_failed_survey_accessions.tsv"))
 ```
 
 ### Print session info
