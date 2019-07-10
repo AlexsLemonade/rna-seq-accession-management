@@ -1,8 +1,12 @@
 #!/bin/bash
+# Download information on all of the taxon ids in ACCESSION_LIST, and concatenate all new accessions
 
-ACCESSION_LIST=taxon_ids.txt
+ACCESSION_LIST="$1"
 
-# Download information on all of the accessions in ACCESSION_LIST, and concatenate all new accessions
+if [ -e downloaded_data ]; then
+	rm -rf downloaded_data
+fi
+mkdir downloaded_data
 
 # Initialize variables
 count=0
@@ -24,7 +28,7 @@ while read -r taxon_id; do
     # Yes, I'm sure we want to glob here
     # shellcheck disable=2086
     ../../more_rna_accessions.py --percent-experiments=1 --xml-file=data.xml\
-				 --exclude-list=<(cat ../../previous_accessions/**/*${taxon_id}*.txt 2>/dev/null)
+				 --exclude-list=<(cat ../../previous_accessions/**/*${taxon_id}.txt 2>/dev/null)
 
     cat new_accessions.txt >> ../../all_new_accessions.txt
 
