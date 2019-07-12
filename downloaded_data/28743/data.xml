@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT request="tax_eq(28743) AND (instrument_model=&quot;HiSeq X Ten&quot; OR instrument_model=&quot;HiSeq X Five&quot; OR instrument_model=&quot;Illumina MiSeq&quot; OR instrument_model=&quot;Illumina NovaSeq 6000&quot; OR instrument_model=&quot;Illumina Genome Analyzer&quot; OR instrument_model=&quot;Illumina Genome Analyzer II&quot; OR instrument_model=&quot;Illumina Genome Analyzer IIx&quot; OR instrument_model=&quot;Illumina HiScanSQ&quot; OR instrument_model=&quot;Illumina HiSeq 1000&quot; OR instrument_model=&quot;Illumina HiSeq 1500&quot; OR instrument_model=&quot;Illumina HiSeq 2000&quot; OR instrument_model=&quot;Illumina HiSeq 2500&quot; OR instrument_model=&quot;Illumina HiSeq 3000&quot; OR instrument_model=&quot;Illumina HiSeq 4000&quot; OR instrument_model=&quot;NextSeq 500&quot; OR instrument_model=&quot;NextSeq 550&quot; OR instrument_model=&quot;Ion Torrent Proton&quot; OR instrument_model=&quot;Ion Torrent S5&quot; OR instrument_model=&quot;Ion Torrent S5 XL&quot;)AND library_strategy=&quot;RNA-Seq&quot; AND library_source=&quot;TRANSCRIPTOMIC&quot;">
+<PROJECT accession="PRJNA305422" alias="PRJNA305422" center_name="Cornell University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA305422</PRIMARY_ID>
+          <SECONDARY_ID>SRP067182</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Cornell University">PRJNA305422</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Cyprinodon</NAME>
+     <TITLE>RNAseq of Cyprinodon pupfishes</TITLE>
+     <DESCRIPTION>Understanding the evolution of novel morphologies is fundamental to the study of evolution. Illumina RNAseq was used to investigate gene expression divergence and sequence divergence among incipient species of pupfish that vary in skull morphology.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>28741</TAXON_ID>
+               <SCIENTIFIC_NAME>Cyprinodon</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1198666-SRS1198668,SRS1204627-SRS1204655,SRS2208119-SRS2208150</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1478890-SRX1478925,SRX2833486-SRX2833517</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR2990976-SRR2991011,SRR5575186-SRR5575217</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA305422&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA305422&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>305422</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2015-12-15</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA391309" alias="PRJNA391309" center_name="UNC Chapel Hill">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA391309</PRIMARY_ID>
+          <SECONDARY_ID>SRP110031</SECONDARY_ID>
+          <SUBMITTER_ID namespace="UNC Chapel Hill">PRJNA391309</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <TITLE>Craniofacial divergence in Caribbean Pupfishes</TITLE>
+     <DESCRIPTION>The genetic changes responsible for evolutionary transitions from generalist to specialist phenotypes are poorly understood. Here we examine the genetic basis of craniofacial traits enabling novel trophic specialization in a sympatric radiation of Cyprinodon pupfishes endemic to San Salvador Island, Bahamas.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2302585-SRS2302622,SRS2472893-SRS2472914,SRS2473070-SRS2473076,SRS3422718-SRS3422721</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2941494-SRX2941531,SRX3139998-SRX3140026,SRX4222064-SRX4222067</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5725530-SRR5725567,SRR5983999-SRR5984027,SRR7348693-SRR7348696</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA391309&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA391309&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>391309</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-06-23</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA508801" alias="PRJNA508801" center_name="Griffitt, Coastal Sciences, The University of SOuthern Mississippi">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA508801</PRIMARY_ID>
+          <SECONDARY_ID>SRP172789</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE123469</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Griffitt, Coastal Sciences, The University of SOuthern Mississippi">PRJNA508801</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>RNA-seq of developing Cyprinodon variegatus exposed to oil, hypoxia, or both</NAME>
+     <TITLE>RNA-seq of developing Cyprinodon variegatus exposed to oil, hypoxia, or both</TITLE>
+     <DESCRIPTION>The objective of this project was to investigate the impacts of oil exposure in combination with environmental stressors on gene expression in developing C. variegatus. Overall design: C. variegatus from three different life stages (embryonic, ≤ 15 h post-fertilization; post-hatch, ≤ 24 h post-hatch, post-larval ≤ 4 d post-hatch) were exposed to oil, hypoxia, or both for 48 hours. Oil solutions used in exposures were derived from high energy water accommodated fractions (HEWAF) prepared using Macondo well oil following explosion of the Deepwater Horizon oil rig in 2010. Exposure hypoxia was defined as ≤ 2 mg/L of oxygen. All treatments were performed in triplicate. Following exposure, 10 larvae from each replicate were processed for RNA extraction and RNA sequencing.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>28743</TAXON_ID>
+               <SCIENTIFIC_NAME>Cyprinodon variegatus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA89419"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS4113304-SRS4113339</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX5103143-SRX5103178</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR8288521-SRR8288556</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA508801&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA508801&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>508801</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2019-04-25</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-04-25</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+</ROOT>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT request="tax_eq(6282) AND (instrument_model=&quot;HiSeq X Ten&quot; OR instrument_model=&quot;HiSeq X Five&quot; OR instrument_model=&quot;Illumina MiSeq&quot; OR instrument_model=&quot;Illumina NovaSeq 6000&quot; OR instrument_model=&quot;Illumina Genome Analyzer&quot; OR instrument_model=&quot;Illumina Genome Analyzer II&quot; OR instrument_model=&quot;Illumina Genome Analyzer IIx&quot; OR instrument_model=&quot;Illumina HiScanSQ&quot; OR instrument_model=&quot;Illumina HiSeq 1000&quot; OR instrument_model=&quot;Illumina HiSeq 1500&quot; OR instrument_model=&quot;Illumina HiSeq 2000&quot; OR instrument_model=&quot;Illumina HiSeq 2500&quot; OR instrument_model=&quot;Illumina HiSeq 3000&quot; OR instrument_model=&quot;Illumina HiSeq 4000&quot; OR instrument_model=&quot;NextSeq 500&quot; OR instrument_model=&quot;NextSeq 550&quot; OR instrument_model=&quot;Ion Torrent Proton&quot; OR instrument_model=&quot;Ion Torrent S5&quot; OR instrument_model=&quot;Ion Torrent S5 XL&quot;)AND library_strategy=&quot;RNA-Seq&quot; AND library_source=&quot;TRANSCRIPTOMIC&quot;">
+<PROJECT accession="PRJEB2965" alias="Onchocerca_volvulus_transcriptomics-sc-2012-04-10T13:26:21Z-1982" center_name="Wellcome Sanger Institute">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJEB2965</PRIMARY_ID>
+          <SECONDARY_ID>ERP001350</SECONDARY_ID>
+          <SECONDARY_ID>ERP001350</SECONDARY_ID>
+          <SUBMITTER_ID namespace="SC">Onchocerca_volvulus_transcriptomics-sc-2012-04-10T13:26:21Z-1982</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Onchocerca_volvulus_transcriptomics</NAME>
+     <TITLE>Onchocerca_volvulus_transcriptomics</TITLE>
+     <DESCRIPTION>This data is part of a pre-publication release. For information on the proper use of pre-publication data shared by the Wellcome Trust Sanger Institute (including details of any publication moratoria), please see http://www.sanger.ac.uk/datasharing/ Onchocerca volvulus is a filarial nematode parasite of humans, causing Onchocerciasis, or River Blindness, which affects over 37 million people, mainly in Africa. It is a severely debilitating disease, which is transmitted to humans by black fly. This project aims to undertake high-throughput sequencing of Onchocerca volvulus transcriptome for de novo assembly of transcripts. The main objective of this project is to recognize genes expressed in given life stages.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA118045</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS092575-ERS092577,ERS126284-ERS126287,ERS391927-ERS391929</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX200391-ERX200397,ERX450840-ERX450842,ERX529044-ERX529045</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR225731-ERR225737,ERR485008-ERR485010,ERR570055-ERR570056</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-ANALYSIS</DB>
+                    <ID>ERZ017093-ERZ017099</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB2965&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB2965&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2016-05-20</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA219638" alias="PRJNA219638" center_name="The Genome Institute">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA219638</PRIMARY_ID>
+          <SECONDARY_ID>SRP056861</SECONDARY_ID>
+          <SUBMITTER_ID namespace="The Genome Institute">PRJNA219638</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Onchocerca volvulus</NAME>
+     <TITLE>Onchocerca volvulus Genome sequencing</TITLE>
+     <DESCRIPTION>Onchocerca volvulus is a nematode that causes onchocerciasis or "river blindness" mostly in Africa. Long-term corneal inflammation, or keratitis, leads to thickening of the corneal stroma which ultimately leads to blindness. Humans are the only definitive host for O. volvulus. The intermediate host or vector is the black fly (Simulium). O. volvulus, along with most filarial nematodes, share an endosymbiotic relationship with the bacterium Wolbachia. In the absence of Wolbachia, larval development of the O. volvulus is disrupted or ceased.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>P882</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+          <ORGANISM>
+               <TAXON_ID>6282</TAXON_ID>
+               <SCIENTIFIC_NAME>Onchocerca volvulus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA43483"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS893096-SRS893104</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX978156-SRX978164</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1952268,SRR1952316,SRR1952319,SRR1952348-SRR1952349,SRR1952351,SRR1952458,SRR1952460,SRR1952463</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA219638&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA219638&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>219638</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-09-22</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+</ROOT>

@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT request="tax_eq(9669) AND (instrument_model=&quot;HiSeq X Ten&quot; OR instrument_model=&quot;HiSeq X Five&quot; OR instrument_model=&quot;Illumina MiSeq&quot; OR instrument_model=&quot;Illumina NovaSeq 6000&quot; OR instrument_model=&quot;Illumina Genome Analyzer&quot; OR instrument_model=&quot;Illumina Genome Analyzer II&quot; OR instrument_model=&quot;Illumina Genome Analyzer IIx&quot; OR instrument_model=&quot;Illumina HiScanSQ&quot; OR instrument_model=&quot;Illumina HiSeq 1000&quot; OR instrument_model=&quot;Illumina HiSeq 1500&quot; OR instrument_model=&quot;Illumina HiSeq 2000&quot; OR instrument_model=&quot;Illumina HiSeq 2500&quot; OR instrument_model=&quot;Illumina HiSeq 3000&quot; OR instrument_model=&quot;Illumina HiSeq 4000&quot; OR instrument_model=&quot;NextSeq 500&quot; OR instrument_model=&quot;NextSeq 550&quot; OR instrument_model=&quot;Ion Torrent Proton&quot; OR instrument_model=&quot;Ion Torrent S5&quot; OR instrument_model=&quot;Ion Torrent S5 XL&quot;)AND library_strategy=&quot;RNA-Seq&quot; AND library_source=&quot;TRANSCRIPTOMIC&quot;">
+<PROJECT accession="PRJEB13074" alias="E-MTAB-4550" broker_name="ArrayExpress" center_name="Cambridge Institute - Cancer Research UK and University of Cambridge">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJEB13074</PRIMARY_ID>
+          <SECONDARY_ID>ERP014610</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Cambridge Institute - Cancer Research UK and University of Cambridge">E-MTAB-4550</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>RNA-Seq analysis of gene expression divergence in mammalian liver</NAME>
+     <TITLE>RNA-Seq analysis of gene expression divergence in mammalian liver</TITLE>
+     <DESCRIPTION>The connection between evolution of regulatory elements and downstream gene expression is incompletely understood in mammals. We carried out a large-scale comparison of matched ChIP-seq and RNA-seq experiments across twenty species of mammals, using liver as a model somatic tissue. Herein we report the RNA-seq dataset, comprising twenty five species of mammals. When analysed alongside our previously reported ChIP-seq experiments, these data reveal a number of insights into how mammalian regulatory evolution propagates into differences in gene expression levels. Please note that all mouse RNA-seq libraries and three out of four human libraries have been previously reported in Array Express submission E-MTAB-4052 and are thus omitted here.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <URL_LINK>
+                    <URL>http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-4550</URL>
+                    <LABEL>E-MTAB-4550 in ArrayExpress</LABEL>
+               </URL_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA582952</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS1090459-ERS1090521</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX1403285-ERX1403347</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR1331665-ERR1331727</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB13074&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB13074&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-10-12</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2016-05-20</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJEB22346" alias="Barcoded_sequencing_in_animal_models_and_cell_lines-sc-4941" center_name="Wellcome Sanger Institute">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJEB22346</PRIMARY_ID>
+          <SECONDARY_ID>ERP104024</SECONDARY_ID>
+          <SUBMITTER_ID namespace="SC">Barcoded_sequencing_in_animal_models_and_cell_lines-sc-4941</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Barcoded_sequencing_in_animal_models_and_cell_lines</NAME>
+     <TITLE>Barcoded_sequencing_in_animal_models_and_cell_lines</TITLE>
+     <DESCRIPTION>The use of molecular indentifiers during PCR amplification allows for correction of technical noise and quantification of individual RNA transcripts. This approach for library preparation can be used in different aspects of infectious disease research. In the present study, we use PCR amplification with barcoded primer sets  for characterisation of the sequence diversity of virus populaitons in infected animal models as well as for monitoring of the animal response to infection.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA1079102</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS939051-ERS939054,ERS939071-ERS939082,ERS1043048,ERS1285302-ERS1285306,ERS1930949,ERS1938343-ERS1938350,ERS1943122-ERS1943125</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX1168153-ERX1168156,ERX1168164-ERX1168167,ERX1168190-ERX1168201,ERX1168217-ERX1168226,ERX1299320,ERX2083385-ERX2083386,ERX2083388,ERX2083390-ERX2083391,ERX2195287-ERX2195303</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR1088599-ERR1088602,ERR1088610-ERR1088613,ERR1088636-ERR1088647,ERR1088663-ERR1088672,ERR1227267,ERR2024251,ERR2024253,ERR2024255,ERR2024257,ERR2024259,ERR2138738-ERR2138754</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB22346&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB22346&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-09-13</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2017-09-01</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA230998" alias="PRJNA230998" center_name="University of Washington">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA230998</PRIMARY_ID>
+          <SECONDARY_ID>SRP033621</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of Washington">PRJNA230998</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Mustela putorius furo</NAME>
+     <TITLE>Mustela putorius furo Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>Whole transcriptome sequencing of ferret trachea samples infected with influenza. Ferrets were infected with 1918 pandemic or the Cal04 contemprorary strain of influenza. Samples were collected at days 1, 3, and 8 and one group of animals was mock infected with PBS</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>9669</TAXON_ID>
+               <SCIENTIFIC_NAME>Mustela putorius furo</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA168625"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS528129-SRS528133</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX424453-SRX424457</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1105697-SRR1105703</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA230998&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA230998&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>230998</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-12-15</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA289121" alias="PRJNA289121" center_name="University Health Network">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA289121</PRIMARY_ID>
+          <SECONDARY_ID>SRP060446</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University Health Network">PRJNA289121</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Mustela putorius furo</NAME>
+     <TITLE>Differential kinetics of host responses during infection with genetically distinct henipavirus strains in a lethal ferret model</TITLE>
+     <DESCRIPTION>RNA-seq analysis of lung and brain tissues from ferrets infected with Hendra virus and Nipah-Bangladesh virus</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>9669</TAXON_ID>
+               <SCIENTIFIC_NAME>Mustela putorius furo</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA168625"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS980611,SRS981237,SRS981239-SRS981247,SRS981262-SRS981263,SRS981274-SRS981275,SRS981296,SRS981336-SRS981338,SRS981340-SRS981344,SRS981348-SRS981351</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1084490,SRX1085146-SRX1085155,SRX1085186,SRX1085200-SRX1085201,SRX1085251,SRX1085329-SRX1085331,SRX1085333-SRX1085338,SRX1085341,SRX1085343-SRX1085345</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR2089935,SRR2089937,SRR2089942-SRR2089943,SRR2089945,SRR2089947-SRR2089949,SRR2089952-SRR2089954,SRR2089991,SRR2090005,SRR2090055-SRR2090056,SRR2090134-SRR2090144,SRR2090146,SRR2090148</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA289121&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA289121&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>289121</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2015-07-09</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA305974" alias="PRJNA305974" center_name="University of Hamburg">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA305974</PRIMARY_ID>
+          <SECONDARY_ID>SRP067393</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of Hamburg">PRJNA305974</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Mustela putorius furo</NAME>
+     <TITLE>Mustela putorius furo Raw sequence reads</TITLE>
+     <DESCRIPTION>To assess the molecular basis of the stress tolerance of the seal brain we employed an RNA-seq approach. Transcriptomes were generated by Illumina sequencing from the visual cortices of the hooded seal and the ferret (Mustela putorius furo), which is a the closest terrestrial relative.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>9669</TAXON_ID>
+               <SCIENTIFIC_NAME>Mustela putorius furo</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA168625"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1206999</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1482322</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR3000035</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA305974&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA305974&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>305974</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2015-12-16</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA415552" alias="PRJNA415552" center_name="Health Sciences and Technology, MIT">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA415552</PRIMARY_ID>
+          <SECONDARY_ID>SRP121212</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE106077</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Health Sciences and Technology, MIT">PRJNA415552</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>A quantitative model for characterizing the evolutionary history of mammalian gene expression</NAME>
+     <TITLE>A quantitative model for characterizing the evolutionary history of mammalian gene expression</TITLE>
+     <DESCRIPTION>Characterizing the evolutionary history of a gene’s expression profile is a critical component for understanding the relationship between genotype, expression, and phenotype. However, it is not well-established how best to distinguish the different evolutionary forces acting on gene expression. Here, we use RNA-seq across 7 tissues from 17 mammalian species to show that expression evolution across mammals is accurately modeled by the Ornstein-Uhlenbeck (OU) process. This stochastic process models expression trajectories across time as Gaussian distributions whose variance is parameterized by the rate of genetic drift and strength of stabilizing selection. We use these mathematical properties to identify expression pathways under neutral, stabilizing, and directional selection, quantify the extent of selective pressure on a gene’s expression, and detect deleterious expression levels outside expected evolutionary distributions in single patients. Our work provides a statistical framework for interpreting expression data across species and in disease. Overall design: RNA-sequencing of 7 tissues (brain, heart, kidney, liver, lung, skeletal muscle, testis) from rabbit, dog, ferret, cow, armadillo, and opposum</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>30552105</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2621778-SRS2621810</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3316191-SRX3316223</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR6206896-SRR6206928</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA415552&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA415552&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>415552</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-10-22</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-02-27</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA432557" alias="PRJNA432557" center_name="Yale University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA432557</PRIMARY_ID>
+          <SECONDARY_ID>SRP131984</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE110010</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Yale University">PRJNA432557</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Single-cell RNA-seq of ASPM mutant ferret embryonic forebrain</NAME>
+     <TITLE>Single-cell RNA-seq of ASPM mutant ferret embryonic forebrain</TITLE>
+     <DESCRIPTION>As described in our paper "Aspm knockout ferret reveals an evolutionary mechanism governing cerebral cortical size" (Johnson et al., Nature 2018), we used the standard Drop-seq method and analysis of Macosko et al. (2015) to capture, sequence, and analyze mRNA from single cells from Aspm wild-type, heterozygous, and knock-out littermate ferrets at embryonic day 35. Bulk reference samples were processed using standard Illumina mRNA-seq library prep and sequencing protocols, and the samples were described previously (Johnson, Wang et al., Nature Neurosci 2015) Overall design: Embryonic forebrain tissue was harvested and cryopreserved, then processed into single-cell suspension for Drop-seq after genotyping. An equal number of KO and WT/Het littermates from two litters were sequenced in three runs, with genotypes and litters balanced across runs to minimize batch effects.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>9669</TAXON_ID>
+               <SCIENTIFIC_NAME>Mustela putorius furo</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA168625"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>29643508</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2906136-SRS2906147</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3639931-SRX3639942</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR6662911-SRR6662922</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA432557&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA432557&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>432557</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-04-20</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-04-21</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA475581" alias="PRJNA475581" center_name="Microbiology, Boston University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA475581</PRIMARY_ID>
+          <SECONDARY_ID>SRP150253</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE115620</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Microbiology, Boston University">PRJNA475581</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Comparative Transcriptomics in Ebola-Makona infected Ferrets, Non-human Primates, and Humans</NAME>
+     <TITLE>Comparative Transcriptomics in Ebola-Makona infected Ferrets, Non-human Primates, and Humans</TITLE>
+     <DESCRIPTION>The domestic ferret has recently been described as a uniformly lethal model of infection for three species of Ebolavirus known to be pathogenic to humans. Reagents to systematically analyze the ferret host response to infection are lacking; however, the recent publication of a draft ferret genome has opened the potential for transcriptional analysis of ferret models of disease. In this work, we present comparative analysis of longitudinally sampled blood taken from ferrets and non-human primates infected with lethal doses of the Makona strain of Zaire ebolavirus. Strong induction of proinflammatory and prothrombotic signaling programs were present in both ferrets and non-human primates and both transcriptomes were similar to previously published datasets of fatal cases of human Ebola virus infection. Overall design: Whole blood RNA-Sequencing from ferrets infected with Ebola Virus Makona variant</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>9669</TAXON_ID>
+               <SCIENTIFIC_NAME>Mustela putorius furo</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA168625"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>30476250</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS3404504-SRS3404515</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX4193670-SRX4193681</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR7290900,SRR7290902-SRR7290912</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA475581&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA475581&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>475581</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-08-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-02-27</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA499049" alias="PRJNA499049" center_name="Molecular Microbiology and Immunology, University of Southern California">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA499049</PRIMARY_ID>
+          <SECONDARY_ID>SRP167107</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE121911</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Molecular Microbiology and Immunology, University of Southern California">PRJNA499049</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Ferret animal model of severe fever with thrombocytopenia syndrome phlebovirus for human lethal infection and pathogenesis</NAME>
+     <TITLE>Ferret animal model of severe fever with thrombocytopenia syndrome phlebovirus for human lethal infection and pathogenesis</TITLE>
+     <DESCRIPTION>Severe fever with thrombocytopenia syndrome phlebovirus (SFTSV), listed in the WHO most dangerous pathogens, has 12-30% fatality rates with a characteristic thrombocytopenia syndrome. With a majority of clinically diagnosed SFTSV patients older than ~50 years, age is a critical risk factor for SFTSV morbidity and mortality. Here, we report an age-dependent ferret model of SFTSV infection and pathogenesis that fully recapitulates the clinical manifestations of human infections. While young adult ferrets (≤2 years old) did not show any clinical symptoms and mortality, SFTSV-infected aged ferrets (≥4 years old) demonstrated severe thrombocytopenia, reduced white blood cells, and high fever with 93% mortality rate. Moreover, significantly higher viral load was observed in aged ferrets. Transcriptome analysis of SFTSV-infected young ferrets revealed strong interferon-mediated anti-viral signaling, whereas inflammatory immune responses were markedly upregulated and persisted in aged ferrets. Thus, this immunocompetent age-dependent ferret model should be useful for anti-SFTSV therapy and vaccine development. Overall design: Two groups of young adults (20-24 months, ≤2Y) and aged ferrets (48-50 months), ≥4 Y) were inoculated via the IM route with 107.6 TCID50 of the SFTSV CB1/2014 strain. PBMCs were isolated at 2 and 4 dpi from each group of ferrets (n=3) by density gradient centrifugation using Ficoll-Paque Plus according to the manufacture’s protocol.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>9669</TAXON_ID>
+               <SCIENTIFIC_NAME>Mustela putorius furo</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA168625"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS3990951-SRS3990963</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX4948654-SRX4948666</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR8127446-SRR8127458</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA499049&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA499049&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>499049</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-10-31</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-06-23</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA70959" alias="PRJNA70959" center_name="Division of Experimental Therapeutics, University Health Network, Toronto ON Canada">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA70959</PRIMARY_ID>
+          <SECONDARY_ID>SRP010102</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Division of Experimental Therapeutics, University Health Network, Toronto ON Canada">PRJNA70959</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Mustela putorius furo</NAME>
+     <TITLE>Mustela putorius furo Transcriptome during influenza infection</TITLE>
+     <DESCRIPTION>Ferrets were experimentaly infected with influenza A/California/07/2009. RNA samples from lungs and lymph nodes were analyzed by Illumina sequencing.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>9669</TAXON_ID>
+               <SCIENTIFIC_NAME>Mustela putorius furo</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA59949"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>23236062</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS284678,SRS284685-SRS284686,SRS284697,SRS284702,SRS284704-SRS284705,SRS294799-SRS294810</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX113928,SRX113953,SRX113965-SRX113966,SRX113998-SRX113999,SRX114001,SRX121713,SRX121720-SRX121730</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR394311,SRR394320,SRR394323,SRR394375,SRR394479-SRR394480,SRR394531,SRR412813-SRR412824</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA70959&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA70959&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>70959</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-05-31</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA78317" alias="PRJNA78317" center_name="Broad Institute">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA78317</PRIMARY_ID>
+          <SECONDARY_ID>SRP009667</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Broad Institute">PRJNA78317</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Mustela putorius furo</NAME>
+     <TITLE>Mustela putorius furo Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>Mustela putorius furo (Domestic Ferret) RNA sequencing from multiple tissues.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>9669</TAXON_ID>
+               <SCIENTIFIC_NAME>Mustela putorius furo</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA167910"/>
+          </RELATED_PROJECT>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA59949"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS024887,SRS041838,SRS065729,SRS065741,SRS066101,SRS072693,SRS072770,SRS074131,SRS074136,SRS074139,SRS074141,SRS084175,SRS084532,SRS283248-SRS283259,SRS346141-SRS346161,SRS395604-SRS395624</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX110721-SRX110722,SRX112565,SRX112772-SRX112783,SRX112810-SRX112821,SRX114297-SRX114308,SRX117737,SRX154800-SRX154820,SRX155778-SRX155788,SRX155865-SRX155874,SRX238130-SRX238150</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR388276-SRR388285,SRR391679,SRR391921-SRR392002,SRR392044-SRR392067,SRR392683,SRR395577-SRR395612,SRR402201-SRR402202,SRR513635-SRR513697,SRR515453-SRR515463,SRR515576-SRR515585,SRR729215-SRR729294,SRR741919-SRR741922</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA78317&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA78317&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>78317</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-05-31</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+</ROOT>

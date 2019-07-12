@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT request="tax_eq(48698) AND (instrument_model=&quot;HiSeq X Ten&quot; OR instrument_model=&quot;HiSeq X Five&quot; OR instrument_model=&quot;Illumina MiSeq&quot; OR instrument_model=&quot;Illumina NovaSeq 6000&quot; OR instrument_model=&quot;Illumina Genome Analyzer&quot; OR instrument_model=&quot;Illumina Genome Analyzer II&quot; OR instrument_model=&quot;Illumina Genome Analyzer IIx&quot; OR instrument_model=&quot;Illumina HiScanSQ&quot; OR instrument_model=&quot;Illumina HiSeq 1000&quot; OR instrument_model=&quot;Illumina HiSeq 1500&quot; OR instrument_model=&quot;Illumina HiSeq 2000&quot; OR instrument_model=&quot;Illumina HiSeq 2500&quot; OR instrument_model=&quot;Illumina HiSeq 3000&quot; OR instrument_model=&quot;Illumina HiSeq 4000&quot; OR instrument_model=&quot;NextSeq 500&quot; OR instrument_model=&quot;NextSeq 550&quot; OR instrument_model=&quot;Ion Torrent Proton&quot; OR instrument_model=&quot;Ion Torrent S5&quot; OR instrument_model=&quot;Ion Torrent S5 XL&quot;)AND library_strategy=&quot;RNA-Seq&quot; AND library_source=&quot;TRANSCRIPTOMIC&quot;">
+<PROJECT accession="PRJNA177688" alias="PRJNA177688" center_name="The Genome Institute at Washington University School of Medicine">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA177688</PRIMARY_ID>
+          <SECONDARY_ID>SRP016579</SECONDARY_ID>
+          <SUBMITTER_ID namespace="The Genome Institute at Washington University School of Medicine">PRJNA177688</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Poecilia formosa</NAME>
+     <TITLE>Poecilia formosa Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>Poecilia formosa stands out from all other aquatic models by the unique feature of genetic clonality. This is due to its unusual mode of reproduction. Females produce diploid eggs without meiosis, which are then triggered for parthenogenetic development by sperm of males from related species. There is, however, no paternal genetic contribution and all offspring develop as clones of their maternal lineage. The proven true clonality thus allows researchers to perform experiments with animals that are genetically identical. This guarantees the utmost reproducibility of independent studies, a stereotype development of diseases or physiological processes under scrutiny and a highly comparable biological material.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>48698</TAXON_ID>
+               <SCIENTIFIC_NAME>Poecilia formosa</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA89365"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS378821-SRS378831</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX208982-SRX208992</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR629501-SRR629503,SRR629505,SRR629508-SRR629512,SRR629514,SRR629518</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA177688&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA177688&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>177688</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-05-31</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA200586" alias="PRJNA200586" center_name="University of Potsdam">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA200586</PRIMARY_ID>
+          <SECONDARY_ID>SRP022171</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of Potsdam">PRJNA200586</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Poecilia formosa</NAME>
+     <TITLE>Poecilia formosa Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>The Amazon molly, Poecilia formosa (Teleostei: Poeciliinae) is an unisexual, all-female species. It evolved through the hybridisation of two closely related sexual species and exhibits clonal reproduction by sperm dependent parthenogenesis (or gynogenesis). Our interest is focussed on genomic and transcriptomic features of this unusual species, like the genomic consequences of the absence of meiosis for many generations.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>48698</TAXON_ID>
+               <SCIENTIFIC_NAME>Poecilia formosa</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA89365"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS419160</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX275934</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR869674</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA200586&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA200586&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>200586</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-10-04</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA385580" alias="PRJNA385580" center_name="University of Potsdam">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA385580</PRIMARY_ID>
+          <SECONDARY_ID>SRP106539</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of Potsdam">PRJNA385580</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <TITLE>Gonadal transcriptome of the Amazon molly and its parental species</TITLE>
+     <DESCRIPTION>Comparative transcriptomics of the gonads of the Amazon molly and its parental species, Poecilia mexicana and Poecilia latipinna</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2168971-SRS2168973</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2787000-SRX2787002</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5513064-SRR5513066</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA385580&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA385580&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>385580</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-09-01</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+</ROOT>

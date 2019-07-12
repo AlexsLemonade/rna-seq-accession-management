@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT request="tax_eq(7375) AND (instrument_model=&quot;HiSeq X Ten&quot; OR instrument_model=&quot;HiSeq X Five&quot; OR instrument_model=&quot;Illumina MiSeq&quot; OR instrument_model=&quot;Illumina NovaSeq 6000&quot; OR instrument_model=&quot;Illumina Genome Analyzer&quot; OR instrument_model=&quot;Illumina Genome Analyzer II&quot; OR instrument_model=&quot;Illumina Genome Analyzer IIx&quot; OR instrument_model=&quot;Illumina HiScanSQ&quot; OR instrument_model=&quot;Illumina HiSeq 1000&quot; OR instrument_model=&quot;Illumina HiSeq 1500&quot; OR instrument_model=&quot;Illumina HiSeq 2000&quot; OR instrument_model=&quot;Illumina HiSeq 2500&quot; OR instrument_model=&quot;Illumina HiSeq 3000&quot; OR instrument_model=&quot;Illumina HiSeq 4000&quot; OR instrument_model=&quot;NextSeq 500&quot; OR instrument_model=&quot;NextSeq 550&quot; OR instrument_model=&quot;Ion Torrent Proton&quot; OR instrument_model=&quot;Ion Torrent S5&quot; OR instrument_model=&quot;Ion Torrent S5 XL&quot;)AND library_strategy=&quot;RNA-Seq&quot; AND library_source=&quot;TRANSCRIPTOMIC&quot;">
+<PROJECT accession="PRJNA275749" alias="PRJNA275749" center_name="Baylor College of Medicine">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA275749</PRIMARY_ID>
+          <SECONDARY_ID>SRP055934</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Baylor College of Medicine">PRJNA275749</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Lucilia cuprina</NAME>
+     <TITLE>Lucilia cuprina RNAseq</TITLE>
+     <DESCRIPTION>Transcriptome RNAseq of the Sheep blowfly to aid in annotation of the genome</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>VB41</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>VB42</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>VB43</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+          <ORGANISM>
+               <TAXON_ID>7375</TAXON_ID>
+               <SCIENTIFIC_NAME>Lucilia cuprina</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA163973"/>
+          </RELATED_PROJECT>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA83779"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS866899,SRS874693,SRS874696</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX907162-SRX907164</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1853099-SRR1853101</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA275749&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA275749&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>275749</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2015-02-20</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA450794" alias="PRJNA450794" center_name="North Carolina State University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA450794</PRIMARY_ID>
+          <SECONDARY_ID>SRP140869</SECONDARY_ID>
+          <SUBMITTER_ID namespace="North Carolina State University">PRJNA450794</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <TITLE>no blokes is essential for male viability and X chromosome gene expression in the Australian sheep blowfly</TITLE>
+     <DESCRIPTION>Identification of x-linked genes and dosage compensation in Lucilia cuprina</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS3190939-SRS3190941,SRS3199232-SRS3199233</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3960724-SRX3960743,SRX3973756-SRX3973757</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR7028487-SRR7028506,SRR7041718-SRR7041719</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA450794&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA450794&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>450794</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-07-05</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-07-05</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+</ROOT>

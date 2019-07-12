@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT request="tax_eq(49451) AND (instrument_model=&quot;HiSeq X Ten&quot; OR instrument_model=&quot;HiSeq X Five&quot; OR instrument_model=&quot;Illumina MiSeq&quot; OR instrument_model=&quot;Illumina NovaSeq 6000&quot; OR instrument_model=&quot;Illumina Genome Analyzer&quot; OR instrument_model=&quot;Illumina Genome Analyzer II&quot; OR instrument_model=&quot;Illumina Genome Analyzer IIx&quot; OR instrument_model=&quot;Illumina HiScanSQ&quot; OR instrument_model=&quot;Illumina HiSeq 1000&quot; OR instrument_model=&quot;Illumina HiSeq 1500&quot; OR instrument_model=&quot;Illumina HiSeq 2000&quot; OR instrument_model=&quot;Illumina HiSeq 2500&quot; OR instrument_model=&quot;Illumina HiSeq 3000&quot; OR instrument_model=&quot;Illumina HiSeq 4000&quot; OR instrument_model=&quot;NextSeq 500&quot; OR instrument_model=&quot;NextSeq 550&quot; OR instrument_model=&quot;Ion Torrent Proton&quot; OR instrument_model=&quot;Ion Torrent S5&quot; OR instrument_model=&quot;Ion Torrent S5 XL&quot;)AND library_strategy=&quot;RNA-Seq&quot; AND library_source=&quot;TRANSCRIPTOMIC&quot;">
+<PROJECT accession="PRJNA223344" alias="PRJNA223344" center_name="Max Planck Institute of Chemical Ecology">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA223344</PRIMARY_ID>
+          <SECONDARY_ID>SRP031772</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Max Planck Institute of Chemical Ecology">PRJNA223344</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Nicotiana attenuata strain:30x inbred</NAME>
+     <TITLE>Nicotiana attenuata 454 Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>Nicotiana attenuata has been used for more than 20y. to study plant- organism interactions, i.e. herbivores, pollinators, pathogenic microorganisms. A large amount of adaptive biochemical and morphological plasticity in response to environmental signals are known.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>49451</TAXON_ID>
+               <SCIENTIFIC_NAME>Nicotiana attenuata</SCIENTIFIC_NAME>
+               <STRAIN>30x inbred</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA135343"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>24924599</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>25626325</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>26306554</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS492540,SRS891933,SRS891938,SRS892201,SRS892268,SRS892270,SRS892305,SRS892307,SRS892320-SRS892322,SRS892327,SRS892329,SRS892335,SRS892337,SRS892340,SRS892348,SRS892350,SRS892354</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX976863,SRX976868,SRX977133,SRX977195-SRX977196,SRX977230,SRX977239,SRX977251,SRX977253,SRX977255,SRX977257,SRX977272,SRX977274,SRX977276-SRX977277,SRX977281,SRX977292-SRX977293,SRX1000071,SRX1000116,SRX1706661</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1950612,SRR1950627,SRR1950890,SRR1950960-SRR1950961,SRR1951027,SRR1951055,SRR1951065,SRR1951069,SRR1951071,SRR1951077,SRR1951088,SRR1951091,SRR1951094,SRR1951099,SRR1951126,SRR1951128-SRR1951129,SRR1981154,SRR1981172,SRR3389515</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA223344&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA223344&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>223344</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-10-24</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA261513" alias="PRJNA261513" center_name="Kunming institute of Botany, the Chinese Academy of Sciences">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA261513</PRIMARY_ID>
+          <SECONDARY_ID>SRP047328</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE61574</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Kunming institute of Botany, the Chinese Academy of Sciences">PRJNA261513</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Nicotiana attenuata</NAME>
+     <TITLE>Transcriptome analysis of wild tobacco Nicotiana attenuata after Alternaria alternata infection</TITLE>
+     <DESCRIPTION>To understand the transcriptome changes of source-sink transition leaves after infection of Alternaria alternata at 1 dpi Overall design: mRNA profiles of source-sink stransition leaves at 1 dpi/ mock 1 d were generated by deep sequencing, using Illumina Hiseq2000.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>49451</TAXON_ID>
+               <SCIENTIFIC_NAME>Nicotiana attenuata</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA135343"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS706252-SRS706253</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX706834-SRX706835</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1581603-SRR1581604</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA261513&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA261513&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>261513</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-12-01</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA301787" alias="PRJNA301787" center_name="Max Planck Institute for Chemical Ecology">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA301787</PRIMARY_ID>
+          <SECONDARY_ID>SRP066048</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Max Planck Institute for Chemical Ecology">PRJNA301787</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Nicotiana</NAME>
+     <TITLE>Evolution of the herbivore associated elicitor induced early defence signalling networks in Nicotiana</TITLE>
+     <DESCRIPTION>Background: Herbivore-induced defences are widespread in plants and can increase plant fitness when attacked. During herbivore attack, plant-perceived herbivore-associated elicitors (HAE) elicit a sophisticated suite of defenses that are mediated by the rapid activation of HAE-induced early defence signalling (EDS) that includes the transient accumulation of jasmonic acid (JA) and its derivatives. Although several genes are known to be involved in HAE-induced defence signalling, the complete HAE-induced EDS network and its evolution remains unstudied.&lt;/p>&lt;p>Results: We used a comparative transcriptomic approach to analyse 60 HAE-induced leaf transcriptomic early defence responses among six closely related Nicotiana species, each of which have evolved highly specific and divergent HAE-induced defence responses. Using co-expression gene network analysis, we characterised a key co-expression gene network (M4 module), which is largely independent of HAE-induced JA accumulations but co-activated with the HAE-induced defence responses within and among the Nicotiana species. The functional significance of the M4 module in HAE-induced EDS is supported by: 1) functional evidence based on previously characterised genes and, 2) silencing three newly identified candidate genes from the M4 module by virus-induced gene silencing and demonstrating their influence on HAE-induced JA accumulation and metabolism. Using a phylogenomics approach, we provide evidence that gene retention after a genome-wide triplication event in Solanaceae contributed to the evolution of this HAE-induced EDS network.&lt;/p>&lt;p>Conclusions: We present the first HAE-induced EDS co-expression network and provide new insights into the molecular mechanisms and evolution of herbivore induced defences.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>4085</TAXON_ID>
+               <SCIENTIFIC_NAME>Nicotiana</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1158692-SRS1158694,SRS1158897-SRS1158898,SRS1158900,SRS1158902,SRS1158904,SRS1158906-SRS1158913,SRS1158924-SRS1158943,SRS1158956-SRS1158961,SRS1158999-SRS1159000,SRS1159005,SRS1159010,SRS1159012,SRS1159021,SRS1159026,SRS1159028,SRS1159076,SRS1159079,SRS1159081,SRS1159113,SRS1159115-SRS1159118,SRS1159121,SRS1159124</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1426920-SRX1426922,SRX1427131,SRX1427133-SRX1427134,SRX1427136,SRX1427138,SRX1427141-SRX1427144,SRX1427146-SRX1427149,SRX1427411-SRX1427413,SRX1427450-SRX1427452,SRX1427498-SRX1427504,SRX1427511,SRX1427518-SRX1427521,SRX1427530,SRX1427536,SRX1427550-SRX1427555,SRX1427642,SRX1427649,SRX1427653,SRX1427658,SRX1427660-SRX1427662,SRX1427665,SRX1427668,SRX1427671,SRX1427673,SRX1427705,SRX1427707,SRX1427709,SRX1427711,SRX1427713,SRX1427717,SRX1427723</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR2912770-SRR2912771,SRR2912773,SRR2912992,SRR2912995-SRR2912996,SRR2912998,SRR2913000,SRR2913003-SRR2913005,SRR2913008-SRR2913009,SRR2913011-SRR2913013,SRR2913024-SRR2913031,SRR2913033-SRR2913035,SRR2913043-SRR2913046,SRR2913048-SRR2913050,SRR2913052,SRR2913059,SRR2913071-SRR2913073,SRR2913075-SRR2913077,SRR2913168,SRR2913171,SRR2913173,SRR2913175-SRR2913176,SRR2913178-SRR2913180,SRR2913183,SRR2913185-SRR2913188,SRR2913190-SRR2913191,SRR2913193,SRR2913195-SRR2913196</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA301787&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA301787&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>301787</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-08-26</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA317743" alias="PRJNA317743" center_name="Max Planck Institute for Chemical Ecology">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA317743</PRIMARY_ID>
+          <SECONDARY_ID>SRP075848</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Max Planck Institute for Chemical Ecology">PRJNA317743</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Nicotiana attenuata cultivar:Utah 30x inbred</NAME>
+     <TITLE>Nicotiana attenuata cultivar:Utah 30x inbred Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>Nicotiana attenuata has been used to study plant-organism interactions (e.g. insect herbivores, pollinators and pathogenic microorganisms) for more than 20 years. A large amount of adaptive biochemical and morphological plasticity responses to environmental signals are known.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>49451</TAXON_ID>
+               <SCIENTIFIC_NAME>Nicotiana attenuata</SCIENTIFIC_NAME>
+               <CULTIVAR>Utah 30x inbred</CULTIVAR>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA135343"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1470633,SRS1470757,SRS1470799-SRS1470817</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1804554,SRX1804765,SRX1804895-SRX1804913</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR3596354,SRR3597008,SRR3597502-SRR3597504,SRR3597513-SRR3597528</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA317743&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA317743&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>317743</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-08-13</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA320036" alias="PRJNA320036" center_name="Max Planck Institute for Chemical Ecology">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA320036</PRIMARY_ID>
+          <SECONDARY_ID>SRP074311</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Max Planck Institute for Chemical Ecology">PRJNA320036</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Nicotiana attenuata cultivar:Utah 30x inbred</NAME>
+     <TITLE>Nicotiana attenuata Root Transcriptome</TITLE>
+     <DESCRIPTION>Nicotiana attenuata has been used to study plant-organism interactions (e.g. insect herbivores, pollinators and pathogenic microorganisms) for more than 20 years. A large amount of adaptive biochemical and morphological plasticity responses to environmental signals are known.&lt;/p>&lt;p>Here we aim to detect changes in transcriptional patterns with and without smoke treatment.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>49451</TAXON_ID>
+               <SCIENTIFIC_NAME>Nicotiana attenuata</SCIENTIFIC_NAME>
+               <CULTIVAR>Utah 30x inbred</CULTIVAR>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA135343"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1420248-SRS1420259</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1740640-SRX1740651</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR3473348-SRR3473359</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA320036&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA320036&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>320036</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-09-29</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA323584" alias="PRJNA323584" center_name="Max Planck Institute for Chemical Ecology">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA323584</PRIMARY_ID>
+          <SECONDARY_ID>SRP075847</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Max Planck Institute for Chemical Ecology">PRJNA323584</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Nicotiana attenuata cultivar:Arizona 22x inbred</NAME>
+     <TITLE>Nicotiana attenuata ecotype Arizona Transcriptome</TITLE>
+     <DESCRIPTION>Nicotiana attenuata has been used to study plant-organism interactions (e.g. insect herbivores, pollinators and pathogenic microorganisms) for more than 20 years. A large amount of adaptive biochemical and morphological plasticity responses to environmental signals are known.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>49451</TAXON_ID>
+               <SCIENTIFIC_NAME>Nicotiana attenuata</SCIENTIFIC_NAME>
+               <CULTIVAR>Arizona 22x inbred</CULTIVAR>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA135343"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1470624,SRS1470632</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1804540,SRX1804553</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR3596289,SRR3596343</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA323584&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA323584&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>323584</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-08-25</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+</ROOT>

@@ -1,0 +1,2140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT request="tax_eq(6945) AND (instrument_model=&quot;HiSeq X Ten&quot; OR instrument_model=&quot;HiSeq X Five&quot; OR instrument_model=&quot;Illumina MiSeq&quot; OR instrument_model=&quot;Illumina NovaSeq 6000&quot; OR instrument_model=&quot;Illumina Genome Analyzer&quot; OR instrument_model=&quot;Illumina Genome Analyzer II&quot; OR instrument_model=&quot;Illumina Genome Analyzer IIx&quot; OR instrument_model=&quot;Illumina HiScanSQ&quot; OR instrument_model=&quot;Illumina HiSeq 1000&quot; OR instrument_model=&quot;Illumina HiSeq 1500&quot; OR instrument_model=&quot;Illumina HiSeq 2000&quot; OR instrument_model=&quot;Illumina HiSeq 2500&quot; OR instrument_model=&quot;Illumina HiSeq 3000&quot; OR instrument_model=&quot;Illumina HiSeq 4000&quot; OR instrument_model=&quot;NextSeq 500&quot; OR instrument_model=&quot;NextSeq 550&quot; OR instrument_model=&quot;Ion Torrent Proton&quot; OR instrument_model=&quot;Ion Torrent S5&quot; OR instrument_model=&quot;Ion Torrent S5 XL&quot;)AND library_strategy=&quot;RNA-Seq&quot; AND library_source=&quot;TRANSCRIPTOMIC&quot;">
+<PROJECT accession="PRJNA238753" alias="PRJNA238753" center_name="Broad Institute">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA238753</PRIMARY_ID>
+          <SECONDARY_ID>SRP052095</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Broad Institute">PRJNA238753</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Ixodes scapularis strain:ISE6-1</NAME>
+     <TITLE>Arthropod Cell Line RNA Seq</TITLE>
+     <DESCRIPTION>Transcriptome sequencing of arthropod cell lines</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>BL88</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+          <ORGANISM>
+               <TAXON_ID>6945</TAXON_ID>
+               <SCIENTIFIC_NAME>Ixodes scapularis</SCIENTIFIC_NAME>
+               <STRAIN>ISE6-1</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA16233"/>
+          </RELATED_PROJECT>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA238805"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS817540</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX840863,SRX840963,SRX841171,SRX841266</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1755741,SRR1755890,SRR1756156,SRR1756297,SRR1765019,SRR1765024,SRR1765091</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA238753&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA238753&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>238753</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-02-21</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA238754" alias="PRJNA238754" center_name="Broad Institute">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA238754</PRIMARY_ID>
+          <SECONDARY_ID>SRP052162</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Broad Institute">PRJNA238754</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Ixodes scapularis strain:ISE6-2</NAME>
+     <TITLE>Arthropod Cell Line RNA Seq</TITLE>
+     <DESCRIPTION>Transcriptome sequencing of arthropod cell lines</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>BL89</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+          <ORGANISM>
+               <TAXON_ID>6945</TAXON_ID>
+               <SCIENTIFIC_NAME>Ixodes scapularis</SCIENTIFIC_NAME>
+               <STRAIN>ISE6-2</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA16233"/>
+          </RELATED_PROJECT>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA238805"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS817628</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX840980,SRX841096,SRX841370,SRX841402</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1755911,SRR1756072,SRR1756435,SRR1756450,SRR1756495,SRR1765153,SRR1765243</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA238754&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA238754&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>238754</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-02-21</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA238755" alias="PRJNA238755" center_name="Broad Institute">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA238755</PRIMARY_ID>
+          <SECONDARY_ID>SRP052118</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Broad Institute">PRJNA238755</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Ixodes scapularis strain:ISE6-3</NAME>
+     <TITLE>Arthropod Cell Line RNA Seq</TITLE>
+     <DESCRIPTION>Transcriptome sequencing of arthropod cell lines</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>BL90</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+          <ORGANISM>
+               <TAXON_ID>6945</TAXON_ID>
+               <SCIENTIFIC_NAME>Ixodes scapularis</SCIENTIFIC_NAME>
+               <STRAIN>ISE6-3</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA16233"/>
+          </RELATED_PROJECT>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA238805"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS817564</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX840889,SRX840954,SRX841322,SRX841344</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1755768,SRR1755880,SRR1756366,SRR1756372,SRR1756400,SRR1756439,SRR1765033</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA238755&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA238755&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>238755</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-02-21</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA238756" alias="PRJNA238756" center_name="Broad Institute">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA238756</PRIMARY_ID>
+          <SECONDARY_ID>SRP052089</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Broad Institute">PRJNA238756</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Ixodes scapularis strain:ISE6-4</NAME>
+     <TITLE>Arthropod Cell Line RNA Seq</TITLE>
+     <DESCRIPTION>Transcriptome sequencing of arthropod cell lines</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>BL91</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+          <ORGANISM>
+               <TAXON_ID>6945</TAXON_ID>
+               <SCIENTIFIC_NAME>Ixodes scapularis</SCIENTIFIC_NAME>
+               <STRAIN>ISE6-4</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA16233"/>
+          </RELATED_PROJECT>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA238805"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS817534</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX840857,SRX841015,SRX841197,SRX841252</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1755734,SRR1755951,SRR1756212,SRR1756278,SRR1765207,SRR1765211,SRR1765261</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA238756&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA238756&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>238756</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-02-21</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA238757" alias="PRJNA238757" center_name="Broad Institute">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA238757</PRIMARY_ID>
+          <SECONDARY_ID>SRP052131</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Broad Institute">PRJNA238757</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Ixodes scapularis strain:ISE18-1</NAME>
+     <TITLE>Arthropod Cell Line RNA Seq</TITLE>
+     <DESCRIPTION>Transcriptome sequencing of arthropod cell lines</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>BL92</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+          <ORGANISM>
+               <TAXON_ID>6945</TAXON_ID>
+               <SCIENTIFIC_NAME>Ixodes scapularis</SCIENTIFIC_NAME>
+               <STRAIN>ISE18-1</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA16233"/>
+          </RELATED_PROJECT>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA238805"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS817590</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX840923,SRX841056,SRX841069,SRX841144</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1755829,SRR1756031,SRR1756045,SRR1756126,SRR1756164,SRR1765002,SRR1765100</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA238757&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA238757&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>238757</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-02-21</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA238758" alias="PRJNA238758" center_name="Broad Institute">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA238758</PRIMARY_ID>
+          <SECONDARY_ID>SRP052096</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Broad Institute">PRJNA238758</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Ixodes scapularis strain:ISE18-2</NAME>
+     <TITLE>Arthropod Cell Line RNA Seq</TITLE>
+     <DESCRIPTION>Transcriptome sequencing of arthropod cell lines</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>BL93</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+          <ORGANISM>
+               <TAXON_ID>6945</TAXON_ID>
+               <SCIENTIFIC_NAME>Ixodes scapularis</SCIENTIFIC_NAME>
+               <STRAIN>ISE18-2</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA16233"/>
+          </RELATED_PROJECT>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA238805"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS817541</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX840864,SRX841110,SRX841138,SRX841275</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1755742,SRR1756087,SRR1756120,SRR1756503,SRR1765092,SRR1765132,SRR1765154</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA238758&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA238758&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>238758</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-02-21</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA238759" alias="PRJNA238759" center_name="Broad Institute">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA238759</PRIMARY_ID>
+          <SECONDARY_ID>SRP052086</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Broad Institute">PRJNA238759</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Ixodes scapularis strain:ISE18-3</NAME>
+     <TITLE>Arthropod Cell Line RNA Seq</TITLE>
+     <DESCRIPTION>Transcriptome sequencing of arthropod cell lines</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>BL94</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+          <ORGANISM>
+               <TAXON_ID>6945</TAXON_ID>
+               <SCIENTIFIC_NAME>Ixodes scapularis</SCIENTIFIC_NAME>
+               <STRAIN>ISE18-3</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA16233"/>
+          </RELATED_PROJECT>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA238805"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS817531</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX840855,SRX840890,SRX841145,SRX841313</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1755732,SRR1755769,SRR1756127,SRR1756358,SRR1764969,SRR1765073,SRR1765264</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA238759&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA238759&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>238759</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-02-21</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA238760" alias="PRJNA238760" center_name="Broad Institute">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA238760</PRIMARY_ID>
+          <SECONDARY_ID>SRP052105</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Broad Institute">PRJNA238760</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Ixodes scapularis strain:ISE18-4</NAME>
+     <TITLE>Arthropod Cell Line RNA Seq</TITLE>
+     <DESCRIPTION>Transcriptome sequencing of arthropod cell lines</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>BL95</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+          <ORGANISM>
+               <TAXON_ID>6945</TAXON_ID>
+               <SCIENTIFIC_NAME>Ixodes scapularis</SCIENTIFIC_NAME>
+               <STRAIN>ISE18-4</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA16233"/>
+          </RELATED_PROJECT>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA238805"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS817550</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX840874,SRX840993,SRX841107,SRX841325</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1755751,SRR1755926,SRR1756084,SRR1756373,SRR1756378,SRR1765235,SRR1765257</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA238760&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA238760&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>238760</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-02-21</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA238761" alias="PRJNA238761" center_name="Broad Institute">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA238761</PRIMARY_ID>
+          <SECONDARY_ID>SRP052147</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Broad Institute">PRJNA238761</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Ixodes scapularis strain:IDE2-1</NAME>
+     <TITLE>Arthropod Cell Line RNA Seq</TITLE>
+     <DESCRIPTION>Transcriptome sequencing of arthropod cell lines</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>BL96</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+          <ORGANISM>
+               <TAXON_ID>6945</TAXON_ID>
+               <SCIENTIFIC_NAME>Ixodes scapularis</SCIENTIFIC_NAME>
+               <STRAIN>IDE2-1</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA16233"/>
+          </RELATED_PROJECT>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA238805"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS817613</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX840953,SRX841104,SRX841173-SRX841174</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1755879,SRR1756081,SRR1756162-SRR1756163,SRR1756356,SRR1764968,SRR1765227</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA238761&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA238761&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>238761</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-02-21</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA238762" alias="PRJNA238762" center_name="Broad Institute">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA238762</PRIMARY_ID>
+          <SECONDARY_ID>SRP052166</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Broad Institute">PRJNA238762</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Ixodes scapularis strain:IDE2-2</NAME>
+     <TITLE>Arthropod Cell Line RNA Seq</TITLE>
+     <DESCRIPTION>Transcriptome sequencing of arthropod cell lines</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>BL97</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+          <ORGANISM>
+               <TAXON_ID>6945</TAXON_ID>
+               <SCIENTIFIC_NAME>Ixodes scapularis</SCIENTIFIC_NAME>
+               <STRAIN>IDE2-2</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA16233"/>
+          </RELATED_PROJECT>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA238805"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS817631</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX840985,SRX840988,SRX841081,SRX841347</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1755916,SRR1755919,SRR1756055,SRR1756404,SRR1756482,SRR1764991,SRR1765263</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA238762&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA238762&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>238762</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-02-21</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA238763" alias="PRJNA238763" center_name="Broad Institute">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA238763</PRIMARY_ID>
+          <SECONDARY_ID>SRP052124</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Broad Institute">PRJNA238763</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Ixodes scapularis strain:IDE2-3</NAME>
+     <TITLE>Arthropod Cell Line RNA Seq</TITLE>
+     <DESCRIPTION>Transcriptome sequencing of arthropod cell lines</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>BL98</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+          <ORGANISM>
+               <TAXON_ID>6945</TAXON_ID>
+               <SCIENTIFIC_NAME>Ixodes scapularis</SCIENTIFIC_NAME>
+               <STRAIN>IDE2-3</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA16233"/>
+          </RELATED_PROJECT>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA238805"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS817575</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX840904,SRX841092,SRX841152,SRX841196</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1755791,SRR1756067,SRR1756138,SRR1756142,SRR1756211,SRR1756381,SRR1765072</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA238763&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA238763&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>238763</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-02-21</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA238764" alias="PRJNA238764" center_name="Broad Institute">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA238764</PRIMARY_ID>
+          <SECONDARY_ID>SRP052101</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Broad Institute">PRJNA238764</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Ixodes scapularis strain:IDE2-4</NAME>
+     <TITLE>Arthropod Cell Line RNA Seq</TITLE>
+     <DESCRIPTION>Transcriptome sequencing of arthropod cell lines</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>BL99</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+          <ORGANISM>
+               <TAXON_ID>6945</TAXON_ID>
+               <SCIENTIFIC_NAME>Ixodes scapularis</SCIENTIFIC_NAME>
+               <STRAIN>IDE2-4</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA16233"/>
+          </RELATED_PROJECT>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA238805"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS817546</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX840870,SRX840878,SRX841094,SRX841202</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1755746,SRR1755756,SRR1756070,SRR1756216-SRR1756217,SRR1765062,SRR1765065</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA238764&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA238764&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>238764</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-02-21</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA238765" alias="PRJNA238765" center_name="Broad Institute">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA238765</PRIMARY_ID>
+          <SECONDARY_ID>SRP052153</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Broad Institute">PRJNA238765</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Ixodes scapularis strain:IDE12-1</NAME>
+     <TITLE>Arthropod Cell Line RNA Seq</TITLE>
+     <DESCRIPTION>Transcriptome sequencing of arthropod cell lines</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>BM00</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+          <ORGANISM>
+               <TAXON_ID>6945</TAXON_ID>
+               <SCIENTIFIC_NAME>Ixodes scapularis</SCIENTIFIC_NAME>
+               <STRAIN>IDE12-1</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA16233"/>
+          </RELATED_PROJECT>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA238805"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS817619</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX840965,SRX841137,SRX841168,SRX841241</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1755892,SRR1756119,SRR1756149,SRR1756268,SRR1756357,SRR1765055,SRR1765239</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA238765&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA238765&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>238765</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-02-21</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA238766" alias="PRJNA238766" center_name="Broad Institute">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA238766</PRIMARY_ID>
+          <SECONDARY_ID>SRP052103</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Broad Institute">PRJNA238766</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Ixodes scapularis strain:IDE12-2</NAME>
+     <TITLE>Arthropod Cell Line RNA Seq</TITLE>
+     <DESCRIPTION>Transcriptome sequencing of arthropod cell lines</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>BM01</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+          <ORGANISM>
+               <TAXON_ID>6945</TAXON_ID>
+               <SCIENTIFIC_NAME>Ixodes scapularis</SCIENTIFIC_NAME>
+               <STRAIN>IDE12-2</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA16233"/>
+          </RELATED_PROJECT>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA238805"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS817548</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX840873,SRX841182,SRX841350,SRX841377</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1755750,SRR1755899,SRR1756180,SRR1756407,SRR1756446,SRR1756494,SRR1765215</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA238766&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA238766&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>238766</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-02-21</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA238767" alias="PRJNA238767" center_name="Broad Institute">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA238767</PRIMARY_ID>
+          <SECONDARY_ID>SRP052149</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Broad Institute">PRJNA238767</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Ixodes scapularis strain:IDE12-3</NAME>
+     <TITLE>Arthropod Cell Line RNA Seq</TITLE>
+     <DESCRIPTION>Transcriptome sequencing of arthropod cell lines</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>BM02</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+          <ORGANISM>
+               <TAXON_ID>6945</TAXON_ID>
+               <SCIENTIFIC_NAME>Ixodes scapularis</SCIENTIFIC_NAME>
+               <STRAIN>IDE12-3</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA16233"/>
+          </RELATED_PROJECT>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA238805"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS817615</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX840959,SRX841120,SRX841280,SRX841343</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1755888,SRR1756098,SRR1756313,SRR1756399,SRR1756411,SRR1765044,SRR1765220</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA238767&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA238767&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>238767</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-02-21</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA238768" alias="PRJNA238768" center_name="Broad Institute">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA238768</PRIMARY_ID>
+          <SECONDARY_ID>SRP052151</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Broad Institute">PRJNA238768</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Ixodes scapularis strain:IDE12-4</NAME>
+     <TITLE>Arthropod Cell Line RNA Seq</TITLE>
+     <DESCRIPTION>Transcriptome sequencing of arthropod cell lines</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>BM03</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+          <ORGANISM>
+               <TAXON_ID>6945</TAXON_ID>
+               <SCIENTIFIC_NAME>Ixodes scapularis</SCIENTIFIC_NAME>
+               <STRAIN>IDE12-4</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA16233"/>
+          </RELATED_PROJECT>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA238805"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS817617</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX840962,SRX841014,SRX841263</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1755889,SRR1755950,SRR1756293,SRR1756330,SRR1764993,SRR1765052</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA238768&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA238768&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>238768</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-02-21</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA238777" alias="PRJNA238777" center_name="Broad Institute">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA238777</PRIMARY_ID>
+          <SECONDARY_ID>SRP052136</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Broad Institute">PRJNA238777</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Ixodes scapularis strain:IDE8-1</NAME>
+     <TITLE>Arthropod Cell Line RNA Seq</TITLE>
+     <DESCRIPTION>Transcriptome sequencing of arthropod cell lines</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>BM12</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+          <ORGANISM>
+               <TAXON_ID>6945</TAXON_ID>
+               <SCIENTIFIC_NAME>Ixodes scapularis</SCIENTIFIC_NAME>
+               <STRAIN>IDE8-1</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA16233"/>
+          </RELATED_PROJECT>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA238805"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS817597</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX840929,SRX840989,SRX841128,SRX841305</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1755843,SRR1755920,SRR1756108,SRR1756347,SRR1764981,SRR1765010,SRR1765015</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA238777&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA238777&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>238777</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-02-21</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA238778" alias="PRJNA238778" center_name="Broad Institute">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA238778</PRIMARY_ID>
+          <SECONDARY_ID>SRP052183</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Broad Institute">PRJNA238778</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Ixodes scapularis strain:IDE8-2</NAME>
+     <TITLE>Arthropod Cell Line RNA Seq</TITLE>
+     <DESCRIPTION>Transcriptome sequencing of arthropod cell lines</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>BM13</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+          <ORGANISM>
+               <TAXON_ID>6945</TAXON_ID>
+               <SCIENTIFIC_NAME>Ixodes scapularis</SCIENTIFIC_NAME>
+               <STRAIN>IDE8-2</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA16233"/>
+          </RELATED_PROJECT>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA238805"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS817704</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX841095,SRX841208,SRX841247,SRX841398</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1756071,SRR1756224,SRR1756230,SRR1756274,SRR1756483,SRR1765018,SRR1765032</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA238778&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA238778&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>238778</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-02-21</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA238779" alias="PRJNA238779" center_name="Broad Institute">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA238779</PRIMARY_ID>
+          <SECONDARY_ID>SRP052117</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Broad Institute">PRJNA238779</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Ixodes scapularis strain:IDE8-3</NAME>
+     <TITLE>Arthropod Cell Line RNA Seq</TITLE>
+     <DESCRIPTION>Transcriptome sequencing of arthropod cell lines</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>BM14</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+          <ORGANISM>
+               <TAXON_ID>6945</TAXON_ID>
+               <SCIENTIFIC_NAME>Ixodes scapularis</SCIENTIFIC_NAME>
+               <STRAIN>IDE8-3</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA16233"/>
+          </RELATED_PROJECT>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA238805"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS817562</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX840888,SRX841077,SRX841237,SRX841372</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1755767,SRR1755870,SRR1756056,SRR1756265,SRR1756438,SRR1756466,SRR1765069</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA238779&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA238779&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>238779</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-02-21</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA238780" alias="PRJNA238780" center_name="Broad Institute">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA238780</PRIMARY_ID>
+          <SECONDARY_ID>SRP052140</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Broad Institute">PRJNA238780</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Ixodes scapularis strain:IDE8-4</NAME>
+     <TITLE>Arthropod Cell Line RNA Seq</TITLE>
+     <DESCRIPTION>Transcriptome sequencing of arthropod cell lines</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>BM15</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+          <ORGANISM>
+               <TAXON_ID>6945</TAXON_ID>
+               <SCIENTIFIC_NAME>Ixodes scapularis</SCIENTIFIC_NAME>
+               <STRAIN>IDE8-4</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA16233"/>
+          </RELATED_PROJECT>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA238805"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS817606</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX840941,SRX840972,SRX841351,SRX841382</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1755861,SRR1755900,SRR1756408,SRR1756455-SRR1756456,SRR1765141,SRR1765159</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA238780&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA238780&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>238780</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-02-21</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA238804" alias="PRJNA238804" center_name="Broad Institute">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA238804</PRIMARY_ID>
+          <SECONDARY_ID>SRP052169</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Broad Institute">PRJNA238804</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Anopheles</NAME>
+     <TITLE>Arthropod Cell Line RNA Seq</TITLE>
+     <DESCRIPTION>Transcriptome sequencing of arthropod cell lines</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7164</TAXON_ID>
+               <SCIENTIFIC_NAME>Anopheles</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA186985"/>
+          </RELATED_PROJECT>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA238805"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS817617</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX841011</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1755947</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA238804&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA238804&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>238804</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-02-21</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA239331" alias="PRJNA239331" center_name="IGS">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA239331</PRIMARY_ID>
+          <SECONDARY_ID>SRP040034</SECONDARY_ID>
+          <SUBMITTER_ID namespace="IGS">PRJNA239331</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Ixodes scapularis strain:ISE6 cell line</NAME>
+     <TITLE>Sequencing and Comparison of Genomes and Transcriptome Profiles of Human Ehrlichiosis Agents</TITLE>
+     <DESCRIPTION>Sequencing and Comparison of Genomes and Transcriptome Profiles of Human Ehrlichiosis Agents</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>BZ12</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+          <ORGANISM>
+               <TAXON_ID>6945</TAXON_ID>
+               <SCIENTIFIC_NAME>Ixodes scapularis</SCIENTIFIC_NAME>
+               <STRAIN>ISE6 cell line</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA16233"/>
+          </RELATED_PROJECT>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA201050"/>
+          </RELATED_PROJECT>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA201051"/>
+          </RELATED_PROJECT>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA201052"/>
+          </RELATED_PROJECT>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA201053"/>
+          </RELATED_PROJECT>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA201054"/>
+          </RELATED_PROJECT>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA201055"/>
+          </RELATED_PROJECT>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA201056"/>
+          </RELATED_PROJECT>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA212520"/>
+          </RELATED_PROJECT>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA212521"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS569911,SRS569973,SRS569978-SRS569979,SRS569983-SRS569985,SRS569989-SRS569991,SRS569995,SRS570077,SRS570099,SRS570148,SRS570160-SRS570161,SRS570165-SRS570166,SRS570169-SRS570171,SRS570228,SRS570256-SRS570260,SRS570264,SRS570272,SRS570292,SRS570356-SRS570358</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX485789,SRX485854-SRX485856,SRX486572,SRX486603,SRX486647,SRX486660-SRX486662,SRX486669,SRX486671,SRX486696,SRX486746,SRX486757-SRX486760,SRX486763-SRX486765,SRX486830,SRX486855-SRX486859,SRX486863,SRX486869,SRX486889,SRX486956-SRX486958</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1188683,SRR1188749-SRR1188751,SRR1189460,SRR1189488,SRR1189534,SRR1189547-SRR1189549,SRR1189557,SRR1189560,SRR1189585,SRR1189636,SRR1189644-SRR1189647,SRR1189650-SRR1189652,SRR1189721,SRR1189746-SRR1189750,SRR1189754,SRR1189759,SRR1189779,SRR1189845-SRR1189847</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA239331&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA239331&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>239331</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-02-27</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA242857" alias="PRJNA242857" center_name="Old Dominion University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA242857</PRIMARY_ID>
+          <SECONDARY_ID>SRP040677</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Old Dominion University">PRJNA242857</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Ixodes scapularis strain:Wikel</NAME>
+     <TITLE>Ixodes scapularis strain:Wikel Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>Provide public access to the female Ixodes synganglion transcriptome</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>6945</TAXON_ID>
+               <SCIENTIFIC_NAME>Ixodes scapularis</SCIENTIFIC_NAME>
+               <STRAIN>Wikel</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA16233"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS583604</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX502780,SRX508568</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1207299,SRR1214480</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA242857&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA242857&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>242857</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-04-06</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA283969" alias="PRJNA283969" center_name="SaBio. Instituto de Investigación en Recursos Cinegéticos IREC-CSIC-UCLM-JCCM">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA283969</PRIMARY_ID>
+          <SECONDARY_ID>SRP058346</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE68881</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="SaBio. Instituto de Investigación en Recursos Cinegéticos IREC-CSIC-UCLM-JCCM">PRJNA283969</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Ixodes scapularis</NAME>
+     <TITLE>Integrated metabolomics, transcriptomics and proteomics identifies metabolic pathways affected by Anaplasma phagocytophilum infection in tick cells</TITLE>
+     <DESCRIPTION>Anaplasma phagocytophilum is an emerging zoonotic pathogen that causes human granulocytic anaplasmosis. These intracellular bacteria establish infection by affecting cell function in both the vertebrate host and the tick vector, Ixodes scapularis. Previous studies have characterized the tick transcriptome and proteome in response to A. phagocytophilum infection. However, in the post-genomic era, the integration of omics datasets through a systems biology approach allows network-based analyses to describe the complexity and functionality of biological systems such as host-pathogen interactions and the discovery of new targets for prevention and control of infectious diseases. This study reports for the first time a systems biology integration of metabolomics, transcriptomics and proteomics data to characterize essential metabolic pathways involved in the response of tick cells to A. phagocytophilum infection. The results showed that infection affected protein processing in endoplasmic reticulum and glucose metabolic pathways in tick cells. These results supported tick-Anaplasma co-evolution by providing new evidence of how tick cells limit pathogen infection, while the pathogen benefits from the tick cell response to establish infection. The results suggested that A. phagocytophilum induces protein misfolding to limit the tick cell response and facilitate infection, but requires protein degradation to prevent ER stress and cell apoptosis to survive in infected cells. Additionally, A. phagocytophilum may benefit from the tick cell’s ability to limit bacterial infection through PEPCK inhibition leading to decreased glucose metabolism, which also results in the inhibition of cell apoptosis that increases infection of tick cells. These results support the use of this experimental approach to systematically identify tick cell pathways and molecular mechanisms involved in tick-pathogen interactions Overall design: Two samples with two replicates each were analyzed. Samples included Ixodes scapularis ISE6 cells uninfected (control) and infected with Anaplasma phagocytophilum human NY18 isolate.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>6945</TAXON_ID>
+               <SCIENTIFIC_NAME>Ixodes scapularis</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA16233"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>26424601</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS936285-SRS936288</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1027621-SRX1027624</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR2025368-SRR2025371</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA283969&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA283969&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>283969</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-10-10</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA326424" alias="PRJNA326424" center_name="University of Illinois at Urbana-Champaign">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA326424</PRIMARY_ID>
+          <SECONDARY_ID>SRP076875</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of Illinois at Urbana-Champaign">PRJNA326424</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Ixodes scapularis isolate:Illinois 2014</NAME>
+     <TITLE>Ixodes scapularis transcriptome sequencing</TITLE>
+     <DESCRIPTION>RNAseq libraries were separately constructed from adult male and female Ixodes scapularis forelegs and hindlegs for sequencing.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>6945</TAXON_ID>
+               <SCIENTIFIC_NAME>Ixodes scapularis</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA16233"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1520030,SRS1520032-SRS1520034</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1869266,SRX1869268-SRX1869270</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR3708708-SRR3708711</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA326424&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA326424&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>326424</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-07-02</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA531218" alias="PRJNA531218" center_name="National Institute of Allergy and Infectious Diseases">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA531218</PRIMARY_ID>
+          <SECONDARY_ID>SRP192560</SECONDARY_ID>
+          <SUBMITTER_ID namespace="National Institute of Allergy and Infectious Diseases">PRJNA531218</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Ixodes scapularis</NAME>
+     <TITLE>Ixodes scapularis midgut Transcriptome following SelK knockdown in Borrelia burgdorferi-infected ticks</TITLE>
+     <DESCRIPTION>Tick selenoproteins are involved in regulating oxidative and endoplasmic reticulum stress during the prolonged tick feeding on mammalian hosts. How selenoproteins are activated upon tick-borne pathogen infection is yet to be defined.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>6945</TAXON_ID>
+               <SCIENTIFIC_NAME>Ixodes scapularis</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA16233"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS4623172-SRS4623173</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX5683033-SRX5683040</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR8896911-SRR8896918</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA531218&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA531218&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>531218</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2019-04-07</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-04-11</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+</ROOT>

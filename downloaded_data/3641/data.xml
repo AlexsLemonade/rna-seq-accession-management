@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT request="tax_eq(3641) AND (instrument_model=&quot;HiSeq X Ten&quot; OR instrument_model=&quot;HiSeq X Five&quot; OR instrument_model=&quot;Illumina MiSeq&quot; OR instrument_model=&quot;Illumina NovaSeq 6000&quot; OR instrument_model=&quot;Illumina Genome Analyzer&quot; OR instrument_model=&quot;Illumina Genome Analyzer II&quot; OR instrument_model=&quot;Illumina Genome Analyzer IIx&quot; OR instrument_model=&quot;Illumina HiScanSQ&quot; OR instrument_model=&quot;Illumina HiSeq 1000&quot; OR instrument_model=&quot;Illumina HiSeq 1500&quot; OR instrument_model=&quot;Illumina HiSeq 2000&quot; OR instrument_model=&quot;Illumina HiSeq 2500&quot; OR instrument_model=&quot;Illumina HiSeq 3000&quot; OR instrument_model=&quot;Illumina HiSeq 4000&quot; OR instrument_model=&quot;NextSeq 500&quot; OR instrument_model=&quot;NextSeq 550&quot; OR instrument_model=&quot;Ion Torrent Proton&quot; OR instrument_model=&quot;Ion Torrent S5&quot; OR instrument_model=&quot;Ion Torrent S5 XL&quot;)AND library_strategy=&quot;RNA-Seq&quot; AND library_source=&quot;TRANSCRIPTOMIC&quot;">
+<PROJECT accession="PRJNA189464" alias="PRJNA189464" center_name="Unicamp">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA189464</PRIMARY_ID>
+          <SECONDARY_ID>SRP018696</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Unicamp">PRJNA189464</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <TITLE>Transcript profiling of the biotrophic interaction between Theobroma cacao and the fungal pathogen Moniliophthora perniciosa</TITLE>
+     <DESCRIPTION>RNA-seq to simultaneously inspect the transcriptomes of cacao and M. perniciosa during their biotrophic interaction.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS396688-SRS396689</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX237512,SRX241941,SRX242777-SRX242783,SRX242785</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR747762,SRR747765,SRR747772-SRR747779</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA189464&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA189464&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>189464</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2015-09-04</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA314774" alias="PRJNA314774" center_name="CIRAD">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA314774</PRIMARY_ID>
+          <SECONDARY_ID>SRP071585</SECONDARY_ID>
+          <SUBMITTER_ID namespace="CIRAD">PRJNA314774</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Theobroma cacao</NAME>
+     <TITLE>Theobroma cacao Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>Evolution of Theobroma cacao and domestication. Leaves and flowers RNAseq isolated for 10 Theobroma cacao cultivars and 10 Theobroma cacao wild genotypes.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>3641</TAXON_ID>
+               <SCIENTIFIC_NAME>Theobroma cacao</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA16875"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1334254-SRS1334258,SRS1334260-SRS1334262,SRS1334264,SRS1334268,SRS1334274-SRS1334275,SRS1334277,SRS1334279,SRS1334281,SRS1334283,SRS1334293-SRS1334296</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1624473-SRX1624477,SRX1624479-SRX1624482,SRX1624490-SRX1624491,SRX1624494-SRX1624495,SRX1624497,SRX1624499,SRX1624501,SRX1624511,SRX1624513-SRX1624514,SRX1624516</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR3217276-SRR3217284,SRR3217292,SRR3217294,SRR3217297-SRR3217299,SRR3217301,SRR3217304,SRR3217315,SRR3217317-SRR3217319</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA314774&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA314774&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>314774</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-03-18</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA326055" alias="PRJNA326055" center_name="INRA">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA326055</PRIMARY_ID>
+          <SECONDARY_ID>SRP079155</SECONDARY_ID>
+          <SUBMITTER_ID namespace="INRA">PRJNA326055</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <TITLE>ARCAD-Comparative population genomics</TITLE>
+     <DESCRIPTION>Raw RNA sequencing data of several cultivated crops and their wild relatives and close outgroups in order to make comparative analyses of the effect of domestication on genome evolution in different crop species</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1577214-SRS1577261,SRS2334972,SRS4878387-SRS4878498</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1967851-SRX1967898,SRX2981869,SRX5974215-SRX5974326</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR3938598-SRR3938607,SRR3938609-SRR3938619,SRR3938621-SRR3938631,SRR3938633-SRR3938641,SRR3938643-SRR3938649,SRR5802527,SRR9202996-SRR9203107</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA326055&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA326055&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>326055</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-06-24</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA413468" alias="PRJNA413468" center_name="Department of Biology, Penn State University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA413468</PRIMARY_ID>
+          <SECONDARY_ID>SRP119502</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE104673</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Department of Biology, Penn State University">PRJNA413468</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Small RNA loci annotation in cacao, spinach and carrot</NAME>
+     <TITLE>Small RNA loci annotation in cacao, spinach and carrot</TITLE>
+     <DESCRIPTION>Cacao, spinach and carrot are three important crops with high valuable markets. For these species there isn't already an available genome-wide annotation of small rna. Here, for the first time, we sequenced and annotated small RNAs. Overall design: Small RNA profile of cacao leaf, spinach leaf and carrot leaf and root. grown in control conditions</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2570010-SRS2570013,SRS2570015</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3256311-SRX3256315</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR6144208-SRR6144212</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA413468&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA413468&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>413468</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-11-02</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-11-02</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA421343" alias="PRJNA421343" center_name="Mars Inc">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA421343</PRIMARY_ID>
+          <SECONDARY_ID>SRP148703</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Mars Inc">PRJNA421343</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Theobroma cacao isolate:B | cultivar:Pound 7</NAME>
+     <TITLE>Theobroma cacao isolate:B | cultivar:Pound 7 Genome sequencing and assembly</TITLE>
+     <DESCRIPTION>Here we validate the Minion’s application to crop genomics by creating a de novo genome assembly of the heterozygous ‘Pound 7’ clone of cacao (Theobroma cacao), and compare it to the previous two cacao reference genomes. We found that quickly generating a high quality assembly of a heterozygous plant genome was possible for less than $5000, in contrast to previous cacao reference genomes, which required many years and millions of dollars to produce.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>CXB55</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+          <ORGANISM>
+               <TAXON_ID>3641</TAXON_ID>
+               <SCIENTIFIC_NAME>Theobroma cacao</SCIENTIFIC_NAME>
+               <CULTIVAR>Pound 7</CULTIVAR>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA16875"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS3328631</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX4113197,SRX4133374,SRX4133599,SRX4134266,SRX4136094,SRX4140036-SRX4140037,SRX4142065-SRX4142067</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR7204200,SRR7226886,SRR7227123,SRR7227796,SRR7229681,SRR7233627-SRR7233628,SRR7235732-SRR7235734</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA421343&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA421343&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>421343</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-12-08</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA51633" alias="PRJNA51633" center_name="Cacao genome consortium">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA51633</PRIMARY_ID>
+          <SECONDARY_ID>SRP004925</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Cacao genome consortium">PRJNA51633</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Theobroma cacao strain:Matina 1-6</NAME>
+     <TITLE>Theobroma cacao Matina 1-6 genome sequencing project</TITLE>
+     <DESCRIPTION><![CDATA[The cacao tree (Theobroma cacao L.) is a neotropical species native to Amazonian lowland rainforests (1). The Matina variety belongs to the Amelonado genetic group and represents the most common type of cacao in cultivation (3-5). Cacao is grown throughout the humid tropics in more than 50 countries for its beans, used for the production of chocolate and cosmetics. Cacao cultivation supports community livelihoods associated with more than five million smallholder farms (2). The genome of the highly homozygous Matina 1-6 clone was sequenced and annotated to develop cacao genomics tools and accelerate genetic improvement. <br> <br> (1) Motamayor JC, Lachenaud P, da Silva e Mota JW, Loor R, Kuhn DN, Brown JS, Schnell RJ: Geographic and Genetic Population Differentiation of the Amazonian Chocolate Tree Theobroma cacao L. PLoS ONE 2008, 3:e3311. <br> (2) http://www.worldcocoafoundation.org/about-cocoa/ <br> (3) Motamayor JC, Risterucci AM, Heath M, Lanaud C: Cacao domestication II: progenitor germplasm of the Trinitario cacao cultivar. Heredity 2003, 91:322-330. <br> (4) Efombagn I, Motamayor J, Sounigo O, Eskes A, Nyassé S, Cilas C, Schnell R, Manzanares-Dauleux M, Kolesnikova-Allen M: Genetic diversity and structure of farm and GenBank accessions of cacao (Theobroma cacao L.) in Cameroon revealed by microsatellite markers. Tree Genetics & Genomes 2008, 4:821-831. <br> (5) Aikpokpodion P, Motamayor J, Adetimirin V, Adu-Ampomah Y, Ingelbrecht I, Eskes A, Schnell R, Kolesnikova-Allen M: Genetic diversity assessment of sub-samples of cacao, Theobroma cacao L. collections in West Africa using simple sequence repeats marker. Tree Genetics & Genomes 2009, 5:699-711.]]></DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>AGU13</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>AGU14</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>AGU15</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>AGU16</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>AGU17</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>TCM</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+          <ORGANISM>
+               <TAXON_ID>3641</TAXON_ID>
+               <SCIENTIFIC_NAME>Theobroma cacao</SCIENTIFIC_NAME>
+               <STRAIN>Matina 1-6</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA16875"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS150715,SRS150725,SRS420906,SRS420926-SRS420927,SRS421073,SRS428720</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX036594,SRX172965,SRX277980,SRX278005-SRX278006,SRX278020,SRX278057,SRX278064,SRX278077-SRX278083,SRX278177,SRX278577-SRX278578,SRX285751,SRX285759-SRX285760,SRX285787,SRX285789,SRX285793-SRX285794,SRX285796-SRX285797,SRX286366-SRX286368,SRX288435</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR531431,SRR531454-SRR531455,SRR850732,SRR850834,SRR850922,SRR851105,SRR851125-SRR851131,SRR851238,SRR851813-SRR851814,SRR851884-SRR851885,SRR851888,SRR851908,SRR866472,SRR866474,SRR866481,SRR866483-SRR866485,SRR866487-SRR866488,SRR866507-SRR866510,SRR866577-SRR866578,SRR866580-SRR866582,SRR866584-SRR866586,SRR866591-SRR866592,SRR866600,SRR866602,SRR866604,SRR866606-SRR866610,SRR867168-SRR867175,SRR867177-SRR867178,SRR867180-SRR867182,SRR867185,SRR867189-SRR867191,SRR867193-SRR867195,SRR870667</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA51633&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA51633&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>51633</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-05-31</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-02-07</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+</ROOT>

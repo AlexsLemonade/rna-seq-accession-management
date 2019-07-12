@@ -1,0 +1,1322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT request="tax_eq(7425) AND (instrument_model=&quot;HiSeq X Ten&quot; OR instrument_model=&quot;HiSeq X Five&quot; OR instrument_model=&quot;Illumina MiSeq&quot; OR instrument_model=&quot;Illumina NovaSeq 6000&quot; OR instrument_model=&quot;Illumina Genome Analyzer&quot; OR instrument_model=&quot;Illumina Genome Analyzer II&quot; OR instrument_model=&quot;Illumina Genome Analyzer IIx&quot; OR instrument_model=&quot;Illumina HiScanSQ&quot; OR instrument_model=&quot;Illumina HiSeq 1000&quot; OR instrument_model=&quot;Illumina HiSeq 1500&quot; OR instrument_model=&quot;Illumina HiSeq 2000&quot; OR instrument_model=&quot;Illumina HiSeq 2500&quot; OR instrument_model=&quot;Illumina HiSeq 3000&quot; OR instrument_model=&quot;Illumina HiSeq 4000&quot; OR instrument_model=&quot;NextSeq 500&quot; OR instrument_model=&quot;NextSeq 550&quot; OR instrument_model=&quot;Ion Torrent Proton&quot; OR instrument_model=&quot;Ion Torrent S5&quot; OR instrument_model=&quot;Ion Torrent S5 XL&quot;)AND library_strategy=&quot;RNA-Seq&quot; AND library_source=&quot;TRANSCRIPTOMIC&quot;">
+<PROJECT accession="PRJNA185498" alias="PRJNA185498" center_name="Laboratory of Genetics, Wageningen University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA185498</PRIMARY_ID>
+          <SECONDARY_ID>SRP017821</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE43352</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Laboratory of Genetics, Wageningen University">PRJNA185498</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Nasonia vitripennis</NAME>
+     <TITLE>The transcriptomic basis of oviposition behaviour in the parasitoid wasp Nasonia vitripennis</TITLE>
+     <DESCRIPTION>For many behaviours studied at the phenotypic level, we have little or no idea of where to start searching for “candidate” genes: the transcriptome provides such a starting point. Here we consider transcriptomic changes associated with oviposition in the parasitoid wasp Nasonia vitripennis. Oviposition is a key behaviour, as females are faced with a variety of decisions that will impact offspring fitness. These include choosing between hosts of differing quality, as well as deciding on clutch size and offspring sex ratio. We compared the whole-body transcriptomes of resting or ovipositing female Nasonia using a “DEEP-Sage” gene expression approach on the Illumina sequencing platform. Overall design: Single 2-day old mated Nasonia vitripennis females (ASymC strain) were isolated in a glass vial and provided with a single host to produce F1 daughters. Eight 2-day old mated F1 females were subsequently provided with three hosts to produce the F2 test females. We randomly selected one host from each F1 female, and isolated 16 2-day old mated F2 test females in glass tubes, of which eight were randomly allocated to the oviposition treatment and eight to the resting treatment. We provided the test females with a single host for 24 hours as pre-treatment to facilitate egg development. We then discarded the pre-treatment hosts and gave each female a piece of chromatography paper soaked in honey solution for a further 24 hours. For the experiment, we transferred the females to 1.5 mL Eppendorf tubes that contained a single host for the oviposition experiment, or were empty for the resting treatment. After 60 mins, females were flash-frozen in liquid nitrogen and stored on dry-ice until the addition of RNAlater-ICE (Ambion, Austin, TX, USA) after which they were transferred to -20C. All females in the oviposition treatment were observed to have commenced ovipositing. We pooled the F2 test females from each F1 mother according to treatment, generating a total of eight pooled samples per treatment (consisting of 8 females per pool) for RNA isolation and sequencing.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7425</TAXON_ID>
+               <SCIENTIFIC_NAME>Nasonia vitripennis</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA13647"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>23894324</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS383639-SRS383654</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX215549-SRX215564</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR646520-SRR646535</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA185498&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA185498&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>185498</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-07-24</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA186077" alias="PRJNA186077" center_name="Cornell University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA186077</PRIMARY_ID>
+          <SECONDARY_ID>SRP017905</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE43422</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Cornell University">PRJNA186077</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Nasonia vitripennis</NAME>
+     <TITLE>Profiling of expression level in adult female Nasonia vitripennis</TITLE>
+     <DESCRIPTION>The expression level in the parasitoid Nasonia vitripennis adult female samples was profiled and compared with the methylation pattern. Methylated and non-methylated genes showed markedly different patterns. The expression level was higher for methylated than non-methylated genes. non-nmethylated genes account for 99% of the genes that were not found to be expressed in the adult female RNA-seq data (FPKM &lt; 0.1). Unlike methylated genes, the expression distribution of the non-methylated genes was bimodal with a lower expressed group and a moderately expressed group of genes, indicating that methylation status is not the only determinant of high expression in adult females. Methylated genes also have lower coefficient of variation (CV) of expression level across five developmental stages, suggesting that they are expressed more evenly across development. Overall design: Profiling of expression level in adult female Nasonia vitripennis by RNA-seq</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7425</TAXON_ID>
+               <SCIENTIFIC_NAME>Nasonia vitripennis</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA13647"/>
+          </RELATED_PROJECT>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA186037"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>24130511</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS385145</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX216240</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR647669</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA186077&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA186077&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>186077</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-08-29</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA212516" alias="PRJNA212516" center_name="Caltech">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA212516</PRIMARY_ID>
+          <SECONDARY_ID>SRP027543</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Caltech">PRJNA212516</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Nasonia vitripennis strain:AsymC</NAME>
+     <TITLE>Nasonia vitripennis strain:AsymC Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>Transcriptome Profiling of WT and PSR-carrying testes of Nasonia vitripennis.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7425</TAXON_ID>
+               <SCIENTIFIC_NAME>Nasonia vitripennis</SCIENTIFIC_NAME>
+               <STRAIN>AsymC</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA13647"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS462062-SRS462063</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX325702,SRX325704</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR940321,SRR940323</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA212516&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA212516&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>212516</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-07-21</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA219398" alias="PRJNA219398" center_name="Harvard University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA219398</PRIMARY_ID>
+          <SECONDARY_ID>SRP029983</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Harvard University">PRJNA219398</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Nasonia vitripennis strain:AsymC</NAME>
+     <TITLE>Nasonia vitripennis Infection Induced Transcriptome</TITLE>
+     <DESCRIPTION>Transcriptome sequencing of infected and uninfected control Nasonia vitripennis samples.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7425</TAXON_ID>
+               <SCIENTIFIC_NAME>Nasonia vitripennis</SCIENTIFIC_NAME>
+               <STRAIN>AsymC</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA13647"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS481202,SRS481205</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX352217-SRX352220</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR988300-SRR988303</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA219398&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA219398&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>219398</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-11-07</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA240970" alias="PRJNA240970" center_name="NIOO-KNAW">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA240970</PRIMARY_ID>
+          <SECONDARY_ID>SRP041441</SECONDARY_ID>
+          <SUBMITTER_ID namespace="NIOO-KNAW">PRJNA240970</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Nasonia vitripennis strain:AsymCx</NAME>
+     <TITLE>Memory induced brain transcriptome of Nasonia vitripennis</TITLE>
+     <DESCRIPTION>This N. vitripennis transcriptome was assembled to study the differential expression between brains of N. vitripennis wasps with or without memory conditioning. These results were compared to those of N. giraulti strain RV2x(U) using the same experimental setup. In this way the natural variation in memory formation between both closely related wasps could be studied, thereby gaining insight on the evolution of memory dynamics.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7425</TAXON_ID>
+               <SCIENTIFIC_NAME>Nasonia vitripennis</SCIENTIFIC_NAME>
+               <STRAIN>AsymCx</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA13647"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS597366</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX527275</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1262366-SRR1262372,SRR1262374-SRR1262376,SRR1262378-SRR1262379</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA240970&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA240970&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>240970</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2015-04-11</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA260391" alias="PRJNA260391" center_name="Cornell University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA260391</PRIMARY_ID>
+          <SECONDARY_ID>SRP046230</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE61156</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Cornell University">PRJNA260391</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Gene expression and epigenetic sexual dimorphism in two jewel wasp species Nasonia vitripennis and Nasonia giraulti [RNA-Seq]</NAME>
+     <TITLE>Gene expression and epigenetic sexual dimorphism in two jewel wasp species Nasonia vitripennis and Nasonia giraulti [RNA-Seq]</TITLE>
+     <DESCRIPTION>The extraordinary range in the degree of sexual dimorphism (SD) among animal species is widely perceived to be caused in part by differences in patterns of sexual selection, but sex-specific adaptations and sex chromosome differences also play a role. Studies in insects have discovered a substantial number of sex-biased genes, but little is known about the epigenetic basis of SD. The degree and genome-wide distribution of sex-biased expression become interesting questions in hymenoptera species with haplodiploid sex-determination. To study the genetic and epigenetic architecture of SD and understand the conservation and evolution of sex-biased expression in a haplodiploid system that lacks sex chromosomes, we performed RNA-seq and whole-genome bisulfite sequencing in female and male adult samples of two parasitoid wasp species, Nasonia vitripennis and Nasonia giraulti. More than 75% of the expressed genes displayed significantly sex-biased expression. Both the number and the degree of sex-biased genes are higher than insects like Drosophila melanogaster, which have sex-chromosome mediated sex determination. Females from the two Nasonia species have far more similar expression profiles than does the contrast between the two sexes within either species. Interestingly, the extremely male- and female-biased genes are enriched for totally different functional categories: male-biased genes are highly enriched for key enzymes in sex-pheromone synthesis; female-biased genes are enriched for nuclear-located genes that are responsible for epigenetic regulation of gene expression. Unlike gene expression profiles, DNA methylomes are more similar within species, and no stable differentially methylated genes have been found between the two sexes, suggesting that DNA methylation is not directly responsible for the molecular basis of SD. However, methylation status does influence sex-biased expression: 80% of female-biased genes are methylated, which is more than two-fold higher than the genome average (30%); almost all male-biased and sex-specific genes are non-methylated, which is consistent with the fact that methylated genes have house-keeping functions and a broader expression breadth. Evolutionarily, male-biased genes have greater sequence divergence between the two species, and they are more likely to have a functional paralog in the Nasonia genome. Sex-specific genes have significantly higher non-synonymous substitution rates and dN/dS ratios. In addition, local clusters of sex-biased genes in the genome may have epigenetic properties similar to the sex chromosome. In summary, Nasonia accomplish a striking degree of sex-differential expression through a difference in ploidy along with associated differences in methylations status. Overall design: Profiling of expression levels in Nasonia vitripennis and Nasonia giraulti adult male and female samples using Illumina RNA-seq</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA260390"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>26100871</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS694706-SRS694717</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX693006-SRX693017</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1566022-SRR1566033</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA260391&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA260391&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>260391</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2015-06-10</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA299590" alias="PRJNA299590" center_name="Harold Mitchell Building, School of Biology, University of St Andrews">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA299590</PRIMARY_ID>
+          <SECONDARY_ID>SRP065200</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE74241</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Harold Mitchell Building, School of Biology, University of St Andrews">PRJNA299590</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Nasonia vitripennis</NAME>
+     <TITLE>Whole-body transcriptomics of Nasonia vitripennis females as they respond to sex allocation cues</TITLE>
+     <DESCRIPTION>Linking the evolution of the phenotype to the underlying genotype is a key aim of evolutionary genetics and is crucial to our understanding of how natural selection shapes a trait. Here we consider the genetic basis of sex allocation behaviour in the parasitoid wasp Nasonia vitripennis using a transcriptomics approach. Females allocate offspring sex in line with Local Mate Competition (LMC) theory. Female-biased sex ratios are produced when one or few females lay eggs on a patch. As the number of females contributing offspring to a patch increases, less female-biased sex ratios are favoured. We contrasted the transcriptomic responses of females as they oviposit under conditions known to influence sex allocation: foundress number (a social cue) and the state of the host (parasitised or not). We found, that when females encounter other females on a patch, or assess host quality with their ovipositors, the resulting changes in sex allocation is not associated with significant changes in whole-body gene expression. We also found that the gene expression changes produced by females, as they facultatively allocate sex in response to a host cue and a social cue, are very closely correlated. We expanded the list of candidate genes associated with oviposition behaviour in Nasonia, some of which may be involved in fundamental processes underlying the ability to facultatively allocate sex, including sperm storage and utilisation. Overall design: 2 x 3 factorial design. Females were placed into 1 of 2 "foundress number" groups: 1) alone or 2) in the presence of 9 other females (co-foundresses). Females were further subdivided into host treatment groups: i) given no host, ii) given a fresh host and iii) given a pre-parasitised host. This gives a total of 6 possible treatment combinations. For each of these 6 groups, 7 pools of 10 females were sequenced giving 42 libraries altogether.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7425</TAXON_ID>
+               <SCIENTIFIC_NAME>Nasonia vitripennis</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA13647"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>26511500</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1124688-SRS1124709,SRS1124711-SRS1124730</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1361050-SRX1361051,SRX1361053-SRX1361054,SRX1361056-SRX1361057,SRX1361059-SRX1361060,SRX1361062-SRX1361063,SRX1361065-SRX1361066,SRX1361068-SRX1361069,SRX1361071-SRX1361072,SRX1361074-SRX1361075,SRX1361077-SRX1361100</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR2748824-SRR2748991</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA299590&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA299590&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>299590</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2015-11-13</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA306740" alias="PRJNA306740" center_name="Institute of Fundamental Sciences, Massey University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA306740</PRIMARY_ID>
+          <SECONDARY_ID>SRP067692</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE76257</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Institute of Fundamental Sciences, Massey University">PRJNA306740</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Nasonia vitripennis</NAME>
+     <TITLE>The venom gland and ovary transcriptome of the parasitoid wasp Nasonia vitripennis</TITLE>
+     <DESCRIPTION>Background The generalist dipteran pupal parasitoid Nasonia vitripennis injects 79 venom peptides into the host before egg laying. This venom induces several important changes in the host, including developmental arrest, immunosuppression, and alterations to normal metabolism. It is hoped that diverse and potent bioactivities of N. vitripennis venom provide an opportunity for the design of novel acting drugs. However, currently very little is known about the individual functions of N. vitripennis venom peptides and less than half can be bioinformatically annotated. The paucity of annotation information complicates the design of studies that seek to better understand the potential mechanisms underlying the envenomation response. Although the RNA interference system of N. vitripennis provides an opportunity to functionally characterise venom encoding genes, with 79 candidates this represents a daunting task. For this reason we were interested in determining the expression levels of venom encoding genes in the venom gland, such that this information could be used to rank candidate venoms. To do this we carried out deep sequencing of the transcriptome of the venom gland and neighbouring ovary tissue and used RNA-seq to measure expression from the 79 venom encoding genes. The generation of a specific venom gland transcriptome dataset also provides further opportunities to investigate novel features of this highly specialised organ. Results High throughput sequencing and RNA-seq revealed that the highest expressed venom encoding gene in the venom gland was a serine protease called Nasvi2EG007167, which has previously been implicated in the apoptotic activity of N. vitripennis venom. As expected the RNA-seq confirmed that the N. vitripennis venom encoding genes are almost exclusively expressed in the venom gland relative to the neighbouring ovary tissue. Novel peptides appear to perform key roles in N. vitripennis venom function as only four of the highest 15 expressed venom encoding genes are bioinformatically annotationed. The high throughput sequencing data also provided evidence for the existence of an additional 471 novel genes in the Nasonia genome that are expressed in the venom gland and ovary. Finally, metagenomic analysis of venom gland transcripts identified viral transcripts that may play an important part in the N. vitripennis venom function. Conclusions The expression level information provided here for the 79 venom encoding genes provides an unbiased dataset that can be used by the N. vitripennis community to identify high value candidates for further functional characterisation. These candidates represent bioactive peptides that have value in drug development pipelines. Overall design: Examination of the transcriptional profile of Nasonia vitripennis ovary and venom gland cells</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7425</TAXON_ID>
+               <SCIENTIFIC_NAME>Nasonia vitripennis</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA13647"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>27503142</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1218721-SRS1218726</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1496850-SRX1496855</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR3046453-SRR3046458</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA306740&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA306740&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>306740</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-04-19</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA319197" alias="PRJNA319197" center_name="Vanderbilt University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA319197</PRIMARY_ID>
+          <SECONDARY_ID>SRP074059</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Vanderbilt University">PRJNA319197</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Nasonia</NAME>
+     <TITLE>Nasonia Ovarian Transcriptome</TITLE>
+     <DESCRIPTION>The goal of the project was to determine differential gene expression in ovaries from wVitA-infected Nasonia vitripennis, wVitA-infected Nasonia giraulti and wGirA-infected Nasonia giraulti to see species-specific expression versus Wolbachia-induced expression</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7424</TAXON_ID>
+               <SCIENTIFIC_NAME>Nasonia</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1414588-SRS1414589,SRS1414591</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1733297-SRX1733301,SRX1733303-SRX1733306</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR3457431,SRR3457433-SRR3457439,SRR3457457</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA319197&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA319197&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>319197</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-04-25</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA319204" alias="PRJNA319204" center_name="Vanderbilt University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA319204</PRIMARY_ID>
+          <SECONDARY_ID>SRP073737</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Vanderbilt University">PRJNA319204</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Nasonia vitripennis strain:12.1</NAME>
+     <TITLE>Nasonia vitripennis Ovarian Transcriptome</TITLE>
+     <DESCRIPTION>The project goal was to identify Wolbachia genes expressed in the ovaries of Nasonia vitripennis wasps.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7425</TAXON_ID>
+               <SCIENTIFIC_NAME>Nasonia vitripennis</SCIENTIFIC_NAME>
+               <STRAIN>12.1</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA13647"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>28241146</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1409099</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1721421,SRX1726032,SRX1726034</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR3438974,SRR3439007-SRR3439008</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA319204&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA319204&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>319204</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-04-25</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA328154" alias="PRJNA328154" center_name="4020 MBRB, Biological Sciences, UIC">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA328154</PRIMARY_ID>
+          <SECONDARY_ID>SRP078066</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE84123</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="4020 MBRB, Biological Sciences, UIC">PRJNA328154</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Nasonia vitripennis</NAME>
+     <TITLE>Global analysis of dorsoventral patterning in the wasp Nasonia</TITLE>
+     <DESCRIPTION>Using RNA interference, we dorsalized and ventralized Nasonia embryos. By comparing transcriptomes from the RNAi cases to each other and to controls, we identify >100 genes expressed along the embryonic DV axis Overall design: 2 biological replicates of Toll signaling knockdown, BMP signaling knockdown, and water injected (control) were produced, and RNA was isolated and sequenced from resulting embryos</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7425</TAXON_ID>
+               <SCIENTIFIC_NAME>Nasonia vitripennis</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA13647"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>27480122</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1544949-SRS1544953,SRS1544955</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1902726-SRX1902731</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR3748957-SRR3748961,SRR3748963</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA328154&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA328154&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>328154</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-07-09</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA339536" alias="PRJNA339536" center_name="University of Rochester">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA339536</PRIMARY_ID>
+          <SECONDARY_ID>SRP091463</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of Rochester">PRJNA339536</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <TITLE>Venom gland transcriptomes for parasitoid wasps Urolepis rufipes, Trichomalopsis sarcophagae, Nasonia vitripennis, and N. giraulti</TITLE>
+     <DESCRIPTION>By what processes new genetic functions arise and evolve remains an important question in biology. The classic model for the evolution of novel function is through gene duplication followed by neofunctionalization. However, other modes have also been found, such as novel genes arising from non-coding DNA, chimeric fusions, and lateral gene transfers from other organisms. Here we investigate the evolution of novel venom proteins by reconstructing the evolutionary history of genes expressed in the specialized venom gland of parasitoid wasps Urolepis rufipes, Trichomalopsis sarcophagae, Nasonia vitripennis, and N. giraulti (Hymenoptera, Pteromalidae). We used the transcriptome and proteomic data to define the venom set in each species and found a total of 451 venom proteins among the four species, forming 183 homologous groups. From the pattern of gains and losses in the venom proteins, we propose that cooption of single copy genes may be a common but relatively understudied mechanism of evolution of new gene functions, particularly under conditions of rapid evolutionary change.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>28648823</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1742833-SRS1742836,SRS1755797-SRS1755798</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2241558-SRX2241561,SRX2263331-SRX2263332</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR4419175-SRR4419178,SRR4437311-SRR4437312</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA339536&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA339536&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>339536</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-06-14</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA389531" alias="PRJNA389531" center_name="VU University Amsterdam">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA389531</PRIMARY_ID>
+          <SECONDARY_ID>SRP124758</SECONDARY_ID>
+          <SUBMITTER_ID namespace="VU University Amsterdam">PRJNA389531</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Nasonia vitripennis isolate:HVRX</NAME>
+     <TITLE>Nasonia vitripennis evolve and resequence</TITLE>
+     <DESCRIPTION>Evolve and resequence experiment to identify allelic differences between lines selected for high learning ability and control lines.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7425</TAXON_ID>
+               <SCIENTIFIC_NAME>Nasonia vitripennis</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA13647"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2677662-SRS2677676,SRS2677678</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3382133-SRX3382148</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR6279904-SRR6279919</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA389531&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA389531&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>389531</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-04-05</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-04-05</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA415435" alias="PRJNA415435" center_name="Harold Mitchell Building, School of Biology, University of St Andrews">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA415435</PRIMARY_ID>
+          <SECONDARY_ID>SRP120985</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE105796</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Harold Mitchell Building, School of Biology, University of St Andrews">PRJNA415435</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Differential gene expression is not required for facultative sex allocation: a transcriptome analysis of brain tissue in the parasitoid wasp Nasonia vitripennis.</NAME>
+     <TITLE>Differential gene expression is not required for facultative sex allocation: a transcriptome analysis of brain tissue in the parasitoid wasp Nasonia vitripennis.</TITLE>
+     <DESCRIPTION>Female Nasonia facultatively vary their offspring sex ratio in line with Hamilton’s theory of Local Mate Competition (LMC). A single female or “foundress” laying eggs on a patch will lay just enough sons to fertilise her daughters. As the number of “foundresses” laying eggs on a patch increases (and LMC declines) females produce increasingly male-biased sex ratios. Phenotypic studies have revealed the cues females use to estimate the level of LMC their sons will experience but our understanding of the genetics underlying sex allocation is limited. Here, we exposed females to three foundress number conditions, i.e. three LMC conditions, and allowed them to oviposit. mRNA was extracted from only the heads of these females to target the brain tissue. The subsequent RNA-seq experiment confirmed that differential gene expression is not associated with the response to sex allocation cues and that we must instead turn to the underlying neuroscience to reveal the underpinnings of this impressive behavioural plasticity. Overall design: Examination of gene expression in female parasiotids exposed to one of three "foundress number" treatments; single-, five- or ten-foundress. There are n=8, n=7 and n=8 biological replicates per condition respectively.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7425</TAXON_ID>
+               <SCIENTIFIC_NAME>Nasonia vitripennis</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA13647"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>29515880</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2618989-SRS2619011</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3313040-SRX3313062</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR6203235-SRR6203372</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA415435&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA415435&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>415435</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-03-01</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-04-15</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA420460" alias="PRJNA420460" center_name="Vrije Universiteit Amsterdam">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA420460</PRIMARY_ID>
+          <SECONDARY_ID>SRP127311</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Vrije Universiteit Amsterdam">PRJNA420460</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Nvit; Dmel</NAME>
+     <TITLE>Transcriptomic comparison of lack of lipogenesis</TITLE>
+     <DESCRIPTION>Transcriptomes of abdomens of sucrose-fed and starved insects were sequenced. We compared a non-lipogenic model parasitoid against a lipogenic model species.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2778807-SRS2778817,SRS2778820</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3500955-SRX3500966</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR6407779-SRR6407790</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA420460&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA420460&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>420460</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-12-03</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-12-03</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA430433" alias="PRJNA430433" center_name="Vanderbilt University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA430433</PRIMARY_ID>
+          <SECONDARY_ID>SRP133616</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Vanderbilt University">PRJNA430433</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Nasonia</NAME>
+     <TITLE>Nasonia Raw sequence reads</TITLE>
+     <DESCRIPTION>Studying the Wolbachia titers between Nasonia vitripennis and Nasonia giraulti and introgression lines.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>C2E32</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+          <ORGANISM>
+               <TAXON_ID>7424</TAXON_ID>
+               <SCIENTIFIC_NAME>Nasonia</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS3004399-SRS3004418</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3748001-SRX3748020</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR6788724-SRR6788743</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA430433&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA430433&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>430433</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-03-11</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-05-19</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA484241" alias="PRJNA484241" center_name="University of Illinois at Chicago">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA484241</PRIMARY_ID>
+          <SECONDARY_ID>SRP156232</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of Illinois at Chicago">PRJNA484241</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <TITLE>Identification of oosome localized mRNAs in the wasp Nasonia</TITLE>
+     <DESCRIPTION>Anterior and posterior fragments of Nasonia early embryos were sequenced to identify enriched sequences at the poles</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS3624131-SRS3624134,SRS3624136-SRS3624137,SRS4611391-SRS4611396</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX4503558-SRX4503563,SRX5668448-SRX5668453</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR7640051-SRR7640056,SRR8882674-SRR8882679</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA484241&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA484241&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>484241</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-08-04</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-08-04</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+</ROOT>

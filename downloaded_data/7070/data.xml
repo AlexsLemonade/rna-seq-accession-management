@@ -1,0 +1,2106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT request="tax_eq(7070) AND (instrument_model=&quot;HiSeq X Ten&quot; OR instrument_model=&quot;HiSeq X Five&quot; OR instrument_model=&quot;Illumina MiSeq&quot; OR instrument_model=&quot;Illumina NovaSeq 6000&quot; OR instrument_model=&quot;Illumina Genome Analyzer&quot; OR instrument_model=&quot;Illumina Genome Analyzer II&quot; OR instrument_model=&quot;Illumina Genome Analyzer IIx&quot; OR instrument_model=&quot;Illumina HiScanSQ&quot; OR instrument_model=&quot;Illumina HiSeq 1000&quot; OR instrument_model=&quot;Illumina HiSeq 1500&quot; OR instrument_model=&quot;Illumina HiSeq 2000&quot; OR instrument_model=&quot;Illumina HiSeq 2500&quot; OR instrument_model=&quot;Illumina HiSeq 3000&quot; OR instrument_model=&quot;Illumina HiSeq 4000&quot; OR instrument_model=&quot;NextSeq 500&quot; OR instrument_model=&quot;NextSeq 550&quot; OR instrument_model=&quot;Ion Torrent Proton&quot; OR instrument_model=&quot;Ion Torrent S5&quot; OR instrument_model=&quot;Ion Torrent S5 XL&quot;)AND library_strategy=&quot;RNA-Seq&quot; AND library_source=&quot;TRANSCRIPTOMIC&quot;">
+<PROJECT accession="PRJNA231231" alias="PRJNA231231" center_name="University of Muenster, Institute for Evolution and Biodiversity">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA231231</PRIMARY_ID>
+          <SECONDARY_ID>SRP033773</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of Muenster, Institute for Evolution and Biodiversity">PRJNA231231</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Tribolium castaneum strain:SB, Cro1</NAME>
+     <TITLE>Tribolium castaneum Transcriptome</TITLE>
+     <DESCRIPTION>Transcriptome study of the red flour beetle Tribolium castaneum upon infection with Bacillus thuringiensis</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7070</TAXON_ID>
+               <SCIENTIFIC_NAME>Tribolium castaneum</SCIENTIFIC_NAME>
+               <STRAIN>SB, Cro1</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12539"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS514058,SRS514076-SRS514080,SRS514082,SRS514084-SRS514085,SRS514087-SRS514089,SRS514422,SRS514428,SRS514433-SRS514434</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX390599-SRX390601,SRX390625-SRX390638,SRX390640-SRX390641,SRX390643-SRX390646,SRX390648-SRX390658,SRX390664-SRX390665,SRX391082,SRX391086,SRX391088,SRX391090,SRX391093,SRX391095,SRX391097-SRX391098,SRX391101,SRX391105,SRX391109-SRX391110</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1048076,SRR1048078-SRR1048079,SRR1048107-SRR1048109,SRR1048113,SRR1048115-SRR1048124,SRR1048126-SRR1048139,SRR1048141,SRR1048143-SRR1048144,SRR1048149-SRR1048150,SRR1048507-SRR1048512,SRR1048514-SRR1048516,SRR1048519,SRR1048522,SRR1048525</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA231231&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA231231&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>231231</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-06-13</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA234363" alias="PRJNA234363" center_name="Evolutionary Biology, Institute of Biology, Leiden University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA234363</PRIMARY_ID>
+          <SECONDARY_ID>SRP035347</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE54018</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Evolutionary Biology, Institute of Biology, Leiden University">PRJNA234363</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Tribolium castaneum</NAME>
+     <TITLE>The extraembryonic serosa is a frontier epithelium providing the insect egg with a full-range innate immune response</TITLE>
+     <DESCRIPTION>Drosophila larvae and adults possess a potent innate immune response, but the response of their eggs is particularly poor. Here we show that eggs of the beetle Tribolium castaneum, in contrast, possess a full range of immune defence mechanisms, based on complete transcriptome comparisons of naïve, sterilely injured, and bacterially challenged eggs. Upon infection, we find massive upregulation of AMPs and differential regulation of 375 other genes including both IMD and Toll signalling components. Importantly, we show that this extensive response depends on the serosa, an extraembryonic epithelium enveloping yolk and embryo. When we delete the serosa using Tc-zen1 RNAi, none of the AMPs and merely 57 other genes are differentially regulated upon infection. Furthermore, unchallenged eggs reveal serosa-biased expression of several bacterial recognition genes. Thus, the serosa is an immune competent frontier epithelium, and its loss in higher flies might account for the poor immune response of Drosophila eggs. Overall design: Three different types of eggs were analysed. Wildtype eggs, eggs of which the mother was injected with a control dsRNA, and eggs without a serosa of which the mothers were injected with Tc-zen1 dsRNA. These three egg-types were subjected to three treatments, untreated (naïve), pricked with a sterile needle (sterile injury) and pricked with a mix of E.coli and M.luteus. This resulted in 9 samples which were all collected three times resulting in a total of 27 samples.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7070</TAXON_ID>
+               <SCIENTIFIC_NAME>Tribolium castaneum</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12539"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>25487990</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>25747006</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS529164-SRS529190</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX425536-SRX425562</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1106788-SRR1106827</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA234363&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA234363&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>234363</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-12-09</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA237452" alias="PRJNA237452" center_name="Bucher, Developmental Biology, University Göttingen">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA237452</PRIMARY_ID>
+          <SECONDARY_ID>SRP036642</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE54706</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Bucher, Developmental Biology, University Göttingen">PRJNA237452</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Tribolium castaneum</NAME>
+     <TITLE>Wnt/β-catenin signaling integrates patterning and metabolism of the insect growth zone.</TITLE>
+     <DESCRIPTION>Purpose: Combination of systemic RNAi with RNAseq to identify target genes of important pathways in early development Wnt/β-catenin and hedgehog (Hh) signaling are essential for transmitting signals across cell membranes in animal embryos. Early patterning of the principal insect model, Drosophila melanogaster, occurs in the syncytial blastoderm, where diffusion of transcription factors obviates the need for signaling pathways. However, in the cellularized growth zone of typical short germ insect embryos, signaling pathways are predicted to play a more fundamental role. Indeed, the Wnt/β-catenin pathway is required for posterior elongation in most arthropods, although which target genes are activated in this context remains elusive. Here, we use the short germ beetle Tribolium castaneum to investigate two Wnt and Hh signaling centers located in the head anlagen and in the growth zone of early embryos. We find that Wnt/β-catenin signaling acts upstream of Hh in the growth zone, whereas the opposite interaction occurs in the head. We determine the target gene sets of the Wnt/β-catenin and Hh pathways and find that the growth zone signaling center activates a much greater number of genes and that the Wnt and Hh target gene sets are essentially non-overlapping. The Wnt pathway activates key genes of all three germ layers, including pair-rule genes, and Tc-caudal and Tc-twist. Furthermore, the Wnt pathway is required for hindgut development and we identify Tc-senseless as a novel hindgut patterning gene required in the early growth zone. At the same time, Wnt acts on growth zone metabolism and cell division, thereby integrating growth with patterning. Posterior Hh signaling activates several genes potentially involved in a proteinase cascade of unknown function. Overall design: 10-11 h old whole embyro mRNA profiles of the following treatments: reference: wild type 100bp single read triplicates reference: wild type 50bp single read triplicates treatment: Tc-arrow RNAi knockdown 50 bp single read triplicates treatment: Tc-frizzled1/2 RNAi double knockdown 50 bp single read triplicates treatment: Tc-hedgehog RNAi knockdown 100bp single reads quadruplicates treatment: Tc-orthodenticle RNAi knockdown 100bp single reads triplicates treatment: Tc-torso RNAi knockdown 100bp single reads triplicates treatment: Tc-wntless RNAi knockdown 50bp single reads triplicates Total: 2 references, 6 treatments, 25 sequencing runs</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7070</TAXON_ID>
+               <SCIENTIFIC_NAME>Tribolium castaneum</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12539"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>25395458</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS553234-SRS553258</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX465141-SRX465165</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1161689-SRR1161713</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA237452&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA237452&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>237452</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-02-07</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA238972" alias="PRJNA238972" center_name="Nanjing Normal University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA238972</PRIMARY_ID>
+          <SECONDARY_ID>SRP038959</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Nanjing Normal University">PRJNA238972</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Tribolium castaneum strain:GA-1</NAME>
+     <TITLE>Tribolium castaneum strain:GA-1 Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>identify the differentially expressed genes</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7070</TAXON_ID>
+               <SCIENTIFIC_NAME>Tribolium castaneum</SCIENTIFIC_NAME>
+               <STRAIN>GA-1</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12539"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS561852</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX476140,SRX699016</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1176913-SRR1176914</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA238972&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA238972&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>238972</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-09-13</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA242780" alias="PRJNA242780" center_name="Johann-Friedrich-Blumenbach-Institute for Zoology &amp; Anthropology, Georg-August-University of Goettingen.">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA242780</PRIMARY_ID>
+          <SECONDARY_ID>SRP040606</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Johann-Friedrich-Blumenbach-Institute for Zoology &amp; Anthropology, Georg-August-University of Goettingen.">PRJNA242780</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Tribolium castaneum strain:San Bernardino (SB)</NAME>
+     <TITLE>Odoriferous Defensive Stink Gland Transcriptome to Identify Novel Genes Necessary for Quinone Synthesis in the Red Flour Beetle, Tribolium castaneum</TITLE>
+     <DESCRIPTION>Chemical defense is one of the most important traits, which endow insects the ability to conquer a most diverse set of ecological environments. Chemical secretions are used for defense against anything from vertebrate or invertebrate predators to prokaryotic or eukaryotic parasites or food competitors. Tenebrionid beetles are especially prolific in this category, producing several varieties of substituted benzoquinone compounds. In order to get a better understanding of the genetic and molecular basis of defensive secretions, we performed RNA sequencing in a newly emerging insect model, the red flour beetle Tribolium castaneum (Coleoptera: Tenebrionidae).</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7070</TAXON_ID>
+               <SCIENTIFIC_NAME>Tribolium castaneum</SCIENTIFIC_NAME>
+               <STRAIN>San Bernardino (SB)</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12539"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>23874211</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS582865-SRS582870</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX501817-SRX501822</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1206001-SRR1206002,SRR1206004,SRR1206006,SRR1206008,SRR1206010</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA242780&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA242780&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>242780</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-03-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA247820" alias="PRJNA247820" center_name="Wayne State University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA247820</PRIMARY_ID>
+          <SECONDARY_ID>SRP051381</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Wayne State University">PRJNA247820</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Tribolium castaneum strain:GA-1</NAME>
+     <TITLE>RNAseq analysis of adult eye specific transcripts in the red flour beetle Tribolium castaneum</TITLE>
+     <DESCRIPTION>The molecular mechanisms underlying the perception of light has thus far largely studied in Drosophila. This project uses a differential gene expression analysis approach to define genes that are specifically involved in phototransduction in the red flour beetle Tribolium castaneum. The specific approach consists of comparing the adult head transcriptome of wild-type and eye-depleted animals of the Ey/Es strain.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7070</TAXON_ID>
+               <SCIENTIFIC_NAME>Tribolium castaneum</SCIENTIFIC_NAME>
+               <STRAIN>GA-1</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12539"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS798600,SRS798635</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX818546,SRX818581</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1726427,SRR1726453</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA247820&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA247820&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>247820</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-05-19</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA247821" alias="PRJNA247821" center_name="Wayne State University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA247821</PRIMARY_ID>
+          <SECONDARY_ID>SRP051405</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Wayne State University">PRJNA247821</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Tribolium castaneum strain:GA-1</NAME>
+     <TITLE>RNAseq analysis of pupal eye development in the red flour beetle Tribolium castaneum</TITLE>
+     <DESCRIPTION>The molecular genetic mechanisms regulating the development of the eye has been extensively studied in Drosophila but little is known yet in other insect systems, many of which are characterized by major differences in the organization of the tissues that generate the eye. This project employs differential gene expression analysis for two objectives: 1. Defining genes that regulate the development of the eyes in the red flour beetle Tribolium castaneum during pupal development. 2. Elucidating the roles of the developmental transcription factors eyeless, twin of eyeless and dachshund in this process.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>FA06</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>FA07</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>FA08</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>FB02</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+          <ORGANISM>
+               <TAXON_ID>7070</TAXON_ID>
+               <SCIENTIFIC_NAME>Tribolium castaneum</SCIENTIFIC_NAME>
+               <STRAIN>GA-1</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12539"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS799534,SRS2453391,SRS2454642,SRS2454648</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX819651,SRX3118448,SRX3119712,SRX3119717</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1727820,SRR1783154,SRR5960282,SRR5961551-SRR5961552,SRR5961746-SRR5961747</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA247821&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA247821&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>247821</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-05-19</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA266839" alias="PRJNA266839" center_name="Bucher, Developmental Biology, University Göttingen">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA266839</PRIMARY_ID>
+          <SECONDARY_ID>SRP049677</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE63162</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Bucher, Developmental Biology, University Göttingen">PRJNA266839</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Tribolium castaneum</NAME>
+     <TITLE>Tissue-specific transcriptomics, chromosomal localization, and phylogeny of chemosensory and odorant binding proteins from the red flour beetle Tribolium castaneum reveal subgroup specificities for olfaction or more general functions</TITLE>
+     <DESCRIPTION>Chemoreception is based on the senses of smell and taste that are crucial for animals to find new food sources, shelter, and mates. The initial step in olfaction involves the translocation of odorants from the periphery through the aqueous lymph of the olfactory sensilla to the odorant receptors by chemosensory proteins (CSPs) or odorant binding proteins (OBPs).To better understand the roles of CSPs and OBPs in a coleopteran pest species, the red flour beetle Tribolium castaneum (Coleoptera, Tenebrionidae), we performed transcriptome analyses of male and female antennae, heads, mouthparts, legs, and bodies, which revealed that all 20 CSPs and 49 of the 50 previously annotated OBPs are transcribed. Only six of the 20 CSP are significantly transcriptionally enriched in the main chemosensory tissues (antenna and/or mouthparts), whereas of the OBPs all eight members of the antenna binding proteins II (ABPII) subgroup, 18 of the 20 classic OBP subgroup, the C+OBP, and only five of the 21 C-OBPs show increased chemosensory tissue expression. By MALDI-TOF-TOF MS protein fingerprinting, we confirmed three CSPs, four ABPIIs, three classic OBPs, and four C-OBPs in the antennae.Most of the classic OBPs and all ABPIIs are involved in chemoreception. A few are also present in other tissues like odoriferous glands and testes and may be involved in release or transfer of chemical signals. The majority of the CSPs as well as the C-OBPs are not enriched in antennae or mouthparts, suggesting a more general role in the transport of hydrophobic molecules. Overall design: RNAseq data obtained from different body parts of adult males and females, as well as larvae</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7070</TAXON_ID>
+               <SCIENTIFIC_NAME>Tribolium castaneum</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12539"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>25523483</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS742302-SRS742317</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX757105-SRX757120</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1647921-SRR1647936</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA266839&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA266839&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>266839</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2015-03-01</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA269044" alias="PRJNA269044" center_name="Division of Biology and Biological Engineering, Calfironia Institute of Technology">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA269044</PRIMARY_ID>
+          <SECONDARY_ID>SRP050428</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE63770</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Division of Biology and Biological Engineering, Calfironia Institute of Technology">PRJNA269044</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Embryonic small RNA and RNA profiles of Tribolium castaneum and Drosophila oocytes</NAME>
+     <TITLE>Embryonic small RNA and RNA profiles of Tribolium castaneum and Drosophila oocytes</TITLE>
+     <DESCRIPTION>Next generation sequencing analysis of the small RNA and RNA profiles of successive time intervals during T. castaneum embryogenesis, and Drosophila unfertilized oocytes Overall design: Total RNA was extracted from oocytes precisely staged embryos at 25°C and small RNA or stranded polyA-RNA libraries were generated according to the manufacturer's instructions</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12539"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>26518483</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS776246-SRS776263,SRS941671-SRS941674</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX792443-SRX792460,SRX1034159-SRX1034162</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1687586-SRR1687603,SRR2033935-SRR2033938</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA269044&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA269044&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>269044</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2015-03-01</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA275195" alias="PRJNA275195" center_name="Georg-August-University of Goettingen">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA275195</PRIMARY_ID>
+          <SECONDARY_ID>SRP055056</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Georg-August-University of Goettingen">PRJNA275195</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Tribolium castaneum</NAME>
+     <TITLE>iBeetle embryonic and metamorphic transcriptomes for re-annotation of the Tribolium castaneum gene set</TITLE>
+     <DESCRIPTION>RNA-seq of total RNA of wildtype embryos and metamorphic stages was used to enhance the genomic annotation.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7070</TAXON_ID>
+               <SCIENTIFIC_NAME>Tribolium castaneum</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12539"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS846144,SRS846559-SRS846563,SRS1139857,SRS1139863,SRS1139865,SRS1139944-SRS1139945</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX878244,SRX878662-SRX878666,SRX1396587,SRX1396595,SRX1396600,SRX1396873-SRX1396874</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1805261,SRR1805710-SRR1805712,SRR1805714-SRR1805715,SRR2856447,SRR2856452,SRR2857283,SRR2857304,SRR3160103</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA275195&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA275195&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>275195</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2015-02-12</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA288948" alias="PRJNA288948" center_name="Nanjing Normal University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA288948</PRIMARY_ID>
+          <SECONDARY_ID>SRP060397</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Nanjing Normal University">PRJNA288948</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Tribolium castaneum strain:GA-1</NAME>
+     <TITLE>Tribolium castaneum strain:GA-1 Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>Transcriptomics analysis of an Tribolium castaneum Delta class glutathione S-transferases gene (TcGSTD1) is response for insecticide resistance, These results illustrate the various and complex function of GSTD1 in the insect and provide a preliminary basis to better understand the complex molecular response of T.castaneum to insecticide and suitable strategies for more sustainable management of the pest.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7070</TAXON_ID>
+               <SCIENTIFIC_NAME>Tribolium castaneum</SCIENTIFIC_NAME>
+               <STRAIN>GA-1</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12539"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS979602</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1081871</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR2087948</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA288948&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA288948&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>288948</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-10-10</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA302304" alias="PRJNA302304" center_name="USDA, ARS">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA302304</PRIMARY_ID>
+          <SECONDARY_ID>SRP066257</SECONDARY_ID>
+          <SUBMITTER_ID namespace="USDA, ARS">PRJNA302304</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Tribolium castaneum</NAME>
+     <TITLE>Tribolium castaneum RNAi transcriptome</TITLE>
+     <DESCRIPTION>T. castaneum RNA-seq of control and RNAi treatment groups</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7070</TAXON_ID>
+               <SCIENTIFIC_NAME>Tribolium castaneum</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12539"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1164692,SRS1164696</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1433699,SRX1433701,SRX1433707,SRX1433709-SRX1433710,SRX1433712,SRX2390214-SRX2390215</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR2918137-SRR2918139,SRR2918141,SRR2918158,SRR2918160,SRR2918162,SRR2918165,SRR2918167,SRR2918169,SRR2918171,SRR2918186,SRR2918192-SRR2918193,SRR2918197-SRR2918198,SRR2918200,SRR2918202,SRR2918216,SRR2918218,SRR2918220,SRR2918222,SRR2918225,SRR2918227,SRR5070347-SRR5070348</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA302304&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA302304&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>302304</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-04-19</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA305354" alias="PRJNA305354" center_name="University of Muenster">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA305354</PRIMARY_ID>
+          <SECONDARY_ID>SRP067120</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of Muenster">PRJNA305354</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Tribolium castaneum strain:Cro1</NAME>
+     <TITLE>Tribolium castaneum strain:Cro1 Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>Study of immune priming and infection response of Tribolium castaneum to the pathogen Bacillus thuringiensis strains Bt407 and Btt</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1196939,SRS1757225-SRS1757229</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2265569-SRX2265586</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR4446737-SRR4446754</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA305354&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA305354&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>305354</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-04-19</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA307533" alias="PRJNA307533" center_name="Nanjing Normal University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA307533</PRIMARY_ID>
+          <SECONDARY_ID>SRP068002</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Nanjing Normal University">PRJNA307533</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Tribolium castaneum strain:GA-1</NAME>
+     <TITLE>Tribolium castaneum strain:GA-1 Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>This is a control sample for RNA-Seq of Tribolium castaneum</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7070</TAXON_ID>
+               <SCIENTIFIC_NAME>Tribolium castaneum</SCIENTIFIC_NAME>
+               <STRAIN>GA-1</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12539"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1232408</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1513481</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR3087513</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA307533&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA307533&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>307533</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-08-02</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA315762" alias="PRJNA315762" center_name="AG Roth, University of Cologne">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA315762</PRIMARY_ID>
+          <SECONDARY_ID>SRP072065</SECONDARY_ID>
+          <SUBMITTER_ID namespace="AG Roth, University of Cologne">PRJNA315762</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Tribolium castaneum strain:San Bernadino | cultivar:AG Roth</NAME>
+     <TITLE>Tribolium castaneum strain:San Bernadino | cultivar:AG Roth Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>The goal of this study was to identify target genes of the key dorso-ventral signaling components Toll, twist, short gastrulation, decapentaplegic. Tribolium virgins were treated with corresponding RNAi constructs (dsRNA) and offspring of treated mothers were collected 7.5 to 11.5h after egg lay. Offspring form untreated mothers or mother injected with dsRed (not encoded in the Tribolium genome) were used as control.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7070</TAXON_ID>
+               <SCIENTIFIC_NAME>Tribolium castaneum</SCIENTIFIC_NAME>
+               <STRAIN>San Bernadino</STRAIN>
+               <CULTIVAR>AG Roth</CULTIVAR>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12539"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1351277-SRS1351278,SRS1351284,SRS1356743,SRS1359674,SRS1359687,SRS1359787-SRS1359789,SRS1367423,SRS1367426,SRS1367431-SRS1367432,SRS1367435,SRS1367467,SRS1367469,SRS1367471,SRS1367473,SRS1367475,SRS1367479,SRS1367481,SRS1367483,SRS1367485,SRS1367487</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1647966-SRX1647967,SRX1648029,SRX1656506,SRX1659600,SRX1659613,SRX1659736-SRX1659738,SRX1669615,SRX1669618,SRX1669623,SRX1669625-SRX1669626,SRX1669644,SRX1669655-SRX1669658,SRX1669660,SRX1669662-SRX1669663,SRX1669665-SRX1669666</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR3261358-SRR3261359,SRR3261876,SRR3289627,SRR3289685,SRR3289703,SRR3289852-SRR3289853,SRR3289855,SRR3310884,SRR3310889,SRR3310897,SRR3310901,SRR3310903,SRR3310951,SRR3310963,SRR3310965,SRR3310967,SRR3310970,SRR3310973,SRR3310975,SRR3310978-SRR3310979,SRR3310981</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA315762&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA315762&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>315762</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-03-22</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA328479" alias="PRJNA328479" center_name="School of Life Science, Nanjing Normal university">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA328479</PRIMARY_ID>
+          <SECONDARY_ID>SRP078251</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE84253</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="School of Life Science, Nanjing Normal university">PRJNA328479</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Tribolium castaneum</NAME>
+     <TITLE>The single-base resolution DNA methylation profiles for four developmental stages of Tribolium castaneum</TITLE>
+     <DESCRIPTION>Cytosine DNA methylation in the Tribolium castaneum has been controversial, its distribution pattern and functions have not been established yet. Here, using BS-Seq, we confirmed the existence of DNA methylation and described the methylation profiles for four life stages of T.castaneum. Interestingly, two types of DNA methylation had been discovered in T.castaneum genome. One was the symmetrical CpG methylation which was typically existed among eukaryotes methylomes, but occupied small part in methylome of T. castaneum. Another type was the non-CpG methylation which was uniquely and predominated in methylome of T. castaneum. While, the symmetrical CpG methylation which was catalyzed by the conserved DNA methyltransferase DNMT1 in T.castaneum mainly enriched in gene bodies and was positively correlated with the gene expression level. The asymmetrical nonCpG (most mCpA) methylation strongly concentrated in intergenic regions and introns while absent from the exons. Gene body methylation was negatively correlated with the gene expression level. The distribution pattern and functions of this type methylation only showed similarity with the methylome of Drosophila melanogaster, which further support that there existed a novel methyltransferase in these two specieces responsible for this methylation. The DNA methylome of T. castaneum possess two differential types and unique characterizations, which will contribute to our further understanding of the variety, origin and functions of DNA methylation in eukaryotes. Overall design: Genomic DNA was extracted from a pool of 50 individuals for the four life stages of Tribolium castaneum: 3d embryo, late larva( ~20d larva ), 3d pupa and 3d adult, respectively, using the DNeasy Blood &amp; Tissue Kit. The extracted DNA was then bisulfite converted and Illumina sequenced to obtain direct evidence for the presence of methylation in Tribolium castaneum. To reveal the relationship between the DNA methylation and gene expression, Total RNA was extracted from each sample by using the Invitrogen TRIzol® Reagent. RNA-seq technology was used to generate the gene expression files for the four sages fo Tribolium castaneum.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7070</TAXON_ID>
+               <SCIENTIFIC_NAME>Tribolium castaneum</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12539"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>28449092</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1553909-SRS1553916</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1925241-SRX1925248</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR3825296-SRR3825303</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA328479&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA328479&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>328479</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-07-12</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-03-01</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA376795" alias="PRJNA376795" center_name="USDA ARS Center for Grain and Animal Health Research">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA376795</PRIMARY_ID>
+          <SECONDARY_ID>SRP102844</SECONDARY_ID>
+          <SUBMITTER_ID namespace="USDA ARS Center for Grain and Animal Health Research">PRJNA376795</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Tribolium castaneum strain:Oppert lab strain</NAME>
+     <TITLE>Tribolium castaneum strain:Oppert lab strain Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>Sequences from the larval gut transcriptome</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7070</TAXON_ID>
+               <SCIENTIFIC_NAME>Tribolium castaneum</SCIENTIFIC_NAME>
+               <STRAIN>Oppert lab strain</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12539"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2091409</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2695346</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5400682</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA376795&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA376795&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>376795</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-07-01</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-07-01</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA376868" alias="PRJNA376868" center_name="Biological Sciences, Vanderbilt University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA376868</PRIMARY_ID>
+          <SECONDARY_ID>SRP100744</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE95387</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Biological Sciences, Vanderbilt University">PRJNA376868</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Tribolium castaneum</NAME>
+     <TITLE>The within-host dynamics of infection in trans-generationally primed beetles</TITLE>
+     <DESCRIPTION>We report the temporal dynamics of differential gene expression between primed and unprimed beetles infected with the entomopathogen Bt Overall design: Tribolium castaneum larvae from mothers who had (primed treatment) or had not (unprimed treatment) been pricked with heat killed Bacillus thuringiensis (Bt) were infected with an LD50 dose of Bt and then sacrificed at 0 hours (uninfected) or 2,6,8,12 hours post infection. This experiment was repeated twice (TS1 or TS2). The extracted RNA was used to prepare mRNA libraries using the Illumina TruSeq v2 kit and sequenced on the Hiseq</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7070</TAXON_ID>
+               <SCIENTIFIC_NAME>Tribolium castaneum</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12539"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>28277618</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>28747473</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2019939-SRS2019986</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2591944-SRX2591991</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5289130-SRR5289177</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA376868&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA376868&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>376868</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-04-19</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA383146" alias="PRJNA383146" center_name="University of Kentucky">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA383146</PRIMARY_ID>
+          <SECONDARY_ID>SRP104108</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of Kentucky">PRJNA383146</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Tribolium castaneum strain:QTC279</NAME>
+     <TITLE>CncC regulated genes code for proteins involved in all three phases of insecticide detoxification in Tribolium Castaneum</TITLE>
+     <DESCRIPTION>In invertebrates, a heterodimer of xenobiotic transcription factors, cap n collar C isoform (CncC) and muscle aponeurosis fibromatosis (Maf) mediate cellular defense. In insects, these proteins regulate expression of genes involved in insecticide detoxification. In the current study, we performed sequencing of RNA isolated from Tribolium castaneum pyrethriod resistant strain (QTC279) beetles injected with CncC or green fluroscence protein (GFP, control) dsRNA. Differential expression analysis of RNA sequences identified 662 genes that showed a decrease and 91 genes that showed an increase in expression (at a p value &lt;0.01 and log2 fold change of >1.5) in CncC knockdown insects when compared to their expression in control insects. We focused on the downregulated genes and selected a subset of 27 genes (21 with a predicted function in xenobiotic detoxification and six randomly picked) and verified their differential expression using qRT-PCR. RNAi and insecticide bioassays were employed to study the function of six of these genes coding for CYP4G7, CYP4G14, GST-1 and four ABC transporters, ABCA-UB, ABCA-A1 and ABCA-A1L and ABCA-9B involved in all three phases of insecticide detoxification. These data suggest that CncC is a major regulator of genes coding for proteins involved in detoxification of insecticides.&lt;/p>&lt;p>In invertebrates, a heterodimer of xenobiotic transcription factors, cap n collar C isoform (CncC) and muscle aponeurosis fibromatosis (Maf) mediate cellular defense. In insects, these proteins regulate expression of genes involved in insecticide detoxification. In the current study, we performed sequencing of RNA isolated from Tribolium castaneum pyrethriod resistant strain (QTC279) beetles injected with CncC or green fluroscence protein (GFP, control) dsRNA. Differential expression analysis of RNA sequences identified 662 genes that showed a decrease and 91 genes that showed an increase in expression (at a p value &lt;0.01 and log2 fold change of >1.5) in CncC knockdown insects when compared to their expression in control insects. We focused on the downregulated genes and selected a subset of 27 genes (21 with a predicted function in xenobiotic detoxification and six randomly picked) and verified their differential expression using qRT-PCR. RNAi and insecticide bioassays were employed to study the function of six of these genes coding for CYP4G7, CYP4G14, GST-1 and four ABC transporters, ABCA-UB, ABCA-A1 and ABCA-A1L and ABCA-9B involved in all three phases of insecticide detoxification. These data suggest that CncC is a major regulator of genes coding for proteins involved in detoxification of insecticides.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7070</TAXON_ID>
+               <SCIENTIFIC_NAME>Tribolium castaneum</SCIENTIFIC_NAME>
+               <STRAIN>QTC279</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12539"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2127826-SRS2127833</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2741222-SRX2741229</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5452613-SRR5452620</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA383146&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA383146&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>383146</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-08-02</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA383401" alias="PRJNA383401" center_name="University of Kentucky">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA383401</PRIMARY_ID>
+          <SECONDARY_ID>SRP104247</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of Kentucky">PRJNA383401</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Tribolium castaneum strain:GA-2</NAME>
+     <TITLE>Tribolium castaneum strain:GA-2 Raw sequence reads</TITLE>
+     <DESCRIPTION>CREB-binding protein (CBP) is involved in co-activation of many transcription factors. Here, we have studied the role of CBP in postembryonic development in T. castaneum. RNA interference (RNAi) mediated knockdown of CBP resulted in a decrease in JH induction of Kr-h1 gene expression in T. castaneum larvae and led to a block in their development. RNA-seq and subsequent differential gene expression analysis identified CBP target genes in T. castaneum. Knockdown of CBP caused a decrease in the expression of > 1200 genes coding for transcription factors and other proteins associated with growth and development. Depletion of CBP impaired the expression of several JH and ecdysone response genes . Further, GO enrichment analyses on the downregulated genes showed enrichment in different molecular functions including transcription activation, transcription regulation, cofactor binding, and enzyme inhibition. These data suggest diverse but crucial roles for CBP during postembryonic development in the coleopteran model insect, T. castaneum.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7070</TAXON_ID>
+               <SCIENTIFIC_NAME>Tribolium castaneum</SCIENTIFIC_NAME>
+               <STRAIN>GA-2</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12539"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2131977-SRS2131984</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2745603-SRX2745610</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5457552-SRR5457559</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA383401&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA383401&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>383401</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-09-02</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA386859" alias="PRJNA386859" center_name="University of Cambridge">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA386859</PRIMARY_ID>
+          <SECONDARY_ID>SRP107945</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of Cambridge">PRJNA386859</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Arthropoda</NAME>
+     <TITLE>The evolution of small RNA pathways across the arthropods</TITLE>
+     <DESCRIPTION>A comparison of somatic and germline small RNA pathways across the arthropods</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2222657-SRS2222658,SRS2225835,SRS2225843-SRS2225844,SRS2225850,SRS2225852-SRS2225853,SRS2225889-SRS2225890,SRS2225894-SRS2225895,SRS2225910,SRS2226018,SRS2227581-SRS2227582,SRS2227586,SRS2227590,SRS2228470-SRS2228473,SRS2231229-SRS2231232,SRS2231235-SRS2231236,SRS2231279-SRS2231281,SRS2231323-SRS2231324,SRS2231328-SRS2231329,SRS2231331,SRS2231334-SRS2231335,SRS2231355,SRS2231377-SRS2231378,SRS2231457-SRS2231458,SRS2231468,SRS2231490,SRS2231541,SRS2231543,SRS2231587,SRS2231590,SRS2231889,SRS2231902,SRS2231934,SRS2231982,SRS2236091,SRS2451691,SRS2451720,SRS2452552,SRS2452562,SRS2453898-SRS2453899,SRS2454591</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2850026-SRX2850029,SRX2855077,SRX2855085-SRX2855086,SRX2855092-SRX2855097,SRX2855099,SRX2855101,SRX2855138-SRX2855139,SRX2855143-SRX2855150,SRX2855165,SRX2855273-SRX2855276,SRX2856839-SRX2856840,SRX2856844,SRX2856848,SRX2856850-SRX2856855,SRX2857734-SRX2857743,SRX2861711-SRX2861722,SRX2861725-SRX2861726,SRX2861844-SRX2861846,SRX2861889-SRX2861896,SRX2862015-SRX2862016,SRX2862023-SRX2862032,SRX2862034,SRX2862055-SRX2862056,SRX2862106,SRX2862154-SRX2862157,SRX2862160-SRX2862165,SRX2862333-SRX2862334,SRX2862337-SRX2862340,SRX2862348,SRX2862370-SRX2862373,SRX2862379,SRX2862495-SRX2862496,SRX2862542,SRX2862545-SRX2862551,SRX2862850,SRX2862863,SRX2862914,SRX2862985,SRX2863497-SRX2863504,SRX2864826-SRX2864827,SRX3116744,SRX3116773-SRX3116779,SRX3117614,SRX3117627,SRX3118955-SRX3118960,SRX3119654-SRX3119657,SRX3119668-SRX3119671</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5593238-SRR5593241,SRR5602497,SRR5602500-SRR5602501,SRR5602507-SRR5602514,SRR5602548-SRR5602557,SRR5602569,SRR5602676-SRR5602679,SRR5604243,SRR5604245,SRR5604247,SRR5604252,SRR5604254-SRR5604259,SRR5605143-SRR5605152,SRR5614356,SRR5614358-SRR5614362,SRR5614365-SRR5614370,SRR5614374-SRR5614375,SRR5614825-SRR5614826,SRR5614828,SRR5614871-SRR5614878,SRR5615334-SRR5615335,SRR5615342-SRR5615351,SRR5615353,SRR5615374-SRR5615375,SRR5615551,SRR5615766-SRR5615769,SRR5615772-SRR5615777,SRR5616334-SRR5616335,SRR5616338-SRR5616341,SRR5616349,SRR5616370-SRR5616373,SRR5616379,SRR5616818-SRR5616819,SRR5616874,SRR5616877-SRR5616883,SRR5617270,SRR5617283,SRR5617423,SRR5617494,SRR5618753-SRR5618760,SRR5621290-SRR5621291,SRR5958548,SRR5958578,SRR5958582-SRR5958587,SRR5959427,SRR5959440,SRR5960789-SRR5960794,SRR5961489-SRR5961492,SRR5961503-SRR5961506</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA386859&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA386859&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>386859</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-10-19</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA391359" alias="PRJNA391359" center_name="Nanjing Normal University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA391359</PRIMARY_ID>
+          <SECONDARY_ID>SRP110104</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Nanjing Normal University">PRJNA391359</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Tribolium castaneum strain:GA-1</NAME>
+     <TITLE>Tribolium castaneum strain:GA-1 Raw sequence reads</TITLE>
+     <DESCRIPTION>analysis of hsp18.3 functions and signal pathways</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>CEW28</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+          <ORGANISM>
+               <TAXON_ID>7070</TAXON_ID>
+               <SCIENTIFIC_NAME>Tribolium castaneum</SCIENTIFIC_NAME>
+               <STRAIN>GA-1</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12539"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2304480</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2944938</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5753969</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA391359&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA391359&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>391359</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-06-23</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-05-19</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA418888" alias="PRJNA418888" center_name="Nanjing Normal University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA418888</PRIMARY_ID>
+          <SECONDARY_ID>SRP125245</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Nanjing Normal University">PRJNA418888</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Tribolium castaneum</NAME>
+     <TITLE>Tribolium castaneum Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>Identification of differential genes between control and dsTclph</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7070</TAXON_ID>
+               <SCIENTIFIC_NAME>Tribolium castaneum</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12539"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2699507</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3406391</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR6306005</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA418888&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA418888&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>418888</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-11-29</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA464030" alias="PRJNA464030" center_name="School of Agriculture and Biology, Shanghai JiaoTong University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA464030</PRIMARY_ID>
+          <SECONDARY_ID>SRP144632</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE114049</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="School of Agriculture and Biology, Shanghai JiaoTong University">PRJNA464030</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Next Generation Sequencing to determine the fundamental mechanisms of Tribolium castaneum larvae to cope with hypoxia</NAME>
+     <TITLE>Next Generation Sequencing to determine the fundamental mechanisms of Tribolium castaneum larvae to cope with hypoxia</TITLE>
+     <DESCRIPTION>We used high-throughput sequencing technology to determine the fundamental mechanisms of Tribolium castaneum to cope with hypoxia. Totals of 12,524,554 useful reads from the control group and 14,193,339 useful reads from the treatment group were generated after Q20 filtering. A total of 16,524 unigenes had been annotated. More than 300 transcripts showed differential expression between the control and hypoxia group, with a fold change ≥1.5 and p value &lt;0.05. Of the 333 identified DEGs, 154 were downregulated and 179 were upregulated. Altered expression of 9 genes was confirmed with qRT–PCR, demonstrating the qRT-PCR data matched the RNA-seq results well. Finally, our results indicated that limiting the available oxygen to T. castaneum increased glycolysis and inhibited the Krebs cycle, and that accumulated pyruvic acid was preferentially converted to lactic acid via anaerobic metabolism. This study advances the field of pest control and makes it possible to develop more efficient strategies for hermetic storage. Overall design: Examination of gene expression in Tribolium castaneum larvae after 12 h hypoxia treatment, compared with normoxic ones</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7070</TAXON_ID>
+               <SCIENTIFIC_NAME>Tribolium castaneum</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12539"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS3260102-SRS3260103</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX4042657-SRX4042658</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR7121105-SRR7121106</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA464030&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA464030&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>464030</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-05-10</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-05-11</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA490167" alias="PRJNA490167" center_name="Entomology, Texas A&amp;M University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA490167</PRIMARY_ID>
+          <SECONDARY_ID>SRP160996</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE119739</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Entomology, Texas A&amp;M University">PRJNA490167</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Differentially and co-expressed genes in embryo, germ-line and somatic tissues of Tribolium castaneum</NAME>
+     <TITLE>Differentially and co-expressed genes in embryo, germ-line and somatic tissues of Tribolium castaneum</TITLE>
+     <DESCRIPTION>Transcriptomic studies of Tribolium castaneum have led to significant advances in our understanding of co-regulation and differential expression of genes in development. However, previously used microarray approaches have covered only a subset of known genes. The aim of this study was to investigate gene expression patterns of beetle embryo, germ-line and somatic tissues. We identified 12,302 expressed genes and determined differentially expressed up and down-regulated genes among all samples. For example, 1624 and 3639 genes were differentially increased in expression greater than or equal to twofold change (FDR&lt;0.01) in testis vs ovary (virgin female) and ovary vs embryo (0-5 hour), respectively. Of these, many developmental, somatic and germ-line differentially expressed genes were identified. Furthermore, many maternally deposited transcripts were identified, whose expression either decreased rapidly or persisted during embryogenesis. Genes with the largest change in expression were predominantly decreased during early embryogenesis as compared to ovary or were increased in testis compared to embryo. We also identify zygotic genes induced after fertilization. The genome wide variation in transcript regulation in maternal and zygotic genes could provide additional information on how the anterior posterior axis formation is established in Tribolium embryos as compared to Drosophila. Together, our data will facilitate studies of comparative developmental biology as well as help identify candidate genes for identifying cis-elements to drive transgenic constructs. Overall design: Poly A mRNA profiles of 4 day old wild type (WT) male and female Tribolium castaneum adults from tissues (carcasses, ovary and testis) and embryos (0-5 hrs and 6-11 hrs) were generated by deep sequencing, in triplicate, using Illumina NextSeq 500 .</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7070</TAXON_ID>
+               <SCIENTIFIC_NAME>Tribolium castaneum</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12539"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS3761199-SRS3761215</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX4666274-SRX4666290</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR7814724-SRR7814791</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA490167&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA490167&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>490167</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2019-05-19</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-06-13</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA520884" alias="PRJNA520884" center_name="USDA">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA520884</PRIMARY_ID>
+          <SECONDARY_ID>SRP183471</SECONDARY_ID>
+          <SUBMITTER_ID namespace="USDA">PRJNA520884</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <TITLE>CPG RNAi knockdown RNA-seq</TITLE>
+     <DESCRIPTION>RNA-seq after knockdown of a cuticle protein</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS4324316-SRS4324318</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX5329740-SRX5329748</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR8526936-SRR8526944</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA520884&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA520884&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>520884</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2019-03-12</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-03-12</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA551950" alias="PRJNA551950" center_name="IEU, University of Zurich">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA551950</PRIMARY_ID>
+          <SECONDARY_ID>SRP212667</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE133570</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="IEU, University of Zurich">PRJNA551950</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Transcriptome of Tribolium castaneum in different climatic conditions</NAME>
+     <TITLE>Transcriptome of Tribolium castaneum in different climatic conditions</TITLE>
+     <DESCRIPTION>We combined fitness and whole-transcriptome data of Tribolium castaneum to investigate gene expression and fitness responses to drought, heat and their combination. Fitness was reduced by both stressors and their combined effects were nearly additive. Accordingly, expression data showed that both stressors were acting mostly independently and did not interfere physiologically. Response to heat stress resulted in a much higher number of differentially expressed genes compared to drought stress. Responses to heat and heat-drought combination were similar. Overall design: We used the Tribolium castaneum Cro1 strain collected from a wild population in 2010 and adapted to lab standard conditions (33°C, 70% relative humidity) for more than 20 generations. The conditions in the treatments were: Hot: 37°C and 70% r. h., Dry: 33°C and 30% r. h., Hot-Dry: 37°C and 30% r. h. RNA was extracted from the whole body of reproducing females at the age of eight weeks. mRNA was used for library preparation (using LEXOGEN kit) and single end sequencing was performed on Illumina NextSeq (75 cycles).</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7070</TAXON_ID>
+               <SCIENTIFIC_NAME>Tribolium castaneum</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12539"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS5044488-SRS5044670</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX6384970-SRX6385152</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR9622126-SRR9622308</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA551950&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA551950&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>551950</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2019-07-03</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-07-03</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+</ROOT>

@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT request="tax_eq(7176) AND (instrument_model=&quot;HiSeq X Ten&quot; OR instrument_model=&quot;HiSeq X Five&quot; OR instrument_model=&quot;Illumina MiSeq&quot; OR instrument_model=&quot;Illumina NovaSeq 6000&quot; OR instrument_model=&quot;Illumina Genome Analyzer&quot; OR instrument_model=&quot;Illumina Genome Analyzer II&quot; OR instrument_model=&quot;Illumina Genome Analyzer IIx&quot; OR instrument_model=&quot;Illumina HiScanSQ&quot; OR instrument_model=&quot;Illumina HiSeq 1000&quot; OR instrument_model=&quot;Illumina HiSeq 1500&quot; OR instrument_model=&quot;Illumina HiSeq 2000&quot; OR instrument_model=&quot;Illumina HiSeq 2500&quot; OR instrument_model=&quot;Illumina HiSeq 3000&quot; OR instrument_model=&quot;Illumina HiSeq 4000&quot; OR instrument_model=&quot;NextSeq 500&quot; OR instrument_model=&quot;NextSeq 550&quot; OR instrument_model=&quot;Ion Torrent Proton&quot; OR instrument_model=&quot;Ion Torrent S5&quot; OR instrument_model=&quot;Ion Torrent S5 XL&quot;)AND library_strategy=&quot;RNA-Seq&quot; AND library_source=&quot;TRANSCRIPTOMIC&quot;">
+<PROJECT accession="PRJNA148431" alias="PRJNA148431" center_name="Liu, Entomology, Auburn University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA148431</PRIMARY_ID>
+          <SECONDARY_ID>SRP009347</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE33736</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Liu, Entomology, Auburn University">PRJNA148431</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Culex quinquefasciatus</NAME>
+     <TITLE>A whole transcriptome approach to investigate the genes involved in permethrin resistance in the Southern house mosquito, Culex quinquefasciatus</TITLE>
+     <DESCRIPTION>Illumina HiSeq 2000 was conducted on the mRNA fraction of fourth instar Cx. quinquefasciatus from a highly permethrin resistant strain (HAmCqG8) and its parental low resistance strain (HAmCqG0). After aligning reads to the Johannesburg genome using the GTF annotations file from Ensembl Metazoa, we found that 367 genes were upregulated in the high resistant strain and 3982 were downregulated. The upregulated genes were associated with cytochrome P450s and proteases while the downregulated genes were mostly found in the “no annotation” category for the Structural Classification of Proteins classifications for Cx. quinquefasciatus. This study identified the upregulated genes in the highly resistant HAmCqG8 strain that may be involved in resistance to permethrin. Overall design: RNA Seq profiling of the mRNA of fourth instar HAmCqG0 and HAmCqG8 Cx. quinquefasciatus (whole insect pooled samples)</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7176</TAXON_ID>
+               <SCIENTIFIC_NAME>Culex quinquefasciatus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12963"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS270897-SRS270898</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX105757-SRX105758</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR364515-SRR364516</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA148431&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA148431&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>148431</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-05-31</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-05-19</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA219477" alias="PRJNA219477" center_name="University of California Davis, bioinformatics core">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA219477</PRIMARY_ID>
+          <SECONDARY_ID>SRP030034</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of California Davis, bioinformatics core">PRJNA219477</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Culex quinquefasciatus</NAME>
+     <TITLE>Culex quinquefasciatus olfactory Gene expression</TITLE>
+     <DESCRIPTION>This project is a first step in identifying which olfactory-receptor genes are expressed in the antennae of mosquito after a blood meal. 1000 antennae from 500 female mosquitoes were pooled and total RNA extracted for barcoded RNA-Seq library preparation. A second barcoded RNA-Seq library was prepared from pooled hind legs as a as a non-olfactory control tissue.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7176</TAXON_ID>
+               <SCIENTIFIC_NAME>Culex quinquefasciatus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12963"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>24167245</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS483777-SRS483778</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX352802-SRX352803</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR991016-SRR991017</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA219477&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA219477&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>219477</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-11-07</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA222401" alias="PRJNA222401" center_name="Liu, Entomology, Auburn University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA222401</PRIMARY_ID>
+          <SECONDARY_ID>SRP030660</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE51327</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Liu, Entomology, Auburn University">PRJNA222401</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Culex quinquefasciatus</NAME>
+     <TITLE>Genome-wide expression profiles during the post-eclosion and pre-vitellogenic stages of adult female Culex quinquefasciatus</TITLE>
+     <DESCRIPTION>The Southern house mosquito, Culex quinquefasciatus, is an anautogenous mosquito species that requires a blood meal in order to provision the eggs. Following the eclosion of the adults from the pupal stage, adult female mosquitoes require a period of time for mating and development before they are competent to take a blood meal. In order to better understand the genes involved in preparing the females to take a blood meal, populations of non-blooded adult female Cx. quinquefasciatus were collected from even-aged populations and used for RNA Seq analysis. A total of seven post-eclosion time points were selected (2, 12, 24, 36, 48, 60, and 72 hours), which spanned the pre-blood feeding time period and the time period during which the females were competent for the acquisition of the blood meal. Overall, the majority of differentially-expressed genes were identified between the 2 and 12h time points with most genes reaching stable expression after 36h. This study identified the global changes in gene expression profiles over time as the females become competent to acquire the blood meal. Overall design: Time series analysis of gene expression in Cx. quinquefasciatus using RNASeq. Data were analysed using the Tophat-Cufflinks-Cuffdiff pipeline from the Center for Bioinformatics and Computational Biology, Univ. Maryland College Park.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7176</TAXON_ID>
+               <SCIENTIFIC_NAME>Culex quinquefasciatus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12963"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS488972-SRS488978</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX362046-SRX362052</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1005577-SRR1005583</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA222401&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA222401&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>222401</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-10-10</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+Entry: PRJNA222895 display type is either not supported or entry is not found.
+<PROJECT accession="PRJNA230829" alias="PRJNA230829" center_name="University of Florida">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA230829</PRIMARY_ID>
+          <SECONDARY_ID>SRP034515</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of Florida">PRJNA230829</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Culex quinquefasciatus strain:strain</NAME>
+     <TITLE>Culex quinquefasciatus strain:strain Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>Understanding mechanisms that contribute to viral dissemination in mosquito vectors will contribute to our ability to interfere with the transmission of viral pathogens that impact public health. The expression of genes in two Culex pipiens quinquefasciatus populations from Florida with known differences in vector competence to West Nile virus (WNV) were compared using high throughput sequencing.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7176</TAXON_ID>
+               <SCIENTIFIC_NAME>Culex quinquefasciatus</SCIENTIFIC_NAME>
+               <STRAIN>strain</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12963"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS515667,SRS516159</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX392669,SRX393209</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1050976,SRR1050983</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA230829&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA230829&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>230829</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-12-12</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA246260" alias="PRJNA246260" center_name="Beijing Institute of Microbiology and Epidemiology">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA246260</PRIMARY_ID>
+          <SECONDARY_ID>SRP041691</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE57307</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Beijing Institute of Microbiology and Epidemiology">PRJNA246260</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Culex pipiens pallens and Cx. p. quinquefasciatus with different resistant level</NAME>
+     <TITLE>Culex pipiens pallens and Cx. p. quinquefasciatus with different resistant level</TITLE>
+     <DESCRIPTION>Culex pipiens pallens and Cx. p. quinquefasciatus are important vectors of many diseases, such as West Nile fever and lymphatic filariasis. The widespread use of insecticides to control these disease vectors and other insect pests has led to insecticide resistance becoming common in these species. High throughput screening using SSH and specific microarray platforms was thought to have identified some resistance-related genes. However, limitations of these methods meant that only a few hundred of the many thousand genes could be screened. It wasn’t until the sequencing of the Cx. quinquefasciatus genome in 2010 that it became possible to screen all 18.9 thousand genes in the mosquito genome for anti-insecticidal activity. We used high throughout Illumina sequencing to identify hundreds of Cx. p. pallens and Cx. p. quinquefasciatus genes that were differentially expressed in response to pesticide exposure. The identification of these genes is a vital first step for more detailed investigation of the molecular mechanisms involved in insecticide resistance in mosquitoes. In this study, larvae of Cx. pipiens pallens and Cx. pipiens quinquefasciatus were collected from field and transported to the laboratory and reared to adulthood to get F1 generation. Then, half of the F1 generation was conducted to pesticide bioassay. RNA extraction and Illumina sequencing were undertaken in another half of the F1 generation. Therefore, Samples used in Illumina sequencing did not contact any insecticides. Overall design: Twelve Cx. pipiens pallens and Cx. pipiens quinquefasciatus lavae were undertaken Illumina RNA sequencing.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS602294-SRS602305</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX533492-SRX533503</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1271734-SRR1271745</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA246260&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA246260&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>246260</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-05-07</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA253629" alias="PRJNA253629" center_name="Beijing Institute of Microbiology and Epidemiology">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA253629</PRIMARY_ID>
+          <SECONDARY_ID>SRP043579</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE58835</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Beijing Institute of Microbiology and Epidemiology">PRJNA253629</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>RNA-sequencing of Culex pipiens molestus and Culex pipiens quinquefasciatus</NAME>
+     <TITLE>RNA-sequencing of Culex pipiens molestus and Culex pipiens quinquefasciatus</TITLE>
+     <DESCRIPTION>Culex pipiens molestus and Cx. p. quinquefasciatus are the members of Culex pipiens Complex, but they display relatively large differences in behavior and physiological responses. We compared the genes of these mosquitoes to identify those that were differentially expressed in each subspecies. Such genes could play important roles in subspecies-specific blood feeding or oviposition behavior. Overall design: Culex pipiens molestus and Cx. p. quinquefasciatus females were undertaken Illumina RNA sequencing.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS647357-SRS647358</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX626799-SRX626800</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1462324-SRR1462325</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA253629&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA253629&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>253629</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-06-27</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA257797" alias="PRJNA257797" center_name="CSIRO-AAHL">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA257797</PRIMARY_ID>
+          <SECONDARY_ID>SRP045362</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE60229</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="CSIRO-AAHL">PRJNA257797</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Culex quinquefasciatus</NAME>
+     <TITLE>Transcriptome analysis of Culex cells after West Nile virus infection</TITLE>
+     <DESCRIPTION>High throughput sequencing was performed using Illumina HiSeq to identify differentially regulated genes in Culex mosquitoes after West Nile virus infection. Overall design: Culex quinquefasciatus mosquito cell line (Hsu) was infected with West Nile virus for 48 hours, paired-end sequencing was performed on the transcriptome. The experiment was conducted in duplicate. Sequence reads were mapped to Culex quin transcripts in Vectorbase by using Tophat2 and abundaces of specific transcripts were compared between control and West Nile virus infected samples using Cufflinks.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7176</TAXON_ID>
+               <SCIENTIFIC_NAME>Culex quinquefasciatus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12963"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>26325027</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS676827-SRS676830</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX672336-SRX672339</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1539388-SRR1539391</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA257797&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA257797&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>257797</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2015-10-01</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA385151" alias="PRJNA385151" center_name="Sveriges Lantbruksuniversitet (SLU), Alnarp">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA385151</PRIMARY_ID>
+          <SECONDARY_ID>SRP106313</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Sveriges Lantbruksuniversitet (SLU), Alnarp">PRJNA385151</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Culex quinquefasciatus quinquefasciatus strain:Thai</NAME>
+     <TITLE>Culex quinquefasciatus quinquefasciatus strain:Thai Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>This study used quantitative RNA-Sequencing analyses to explore blood meal induced regulation of chemosensory gene families in the antennae of 6 days post-emergence C. quinquefasciatus females, 24 hours post blood feeding.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>710234</TAXON_ID>
+               <SCIENTIFIC_NAME>Culex quinquefasciatus quinquefasciatus</SCIENTIFIC_NAME>
+               <STRAIN>Thai</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12963"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2163390-SRS2163393</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2780295-SRX2780298</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5500831-SRR5500834</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA385151&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA385151&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>385151</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-05-04</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA83147" alias="PRJNA83147" center_name="institute of zoology, Chinese Academy of Sciences">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA83147</PRIMARY_ID>
+          <SECONDARY_ID>SRP010865</SECONDARY_ID>
+          <SUBMITTER_ID namespace="institute of zoology, Chinese Academy of Sciences">PRJNA83147</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Culex quinquefasciatus strain:strain</NAME>
+     <TITLE>Culex quinquefasciatus strain:strain Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>The genomes of three major mosquito vectors of human diseases, including Anopheles gambiae, Aedes aegypti, and Culex pipiens quinquefasciatus, have been previously sequenced. C. p. quinquefasciatus has the largest number of predicted protein-coding genes, which partially results from the expansion of three detoxification gene families: cytochrome P450 monooxygenases (P450), glutathione S-transferases (GST), and carboxylcholinesterases (CCE). However, unlike A. gambiae and A. aegypti, which have large amounts of gene expression data, C. p. quinquefasciatus has limited transcriptomic resources. Knowledge of complete gene expression information is very important for the exploration of the functions of genes involved in specific biological processes. In the present study, the three detoxification gene families of C. p. quinquefasciatus were analyzed for phylogenetic classification and compared with those of three other dipteran insects. Gene expression during various developmental stages and the differential expression responsible for parathion resistance were profiled using the digital gene expression (DGE) technique.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7176</TAXON_ID>
+               <SCIENTIFIC_NAME>Culex quinquefasciatus</SCIENTIFIC_NAME>
+               <STRAIN>strain</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12963"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>17567568</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>17916499</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS291640-SRS291644</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX119363,SRX119423-SRX119424,SRX119426-SRX119427</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR407541-SRR407543,SRR407545-SRR407546</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA83147&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA83147&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>83147</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-05-31</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+</ROOT>

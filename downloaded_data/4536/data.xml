@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT request="tax_eq(4536) AND (instrument_model=&quot;HiSeq X Ten&quot; OR instrument_model=&quot;HiSeq X Five&quot; OR instrument_model=&quot;Illumina MiSeq&quot; OR instrument_model=&quot;Illumina NovaSeq 6000&quot; OR instrument_model=&quot;Illumina Genome Analyzer&quot; OR instrument_model=&quot;Illumina Genome Analyzer II&quot; OR instrument_model=&quot;Illumina Genome Analyzer IIx&quot; OR instrument_model=&quot;Illumina HiScanSQ&quot; OR instrument_model=&quot;Illumina HiSeq 1000&quot; OR instrument_model=&quot;Illumina HiSeq 1500&quot; OR instrument_model=&quot;Illumina HiSeq 2000&quot; OR instrument_model=&quot;Illumina HiSeq 2500&quot; OR instrument_model=&quot;Illumina HiSeq 3000&quot; OR instrument_model=&quot;Illumina HiSeq 4000&quot; OR instrument_model=&quot;NextSeq 500&quot; OR instrument_model=&quot;NextSeq 550&quot; OR instrument_model=&quot;Ion Torrent Proton&quot; OR instrument_model=&quot;Ion Torrent S5&quot; OR instrument_model=&quot;Ion Torrent S5 XL&quot;)AND library_strategy=&quot;RNA-Seq&quot; AND library_source=&quot;TRANSCRIPTOMIC&quot;">
+<PROJECT accession="PRJNA264484" alias="PRJNA264484" center_name="Kunming Institute of Botany, the Chinese Academy of Sciences">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA264484</PRIMARY_ID>
+          <SECONDARY_ID>SRP051089</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Kunming Institute of Botany, the Chinese Academy of Sciences">PRJNA264484</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Oryza sativa f. spontanea</NAME>
+     <TITLE>Oryza sativa f. spontanea Genome sequencing</TITLE>
+     <DESCRIPTION>Asian rice (Oryza sativa) is among the world’s most important crops. The genus Oryza has become a model for the study of plant genome structure, function, and evolution. We have undertaken de novo, full-genome sequence analysis of five diploid AA-genome species that are closely related to O. sativa. These species are native to quite different environments, representing four continents, thus exhibiting very different adaptations. Our studies identify specific genetic changes, in both gene copy number and the degree of diversifying natural selection, that indicate specific genes responsible for these adaptations, particularly in genes related to defense against pathogens and reproductive diversification. This genome discovery and comparative analysis provide a powerful tool for future Oryza study and rice improvement.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>NV41</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>RU72</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>RU73</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>RU74</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>RU75</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+          <ORGANISM>
+               <TAXON_ID>4536</TAXON_ID>
+               <SCIENTIFIC_NAME>Oryza sativa f. spontanea</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA48105"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS788426,SRS796323,SRS796325,SRS796327,SRS796330</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX806803,SRX809753-SRX809754,SRX809775,SRX809782,SRX809784,SRX816047,SRX816049,SRX816051,SRX816054</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1707282,SRR1712580-SRR1712584,SRR1712648,SRR1712650,SRR1712652,SRR1712655,SRR1712658,SRR1712660,SRR1712662,SRR1712664,SRR1722159-SRR1722162</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA264484&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA264484&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>264484</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-10-24</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-06-16</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA290171" alias="PRJNA290171" center_name="State Key Laboratory of Systematic and Evolutionary Botany, Institute of Botany, Chinese Academy of Sciences">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA290171</PRIMARY_ID>
+          <SECONDARY_ID>SRP061274</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE71044</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="State Key Laboratory of Systematic and Evolutionary Botany, Institute of Botany, Chinese Academy of Sciences">PRJNA290171</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Widespread and adaptive alterations in genome-wide gene expression associated with ecological divergence of two Oryza species</NAME>
+     <TITLE>Widespread and adaptive alterations in genome-wide gene expression associated with ecological divergence of two Oryza species</TITLE>
+     <DESCRIPTION>Ecological speciation is a common mechanism by which new species arise. Despite great efforts, the role of gene expression in ecological divergence and speciation is poorly understood. Here, we conducted a genome-wide gene expression investigation of two Oryza species that are evolutionarily young and distinct in ecology and morphology. Using digital gene expression (DGE) technology and the paired-end RNA sequencing (RNA-Seq) method, we obtained 21,415 expressed genes across three reproduction-related tissues at two critical developmental stages. Of them, ~8% (1717) differed significantly in expression levels between the two species and these differentially expressed genes are randomly distributed across the genome. Moreover, 62% (1064) of the differentially expressed genes exhibited a signature of directional selection in at least one species. Importantly, the genes with differential expression between species evolved more rapidly at the 5’flanking sequences than the genes without differential expression relative to coding sequences, suggesting that cis-regulatory changes are likely adaptive and play an important role in the ecological divergence of the two species. Finally, we showed evidence of significant differentiation between species in phenotype traits and observed that genes with differential expression were overrepresented with functional terms involving phenotypic and ecological differentiation between the two species, including reproduction- and stress-related characteristics. Our findings demonstrate that ecological speciation is associated with widespread and adaptive alterations in genome-wide gene expression and highlight the dominant role of regulatory evolution in ecological divergence and adaptation. Overall design: We selected accessions representing typical Oryza rufipogon and O. nivara, which were sampled exclusively from South and Southeast Asia where the two species overlap. We chose to collect three types of tissues, i.e., flag leaves at the heading stage (2–7 cm above the primary branch) (L), panicles at the heading stage (H) and panicles at the flowering stage (10–15 cm above the primary branch) (F). Sample collection was repeated twice in two consecutive years (2009 and 2010) under the same controlled conditions. A total of 36 samples were sequenced by Illumina’s digital gene expression (DGE) system, with each type of tissues collected from six individuals of each species as biological replicates. To access the quality of DGE technology, we also selected six samples representing three tissues from each of two individuals (one individual per species) for paired-end RNA-Seq sequencing.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS994695-SRS994736</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1100088-SRX1100129</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR2106138-SRR2106179</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA290171&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA290171&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>290171</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-10-10</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-05-17</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA437000" alias="PRJNA437000" center_name="Plant epigenetics, National Center for Biological Sciences">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA437000</PRIMARY_ID>
+          <SECONDARY_ID>SRP133966</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE111438</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Plant epigenetics, National Center for Biological Sciences">PRJNA437000</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Rice domestication-associated miRNA 397 targets laccases to facilitate lignin biosynthesis and yield-related traits [RNA-seq]</NAME>
+     <TITLE>Rice domestication-associated miRNA 397 targets laccases to facilitate lignin biosynthesis and yield-related traits [RNA-seq]</TITLE>
+     <DESCRIPTION>MicroRNAs (miRNAs) are a class of 21 nt non-coding small RNAs (sRNAs) produced from endogenously expressed MIR genes. MiRNAs are mostly involved in development and disease resistance. To know the involvement of miRNAs during domestication of rice, sRNA sequencing of two wild species (O. nivara and O. rufipogon), one landrace (O. sativa chomala) and one cultivated species of rice (O. sativa indica Pusa Basmati-1) was carried out. Analysis of sRNA datasets revealed a surprisingly higher abundance of 22nt sRNAs originating from a loci on Chromosome 2 in wild rice species. This locus codes for a 22 nt miRNA named as miR397. Studies in Arabidopsis and O. sativa japonica nipponbare have shown that miR397 targets a group of proteins called laccases, which are involved in secondary metabolite (lignin) production. The expression of these targets also differs across the species shown through RNA-Seq analysis. Although a functional significance of this interaction between the miRNA and laccase has not been understood. In the current study we attempt to explain the functional relevance of the miRNA in domestication of rice. Overall design: We have performed RNA seq analysis using reproductive tissues (flagleaf and panicle) of various rice species. Libraries were prepared from total RNA isolated from the tissues mentioned.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA437134"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS3020920-SRS3020939</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3766099-SRX3766118</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR6807832-SRR6807851</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA437000&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA437000&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>437000</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-04-26</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-04-26</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA48107" alias="PRJNA48107" center_name="Oryza Map Alignment Project (OMAP)">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA48107</PRIMARY_ID>
+          <SECONDARY_ID>SRP038107</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Oryza Map Alignment Project (OMAP)">PRJNA48107</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Oryza sativa f. spontanea cultivar:IRGC:100897</NAME>
+     <TITLE>OMAP clone end sequence project for Oryza nivara</TITLE>
+     <DESCRIPTION>&lt;i>Oryza nivara&lt;/i> is a wild rice found in India. It has an AA genome. Breeders are interested in this organism because it exhibits resistance to grassy stunt virus. Two libraries were produced. A 19X coverage BAC library was used to generate an FPC map. A shotgun library of randomly sheared DNA was used to generate sequence for repetitive DNA analysis.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>4536</TAXON_ID>
+               <SCIENTIFIC_NAME>Oryza sativa f. spontanea</SCIENTIFIC_NAME>
+               <CULTIVAR>IRGC:100897</CULTIVAR>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA13757"/>
+          </RELATED_PROJECT>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA48105"/>
+          </RELATED_PROJECT>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA48337"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>16344555</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>17727727</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS559144,SRS559146-SRS559147,SRS645435-SRS645441,SRS667927</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX472708-SRX472710,SRX621476-SRX621482,SRX663049-SRX663053</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1171629-SRR1171631,SRR1450138-SRR1450144,SRR1528449-SRR1528453</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA48107&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA48107&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>48107</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-05-31</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-02-11</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+</ROOT>

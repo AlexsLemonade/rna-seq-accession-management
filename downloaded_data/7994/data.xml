@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT request="tax_eq(7994) AND (instrument_model=&quot;HiSeq X Ten&quot; OR instrument_model=&quot;HiSeq X Five&quot; OR instrument_model=&quot;Illumina MiSeq&quot; OR instrument_model=&quot;Illumina NovaSeq 6000&quot; OR instrument_model=&quot;Illumina Genome Analyzer&quot; OR instrument_model=&quot;Illumina Genome Analyzer II&quot; OR instrument_model=&quot;Illumina Genome Analyzer IIx&quot; OR instrument_model=&quot;Illumina HiScanSQ&quot; OR instrument_model=&quot;Illumina HiSeq 1000&quot; OR instrument_model=&quot;Illumina HiSeq 1500&quot; OR instrument_model=&quot;Illumina HiSeq 2000&quot; OR instrument_model=&quot;Illumina HiSeq 2500&quot; OR instrument_model=&quot;Illumina HiSeq 3000&quot; OR instrument_model=&quot;Illumina HiSeq 4000&quot; OR instrument_model=&quot;NextSeq 500&quot; OR instrument_model=&quot;NextSeq 550&quot; OR instrument_model=&quot;Ion Torrent Proton&quot; OR instrument_model=&quot;Ion Torrent S5&quot; OR instrument_model=&quot;Ion Torrent S5 XL&quot;)AND library_strategy=&quot;RNA-Seq&quot; AND library_source=&quot;TRANSCRIPTOMIC&quot;">
+<PROJECT accession="PRJEB15867" alias="E-MTAB-5142" broker_name="ArrayExpress" center_name="Evolution, Genome, Comportement, Ecologie UMR9191 CNRS - Universite Paris Sud">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJEB15867</PRIMARY_ID>
+          <SECONDARY_ID>ERP017705</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Evolution, Genome, Comportement, Ecologie UMR9191 CNRS - Universite Paris Sud">E-MTAB-5142</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Evidence of Late Pleistocene origin of Astyanax mexicanus cavefish</NAME>
+     <TITLE>Evidence of Late Pleistocene origin of Astyanax mexicanus cavefish</TITLE>
+     <DESCRIPTION>We found higher substitution rates in cavefish compared with surface fish, in accordance with a smaller cavefish population size which has allowed more rapid fixation of derived alleles present in the ancestral population. This result also implies that the Pachón cave population is much “younger” than previously estimated. The comparison of these data with simulations suggests that the Pachón cavefish population has probably been underground less than 30,000 years. This new time frame, together with other evidence, indicate that the evolution of cave phenotypes mainly involves the fixation of cryptic genetic variants present in surface fish populations within a short period of time.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <URL_LINK>
+                    <URL>http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-5142</URL>
+                    <LABEL>E-MTAB-5142 in ArrayExpress</LABEL>
+               </URL_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA732768</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS1403017-ERS1403031</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX1749509-ERX1749523</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR1679839-ERR1679853</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB15867&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB15867&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-06-13</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2016-10-11</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJEB26684" alias="ena-STUDY-UNIVERSITY OF OXFORD-10-05-2018-13:47:32:571-1856" center_name="University of Oxford, Oxford, England, UK">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJEB26684</PRIMARY_ID>
+          <SECONDARY_ID>ERP108691</SECONDARY_ID>
+          <SUBMITTER_ID namespace="UNIVERSITY OF OXFORD">ena-STUDY-UNIVERSITY OF OXFORD-10-05-2018-13:47:32:571-1856</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <TITLE>Heart regeneration in Astyanax mexicanus</TITLE>
+     <DESCRIPTION>While Astyanax mexicanus surface fish regenerate their heart after injury, their Pachón cave-dwelling counterparts cannot and form a permanent fibrotic scar. To identify differences in gene expression after cardiac injury between the two fish, we performed RNA sequencing. Surface fish and Pachón hearts were isolated at 3, 7 and 14 days post ventricular resection. For sham surgery, the thorax and pericardial sac were opened, but the heart was not injured and the heart was isolated 3 days later.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA1484509</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS2479548-ERS2479571</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX2593309-ERX2593332</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR2576316-ERR2576339</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB26684&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB26684&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-11-20</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-05-10</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA177689" alias="PRJNA177689" center_name="The Genome Institute at Washington University School of Medicine">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA177689</PRIMARY_ID>
+          <SECONDARY_ID>SRP018725</SECONDARY_ID>
+          <SUBMITTER_ID namespace="The Genome Institute at Washington University School of Medicine">PRJNA177689</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Astyanax mexicanus</NAME>
+     <TITLE>Astyanax mexicanus Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>Astyanax provides a model for the retinal degeneration diseases of old age. Some populations of the Mexican tetra (Astyanax mexicanus) are blind cavefish that inhabit perpetually dark caves in Mexico. Living in environments devoid of light, Astyanax have evolved impaired vision and pigment loss by genetic drift or natural selection. Other populations of the Mexican tetra inhabit rivers and streams of northern Mexico and the southern US; these surface populations have normal eyes and dark pigment cells in their skin, thus providing a 'wild-type control' for the 'evolutionary mutant' cavefish. This species thus provides an ideal opportunity to study the genetic basis of retinal degeneration.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7994</TAXON_ID>
+               <SCIENTIFIC_NAME>Astyanax mexicanus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA89367"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS392102-SRS392103,SRS392194-SRS392195,SRS392261-SRS392262,SRS392422-SRS392423</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX229523-SRX229524,SRX229782-SRX229783,SRX229909,SRX230378-SRX230380</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR688577,SRR689583,SRR689641,SRR689670,SRR690472,SRR692924,SRR693223,SRR695563</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA177689&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA177689&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>177689</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-05-31</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA258661" alias="PRJNA258661" center_name="University of Cincinnati">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA258661</PRIMARY_ID>
+          <SECONDARY_ID>SRP045680</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of Cincinnati">PRJNA258661</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Astyanax mexicanus</NAME>
+     <TITLE>Astyanax mexicanus - Developmental Gene Expression</TITLE>
+     <DESCRIPTION>Astyanax mexicanus, commonly know as the blind Mexican cavefish, is an excellent system to investigate the genetic basis for traits evolving as a consequence of natural environmental pressures. This species includes multiple cave-dwelling populations that have colonized the dark, subterranean environment, and repeatedly evolved a suite of troglomorphic traits, including eye degeneration, loss of pigmentation, alterations in behavior, increased number of taste buds, and an enhanced lateral line system. To investigate the genetic changes associated with cave colonization, we have utilized RNA-seq technologies to compare gene expression variation between surface- and cave-dwelling forms of Astyanax mexicanus. This approach includes a dynamic comparison across four critical stages of early development wherein many troglomorphic-specific traits appear. These analyses dramatically enhance our understanding of phenotypic evolution in the wild, and offer insight to analogous human diseases, including retinal degeneration, pigmentation disorders, craniofacial abnormalities and altered sleep/activity patterns.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7994</TAXON_ID>
+               <SCIENTIFIC_NAME>Astyanax mexicanus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA89367"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS687824,SRS688160,SRS688167,SRS688234,SRS688250,SRS688255-SRS688257</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX684707,SRX685276-SRX685278,SRX685284,SRX685287-SRX685289,SRX685342,SRX685357-SRX685359,SRX685375,SRX685380-SRX685387,SRX685393,SRX685397,SRX685401</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1555606,SRR1556144-SRR1556145,SRR1556193,SRR1556198,SRR1556201,SRR1556204-SRR1556205,SRR1556258,SRR1556273,SRR1556275,SRR1556277,SRR1556298-SRR1556301,SRR1556303-SRR1556309,SRR1556316</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA258661&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA258661&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>258661</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-10-21</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA285201" alias="PRJNA285201" center_name="INRA">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA285201</PRIMARY_ID>
+          <SECONDARY_ID>SRP058863</SECONDARY_ID>
+          <SUBMITTER_ID namespace="INRA">PRJNA285201</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Astyanax mexicanus</NAME>
+     <TITLE>Astyanax mexicanus Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>Transcriptome analysis of 11 tissues in Mexican tetra Pachon cave fish</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7994</TAXON_ID>
+               <SCIENTIFIC_NAME>Astyanax mexicanus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA255979"/>
+          </RELATED_PROJECT>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA89367"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS949431-SRS949441</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1043993-SRX1044003</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR2045404-SRR2045414</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA285201&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA285201&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>285201</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-10-10</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA285202" alias="PRJNA285202" center_name="INRA">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA285202</PRIMARY_ID>
+          <SECONDARY_ID>SRP058866</SECONDARY_ID>
+          <SUBMITTER_ID namespace="INRA">PRJNA285202</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Astyanax mexicanus</NAME>
+     <TITLE>Astyanax mexicanus Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>Transcriptome analysis of 11 tissues in Mexican tetra surface fish</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7994</TAXON_ID>
+               <SCIENTIFIC_NAME>Astyanax mexicanus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA255979"/>
+          </RELATED_PROJECT>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA89367"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>27189481</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS949447-SRS949456,SRS949458</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1044017-SRX1044027</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR2045426-SRR2045436</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA285202&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA285202&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>285202</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-10-10</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA429434" alias="PRJNA429434" center_name="National Institute of child health and human development">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA429434</PRIMARY_ID>
+          <SECONDARY_ID>SRP128660</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE109006</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="National Institute of child health and human development">PRJNA429434</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>An epigenetic mechanism for cavefish eye degeneration</NAME>
+     <TITLE>An epigenetic mechanism for cavefish eye degeneration</TITLE>
+     <DESCRIPTION>Coding and non-coding mutations in DNA contribute significantly to phenotypic variability during evolution. However, less is known about the role of epigenetics in this process. Although previous studies have identified eye development genes associated with the loss of eyes phenotype in the Pachón blind cave morph of the Mexican tetra Astyanax mexicanus1-6, no inactivating mutations have been found in any of these genes2,3,7-10. Here we show that excess DNA methylation-based epigenetic silencing promotes eye degeneration in blind cave Astyanax mexicanus. By performing parallel analyses in Astyanax mexicanus cave and surface morphs and in the zebrafish Danio rerio, we have discovered that DNA methylation mediates eye-specific gene repression and globally regulates early eye development. The most significantly hypermethylated and down-regulated genes in the cave morph are also linked to human eye disorders, suggesting the function of these genes is conserved across the vertebrates. Our results show that changes in DNA methylation-based gene repression can serve as an important molecular mechanism generating phenotypic diversity during development and evolution. Overall design: RNA-seq and WGBS on isolated cave and surface morphs of Astyanax mexicanus</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7994</TAXON_ID>
+               <SCIENTIFIC_NAME>Astyanax mexicanus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA89367"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2821807-SRS2821812</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3547512-SRX3547517</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR6456919-SRR6456924</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA429434&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA429434&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>429434</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-05-03</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-05-03</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+</ROOT>

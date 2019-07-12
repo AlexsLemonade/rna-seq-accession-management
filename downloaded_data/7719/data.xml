@@ -1,0 +1,1163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT request="tax_eq(7719) AND (instrument_model=&quot;HiSeq X Ten&quot; OR instrument_model=&quot;HiSeq X Five&quot; OR instrument_model=&quot;Illumina MiSeq&quot; OR instrument_model=&quot;Illumina NovaSeq 6000&quot; OR instrument_model=&quot;Illumina Genome Analyzer&quot; OR instrument_model=&quot;Illumina Genome Analyzer II&quot; OR instrument_model=&quot;Illumina Genome Analyzer IIx&quot; OR instrument_model=&quot;Illumina HiScanSQ&quot; OR instrument_model=&quot;Illumina HiSeq 1000&quot; OR instrument_model=&quot;Illumina HiSeq 1500&quot; OR instrument_model=&quot;Illumina HiSeq 2000&quot; OR instrument_model=&quot;Illumina HiSeq 2500&quot; OR instrument_model=&quot;Illumina HiSeq 3000&quot; OR instrument_model=&quot;Illumina HiSeq 4000&quot; OR instrument_model=&quot;NextSeq 500&quot; OR instrument_model=&quot;NextSeq 550&quot; OR instrument_model=&quot;Ion Torrent Proton&quot; OR instrument_model=&quot;Ion Torrent S5&quot; OR instrument_model=&quot;Ion Torrent S5 XL&quot;)AND library_strategy=&quot;RNA-Seq&quot; AND library_source=&quot;TRANSCRIPTOMIC&quot;">
+<PROJECT accession="PRJDB3785" alias="PRJDB3785" center_name="University of Tokyo">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJDB3785</PRIMARY_ID>
+          <SECONDARY_ID>DRP003810</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of Tokyo">PRJDB3785</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Chordata</NAME>
+     <TITLE>EXPANDE project</TITLE>
+     <DESCRIPTION>EXPression AloNg Development and Evolution (EXPANDE) project aims to identify gene expression profiles expanded during embryogenesis and evolution. In brief, taking advantages of Illumina sequencing, RNAseq profiles of early to late embryos of 8 chordate species were identified with biological replicates (two or more biological replicates).</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7711</TAXON_ID>
+               <SCIENTIFIC_NAME>Chordata</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>DRS049859-DRS050130</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>DRX029460-DRX029731</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>DRR032654-DRR032925</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJDB3785&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJDB3785&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>407062</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-09-15</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJDB3843" alias="PRJDB3843" center_name="Satou lab, Graduate School of Science, Kyoto University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJDB3843</PRIMARY_ID>
+          <SECONDARY_ID>DRP002800</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Satou lab, Graduate School of Science, Kyoto University">PRJDB3843</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Ciona intestinalis</NAME>
+     <TITLE>TGFbeta signaling in Ciona</TITLE>
+     <DESCRIPTION>The purpose of this project is to identify genes positively and negatively regulated by signaling molecules that belongs to the TGFbeta superfamily.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7719</TAXON_ID>
+               <SCIENTIFIC_NAME>Ciona intestinalis</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA9556"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>DRS021648-DRS021650</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>DRX029812-DRX029814</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>DRR033088-DRR033090</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJDB3843&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJDB3843&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>300377</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2015-10-30</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA122153" alias="PRJNA122153" center_name="Daniel Zilberman, Plant and Microbial Biology, University of California at Berkeley">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA122153</PRIMARY_ID>
+          <SECONDARY_ID>SRP002417</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE19824</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Daniel Zilberman, Plant and Microbial Biology, University of California at Berkeley">PRJNA122153</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Genome-wide evolutionary analysis of eukaryotic DNA methylation</NAME>
+     <TITLE>Genome-wide evolutionary analysis of eukaryotic DNA methylation</TITLE>
+     <DESCRIPTION>Eukaryotic cytosine methylation represses transposable elements, but also occurs in bodies of active genes. The extent to which these processes are conserved is unclear, and little is known about methylation outside of mammals, Arabidopsis thaliana, and Neurospora crassa. Utilizing deep bisulfite sequencing, we have quantified DNA methylation in five plant, seven animal, and five fungal genomes. We find that gene body methylation is conserved between plants and animals, whereas selective methylation of transposons has evolved independently in the vertebrate lineage. We show that methylation of plant transposons in the CHG context extends to green algae, and present evidence for RNA-directed DNA methylation of fungal genes. We also show that antagonism between DNA methylation and histone H2A.Z is conserved between plants and animals. Our data demonstrate that extant DNA methylation systems are mosaics of conserved and derived features, and indicate that gene body methylation is an ancient property of eukaryotic genomes. Keywords: Epigenetics Overall design: Examination of DNA methylation and transcription in plant, animal, and fungal genomes, and examination of how H2A.Z deposition relates to both methylation and transcription in puffer fish. Descriptions of the Samples' raw and processed data (provided as supplementary files) can be found in GSE19824_README.txt at the foot of this record.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>20395474</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS070561-SRS070575,SRS072439-SRS072455,SRS085328</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX020112-SRX020126,SRX020137-SRX020138,SRX020141-SRX020144,SRX020146-SRX020150,SRX020152-SRX020165,SRX023824-SRX023828</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR042523-SRR042536,SRR042538-SRR042541,SRR042617-SRR042620,SRR042623-SRR042628,SRR042630-SRR042636,SRR042638-SRR042660,SRR060806-SRR060807,SRR060811-SRR060812,SRR063322,SRR063324,SRR063326</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA122153&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA122153&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>122153</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-05-31</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA126717" alias="PRJNA126717" center_name="Biochemistry and Biophysics/EECS, Oregon State University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA126717</PRIMARY_ID>
+          <SECONDARY_ID>SRP002173</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE21078</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Biochemistry and Biophysics/EECS, Oregon State University">PRJNA126717</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Ciona intestinalis</NAME>
+     <TITLE>small RNA sequencing of two developmental stages of Ciona intestinalis</TITLE>
+     <DESCRIPTION>We report the comprehensive sequencing of small RNA libraries created from different developmental stages (larva and gastrula) of the basal chordate, Ciona intestinalis. These libraries were used for the identification of microRNAs in this organism. Overall design: Sequencing of small RNA libraries from 2 stages of Ciona intestinalis.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7719</TAXON_ID>
+               <SCIENTIFIC_NAME>Ciona intestinalis</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA9556"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS041857-SRS041858</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX018390-SRX018391</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR038843-SRR038844</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA126717&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA126717&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>126717</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-05-31</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-05-19</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA248170" alias="PRJNA248170" center_name="CCMB">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA248170</PRIMARY_ID>
+          <SECONDARY_ID>SRP042274</SECONDARY_ID>
+          <SUBMITTER_ID namespace="CCMB">PRJNA248170</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Ciona intestinalis strain:Wild</NAME>
+     <TITLE>Ciona intestinalis strain:Wild Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>Transcriptome map of Ciona nervous tissue undergoing regeneration</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7719</TAXON_ID>
+               <SCIENTIFIC_NAME>Ciona intestinalis</SCIENTIFIC_NAME>
+               <STRAIN>Wild</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA9556"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS620466,SRS622250-SRS622251,SRS969950-SRS969951</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX554539,SRX554951-SRX554952,SRX1070841-SRX1070842</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1302057,SRR1302062,SRR1302065,SRR2075905,SRR2075908</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA248170&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA248170&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>248170</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-05-22</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA249058" alias="PRJNA249058" center_name="University of Montpellier 2">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA249058</PRIMARY_ID>
+          <SECONDARY_ID>SRP042651</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of Montpellier 2">PRJNA249058</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Metazoan</NAME>
+     <TITLE>Comparative population genomics in 76 metazoan species (popphyl project)</TITLE>
+     <DESCRIPTION>Why do some genomes evolve fast, some slow? Does abundance determine genetic polymorphism levels? Selection efficiency? What is the proportion of adaptive amino-acid substitutions? Why do some species, but not all, optimize codon usage? What controls base composition variations within and between genomes? Why is the mitochondrial genome hypermutable in animals, but not in plants? Does self-fertilization impede molecular adaptation? These and other basic questions regarding molecular evolution are not answered yet, or only vaguely, despite the huge amount of data available, and the strength of the population genetic theory. One limiting factor is probably the taxonomic bias of current population genomic data sets, especially in animals - most of the evolutionary genomic literature is in mammals or Drosophila. The PopPhyl project aims at characterizing within- and between-species molecular variations in a substantial number of metazoan taxa thanks to next-generation sequencing technology, with the hope of linking genome evolutionary patterns to species biology and ecology.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS625800-SRS626173,SRS1196537-SRS1196538,SRS1196549,SRS1196551,SRS1196554</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX564959-SRX565332,SRX1470185,SRX1470188,SRX1470199,SRX1470201,SRX1470203</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1324764-SRR1325137,SRR2980760-SRR2980761,SRR2980763-SRR2980765</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA249058&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA249058&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>249058</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-06-06</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+Entry: PRJNA297221 display type is either not supported or entry is not found.
+<PROJECT accession="PRJNA376667" alias="PRJNA376667" center_name="Division of Biology, Kansas State University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA376667</PRIMARY_ID>
+          <SECONDARY_ID>SRP100673</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE95333</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Division of Biology, Kansas State University">PRJNA376667</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Ciona intestinalis</NAME>
+     <TITLE>The Ciona notochord transcriptome reveals a core set of broadly conserved notochord effector genes</TITLE>
+     <DESCRIPTION>The notochord is the eponymous feature of the chordates and an essential organ in chordate development. The notochord of the invertebrate chordate Ciona consists of only 40 cells, and is a longstanding model for studying differentiation and morphogenesis in a small, simple embryo. Here we perform RNAseq analysis on flow-sorted notochord cells from multiple stages of development to define a comprehensive Ciona notochord transcriptome. We identify 1364 genes with enriched expression in the notochord and extensively validate the results by in situ hybridization. This notochord gene set is highly enriched for Gene Ontology codes related to the extracellular matrix, cell adhesion and cytoskeleton, and contains numerous genes with intriguing potential functions in morphogenesis. Orthologs of 112 of the Ciona notochord genes have known notochord expression in vertebrates, more than twice as many as would be predicted by chance alone. This set of putative effector genes with notochord expression conserved from tunicates to vertebrates will be invaluable for testing hypotheses about the evolution of the notochord. Overall design: Ciona notochord cells were fluorescently labeled by electroporation of fertilized eggs with the notochord reporter construct Bra>GFP. At two timepoints (Hotta St16 and St19/20, embryos were dissociated to single cells and then flow-sorted to isolate populations of notochord-enriched GFP+ cells and notochord-depleted GFP- cells. Triple biological replicates of purified RNA were analyzed by RNAseq and transcript enrichment was calculated using the Cufflinks software suite</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7719</TAXON_ID>
+               <SCIENTIFIC_NAME>Ciona intestinalis</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA9556"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>28928284</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2000025-SRS2000036</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2586456-SRX2586467</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5282840-SRR5282860</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA376667&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA376667&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>376667</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-09-20</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA396771" alias="PRJNA396771" center_name="Division of Biology, Kansas State University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA396771</PRIMARY_ID>
+          <SECONDARY_ID>SRP114569</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE102142</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Division of Biology, Kansas State University">PRJNA396771</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Ciona intestinalis</NAME>
+     <TITLE>Ectopic expression of the Brachyury transcription factor upregulates only a subset of notochord expressed genes</TITLE>
+     <DESCRIPTION>The key notochord transcription factor Brachyury was ectopically expressed in Ciona embryos under the control of the FoxAa cis-regulatory region (which drives expression in neural, endodermal and mesenchymal lineages in addition to notochord). Misexpression of Brachyury induced 925 genes compared to a control reporter plasmid (Bra>GFP). There was only modest overlap with a set of notochord-enriched genes previously identified by RNAseq of flow-sorted notochord cells, indicating that Brachyury is not a notochord master regulator gene as strictly defined. Overall design: Fertilized dechorionated eggs were electroporated with either FoxAa>Venus-Bra plasmid or control plasmid (Bra&lt;GFP). For each of the replicates, 400 experimental and 400 control embryos were collected at stage 19.5 (7.5hpf at 21.5C). Triple biological replicates of purified RNA were analyzed by RNAseq and transcript enrichment was calculated using the Cufflinks software suite</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7719</TAXON_ID>
+               <SCIENTIFIC_NAME>Ciona intestinalis</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA9556"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>28928284</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2400519-SRS2400524</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3054291-SRX3054296</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5888437-SRR5888442</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA396771&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA396771&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>396771</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-09-20</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA396772" alias="PRJNA396772" center_name="Division of Biology, Kansas State University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA396772</PRIMARY_ID>
+          <SECONDARY_ID>SRP114568</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE102141</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Division of Biology, Kansas State University">PRJNA396772</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Ciona intestinalis</NAME>
+     <TITLE>Cytochalasin treatment of Ciona embryos</TITLE>
+     <DESCRIPTION>Cleavage and morphogenesis of Ciona embryos was blocked by treatment with cytochalasin B prior to gastrulation. Drug treated embryos and DMSO treated controls were harvested at stage 19.5 (after control embryos had undergone neurulation and were completing notochord intercalation). Only 55 genes showed a significant difference in expression between the two treatments. Overall design: Dechorionated embryos were treated with 10 uM cytochalasinB or with DMSO alone as a control. Drug was added at 3.75 hpf at 21.5C (64 cell stage). For each of the replicates, 400 experimental and 400 control embryos were harvested at stage 19.5 (7.5hpf) for RNA purification. Triple biological replicates of purified RNA were analyzed by RNAseq and transcript enrichment was calculated using the Cufflinks software suite</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7719</TAXON_ID>
+               <SCIENTIFIC_NAME>Ciona intestinalis</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA9556"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>28928284</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2400513-SRS2400518</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3054297-SRX3054302</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5888443-SRR5888448</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA396772&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA396772&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>396772</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-09-20</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA418106" alias="PRJNA418106" center_name="CNRS">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA418106</PRIMARY_ID>
+          <SECONDARY_ID>SRP124838</SECONDARY_ID>
+          <SUBMITTER_ID namespace="CNRS">PRJNA418106</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Ciona intestinalis</NAME>
+     <TITLE>Dynamics of gene expression across the embryonic development of Ciona intestinalis</TITLE>
+     <DESCRIPTION>This RNA-seq dataset characterizes the dynamics of expression of Ciona intestinalis genes in whole embryos across seven stages of embryonic development: unfertilized eggs, 64-cell (St. 8), early gastrula (St. 11), mid gastrula (St. 12), mid neurula (St. 15), mid tailbud I (St. 21), hatching larva (St. 26).</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7719</TAXON_ID>
+               <SCIENTIFIC_NAME>Ciona intestinalis</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA9556"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>29149270</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2680642-SRS2680655</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3385170-SRX3385183</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR6283055-SRR6283068</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA418106&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA418106&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>418106</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-11-30</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA433724" alias="PRJNA433724" center_name="RCEES, CAS">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA433724</PRIMARY_ID>
+          <SECONDARY_ID>SRP132685</SECONDARY_ID>
+          <SUBMITTER_ID namespace="RCEES, CAS">PRJNA433724</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <TITLE>Transcriptome sequencing of Ciona intestinalis stolon</TITLE>
+     <DESCRIPTION>To identify stolon protein genes in the ascidian Ciona intestinalis</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2940798</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3680662</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR6706554</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA433724&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA433724&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>433724</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-03-01</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-03-01</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA434069" alias="PRJNA434069" center_name="Princeton University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA434069</PRIMARY_ID>
+          <SECONDARY_ID>SRP132849</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE110588</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Princeton University">PRJNA434069</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Single cell and pooled embryo RNA-seq of of early Ciona embryos</NAME>
+     <TITLE>Single cell and pooled embryo RNA-seq of of early Ciona embryos</TITLE>
+     <DESCRIPTION>This dataset provides gene expression levels of single cell and pooled embryos as part of a study on zygotic genome activation in Ciona embryogenesis. The single cell RNA-seq data suggested that Cyclin B3 was a key mediator of this process. This was confirmed by performing RNA-seq on pooled RNA isolated from embryos where Cyclin B3 was knocked down (using morpholinos) or overexpressed (using mRNA injections). Overall design: 93 single cell transcriptomes consisting of cells from 4-, 8-, and 16-cell stage embryos. Each stage was performed in triplicate. 21 pooled embryo transcriptomes from total RNA of pooled embryos from 4- 8- and 16-cell stages for controls and embryos where Cyclin B3 has been knocked down (using morpholinos) as well as 16-cell embryos where Cyclin B3 has been overexpressed. All samples were performed in triplicate.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7719</TAXON_ID>
+               <SCIENTIFIC_NAME>Ciona intestinalis</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA9556"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2958467-SRS2958571</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3698984-SRX3699088</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR6725772-SRR6725876</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA434069&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA434069&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>434069</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-07-07</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-07-07</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA474542" alias="PRJNA474542" center_name="Levine Lab, Lewis-Sigler Institute for Integrative Genomics, Princeton University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA474542</PRIMARY_ID>
+          <SECONDARY_ID>SRP149743</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE115331</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Levine Lab, Lewis-Sigler Institute for Integrative Genomics, Princeton University">PRJNA474542</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Single cell RNA seq for Ciona late tailbud embryos</NAME>
+     <TITLE>Single cell RNA seq for Ciona late tailbud embryos</TITLE>
+     <DESCRIPTION>We applied single cell RNA seq with 10x genomics platform to study the cell identity change in Ciona late tailbud embryos. By comparing single cell data from Pax3/7>Foxc amd control embryos, we found ectopic expression of FoxC in BTN cells transformed into PSC cells, which suggest common shared origin of BTNs and PSCs. Overall design: we injected Pax3/7>Foxc construct into Ciona oocytes, fertilized and let them developed into late tailbud stage along with control. Embryos were dissociated into single cells and loaded into 10x platform for single cell RNA-seq. reads are aligned to Ciona genome with Cell Ranger pipeline.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7719</TAXON_ID>
+               <SCIENTIFIC_NAME>Ciona intestinalis</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA9556"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>30069052</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS3378373-SRS3378374</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX4166013-SRX4166014</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR7261738-SRR7261739</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA474542&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA474542&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>474542</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-08-01</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-08-06</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA491426" alias="PRJNA491426" center_name="Levine Lab, Lewis-Sigler Institute for Integrative Genomics, Princeton University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA491426</PRIMARY_ID>
+          <SECONDARY_ID>SRP161890</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE120035</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Levine Lab, Lewis-Sigler Institute for Integrative Genomics, Princeton University">PRJNA491426</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Reprogramming the CNS of the Proto-Vertebrate Ciona intestinalis Using Single-Cell Transcriptomics</NAME>
+     <TITLE>Reprogramming the CNS of the Proto-Vertebrate Ciona intestinalis Using Single-Cell Transcriptomics</TITLE>
+     <DESCRIPTION>We applied single cell RNA seq with 10x genomics platform to study co-expression of both Ptf1a and Meis leading to the wholesale transformation of the entire CNS into Coronet cells. Our study identify a cocktail of regulatory determinants for the efficient specification of Coronet cells. Overall design: We injected Ptf1a>β2tubulin construct into Ciona oocytes, fertilized and let them developed into middle tailbud stage along with control. We also injected Ptf1a and Meis>β2tubulin construct into Ciona oocytes, fertilized and let them developed into late tailbud stage along with control. Embryos were dissociated into single cells and loaded into 10x platform for single cell RNA-seq. Reads are aligned to Ciona genome with Cell Ranger pipeline.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7719</TAXON_ID>
+               <SCIENTIFIC_NAME>Ciona intestinalis</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA9556"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>30228204</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS3788718-SRS3788721</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX4702431-SRX4702434</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR7851672-SRR7851675</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA491426&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA491426&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>491426</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-10-01</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-10-01</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA542748" alias="PRJNA542748" center_name="Levine Lab, Lewis-Sigler Institute for Integrative Genomics, Princeton University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA542748</PRIMARY_ID>
+          <SECONDARY_ID>SRP198321</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE131155</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Levine Lab, Lewis-Sigler Institute for Integrative Genomics, Princeton University">PRJNA542748</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Comprehensive single cell transcriptome lineages of a proto-vertebrate</NAME>
+     <TITLE>Comprehensive single cell transcriptome lineages of a proto-vertebrate</TITLE>
+     <DESCRIPTION>Studies of ascidian (sea squirt) embryos have highlighted the importance of cell lineages in animal development for over 100 years. As simple proto-vertebrates, they are also used to explore the evolutionary origins of novel cell types, such as cranial placodes and neural crest in vertebrates. To build upon these efforts we have determined comprehensive single cell transcriptomes of Ciona intestinalis throughout embryogenesis. More than 90,000 cells from 10 different developmental stages were examined, spanning the entirety of morphogenesis, from the onset of gastrulation at the 110-cell stage to the hatching of swimming tadpoles. This represents an average of over 12-fold coverage for every cell at every stage of development, owing to the small cell numbers that are a hallmark property of ascidian embryogenesis. Single cell transcriptome trajectories were used to construct “virtual” cell lineage maps, which confirm and extend those determined by conventional labeling methods. These datasets were also used to reconstruct regulatory cascades and provisional gene networks for a variety of cell types, including nearly 40 different neuronal subtypes comprising the larval nervous system. We summarize several applications of these datasets, including the identification of individual transcriptomes within the complete synaptome of swimming tadpoles, visualizing dynamic changes in gene expression during the birth, migration, and axogenesis of defined neurons, and the evolution of novel cell types such as the vertebrate telencephalon. Overall design: Synchronized embryos from 10 different stages of development were rapidly dissociated in RNase-free calcium-free synthetic seawater, and individual cells were processed in the 10x Genomics Chromium system with at least 2 biological replicates for each developmental stage. The staged embryos span all of the hallmark processes of development, beginning with gastrulation to swimming tadpoles when all larval cell types, tissues and organs are formed. In total, we profiled 90,579 cells, corresponding to an average of over 12-fold coverage for every cell across each of the sampled stages</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>7719</TAXON_ID>
+               <SCIENTIFIC_NAME>Ciona intestinalis</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA9556"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS4755089-SRS4755111</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX5827302-SRX5827324</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR9050985-SRR9051007</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA542748&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA542748&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>542748</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2019-07-09</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-07-09</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+</ROOT>

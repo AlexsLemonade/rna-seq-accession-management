@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT request="tax_eq(161934) AND (instrument_model=&quot;HiSeq X Ten&quot; OR instrument_model=&quot;HiSeq X Five&quot; OR instrument_model=&quot;Illumina MiSeq&quot; OR instrument_model=&quot;Illumina NovaSeq 6000&quot; OR instrument_model=&quot;Illumina Genome Analyzer&quot; OR instrument_model=&quot;Illumina Genome Analyzer II&quot; OR instrument_model=&quot;Illumina Genome Analyzer IIx&quot; OR instrument_model=&quot;Illumina HiScanSQ&quot; OR instrument_model=&quot;Illumina HiSeq 1000&quot; OR instrument_model=&quot;Illumina HiSeq 1500&quot; OR instrument_model=&quot;Illumina HiSeq 2000&quot; OR instrument_model=&quot;Illumina HiSeq 2500&quot; OR instrument_model=&quot;Illumina HiSeq 3000&quot; OR instrument_model=&quot;Illumina HiSeq 4000&quot; OR instrument_model=&quot;NextSeq 500&quot; OR instrument_model=&quot;NextSeq 550&quot; OR instrument_model=&quot;Ion Torrent Proton&quot; OR instrument_model=&quot;Ion Torrent S5&quot; OR instrument_model=&quot;Ion Torrent S5 XL&quot;)AND library_strategy=&quot;RNA-Seq&quot; AND library_source=&quot;TRANSCRIPTOMIC&quot;">
+<PROJECT accession="PRJNA358634" alias="PRJNA358634" center_name="Plant Biology, Swedish University of Agricultural Sciences">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA358634</PRIMARY_ID>
+          <SECONDARY_ID>SRP095578</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE92859</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Plant Biology, Swedish University of Agricultural Sciences">PRJNA358634</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Beta vulgaris</NAME>
+     <TITLE>Transcript profiling of sugar beet colonized by Rhizoctonia solani, the crown and root rot pathogen</TITLE>
+     <DESCRIPTION>Background: Sugar beet is an important root crop, accounting for 30 % of the sugar production worldwide. The long growing season make sugar beets exposed to a range of plant pathogens for longer periods than most other crops. Here, contrasting sugar beet genotypes were used for transcriptome analysis to reveal differential responses and new defense genes to Rhizoctonia solani, a soilborn fungal pathogen. Results: After curation of primary RNA-sequencing reads, 16,768 genes deriving from 36 samples composed of two susceptible and two resistant sugar beet genotypes, three time-points (0, two and five days post inoculation), each in three replicates were subjected for analysis. Among the elevated 217 transcripts at 2 dpi, three resistance-like genes (Bv4_088600_cumk, Bv8u_204980_frqg, and Bv_44840_iifo) were activated. By employing edgeR package statistics, 660 genes were significantly different (false discovery rate &lt; 0.05) between resistant and susceptible genotypes in their response to R. solani inoculation. A combination of eukaryotic orthologous group assignments and gene ontology enrichment analyses, revealed three Bet v I/Major latex protein homologous genes (Bv7_162510_pymu, Bv7_162520_etow, Bv_27270_xeas) in the resistant genotypes after five days of fungal challenge. Co-expression network analysis of differentially expressed sugar beet genes further identified a MYB46 transcription factor, a plant disease resistance response protein (DRR206) and a flavonoid o-methyltransferase protein. MYB46 has a key function in secondary cell wall formation and exist as a singleton in the sugar beet genome. The genome of R. solani is enriched in cell wall degrading enzyme encoding genes and it is anticipated that they represent important virulence factors. Compared to Arabidopsis thaliana, sugar beet has 2.4-fold more carbohydrate esterases and particularly large numbers (26-fold) of auxiliary activity encoding genes whose function in cell wall biosynthesis is largely unknown. Conclusions: Based on components identified in this sugar beet transcript data set we conclude that defense responses to R. solani are attributed to a wide range of gene categories but functional information is missing to a large extent. This calls for careful integration to avoid negative side effects to obtain optimal combinations of these traits in order to reach the long-term goal of improved resistance in sugar beet. Overall design: Four sugar beet genotypes, three time-points and three biological replicates were sequenced.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>161934</TAXON_ID>
+               <SCIENTIFIC_NAME>Beta vulgaris</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12562"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1876218-SRS1876253</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2441629-SRX2441664</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5127351-SRR5127386</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA358634&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA358634&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>358634</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-12-23</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA453103" alias="PRJNA453103" center_name="Nicolaus Copernicus University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA453103</PRIMARY_ID>
+          <SECONDARY_ID>SRP145448</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Nicolaus Copernicus University">PRJNA453103</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Beta vulgaris</NAME>
+     <TITLE>Beta vulgaris Raw sequence reads</TITLE>
+     <DESCRIPTION>Transcriptome of beet treated with salt</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>161934</TAXON_ID>
+               <SCIENTIFIC_NAME>Beta vulgaris</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12562"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS3290125-SRS3290136</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX4072270-SRX4072329</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR7152809-SRR7152868</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA453103&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA453103&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>453103</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-04-25</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-05-19</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+</ROOT>

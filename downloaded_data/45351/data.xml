@@ -1,0 +1,1464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT request="tax_eq(45351) AND (instrument_model=&quot;HiSeq X Ten&quot; OR instrument_model=&quot;HiSeq X Five&quot; OR instrument_model=&quot;Illumina MiSeq&quot; OR instrument_model=&quot;Illumina NovaSeq 6000&quot; OR instrument_model=&quot;Illumina Genome Analyzer&quot; OR instrument_model=&quot;Illumina Genome Analyzer II&quot; OR instrument_model=&quot;Illumina Genome Analyzer IIx&quot; OR instrument_model=&quot;Illumina HiScanSQ&quot; OR instrument_model=&quot;Illumina HiSeq 1000&quot; OR instrument_model=&quot;Illumina HiSeq 1500&quot; OR instrument_model=&quot;Illumina HiSeq 2000&quot; OR instrument_model=&quot;Illumina HiSeq 2500&quot; OR instrument_model=&quot;Illumina HiSeq 3000&quot; OR instrument_model=&quot;Illumina HiSeq 4000&quot; OR instrument_model=&quot;NextSeq 500&quot; OR instrument_model=&quot;NextSeq 550&quot; OR instrument_model=&quot;Ion Torrent Proton&quot; OR instrument_model=&quot;Ion Torrent S5&quot; OR instrument_model=&quot;Ion Torrent S5 XL&quot;)AND library_strategy=&quot;RNA-Seq&quot; AND library_source=&quot;TRANSCRIPTOMIC&quot;">
+<PROJECT accession="PRJEB13676" alias="ena-STUDY-Univ of Florida/Whitney Laboratory-23-04-2016-18:13:03:237-44" center_name="Univ of Florida/Whitney Laboratory">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJEB13676</PRIMARY_ID>
+          <SECONDARY_ID>ERP015237</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Univ of Florida/Whitney Laboratory">ena-STUDY-Univ of Florida/Whitney Laboratory-23-04-2016-18:13:03:237-44</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Babonis et al 2016</NAME>
+     <TITLE>Do novel genes drive morphological novelty? An investigation of the nematosomes in the sea anemone Nematostella vectensis</TITLE>
+     <DESCRIPTION>This is a study of novel genes in nematosomes</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>BN5412</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA609051</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS1124755-ERS1124760,ERS1124769-ERS1124771</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX1439964,ERX1439971-ERX1439978</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR1368838,ERR1368845-ERR1368852</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB13676&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB13676&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-04-26</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2016-05-20</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA122153" alias="PRJNA122153" center_name="Daniel Zilberman, Plant and Microbial Biology, University of California at Berkeley">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA122153</PRIMARY_ID>
+          <SECONDARY_ID>SRP002417</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE19824</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Daniel Zilberman, Plant and Microbial Biology, University of California at Berkeley">PRJNA122153</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Genome-wide evolutionary analysis of eukaryotic DNA methylation</NAME>
+     <TITLE>Genome-wide evolutionary analysis of eukaryotic DNA methylation</TITLE>
+     <DESCRIPTION>Eukaryotic cytosine methylation represses transposable elements, but also occurs in bodies of active genes. The extent to which these processes are conserved is unclear, and little is known about methylation outside of mammals, Arabidopsis thaliana, and Neurospora crassa. Utilizing deep bisulfite sequencing, we have quantified DNA methylation in five plant, seven animal, and five fungal genomes. We find that gene body methylation is conserved between plants and animals, whereas selective methylation of transposons has evolved independently in the vertebrate lineage. We show that methylation of plant transposons in the CHG context extends to green algae, and present evidence for RNA-directed DNA methylation of fungal genes. We also show that antagonism between DNA methylation and histone H2A.Z is conserved between plants and animals. Our data demonstrate that extant DNA methylation systems are mosaics of conserved and derived features, and indicate that gene body methylation is an ancient property of eukaryotic genomes. Keywords: Epigenetics Overall design: Examination of DNA methylation and transcription in plant, animal, and fungal genomes, and examination of how H2A.Z deposition relates to both methylation and transcription in puffer fish. Descriptions of the Samples' raw and processed data (provided as supplementary files) can be found in GSE19824_README.txt at the foot of this record.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>20395474</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS070561-SRS070575,SRS072439-SRS072455,SRS085328</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX020112-SRX020126,SRX020137-SRX020138,SRX020141-SRX020144,SRX020146-SRX020150,SRX020152-SRX020165,SRX023824-SRX023828</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR042523-SRR042536,SRR042538-SRR042541,SRR042617-SRR042620,SRR042623-SRR042628,SRR042630-SRR042636,SRR042638-SRR042660,SRR060806-SRR060807,SRR060811-SRR060812,SRR063322,SRR063324,SRR063326</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA122153&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA122153&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>122153</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-05-31</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA189768" alias="PRJNA189768" center_name="Brown University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA189768</PRIMARY_ID>
+          <SECONDARY_ID>SRP018739</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Brown University">PRJNA189768</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Nematostella vectensis</NAME>
+     <TITLE>Characterization of differential transcript abundance through time during Nematostella vectensis development</TITLE>
+     <DESCRIPTION>Short read Illumina single end 50 base pair transcript data from six times points in N. vectensis development, including two biological replicates.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>45351</TAXON_ID>
+               <SCIENTIFIC_NAME>Nematostella vectensis</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12580"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>23601508</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS398406-SRS398411,SRS398413-SRS398416,SRS398418,SRS398420</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX245865-SRX245870,SRX245872-SRX245874,SRX245876-SRX245877,SRX245879</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR765897-SRR765902,SRR765904-SRR765907,SRR765909,SRR765911</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA189768&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA189768&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>189768</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-05-31</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA200318" alias="PRJNA200318" center_name="Vanderbilt University Medical Center">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA200318</PRIMARY_ID>
+          <SECONDARY_ID>SRP026346</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Vanderbilt University Medical Center">PRJNA200318</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <TITLE>Selected Cnidarians, Lancelet and Earthworm Transcriptome</TITLE>
+     <DESCRIPTION>Transcriptome data for selected Cnidarians, Lancelet and Earthworm.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS452826-SRS452830,SRS453437,SRS453609</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX315372-SRX315376,SRX316148,SRX316160</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR922410,SRR922615,SRR923472,SRR923509-SRR923510,SRR923751-SRR923752</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA200318&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA200318&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>200318</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2015-05-01</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA200689" alias="PRJNA200689" center_name="Technau, University of Vienna">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA200689</PRIMARY_ID>
+          <SECONDARY_ID>SRP021895</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE46488</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Technau, University of Vienna">PRJNA200689</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Nematostella vectensis</NAME>
+     <TITLE>Evolutionary conservation of the eumetazoan gene regulatory landscape</TITLE>
+     <DESCRIPTION>Bilaterian animals differ from other metazoans in their apparent bilateral symmetry and the development of a third germ layer. Both might have facilitated the evolution of the diverse and complex bilaterian body plans. The first cnidarian genome sequence revealed that despite their morphological simplicity, this sister group to all bilaterians shares an immense genomic complexity with vertebrates. This suggested that it might have been the complexity of gene regulation which increased during the evolution of bilaterians. We compared the gene regulatory landscape of cnidarians and bilaterians. To this end we generated the first genome-wide prediction of gene regulatory elements and profiled five epigenetic marks in a non-bilaterian animal, the cnidarian Nematostella vectensis. We found that the location of chromatin modifications relative to genes and distal enhancers is conserved among eumetazoans. Surprisingly, the genomic landscape of gene regulatory elements is highly similar between Nematostella and bilaterian model organisms. This suggests that complex regulation of developmental gene expression evolved in eumetazoans without a major increase in complexity in bilaterians. Overall design: ChIP-seq of p300, RNA Pol2, and five histone modifications in Nematostella vectensis.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>45351</TAXON_ID>
+               <SCIENTIFIC_NAME>Nematostella vectensis</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12580"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>24642862</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS417230-SRS417258</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX272721-SRX272749</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR836003-SRR836007,SRR836009,SRR836011-SRR836033,SRR836035-SRR836055,SRR837781-SRR837783</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA200689&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA200689&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>200689</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-12-12</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA213177" alias="PRJNA213177" center_name="University of Vienna">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA213177</PRIMARY_ID>
+          <SECONDARY_ID>SRP029941</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of Vienna">PRJNA213177</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Nematostella vectensis</NAME>
+     <TITLE>Nematostella vectensis Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>Short read Illumina paired end 76-100 bp transcript data from five developmental stages, adult male, and adult female.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>45351</TAXON_ID>
+               <SCIENTIFIC_NAME>Nematostella vectensis</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12580"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS480624-SRS480631</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX351427-SRX351437</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR987318-SRR987328</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA213177&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA213177&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>213177</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-07-26</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA246707" alias="PRJNA246707" center_name="Bar Ilan University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA246707</PRIMARY_ID>
+          <SECONDARY_ID>SRP041987</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Bar Ilan University">PRJNA246707</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Nematostella vectensis strain:Lab strain</NAME>
+     <TITLE>Nematostella vectensis diurnal transcriptomes</TITLE>
+     <DESCRIPTION>The study goal was to identify cnidarian genes with circadian expression oscilation</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>45351</TAXON_ID>
+               <SCIENTIFIC_NAME>Nematostella vectensis</SCIENTIFIC_NAME>
+               <STRAIN>Lab strain</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12580"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS606789-SRS606802</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX542429-SRX542442</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1286745-SRR1286758</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA246707&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA246707&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>246707</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-05-15</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA247455" alias="PRJNA247455" center_name="University of Haifa">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA247455</PRIMARY_ID>
+          <SECONDARY_ID>SRP041974</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of Haifa">PRJNA247455</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Nematostella vectensis</NAME>
+     <TITLE>Nematostella vectensis Gene Expression Changes during heavy metal treatment</TITLE>
+     <DESCRIPTION>This study aimed to understand the Nematostella stress response in a polluted environment, specifically studying gene expression changes upon treatment of heavy metals (Hg, Cu, Zn, Cd).</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>EW18</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>EW19</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>EW20</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>EW21</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>EW22</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>EW23</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>EW24</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>EW25</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>EW26</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>EW27</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>EW28</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>EW29</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>EW30</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>EW31</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>EW32</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>EW33</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+          <ORGANISM>
+               <TAXON_ID>45351</TAXON_ID>
+               <SCIENTIFIC_NAME>Nematostella vectensis</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12580"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>25145541</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS618697,SRS619285-SRS619288</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX542225,SRX551540,SRX551575,SRX551580-SRX551592</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1290949-SRR1290950,SRR1297210,SRR1297272-SRR1297284</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA247455&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA247455&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>247455</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-10-09</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA290330" alias="PRJNA290330" center_name="Yanai, Biology, Technion - Israel Institute of Technology">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA290330</PRIMARY_ID>
+          <SECONDARY_ID>SRP061318</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE71086</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Yanai, Biology, Technion - Israel Institute of Technology">PRJNA290330</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Nematostella vectensis</NAME>
+     <TITLE>Nematostella vectensis high resolution developmental transcriptomic time-course</TITLE>
+     <DESCRIPTION>Classical embryological studies revealed that during mid-embryogenesis vertebrates show similar morphologies. This “phylotypic stage” has recently received support from transcriptome analyses, which have also detected similar stages in nematodes and arthropods. A conserved stage in these three phyla has led us to ask if all animals pass through a universal definitive stage as a consequence of ancestral constraints on animal development. Previous work has suggested that HOX genes may comprise such a ‘zootypic’ stage, however this hypothetical stage has hitherto resisted systematic analysis. We have examined the embryonic development of ten different animals each of a fundamentally different phylum, including a segmented worm, a flatworm, a roundworm, a water bear, a fruitfly, a sea urchin, a zebrafish, a sea anemone, a sponge, and a comb jelly. For each species, we collected the embryonic transcriptomes at ~100 different developmental stages and analyzed their gene expression profiles. We found dynamic gene expression across all of the species that is structured in a stage like manner. Strikingly, we found that animal embryology contains two dominant modules of zygotic expression in terms of their protein domain composition: one involving proliferation, and a second involving differentiation. The switch between these two modules involves induction of the zootype; which in addition to homeobox containing genes, also involves Wnt and Notch signaling as well as forkhead domain transcription factors. Our results provide a systematic characterization of animal universality and identify the points of embryological constraints and flexibility. Overall design: 123 single embryo samples.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>45351</TAXON_ID>
+               <SCIENTIFIC_NAME>Nematostella vectensis</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12580"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>26886793</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS995264-SRS995386</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1100713-SRX1100835</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR2106960-SRR2107082</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA290330&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA290330&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>290330</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-10-10</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA330595" alias="PRJNA330595" center_name="Hebrew University of Jerusalem">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA330595</PRIMARY_ID>
+          <SECONDARY_ID>SRP079101</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Hebrew University of Jerusalem">PRJNA330595</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Nematostella vectensis</NAME>
+     <TITLE>Nematostella vectensis Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>This study aims to define and understand the different regenerative response in Nematostella vectensis across different time points in head vs. tail regeneration</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>45351</TAXON_ID>
+               <SCIENTIFIC_NAME>Nematostella vectensis</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12580"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1576952,SRS1576970-SRS1576972,SRS1576974,SRS1576976,SRS1576978,SRS1576981</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1967468,SRX1967552,SRX1967558-SRX1967559,SRX1967561,SRX1967563,SRX1967565,SRX1967570</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR3938202-SRR3938203,SRR3938286-SRR3938291,SRR3938293-SRR3938294,SRR3938297-SRR3938300,SRR3938303-SRR3938304</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA330595&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA330595&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>330595</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-09-15</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA362308" alias="PRJNA362308" center_name="Woods Hole Oceanographic Institution">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA362308</PRIMARY_ID>
+          <SECONDARY_ID>SRP096950</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Woods Hole Oceanographic Institution">PRJNA362308</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <TITLE>Daily patterns in gene expression in field-reared Nematostella</TITLE>
+     <DESCRIPTION>Previous studies have described circadian and diel gene expression patterns in this species under lab culture conditions (pyrex dishes, 12h light-dark cycle). This study explores daily gene expression in animals that were explanted to field conditions (salt marsh sediments) and then sampled over a 24-h period in the lab.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1926562-SRS1926574</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2499923-SRX2499970</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5183883-SRR5183930</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA362308&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA362308&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>362308</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-04-19</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA378226" alias="PRJNA378226" center_name="Computer Science and Applied Mathematics, Weizmann Institute of Science">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA378226</PRIMARY_ID>
+          <SECONDARY_ID>SRP101436</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE95723</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Computer Science and Applied Mathematics, Weizmann Institute of Science">PRJNA378226</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Nematostella vectensis</NAME>
+     <TITLE>Cnidarian cell type diversity revealed by whole-organism single-cell RNA-seq analysis</TITLE>
+     <DESCRIPTION>We performed single-cell transcriptome analysis (using MARS-seq) in the cnidarian Nematostella vectensis. Additionally we performed bulk ATAC-seq experiments on wild-type specimens, as well as ELAV::mOrange reporter transgenic lines (separating ELAV+ and ELAV- cell populations, representing neurons and non-neurons, respectively). Overall design: Multiple animals (20-25) were dissociated and pooled before sorting single-cells for scRNAseq. 200,000 cells were used in bulk ATAC-seq experiments.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>45351</TAXON_ID>
+               <SCIENTIFIC_NAME>Nematostella vectensis</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12580"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>29856957</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2859737,SRS2859739-SRS2859741,SRS2859743,SRS2859786,SRS2861576-SRS2861577</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3591591-SRX3591598</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR6502898-SRR6502909</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA378226&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA378226&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>378226</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-06-02</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-06-07</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA391807" alias="PRJNA391807" center_name="The Hebrew University of Jerusalem">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA391807</PRIMARY_ID>
+          <SECONDARY_ID>SRP113508</SECONDARY_ID>
+          <SUBMITTER_ID namespace="The Hebrew University of Jerusalem">PRJNA391807</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Nematostella vectensis</NAME>
+     <TITLE>Nematostella vectensis Raw sequence reads</TITLE>
+     <DESCRIPTION>No study to date has uncovered the complete transcriptomic landscape of cnidocytes or the venom producing cells of the phylum Cnidaria, impeding our understanding of the biology, development, and evolution of these complex organelles. Hence, we sequenced the transcriptomes of developing and mature cnidocytes from the sea anemone Nematostella vectensis, a rising model organism for the study of cnidarian biology.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>CE454</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+          <ORGANISM>
+               <TAXON_ID>45351</TAXON_ID>
+               <SCIENTIFIC_NAME>Nematostella vectensis</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12580"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2381785,SRS2940546,SRS2940571,SRS2943478-SRS2943479,SRS2943482,SRS2947417-SRS2947422</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3032989,SRX3680401,SRX3680432,SRX3683461-SRX3683462,SRX3683465,SRX3687421-SRX3687426</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5864937,SRR6706292,SRR6706323,SRR6710013-SRR6710014,SRR6710017,SRR6713982-SRR6713987</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA391807&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA391807&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>391807</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-07-02</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-07-02</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA394979" alias="PRJNA394979" center_name="Whitney Laboratory for Marine Bioscience, Biology, University of Florida">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA394979</PRIMARY_ID>
+          <SECONDARY_ID>SRP112848</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE101604</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Whitney Laboratory for Marine Bioscience, Biology, University of Florida">PRJNA394979</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Nematostella vectensis</NAME>
+     <TITLE>Antagonistic BMP–cWNT signaling in the cnidarian Nematostella vectensis reveals insight into the evolution of mesoderm</TITLE>
+     <DESCRIPTION>Using forward transcriptomics, we show that beta-catenin/Tcf signaling and BMP2/4 signaling provide differential inputs into the cnidarian endomesodermal gene regulatory network (GRN) at the onset of gastrulation (24 h postfertilization) in N. vectensis. Surprisingly, beta-catenin/Tcf signaling and BMP2/4 signaling regulate a subset of common downstream target genes in the GRN in opposite ways, leading to the spatial and temporal differentiation of fields of cells in the developing embryo. Thus, we show that regulatory interactions between beta-catenin/Tcf signaling and BMP2/4 signaling are required for the specification and determination of different embryonic regions and the patterning of the oral?aboral axis in Nematostella. Overall design: Three biological replicates for two experimental conditions (Morpholino knockdown of NvBMP2/4, and RNA injection of the dominant negative form of NvTCF) and control dextran injection samples taken at 24 Hours past fertilization.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>45351</TAXON_ID>
+               <SCIENTIFIC_NAME>Nematostella vectensis</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12580"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>28652368</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2364979-SRS2364987</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3015320-SRX3015328</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5839385-SRR5839402</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA394979&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA394979&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>394979</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-07-21</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA418421" alias="PRJNA418421" center_name="University Cote d'azur">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA418421</PRIMARY_ID>
+          <SECONDARY_ID>SRP125376</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University Cote d'azur">PRJNA418421</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Nematostella vectensis</NAME>
+     <TITLE>Nematostella vectensis embryo RNAseq time series</TITLE>
+     <DESCRIPTION>Nematostella vectensis embryos were cultured at 18C in 1/3 artificial sea water and sampled at 24, 48, 72, 96, 120, 144, 168, &amp;amp; 192 hours post fertilization. RNAseq was performed in duplicate as full biological replicates of each time point.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>45351</TAXON_ID>
+               <SCIENTIFIC_NAME>Nematostella vectensis</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12580"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2705558-SRS2705573</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3412353-SRX3412368</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR6312092-SRR6312107</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA418421&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA418421&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>418421</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-12-03</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-07-05</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA419631" alias="PRJNA419631" center_name="University Cote d'azur">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA419631</PRIMARY_ID>
+          <SECONDARY_ID>SRP125570</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University Cote d'azur">PRJNA419631</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Nematostella vectensis</NAME>
+     <TITLE>Nematostella vectensis regeneration RNAseq time series</TITLE>
+     <DESCRIPTION>RNAseq time series of Nematostella vectensis (starlet sea anemone) during oral regeneration (heads were discarded) after sub-pharyngeal amputation of six week old juveniles. Biological triplicates were sampled at Uncut, 0, 2, 4, 8, 12, 16, 20, 24, 36, 48, 60, 72, 96, 120, and 144 hours post amputation. Regenerating juveniles were cultured at 22C in 1/3 artificial sea water.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>45351</TAXON_ID>
+               <SCIENTIFIC_NAME>Nematostella vectensis</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12580"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2712492-SRS2712539</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3420696-SRX3420743</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR6320836-SRR6320883</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA419631&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA419631&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>419631</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-11-29</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-07-05</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA474911" alias="PRJNA474911" center_name="Centre for Genomic Regulation">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA474911</PRIMARY_ID>
+          <SECONDARY_ID>SRP149913</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Centre for Genomic Regulation">PRJNA474911</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <TITLE>Origin and Evolution of Neural Microexons</TITLE>
+     <DESCRIPTION><![CDATA[Our study focuses on the origin of the neural microexon program.</p><p>We discover that neural microexon programs are present in non-vertebrate species</p><p>and trace their origin to bilaterian ancestors through the emergence</p><p>of a previously uncharacterized "enhancer of microexon" (eMIC) protein domain]]></DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS3386382-SRS3386385,SRS3395074-SRS3395079,SRS3395305-SRS3395306,SRS3395606-SRS3395610,SRS3404538-SRS3404546,SRS3404550,SRS3404552</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX4174762-SRX4174765,SRX4183678-SRX4183683,SRX4183909-SRX4183910,SRX4184226-SRX4184230,SRX4193721-SRX4193733</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR7271137-SRR7271140,SRR7280104-SRR7280109,SRR7280335-SRR7280336,SRR7280652-SRR7280656,SRR7290951-SRR7290963</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA474911&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA474911&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>474911</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2019-01-11</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-01-11</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA546501" alias="PRJNA546501" center_name="Reitzel, Biological Sciences, University of North Carolina at Charlotte">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA546501</PRIMARY_ID>
+          <SECONDARY_ID>SRP200455</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE132202</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Reitzel, Biological Sciences, University of North Carolina at Charlotte">PRJNA546501</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Transcriptional remodeling upon light removal in a model cnidarian: losses and gains in gene expression</NAME>
+     <TITLE>Transcriptional remodeling upon light removal in a model cnidarian: losses and gains in gene expression</TITLE>
+     <DESCRIPTION>We utilized the Nematostella vectensis to quantify gene expression differences and loss during light:dark cycling and immediately after light cue removal through comparisons of 136 transcriptomes Organismal responses to light:dark cycles can result from two general processes: (i) direct response to light or (ii) a free-running rhythm (i.e., a circadian clock). Previous research in cnidarians has shown that candidate circadian clock genes have rhythmic expression in the presence of diel lighting, but these oscillations appear to be lost quickly after removal of the light cue. Here, we measure whole-organism gene expression changes in 136 transcriptomes of the sea anemone Nematostella vectensis, entrained to a light:dark environment and immediately following light cue removal to distinguish two broadly defined responses in cnidarians: light entrainment and circadian regulation. Direct light exposure resulted in significant differences in expression for hundreds of genes, including more than 200 genes with rhythmic, 24-hour periodicity. Removal of the lighting cue resulted in the loss of significant expression for 80% of these genes after one day, including most of the hypothesized cnidarian circadian genes. Further, 70% of these candidate genes were phase shifted. Most surprisingly, thousands of genes, some of which are involved in oxidative stress, DNA damage response, and chromatin modification, had significant differences in expression in the 24 hours following light removal, suggesting that loss of the entraining cue may induce a cellular stress response. Together, our findings suggest that a majority of genes with significant differences in expression for anemones cultured under diel lighting are largely driven by the primary photoresponse rather than a circadian clock when measured at the whole animal level. These results provide context for the evolution of cnidarian circadian biology and help to disassociate two commonly confounded factors driving oscillating phenotypes. Overall design: ntotal = 136. 17 time points (4 replicates at each) for 2 conditions. (17*4*2 = 136)</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>45351</TAXON_ID>
+               <SCIENTIFIC_NAME>Nematostella vectensis</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12580"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS4878000-SRS4878135</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX5973819-SRX5973954</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR9202504-SRR9202735</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA546501&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA546501&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>546501</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2019-06-07</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-06-07</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA548291" alias="PRJNA548291" center_name="Reitzel, Biological Sciences, University of North Carolina at Charlotte">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA548291</PRIMARY_ID>
+          <SECONDARY_ID>SRP201077</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE132526</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Reitzel, Biological Sciences, University of North Carolina at Charlotte">PRJNA548291</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Wavelength-specific impacts on gene expression and behavior in an eyeless cnidarian</NAME>
+     <TITLE>Wavelength-specific impacts on gene expression and behavior in an eyeless cnidarian</TITLE>
+     <DESCRIPTION>We utilized the Nematostella vectensis to quantify gene expression differences in short (blue, green) and long (red) wavelengths of light and in constant darkness through comparisons of 96 transcriptomes Overall design: ntotal = 96. 6 time points (4 replicates at each) for 4 conditions. (6*4*4 = 96)</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>45351</TAXON_ID>
+               <SCIENTIFIC_NAME>Nematostella vectensis</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA12580"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS4940513-SRS4940608</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX6037222-SRX6037317</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR9266885-SRR9267076</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA548291&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA548291&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>548291</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2019-06-13</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-06-13</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+</ROOT>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT request="tax_eq(144197) AND (instrument_model=&quot;HiSeq X Ten&quot; OR instrument_model=&quot;HiSeq X Five&quot; OR instrument_model=&quot;Illumina MiSeq&quot; OR instrument_model=&quot;Illumina NovaSeq 6000&quot; OR instrument_model=&quot;Illumina Genome Analyzer&quot; OR instrument_model=&quot;Illumina Genome Analyzer II&quot; OR instrument_model=&quot;Illumina Genome Analyzer IIx&quot; OR instrument_model=&quot;Illumina HiScanSQ&quot; OR instrument_model=&quot;Illumina HiSeq 1000&quot; OR instrument_model=&quot;Illumina HiSeq 1500&quot; OR instrument_model=&quot;Illumina HiSeq 2000&quot; OR instrument_model=&quot;Illumina HiSeq 2500&quot; OR instrument_model=&quot;Illumina HiSeq 3000&quot; OR instrument_model=&quot;Illumina HiSeq 4000&quot; OR instrument_model=&quot;NextSeq 500&quot; OR instrument_model=&quot;NextSeq 550&quot; OR instrument_model=&quot;Ion Torrent Proton&quot; OR instrument_model=&quot;Ion Torrent S5&quot; OR instrument_model=&quot;Ion Torrent S5 XL&quot;)AND library_strategy=&quot;RNA-Seq&quot; AND library_source=&quot;TRANSCRIPTOMIC&quot;">
+<PROJECT accession="PRJNA89147" alias="PRJNA89147" center_name="Washington University School of Medicine">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA89147</PRIMARY_ID>
+          <SECONDARY_ID>SRP016027</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Washington University School of Medicine">PRJNA89147</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Stegastes partitus isolate:25-593</NAME>
+     <TITLE>Stegastes partitus isolate:25-593 Genome sequencing</TITLE>
+     <DESCRIPTION>The bicolor Damselfish, Stegastes partitus, has been the focus of biomedical research due to the high natural incidence of a transmissible cancer affecting the peripheral nervous system and pigment cells of this species and the unusual nature of the etiologic agent. These tumors are characterized as neurofibromas, malignant peripheral nerve sheath tumors and chromatophoromas. This disorder has been termed damselfish neurofibromatosis (DNF) because the plexiform neurofibromas in affected fish exhibit a similar histology to the hallmark lesions of Neurofibromatosis type 1 (NF-1) in humans. While a wide variety of naturally occurring and induced tumors in animals have been shown to be transmissible, DNF is the only naturally occurring tumor affecting either Schwann cells or pigment cells. To date, few animal models of NF-1 have been developed and while the gene responsible for this inherited diseased in humans has been identified, many aspects of the mechanisms which lead to tumor formation and malignant transformation are unknown. DNF may provide a unique perspective on this very common human disease. Despite the differences in etiology between NF-1 and DNF, a role for mitochondrial changes in NF-1 has been postulated but not fully investigated.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>UQC</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+          <ORGANISM>
+               <TAXON_ID>144197</TAXON_ID>
+               <SCIENTIFIC_NAME>Stegastes partitus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA89417"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>9023104</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS386051,SRS416427,SRS597239-SRS597254</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX217659,SRX217662-SRX217663,SRX217666-SRX217667,SRX217672,SRX272105,SRX526480-SRX526495</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR649426,SRR649435,SRR649437-SRR649438,SRR649440-SRR649442,SRR649445,SRR649450,SRR835657,SRR1261347-SRR1261350,SRR1261370,SRR1261469-SRR1261471,SRR1261510-SRR1261516,SRR1261524</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA89147&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA89147&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>89147</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-05-31</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-01-26</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+</ROOT>

@@ -1,0 +1,2122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT request="tax_eq(69293) AND (instrument_model=&quot;HiSeq X Ten&quot; OR instrument_model=&quot;HiSeq X Five&quot; OR instrument_model=&quot;Illumina MiSeq&quot; OR instrument_model=&quot;Illumina NovaSeq 6000&quot; OR instrument_model=&quot;Illumina Genome Analyzer&quot; OR instrument_model=&quot;Illumina Genome Analyzer II&quot; OR instrument_model=&quot;Illumina Genome Analyzer IIx&quot; OR instrument_model=&quot;Illumina HiScanSQ&quot; OR instrument_model=&quot;Illumina HiSeq 1000&quot; OR instrument_model=&quot;Illumina HiSeq 1500&quot; OR instrument_model=&quot;Illumina HiSeq 2000&quot; OR instrument_model=&quot;Illumina HiSeq 2500&quot; OR instrument_model=&quot;Illumina HiSeq 3000&quot; OR instrument_model=&quot;Illumina HiSeq 4000&quot; OR instrument_model=&quot;NextSeq 500&quot; OR instrument_model=&quot;NextSeq 550&quot; OR instrument_model=&quot;Ion Torrent Proton&quot; OR instrument_model=&quot;Ion Torrent S5&quot; OR instrument_model=&quot;Ion Torrent S5 XL&quot;)AND library_strategy=&quot;RNA-Seq&quot; AND library_source=&quot;TRANSCRIPTOMIC&quot;">
+<PROJECT accession="PRJDB5054" alias="PRJDB5054" center_name="National Institute of Genetics">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJDB5054</PRIMARY_ID>
+          <SECONDARY_ID>DRP004161</SECONDARY_ID>
+          <SUBMITTER_ID namespace="National Institute of Genetics">PRJDB5054</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Gasterosteus aculeatus strain:Little Campbell River</NAME>
+     <TITLE>Little Camp F2 high vs low Na Gill RNA-seq</TITLE>
+     <DESCRIPTION>RNAseq of gill of F2 fish derived from marine and stream ecotypes of Little Campbell River (top 10 fish and low 10 fish with plasma Na after seawater challenge)</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>69293</TAXON_ID>
+               <SCIENTIFIC_NAME>Gasterosteus aculeatus</SCIENTIFIC_NAME>
+               <STRAIN>Little Campbell River</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA11772"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>DRS061330-DRS061349</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>DRX060518-DRX060537</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>DRR066555-DRR066574</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJDB5054&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJDB5054&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>449195</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-04-10</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-04-11</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJDB5084" alias="PRJDB5084" center_name="National Institute of Genetics">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJDB5084</PRIMARY_ID>
+          <SECONDARY_ID>DRP004629</SECONDARY_ID>
+          <SUBMITTER_ID namespace="National Institute of Genetics">PRJDB5084</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Gasterosteus aculeatus</NAME>
+     <TITLE>Brain RNAseq of LCF2 for eQTL analysis</TITLE>
+     <DESCRIPTION>RNA-Sequencing of whole brain of the Little Campbell River F2 between marine and stream ecotypes under 10% seawater and 100% seawater.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>69293</TAXON_ID>
+               <SCIENTIFIC_NAME>Gasterosteus aculeatus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA11772"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>DRS080634-DRS080825</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>DRX060836-DRX061027</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>DRR066876-DRR067067</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJDB5084&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJDB5084&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>507886</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-12-04</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-12-04</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJDB7242" alias="PRJDB7242" center_name="National Institute of Genetics">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJDB7242</PRIMARY_ID>
+          <SECONDARY_ID>DRP004400</SECONDARY_ID>
+          <SUBMITTER_ID namespace="National Institute of Genetics">PRJDB7242</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Gasterosteus</NAME>
+     <TITLE>RNA-Seq of hybrid testis</TITLE>
+     <DESCRIPTION>RNA-Seq of testis were conducted for pure crosses of Pacific Ocean stickleback (Gasterosteus aculeatus) and Japan Sea stickleback (G. nipponicus), and their hybrid (Japan Sea female x Pacific Ocean male).</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>69292</TAXON_ID>
+               <SCIENTIFIC_NAME>Gasterosteus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>DRS073707-DRS073726</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>DRX137837-DRX137856</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>DRR147045-DRR147064</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJDB7242&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJDB7242&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>485609</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-08-14</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-08-16</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJDB7243" alias="PRJDB7243" center_name="National Institute of Genetics">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJDB7243</PRIMARY_ID>
+          <SECONDARY_ID>DRP004398</SECONDARY_ID>
+          <SUBMITTER_ID namespace="National Institute of Genetics">PRJDB7243</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Gasterosteus</NAME>
+     <TITLE>RNA-seq of multiple tissues of G. aculeatus and G. nipponicus</TITLE>
+     <DESCRIPTION>RNA-seq of multiple tissues (brain, pituitary gland, pectoral aductor muscle, gill, gonad, liver) of Pacific Ocean stickleback (G. aculeatus) and Japan Sea stickleback (G. nipponicus) were conducted. Lab-raised matured adults were used.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>69292</TAXON_ID>
+               <SCIENTIFIC_NAME>Gasterosteus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>DRS073615-DRS073698</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>DRX137753-DRX137836</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>DRR146961-DRR147044</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJDB7243&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJDB7243&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>485610</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-08-14</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-08-16</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJEB12613" alias="ena-STUDY-ALFRED WEGENER INSTITUTE FOR POLAR AND MARINE RESE-01-02-2016-16:07:55:380-425" center_name="ALFRED WEGENER INSTITUTE FOR POLAR AND MARINE RESE">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJEB12613</PRIMARY_ID>
+          <SECONDARY_ID>ERP014105</SECONDARY_ID>
+          <SUBMITTER_ID namespace="ALFRED WEGENER INSTITUTE FOR POLAR AND MARINE RESE">ena-STUDY-ALFRED WEGENER INSTITUTE FOR POLAR AND MARINE RESE-01-02-2016-16:07:55:380-425</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Stickleback transcriptomes in response to warming climate</NAME>
+     <TITLE>Transgenerational effects persist down the maternal line in marine sticklebacks: gene expression matches physiology in a warming ocean</TITLE>
+     <DESCRIPTION>Transgenerational effects can buffer populations against environmental change, yet little is known about underlying mechanisms, their persistence, or the influence of environmental cue timing. We investigated mitochondrial respiratory capacity (MRC) and gene expression of marine sticklebacks that experienced acute or developmental acclimation to simulated ocean warming (21°C) across three generations. Previous work showed that acute acclimation of grandmothers to 21°C led to lower (optimised) offspring MRCs. Here, developmental acclimation of mothers to 21°C led to higher, but more efficient offspring MRCs. Offspring with a 21°Cx17°C grandmother-mother environment mismatch showed metabolic compensation: their MRCs were as low as offspring with a 17°C thermal history across generations. Transcriptional analyses showed primarily maternal but also grandmaternal environment effects: genes involved in metabolism and mitochondrial protein biosynthesis were differentially expressed when mothers developed at 21°C, whereas 21°C grandmothers influenced genes involved in hemostasis and apoptosis. Genes involved in mitochondrial respiration all showed higher expression when mothers developed at 21° and lower expression in the 21°Cx17°C group, matching the phenotypic pattern for MRCs. Our study links transcriptomics to physiology under climate change, and demonstrates that mechanisms underlying transgenerational effects persist across multiple generations with specific outcomes depending on acclimation type and environmental mismatch between generations.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>BN3841</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA560276</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS1049528-ERS1049544,ERS1049546-ERS1049569</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX1322260-ERX1322300</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR1250322-ERR1250362</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB12613&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB12613&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>acute vs. developmental acclimation</TAG>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>climate change</TAG>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>epigenetics</TAG>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>Gasterosteus aculeatus</TAG>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>maternal effects</TAG>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>mitochondrial respiration</TAG>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>transgenerational plasticity</TAG>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-03-30</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2016-05-20</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJEB26492" alias="ena-STUDY-University of Massachusetts, Lowell-01-05-2018-02:22:29:727-166" center_name="University of Massachusetts, Lowell">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJEB26492</PRIMARY_ID>
+          <SECONDARY_ID>ERP108484</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of Massachusetts, Lowell">ena-STUDY-University of Massachusetts, Lowell-01-05-2018-02:22:29:727-166</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Gonadal gene expression in the threespine stickleback</NAME>
+     <TITLE>Gene expression in threespine stickleback gonads from three parapatric lake-river population pairs</TITLE>
+     <DESCRIPTION>The threespine stickleback (Gasterosteus aculeatus) has repeatedly colonized and adapted to diverse freshwater habitats since the last glaciation. To study sex-specific gene expression across different populations, we sequenced gonadal transcriptomes from wild-caught sticklebacks from three lakes and three rivers.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA1376123</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS2445594-ERS2445605</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX2559861-ERX2559884</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR2541443-ERR2541466</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB26492&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB26492&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-12-01</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-05-01</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJEB8677" alias="ena-STUDY-MPI-EVB-27-02-2015-15:45:06:273-48" center_name="Max Planck Institute for Evolutionary Biology, Ploen, Germany">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJEB8677</PRIMARY_ID>
+          <SECONDARY_ID>ERP009696</SECONDARY_ID>
+          <SUBMITTER_ID namespace="MPI-EVB">ena-STUDY-MPI-EVB-27-02-2015-15:45:06:273-48</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Habitat-specific gene expression in stickleback immune tissues</NAME>
+     <TITLE>Habitat-specific gene expression in stickleback immune tissues from four parametric lake-river population pairs</TITLE>
+     <DESCRIPTION>The three-spined stickleback (Gasterosteus aculeatus) has repeatedly colonized and adapted to diverse freshwater habitats since the last glaciation. Among those freshwater habitats, adjacent lake and river populations harbour distinct parasite communities, a recurring ecological difference proposed to drive adaptive differentiation between lake and river stickleback ecotypes. To study the rapid adaptation of sticklebacks to lake and river habitats, we analysed gene expression profiles of 77 whole-transcriptome libraries of two immune-relevant tissues, the head kidney and the spleen, obtained from wild-caught sticklebacks of the two habitat types across multiple geographic locations. Differential expression analyses identified 189 genes showing statistically significant habitat-specific expression patterns among the three European locations. Among those genes, 15 genes are annotated with putative immune functions, and 50 have been experimentally associated with immune-responses in sticklebacks, reinforcing the hypothesis that parasites contribute to adaptive evolution of lake and river sticklebacks. Comparing expression profiles of European sticklebacks to populations in similar habitats in North America, five genes exhibited habitat-specific expression across continents.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA413404</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS667174-ERS667250</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX713871-ERX714024</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR770590-ERR770743</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-ANALYSIS</DB>
+                    <ID>ERZ225073-ERZ225149</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB8677&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB8677&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2015-10-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2016-05-20</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA163141" alias="PRJNA163141" center_name="Broad Institute">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA163141</PRIMARY_ID>
+          <SECONDARY_ID>SRP012923</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Broad Institute">PRJNA163141</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Gasterosteus aculeatus</NAME>
+     <TITLE>Gasterosteus aculeatus RNA Sequencing</TITLE>
+     <DESCRIPTION>Gasterosteus aculeatus (Threespine stickleback) RNA sequencing from multiple tissues.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>69293</TAXON_ID>
+               <SCIENTIFIC_NAME>Gasterosteus aculeatus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA11772"/>
+          </RELATED_PROJECT>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA167910"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS332233-SRS332240,SRS335347</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX146597-SRX146605,SRX149726-SRX149727</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR495149,SRR495152,SRR495159,SRR495163-SRR495164,SRR528536-SRR528545,SRR528547-SRR528554,SRR630039</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA163141&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA163141&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>163141</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-05-31</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA242609" alias="PRJNA242609" center_name="Cornil Lab, GIGA-Neurosciences, University of Liege">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA242609</PRIMARY_ID>
+          <SECONDARY_ID>SRP040543</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE56160</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Cornil Lab, GIGA-Neurosciences, University of Liege">PRJNA242609</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Gasterosteus aculeatus</NAME>
+     <TITLE>Maternal experience with predation risk influences genome-wide embryonic gene expression in threespined sticklebacks (Gasterosteus aculeatus)</TITLE>
+     <DESCRIPTION>Purpose: The goal of this study was to compare gene expression in whole embryos to identify transcriptomic changes that result from maternal exposure to predation risk. Methods: Whole embryo mRNA profiles of 3 day post-fertilizationstickleback embrosof mothers exposed to simulated predation risk and control embryos were generated by RNA-sequencing of pooled embryos using Illumina Hiseq2000. The sequence reads that passed quality filters were aligned to the stickleback reference genome and analyzed at the gene level (EdgeR) and at the transcript level (Cufflinks/Cuffdiff). Subsets of embryos were also measured for embryo length and eye diameter, and data were analyzed with a general linear model (SPSS). Results: We mapped ~22 million sequence reads per sample to the stickleback reference genome (BROADS1, Ensembl database version 71.1, Feb 2006) and identified 17440 transcripts with the Tophat workflow. Differential expression analysis using both EdgeR and Cufflinks/Cuffdiff identified 455 transcripts were differentially expressed in embryos of mothers exposed to simulated predation risk as compared to control embryos, with an FDR &lt;0.05 (Cuffdiff) or &lt;0.10 (EdgeR). Gene ontology and pathway analysis (DAVID, IPA) of the differentially expressed gene list revealed enrichment of genes involved in growth, metabolism, neurogenesis, and epigenetics. Embryos of mothers exposed to predation risk had elevated expression of growth and metabolism genes and were also larger than control embryos, suggesting at least some of the genes differentially expressed in this study are involved in the transfer of maternal experience to offspring. Conclusions: Our results suggest that early stickleback embryos respond to maternal exposure to predation risk via changes in gene expression, and a general acceleration of the developmental program. Further study is needed to elucidate the myriad molecular interactions between genes that are differentially-regulated as a result of maternal exposure to predation risk and to understand their relationships to previously-observed maternal effects in this system. Overall design: Whole embryo mRNA profiles of 3dpf stickleback embryos of mothers exposed to simulated predation risk [E] and control mothers [C] were generated by barcoded, multiplexed high-throughput RNA-sequencing on Illumina Hiseq-2000.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>69293</TAXON_ID>
+               <SCIENTIFIC_NAME>Gasterosteus aculeatus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA11772"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>24887438</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS581657-SRS581672</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX500473-SRX500488</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1204160-SRR1204175</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA242609&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA242609&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>242609</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-06-09</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA252659" alias="PRJNA252659" center_name="Cai's Lab, Veterinary Integrative Biosciences, Texas A&amp;M University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA252659</PRIMARY_ID>
+          <SECONDARY_ID>SRP043184</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE58447</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Cai's Lab, Veterinary Integrative Biosciences, Texas A&amp;M University">PRJNA252659</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Gasterosteus aculeatus</NAME>
+     <TITLE>Transcriptome analysis of threespine sticklebacks acclimated in different salinities</TITLE>
+     <DESCRIPTION>RNA sequencing was used to measure global gene expression in wild caught threespine sticklebacks. Native freshwater and marine fish were acclimated in water of different salinities before the gene expression in kidney was measured. The comparative transcriptomic analysis allowed the identification of salt-responsive genes. Overall design: We acclimated native freshwater (FW) and saltwater (SW) threespine sticklebacks to fresh (salinity: 0 g/L), brackish (salinity: 11 g/L), and sea water (salinity: 33 g/L) for 30 days, and then measured the global gene expression in fish kidneys.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>69293</TAXON_ID>
+               <SCIENTIFIC_NAME>Gasterosteus aculeatus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA11772"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>25309574</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS636369-SRS636380</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX595650-SRX595661</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1390629-SRR1390640</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA252659&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA252659&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>252659</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2015-01-01</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA253091" alias="PRJNA253091" center_name="GEOMAR - Helmholtz Centre for Ocean Research Kiel">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA253091</PRIMARY_ID>
+          <SECONDARY_ID>SRP043414</SECONDARY_ID>
+          <SUBMITTER_ID namespace="GEOMAR - Helmholtz Centre for Ocean Research Kiel">PRJNA253091</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Gasterosteus aculeatus</NAME>
+     <TITLE>Gene expression responses of Gasterosteus aculeatus to trematode infections</TITLE>
+     <DESCRIPTION>Effect of parasitic trematode genotype on host gene expression patterns of innate immunity in three-spines sticklebacks.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>69293</TAXON_ID>
+               <SCIENTIFIC_NAME>Gasterosteus aculeatus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA11772"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS642193,SRS644373,SRS644778,SRS644780-SRS644784</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX611218,SRX616792,SRX620213,SRX620215-SRX620216,SRX620218-SRX620220</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1425832-SRR1425834,SRR1441420,SRR1441700,SRR1441825,SRR1448249-SRR1448254,SRR1448256,SRR1448260,SRR1448262,SRR1448289-SRR1448296,SRR1448298-SRR1448301,SRR1448311-SRR1448312</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA253091&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA253091&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>253091</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-10-01</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA276419" alias="PRJNA276419" center_name="GEOMAR - Helmholtz Centre for Ocean Research Kiel">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA276419</PRIMARY_ID>
+          <SECONDARY_ID>SRP055496</SECONDARY_ID>
+          <SUBMITTER_ID namespace="GEOMAR - Helmholtz Centre for Ocean Research Kiel">PRJNA276419</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Gasterosteus aculeatus</NAME>
+     <TITLE>Gene expression responses of Gasterosteus aculeatus to repeated trematode infections</TITLE>
+     <DESCRIPTION>Effect of parasitic trematode genotype on host gene expression patterns of adaptive immunity in three-spined sticklebacks.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>69293</TAXON_ID>
+               <SCIENTIFIC_NAME>Gasterosteus aculeatus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA11772"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS857118,SRS857130,SRS857148-SRS857153,SRS857212-SRS857218,SRS857220</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX890305,SRX890318-SRX890319,SRX890338,SRX890340-SRX890343,SRX890402-SRX890407,SRX890409-SRX890410</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1822342-SRR1822354,SRR1822356-SRR1822358,SRR1822360-SRR1822366,SRR1822368-SRR1822369,SRR1825712,SRR1825714-SRR1825724,SRR1825751-SRR1825752,SRR1825755-SRR1825759,SRR1825761,SRR1825765-SRR1825776</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA276419&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA276419&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>276419</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-10-10</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA277770" alias="PRJNA277770" center_name="Fred Hutchinson Cancer Research Center">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA277770</PRIMARY_ID>
+          <SECONDARY_ID>SRP056042</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Fred Hutchinson Cancer Research Center">PRJNA277770</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Gasterosteus aculeatus</NAME>
+     <TITLE>Sex chromosome evolution in the threespine stickleback</TITLE>
+     <DESCRIPTION>Whole-genome sequencing of marine threespine sticklebacks to study X and Y chromosome evolution.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>69293</TAXON_ID>
+               <SCIENTIFIC_NAME>Gasterosteus aculeatus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA11772"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS870805,SRS874899,SRS874965,SRS875000,SRS875239,SRS875275,SRS875277,SRS875282,SRS878096,SRS880453,SRS880465,SRS880720,SRS892688,SRS892880</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX950493,SRX957572,SRX957640,SRX957675,SRX957890,SRX957950,SRX957952,SRX957958,SRX961281,SRX965031,SRX965069,SRX966842,SRX977672,SRX977674</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1909085,SRR1916890,SRR1916956,SRR1916962,SRR1917208,SRR1917309,SRR1917311,SRR1917322,SRR1921012,SRR1925297,SRR1925331,SRR1927286,SRR1951605,SRR1951619</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA277770&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA277770&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>277770</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2015-04-30</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA280547" alias="PRJNA280547" center_name="Fred Hutchinson Cancer Research Center">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA280547</PRIMARY_ID>
+          <SECONDARY_ID>SRP056943</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Fred Hutchinson Cancer Research Center">PRJNA280547</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Gasterosteus aculeatus</NAME>
+     <TITLE>Effect of social environment on brain gene expression in sticklebacks</TITLE>
+     <DESCRIPTION>&lt;p/></DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>69293</TAXON_ID>
+               <SCIENTIFIC_NAME>Gasterosteus aculeatus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA11772"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS896957-SRS896959,SRS897228,SRS897244,SRS897247</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX982214-SRX982222,SRX982554-SRX982557,SRX982570-SRX982572,SRX982576,SRX982578-SRX982580,SRX982593-SRX982596</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1964929,SRR1964931,SRR1964933,SRR1964935,SRR1964937,SRR1964939,SRR1964941,SRR1964943,SRR1964945,SRR1964947,SRR1964949,SRR1964951,SRR1964953,SRR1964955,SRR1964957,SRR1964959,SRR1964961,SRR1964963,SRR1964965,SRR1964967,SRR1964969,SRR1964971,SRR1964973,SRR1964975</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA280547&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA280547&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>280547</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2015-07-01</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA291741" alias="PRJNA291741" center_name="Alison Bell Lab, Animal Biology, University of Illinois at Urbana Champaign">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA291741</PRIMARY_ID>
+          <SECONDARY_ID>SRP061933</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE71649</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Alison Bell Lab, Animal Biology, University of Illinois at Urbana Champaign">PRJNA291741</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Gasterosteus aculeatus</NAME>
+     <TITLE>Stickleback embryos use ABC transporters as a buffer against exposure to maternally derived cortisol</TITLE>
+     <DESCRIPTION>Purpose: Offspring from females that experience stressful conditions during reproduction often exhibit altered phenotypes and many of these effects are thought to arise due to increased exposure to maternal glucocorticoids. Here we used RNAseq to test whether the embryonic transcriptional response to increased levels of cortisol was similar to the transcriptional response to maternal stress in sticklebacks Methods: Eggs were treated by immersing eggs for 30 mins in water that contained 0, 5, or 10 ug/L, which represented baseline, predator induced, and super physiological levels of maternally derived cortisol. To isolated enough RNA for RNAseq, 10 embyros from each clutch/treatment were pooled prior to RNA extraction for a total of 18 pools (6 clutches x 3 treatments). Results: Analysis of genome-wide transcriptional profiles suggests that 17251 (genes which survived a cut-off of having cpm more than 1 in at least two samples; and had a significant likelihood ratio calculated in edgeR) genes out of the possible 22,456 genes in the stickleback genome were expressed in 72-hour embryos. However, we did not detect any differences in gene expression between embryos that were treated with cortisol compared to the control group. Overall design: mRNA profiles of egg clutches treated with 0, 5, or 10 ug/L are compared, which represented baseline, predator induced, and super physiological levels of maternally derived cortisol.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>69293</TAXON_ID>
+               <SCIENTIFIC_NAME>Gasterosteus aculeatus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA11772"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>26984623</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1021768-SRS1021775,SRS1021777-SRS1021786</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1130225-SRX1130242</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR2141385-SRR2141402</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA291741&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA291741&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>291741</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2015-08-18</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA308353" alias="PRJNA308353" center_name="Geomar">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA308353</PRIMARY_ID>
+          <SECONDARY_ID>SRP068257</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Geomar">PRJNA308353</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Gasterosteus aculeatus</NAME>
+     <TITLE>Gasterosteus aculeatus Raw sequence reads</TITLE>
+     <DESCRIPTION>Gasterosteus aculeatus, infected with Schistocephalus solidus</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>69293</TAXON_ID>
+               <SCIENTIFIC_NAME>Gasterosteus aculeatus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA11772"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1235662,SRS1235664,SRS1238055-SRS1238057,SRS1238069-SRS1238070,SRS1238129,SRS1238383,SRS1238708-SRS1238714,SRS1238716,SRS1238718-SRS1238727,SRS1238794,SRS1238863-SRS1238865</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1517032,SRX1517035,SRX1519687-SRX1519688,SRX1519690,SRX1519703,SRX1519713,SRX1519763,SRX1520341-SRX1520344,SRX1520346-SRX1520349,SRX1520351,SRX1520353-SRX1520355,SRX1520357-SRX1520358,SRX1520360-SRX1520361,SRX1520363-SRX1520365,SRX1520439,SRX1520502,SRX1520504-SRX1520505</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR3085374,SRR3085377,SRR3087948-SRR3087949,SRR3087952,SRR3087955,SRR3088011,SRR3088019,SRR3088607,SRR3088610,SRR3088625,SRR3088627-SRR3088629,SRR3088631,SRR3088635,SRR3088637,SRR3088644,SRR3088649,SRR3088654-SRR3088655,SRR3088657,SRR3088661,SRR3088668,SRR3088677-SRR3088678,SRR3088704,SRR3088794,SRR3088824-SRR3088825,SRR3088828</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA308353&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA308353&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>308353</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-04-19</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA341528" alias="PRJNA341528" center_name="University of British Columbia">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA341528</PRIMARY_ID>
+          <SECONDARY_ID>SRP084036</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of British Columbia">PRJNA341528</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <TITLE>Threespine stickleback maternal stress brain transcriptome</TITLE>
+     <DESCRIPTION>The goal of this project was to characterize whole brain gene expression patterns in male and female threespine stickleback offspring from stressed and unstressed mothers.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1664740-SRS1664751</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2097272-SRX2097283</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR4116633-SRR4116644</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA341528&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA341528&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>341528</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-09-03</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA371616" alias="PRJNA371616" center_name="University of British Columbia">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA371616</PRIMARY_ID>
+          <SECONDARY_ID>SRP099061</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of British Columbia">PRJNA371616</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Gasterosteus aculeatus</NAME>
+     <TITLE>Gasterosteus aculeatus Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>This study assessed phenotypic plasticity of gene expression as a result of salinity acclimation in two ecotypes of stickleback (Gasterosteus aculeatus). The overall goal of the study was to examine the extent to which changes in plasticity of gene expression are part of the evolution of freshwater residency.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>69293</TAXON_ID>
+               <SCIENTIFIC_NAME>Gasterosteus aculeatus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA11772"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1963871-SRS1963890</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2544966-SRX2544985</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5237996-SRR5238015</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA371616&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA371616&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>371616</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-04-19</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA374873" alias="PRJNA374873" center_name="John Rawls, Duke University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA374873</PRIMARY_ID>
+          <SECONDARY_ID>SRP099849</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE94934</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="John Rawls, Duke University">PRJNA374873</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Gasterosteus aculeatus</NAME>
+     <TITLE>Genomic dissection of conserved transcriptional regulation in intestinal epithelial cells [Stickleback]</TITLE>
+     <DESCRIPTION>We profiled genome-wide accesssible chromatin data and RNA-seq from four species (zebrafish, stickleback, mouse, and human) to identify commonly regulated genes and regulatory metods in intestinal epithelial cells (IECs). We identify a group genes that are commonly expressed in IECs and genes that are commonly expressed along the length of the intestine in fish and mammals. Using accessible chromatin data we identified enriched transcription factor binding site motifs In IECs and sites that are commonly accessible in IECs in all species. Finally, we confirm the ability for these regions from multiple species to drive conserved expression in IECs using a zebrafish reporter assay. Overall design: Examination of expression levels and chromatin accessibility in intestinal epithelaial cells in stickleback</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>69293</TAXON_ID>
+               <SCIENTIFIC_NAME>Gasterosteus aculeatus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA11772"/>
+          </RELATED_PROJECT>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA374867"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>28850571</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1981202-SRS1981205</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2564542-SRX2564545</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5259811-SRR5259814</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA374873&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA374873&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>374873</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-05-04</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-09-17</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA379326" alias="PRJNA379326" center_name="Alison Bell Lab, Animal Biology, University of Illinois at Urbana Champaign">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA379326</PRIMARY_ID>
+          <SECONDARY_ID>SRP101968</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE96673</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Alison Bell Lab, Animal Biology, University of Illinois at Urbana Champaign">PRJNA379326</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Gasterosteus aculeatus</NAME>
+     <TITLE>Temporal Dynamics of Neurogenomic Plasticity in Response to Social Interactions in Male Threespined Sticklebacks [RNA-Seq]</TITLE>
+     <DESCRIPTION>Animals exhibit dramatic immediate behavioral plasticity in response to social interactions, and brief social interactions can shape the future social landscape. However, the molecular mechanisms contributing to behavioral plasticity are unclear. Here, we show that the genome dynamically responds to social interactions with multiple waves of transcription associated with distinct molecular functions in the brain of male threespined sticklebacks, a species famous for its behavioral repertoire and evolution. Some biological functions (e.g., hormone activity) peaked soon after a brief territorial challenge and then declined, while others (e.g., immune response) peaked hours afterwards. We identify transcription factors that are predicted to coordinate waves of transcription associated with different components of behavioral plasticity. Next, using H3K27Ac as a marker of chromatin accessibility, we show that a brief territorial intrusion was sufficient to cause rapid and dramatic changes in the epigenome. Finally, we integrate the time course brain gene expression data with a transcriptional regulatory network, and link gene expression to changes in chromatin accessibility. This study reveals rapid and dramatic epigenomic plasticity in response to a brief, highly consequential social interaction. Overall design: Adult males were collected from Putah Creek, a freshwater population, in spring 2013 and maintained in the lab on a 16:8 (L:D) photoperiod and at 18° C in separate 9-liter tanks. Males were provided with nesting material including algae, sand and gravel and were visually isolated from neighbors. All males were in the ‘territorial’ phase of the nesting cycle, i.e. defending a territory. Males were randomly assigned to either the experimental or control group. Males in the experimental group were presented with a smaller, unrelated male intruder confined to a flask. Males in the control groups were presented with an empty flask. At the same time as a confined intruder was introduced to an experimental male’s tank, an empty flask was introduced into a paired control male’s tank. After 5 min the flask was removed, and after a predetermined period (see below) males were quickly netted and sacrificed by decapitation within seconds following an IACUC approved protocol (#15077) of the University of Illinois at Urbana-Champaign. For RNA Sequencing diencephalon and telencephalon tissue samples were collected 30, 60 or 120 minutes after the flask was introduced, with n=10 males per time point (5 experimental and 5 control).</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>69293</TAXON_ID>
+               <SCIENTIFIC_NAME>Gasterosteus aculeatus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA11772"/>
+          </RELATED_PROJECT>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA381591"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2050469-SRS2050528</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2643155-SRX2643214</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5346521-SRR5346580</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA379326&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA379326&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>379326</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-06-04</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA381862" alias="PRJNA381862" center_name="Universidad de Vigo">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA381862</PRIMARY_ID>
+          <SECONDARY_ID>SRP103174</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Universidad de Vigo">PRJNA381862</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <TITLE>Transcriptional mechanisms underlying life-history responses to climate change in the three-spined stickleback</TITLE>
+     <DESCRIPTION>Phenotypic plasticity, the ability of an organism to express different phenotypes depending on the environment, provides an important mechanism by which an animal population can persist under rapid climate change. We experimentally tested both life-history and transcriptional responses of an ecological model species, the three-spined stickleback, to warm acclimation at the southern edge of its European range. We explored cross-environment genetic correlations of key life-history traits in male sticklebacks exposed to long-term temperature changes by using a character-state approach to examine whether the plasticity pattern was variable among genotypes. We also studied gene expression plasticity by analysing both whole-transcriptome and candidate gene expression in brain and liver. Male sticklebacks that developed under warmer conditions during winter were smaller in size and invested less in nuptial coloration at the beginning of the breeding season, showing similar responses across different genotypes. The lack of genetic variation in life-history responses may limit any future evolution of the thermal reaction norm in the study population. After long-term exposure to increased winter temperatures, genes responsible for several metabolic and oxidation-reduction processes were upregulated, and some hormone genes involved in growth and reproduction were downregulated in the brain. In the liver, there was no significantly represented gene ontology by the differentially expressed genes. Since a higher temperature leads to a higher resting metabolic rate, living in warmer environments may incur higher energetic costs for ectotherms to maintain cellular homoeostasis, resulting in negative consequences for life-history traits. The expression of genes related to metabolism, cellular homoeostasis and regulatory signalling may underlie temperature-induced changes in life-history.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2103756-SRS2103767</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2712194-SRX2712205</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5420689-SRR5420700</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA381862&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA381862&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>381862</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-04-19</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA438373" alias="PRJNA438373" center_name="University of British Columbia">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA438373</PRIMARY_ID>
+          <SECONDARY_ID>SRP135801</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of British Columbia">PRJNA438373</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Gasterosteus aculeatus</NAME>
+     <TITLE>Effects of temperature on Gasterosteus aculeatus transcriptome</TITLE>
+     <DESCRIPTION>The goal of this sequencing project was to characterize the persistent effects of developmental temperature (temperature before hatch) on gene expression patterns in adult threespine stickleback muscle tissue and to compare these gene expression patterns to gene expression patterns in muscle tissue from adult stickleback that have been acclimated to different temperatures.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>69293</TAXON_ID>
+               <SCIENTIFIC_NAME>Gasterosteus aculeatus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA11772"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS3050915-SRS3050944</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3798756-SRX3798785</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR6843319-SRR6843348</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA438373&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA438373&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>438373</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-03-16</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-03-16</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA451035" alias="PRJNA451035" center_name="UC-Berkeley">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA451035</PRIMARY_ID>
+          <SECONDARY_ID>SRP141523</SECONDARY_ID>
+          <SUBMITTER_ID namespace="UC-Berkeley">PRJNA451035</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Gasterosteus aculeatus</NAME>
+     <TITLE>Threespine stickleback genomes and Bmp6 mutant gene expression analysis</TITLE>
+     <DESCRIPTION>Genome sequences of parents of F2 QTL mapping crosses, to identify mutations specifically associated with a tooth gain QTL in Paxton Lake. Additionally, we sequenced RNA from tooth fields of Bmp6 wild-type and mutant fish, and searched for downstream effects of Bmp6 mutations.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>69293</TAXON_ID>
+               <SCIENTIFIC_NAME>Gasterosteus aculeatus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA11772"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS3206849-SRS3206863</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3982021-SRX3982035</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR7050984-SRR7050998</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA451035&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA451035&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>451035</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-04-21</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-04-21</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA451197" alias="PRJNA451197" center_name="UC-Berkeley">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA451197</PRIMARY_ID>
+          <SECONDARY_ID>SRP142616</SECONDARY_ID>
+          <SUBMITTER_ID namespace="UC-Berkeley">PRJNA451197</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Gasterosteus aculeatus</NAME>
+     <TITLE>Convergent evolution of gene expression in two high-toothed stickleback populations</TITLE>
+     <DESCRIPTION>Changes in developmental gene regulatory networks enable evolved changes in morphology. These changes can be in cis regulatory elements that act in an allele-specific manner, or changes to the overall trans regulatory environment that interacts with cis regulatory sequences. Here we address several questions about the evolution of gene expression accompanying a convergently evolved constructive morphological trait, increases in tooth number in two independently derived freshwater populations of threespine stickleback fish (Gasterosteus aculeatus). Are convergently evolved cis and/or trans changes in gene expression associated with convergently evolved morphological evolution? Do cis or trans regulatory changes contribute more to the evolutionary gain of a morphological trait? Transcriptome data from dental tissue of ancestral low-toothed and two derived high-toothed stickleback populations reveal significantly shared gene expression changes that have convergently evolved in the two independently derived founded high-toothed populations. Comparing cis and trans regulatory changes using phased gene expression data from F1 hybrids, we find that trans regulatory changes are predominant and are more likely to be shared among both high-toothed populations. In contrast, while cis regulatory changes have evolved in both high-toothed populations, overall these changes are distinct and not shared among high-toothed populations. These data indicate that a convergently evolved trait can occur through genetically distinct regulatory changes that converge on similar trans regulatory environments.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>69293</TAXON_ID>
+               <SCIENTIFIC_NAME>Gasterosteus aculeatus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA11772"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS3218519-SRS3218542,SRS3218544</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3994357-SRX3994381</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR7063469-SRR7063493</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA451197&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA451197&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>451197</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-04-22</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-04-22</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA451360" alias="PRJNA451360" center_name="UC-Berkeley">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA451360</PRIMARY_ID>
+          <SECONDARY_ID>SRP142636</SECONDARY_ID>
+          <SUBMITTER_ID namespace="UC-Berkeley">PRJNA451360</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Gasterosteus aculeatus</NAME>
+     <TITLE>Modular and convergent evolution of a gain in stickleback tooth number through cis-regulatory alleles</TITLE>
+     <DESCRIPTION>Modular and convergent evolution of a gain in stickleback tooth number through cis-regulatory alleles</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>69293</TAXON_ID>
+               <SCIENTIFIC_NAME>Gasterosteus aculeatus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA11772"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS3219885-SRS3219911</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3995724-SRX3995750</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR7064915-SRR7064941</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA451360&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA451360&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>451360</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-05-03</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-05-03</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA451491" alias="PRJNA451491" center_name="Alison Bell Lab, Animal Biology, University of Illinois at Urbana Champaign">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA451491</PRIMARY_ID>
+          <SECONDARY_ID>SRP142332</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE113548</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Alison Bell Lab, Animal Biology, University of Illinois at Urbana Champaign">PRJNA451491</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Personal and transgenerational cues are nonadditive at the phenotypic and molecular level</NAME>
+     <TITLE>Personal and transgenerational cues are nonadditive at the phenotypic and molecular level</TITLE>
+     <DESCRIPTION>Organisms can gain information about their environment from their ancestors, their parents, or their own personal experience. “Cue integration” models often start with the simplifying assumption that information from different sources is additive. Here, we test key assumptions and predictions of cue integration theory at both the phenotypic and molecular level in threespined sticklebacks (Gasterosteus aculeatus). We show that regardless of whether cues about predation risk were provided by their father or acquired through personal experience, sticklebacks produced the same set of predator-adapted phenotypes. Moreover, there were nonadditive effects of personal and paternal experience: animals that received cues from both sources resembled animals that received cues from a single source. A similar pattern was detected at the molecular level: there was a core set of genes that were differentially expressed in the brains of offspring regardless of whether risk was experienced by their father, themselves or both. These results provide strong support for cue integration theory because they show that cues provided by parents and personal experience are comparable at both the phenotypic and molecular level, and draw attention to the importance of nonadditive responses to multiple cues. Overall design: The effects of personal and paternal experience with risk on offspring phenotypes were compared in a 2x2 factorial design. Fathers either were (N = 5) or were not (N = 5) exposed to predation risk while they were caring for their offspring (paternal experience: unexposed versus exposed). Within each family, siblings either were or were not personally exposed to predation risk as juveniles (personal experience: unexposed versus exposed).</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>69293</TAXON_ID>
+               <SCIENTIFIC_NAME>Gasterosteus aculeatus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA11772"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>29988159</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS3213479-SRS3213480,SRS3213482-SRS3213508</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3988965-SRX3988993</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR7057950-SRR7057978</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA451491&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA451491&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>451491</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-06-15</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-09-16</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA453568" alias="PRJNA453568" center_name="UC-Berkeley">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA453568</PRIMARY_ID>
+          <SECONDARY_ID>SRP142642</SECONDARY_ID>
+          <SUBMITTER_ID namespace="UC-Berkeley">PRJNA453568</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Gasterosteus aculeatus</NAME>
+     <TITLE>Opposing roles for BMP signaling in tooth formation and replacement in sticklebacks</TITLE>
+     <DESCRIPTION>Opposing roles for BMP signaling in tooth formation and replacement in sticklebacks</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>69293</TAXON_ID>
+               <SCIENTIFIC_NAME>Gasterosteus aculeatus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA11772"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS3220377-SRS3220388</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3996216-SRX3996227</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR7065407-SRR7065418</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA453568&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA453568&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>453568</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-04-27</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-04-27</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA530695" alias="PRJNA530695" center_name="Friedrich Miescher Laboratory of the Max Planck Society">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA530695</PRIMARY_ID>
+          <SECONDARY_ID>SRP191488</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Friedrich Miescher Laboratory of the Max Planck Society">PRJNA530695</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Threespine stickleback fish, Gasterosteus aculeatus</NAME>
+     <TITLE>Predominance of cis-regulatory changes in parallel expression divergence of sticklebacks</TITLE>
+     <DESCRIPTION>Adaptive evolution of gene expression may proceed via mutations influencing cis-regulatory elements such as promoters or enhancers or trans-acting factors such as transcription factors. There are conflicting predictions for the relative roles of cis- and trans-regulation in the early stages adaptive divergence-with-gene-flow. Populations that have evolved in parallel provide a powerful opportunity to look for general patterns and rules governing the evolution of gene expression. Here we show that parallel expression divergence in threespine stickleback fish is primarily driven by differences in cis-acting (allele-specific) gene regulation such as mutations in enhancers and promoters. We show that cis-regulation is predominantly additive and stable across genetic backgrounds and different environmental conditions enabling cis-regulatory mutations to act as a motor for the evolution of traits in the early stages of divergence-with-gene-flow.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS4600170-SRS4600228</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX5655259-SRX5655317</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR8868196-SRR8868254</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA530695&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA530695&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>530695</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2019-05-16</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-05-16</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+</ROOT>

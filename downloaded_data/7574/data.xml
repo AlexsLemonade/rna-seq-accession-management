@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT request="tax_eq(7574) AND (instrument_model=&quot;HiSeq X Ten&quot; OR instrument_model=&quot;HiSeq X Five&quot; OR instrument_model=&quot;Illumina MiSeq&quot; OR instrument_model=&quot;Illumina NovaSeq 6000&quot; OR instrument_model=&quot;Illumina Genome Analyzer&quot; OR instrument_model=&quot;Illumina Genome Analyzer II&quot; OR instrument_model=&quot;Illumina Genome Analyzer IIx&quot; OR instrument_model=&quot;Illumina HiScanSQ&quot; OR instrument_model=&quot;Illumina HiSeq 1000&quot; OR instrument_model=&quot;Illumina HiSeq 1500&quot; OR instrument_model=&quot;Illumina HiSeq 2000&quot; OR instrument_model=&quot;Illumina HiSeq 2500&quot; OR instrument_model=&quot;Illumina HiSeq 3000&quot; OR instrument_model=&quot;Illumina HiSeq 4000&quot; OR instrument_model=&quot;NextSeq 500&quot; OR instrument_model=&quot;NextSeq 550&quot; OR instrument_model=&quot;Ion Torrent Proton&quot; OR instrument_model=&quot;Ion Torrent S5&quot; OR instrument_model=&quot;Ion Torrent S5 XL&quot;)AND library_strategy=&quot;RNA-Seq&quot; AND library_source=&quot;TRANSCRIPTOMIC&quot;">
+<PROJECT accession="PRJNA286275" alias="PRJNA286275" center_name="Okinawa Institute of Science and Technology Graduate University (OIST)">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA286275</PRIMARY_ID>
+          <SECONDARY_ID>SRP059398</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Okinawa Institute of Science and Technology Graduate University (OIST)">PRJNA286275</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Lingula anatina</NAME>
+     <TITLE>Lingula anatina Genome sequencing and assembly</TITLE>
+     <DESCRIPTION>The genome project of the brachiopod Lingula anatina</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>AFL23</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>AFL24</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>AFL25</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>AFL26</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>AFL27</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>AFL28</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>AFL29</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>AFL30</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>AFL31</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>AFL32</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>AFL33</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>AFL34</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>AFL35</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>AFL36</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>AFL37</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>AFL38</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>AFL39</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>AOT80</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+          <ORGANISM>
+               <TAXON_ID>7574</TAXON_ID>
+               <SCIENTIFIC_NAME>Lingula anatina</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA293576"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>9023104</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS959418,SRS1014569-SRS1014575,SRS1014577-SRS1014578,SRS1014580-SRS1014584,SRS1014586,SRS1014588-SRS1014589</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1118886,SRX1118889-SRX1118890,SRX1118958,SRX1118960,SRX1119733,SRX1121852,SRX1121854,SRX1121856,SRX1121860,SRX1121862-SRX1121865,SRX1121867-SRX1121868,SRX1121870,SRX1121872-SRX1121877</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR2131209-SRR2131210,SRR2131217,SRR2131219,SRR2131221-SRR2131222,SRR2131224,SRR2131226-SRR2131227,SRR2131229-SRR2131230,SRR2131232-SRR2131246,SRR2131248</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA286275&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA286275&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>286275</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2015-06-11</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+</ROOT>

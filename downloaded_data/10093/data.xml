@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT request="tax_eq(10093) AND (instrument_model=&quot;HiSeq X Ten&quot; OR instrument_model=&quot;HiSeq X Five&quot; OR instrument_model=&quot;Illumina MiSeq&quot; OR instrument_model=&quot;Illumina NovaSeq 6000&quot; OR instrument_model=&quot;Illumina Genome Analyzer&quot; OR instrument_model=&quot;Illumina Genome Analyzer II&quot; OR instrument_model=&quot;Illumina Genome Analyzer IIx&quot; OR instrument_model=&quot;Illumina HiScanSQ&quot; OR instrument_model=&quot;Illumina HiSeq 1000&quot; OR instrument_model=&quot;Illumina HiSeq 1500&quot; OR instrument_model=&quot;Illumina HiSeq 2000&quot; OR instrument_model=&quot;Illumina HiSeq 2500&quot; OR instrument_model=&quot;Illumina HiSeq 3000&quot; OR instrument_model=&quot;Illumina HiSeq 4000&quot; OR instrument_model=&quot;NextSeq 500&quot; OR instrument_model=&quot;NextSeq 550&quot; OR instrument_model=&quot;Ion Torrent Proton&quot; OR instrument_model=&quot;Ion Torrent S5&quot; OR instrument_model=&quot;Ion Torrent S5 XL&quot;)AND library_strategy=&quot;RNA-Seq&quot; AND library_source=&quot;TRANSCRIPTOMIC&quot;">
+<PROJECT accession="PRJEB20980" alias="E-MTAB-5768" broker_name="ArrayExpress" center_name="Flicek group European Bioinformatics Institute (EMBL-EBI)">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJEB20980</PRIMARY_ID>
+          <SECONDARY_ID>ERP023198</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Flicek group European Bioinformatics Institute (EMBL-EBI)">E-MTAB-5768</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>RNA-seq analysis of Mus caroli and Mus pahari</NAME>
+     <TITLE>RNA-seq analysis of Mus caroli and Mus pahari</TITLE>
+     <DESCRIPTION>We performed RNA-seq experiments Mus caroli and Mus pahari to aid in annotating their genomes. RNA was extracted from multiple tissues: brain, liver, heart and kidney.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <URL_LINK>
+                    <URL>http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-5768</URL>
+                    <LABEL>E-MTAB-5768 in ArrayExpress</LABEL>
+               </URL_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA935643</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS1755467-ERS1755478</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX2049928-ERX2049939</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR1990031-ERR1990042</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB20980&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB20980&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-03-06</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2017-05-23</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJEB672" alias="Slc25a21_expression_profile-sc-2012-11-26T13:58:02Z-2442" center_name="Wellcome Sanger Institute">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJEB672</PRIMARY_ID>
+          <SECONDARY_ID>ERP001989</SECONDARY_ID>
+          <SUBMITTER_ID namespace="SC">Slc25a21_expression_profile-sc-2012-11-26T13:58:02Z-2442</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Slc25a21_expression_profile</NAME>
+     <TITLE>Slc25a21_expression_profile</TITLE>
+     <DESCRIPTION>omozygosity for Slc25a21&lt;tm1a(KOMP)Wtsi> results in mice exhibiting orofacial abnormalities, alterations in carpal and rugae structures, and hearing impairment and inflammation in the middle ear. However, further analysis revealed that ablation of Slc25a21 was not causing these phenotypes and in fact the phenotypes appear to be caused by off target effects of components the targeting construct.  We have shown with RT-PCR that one of the neighbouring genes, Pax9, is down regulated in mice homozygous for Slc25a21&lt;tm1a(KOMP)Wtsi> .  To increase the impact of the study and ensure the manuscript is more widely cited, we would like to explore other genes in the vicinity to see if their expression levels are also affected.  RNAseq is the perfect vehicle for this analysis.  We have RNA colelcted from at least 3 homozygous embryos for each of the alleles in the allelic series (tm1a, tm1b, tm1c adn tm1d).  We will also process 8 wildtype samples (two from each allele type).  All these samples have been collected at E13.5 as Pax9 is known to be expressed at this time point.  We want to compare the expression levels of genes for each of these alleles to that of WT expression levels to further dissect the consequences of the tm1a allele.
+
+This data is part of a pre-publication release. For information on the proper use of pre-publication data shared by the Wellcome Trust Sanger Institute (including details of any publication moratoria), please see http://www.sanger.ac.uk/datasharing/</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA176518</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS195476-ERS195496</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX238674-ERX238757</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR264156-ERR264239</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB672&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB672&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-04-22</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2016-05-20</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+</ROOT>

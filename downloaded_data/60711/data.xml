@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT request="tax_eq(60711) AND (instrument_model=&quot;HiSeq X Ten&quot; OR instrument_model=&quot;HiSeq X Five&quot; OR instrument_model=&quot;Illumina MiSeq&quot; OR instrument_model=&quot;Illumina NovaSeq 6000&quot; OR instrument_model=&quot;Illumina Genome Analyzer&quot; OR instrument_model=&quot;Illumina Genome Analyzer II&quot; OR instrument_model=&quot;Illumina Genome Analyzer IIx&quot; OR instrument_model=&quot;Illumina HiScanSQ&quot; OR instrument_model=&quot;Illumina HiSeq 1000&quot; OR instrument_model=&quot;Illumina HiSeq 1500&quot; OR instrument_model=&quot;Illumina HiSeq 2000&quot; OR instrument_model=&quot;Illumina HiSeq 2500&quot; OR instrument_model=&quot;Illumina HiSeq 3000&quot; OR instrument_model=&quot;Illumina HiSeq 4000&quot; OR instrument_model=&quot;NextSeq 500&quot; OR instrument_model=&quot;NextSeq 550&quot; OR instrument_model=&quot;Ion Torrent Proton&quot; OR instrument_model=&quot;Ion Torrent S5&quot; OR instrument_model=&quot;Ion Torrent S5 XL&quot;)AND library_strategy=&quot;RNA-Seq&quot; AND library_source=&quot;TRANSCRIPTOMIC&quot;">
+<PROJECT accession="PRJDB2865" alias="PRJDB2865" center_name="National Institute of Genetics">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJDB2865</PRIMARY_ID>
+          <SECONDARY_ID>DRP002352</SECONDARY_ID>
+          <SUBMITTER_ID namespace="National Institute of Genetics">PRJDB2865</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Chlorocebus sabaeus strain:JCRB0111</NAME>
+     <TITLE>Vero Genome Project</TITLE>
+     <DESCRIPTION>Continuous cell lines originated from mammalian tissues serve as not only invaluable tools for life sciences but also important animal cell substrates for the production of various types of biological pharmaceuticals. One lineage of most frequently utilized mammalian cell lines for these purposes is Vero cell lineage. The Vero cell lineage was established from the kidney tissue of an African green monkey. We here show the genome landscape of a Vero cell line, in which 25,877 putative protein-coding genes were identified in the 2.97-Gb genome. Moreover, Vero-associated simian type D retrovirus sequences were characterized. These resources revealing genomic characteristics of Vero cells will be useful to generate new sub-lines and also to develop new tools for quality control of the vaccine cell substrate.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>C0Q82</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>C0Q83</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>TT96</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+          <ORGANISM>
+               <TAXON_ID>60711</TAXON_ID>
+               <SCIENTIFIC_NAME>Chlorocebus sabaeus</SCIENTIFIC_NAME>
+               <STRAIN>JCRB0111</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA108707"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>25267831</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>29330501</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>DRS016456,DRS056951-DRS056952</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>DRX017017-DRX017024,DRX086355-DRX086356,DRX090708-DRX090729</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>DRR018828-DRR018835,DRR092852-DRR092853,DRR097212-DRR097233</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJDB2865&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJDB2865&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>260258</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-09-06</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-09-04</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJEB13074" alias="E-MTAB-4550" broker_name="ArrayExpress" center_name="Cambridge Institute - Cancer Research UK and University of Cambridge">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJEB13074</PRIMARY_ID>
+          <SECONDARY_ID>ERP014610</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Cambridge Institute - Cancer Research UK and University of Cambridge">E-MTAB-4550</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>RNA-Seq analysis of gene expression divergence in mammalian liver</NAME>
+     <TITLE>RNA-Seq analysis of gene expression divergence in mammalian liver</TITLE>
+     <DESCRIPTION>The connection between evolution of regulatory elements and downstream gene expression is incompletely understood in mammals. We carried out a large-scale comparison of matched ChIP-seq and RNA-seq experiments across twenty species of mammals, using liver as a model somatic tissue. Herein we report the RNA-seq dataset, comprising twenty five species of mammals. When analysed alongside our previously reported ChIP-seq experiments, these data reveal a number of insights into how mammalian regulatory evolution propagates into differences in gene expression levels. Please note that all mouse RNA-seq libraries and three out of four human libraries have been previously reported in Array Express submission E-MTAB-4052 and are thus omitted here.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <URL_LINK>
+                    <URL>http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-4550</URL>
+                    <LABEL>E-MTAB-4550 in ArrayExpress</LABEL>
+               </URL_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA582952</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS1090459-ERS1090521</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX1403285-ERX1403347</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR1331665-ERR1331727</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB13074&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB13074&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-10-12</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2016-05-20</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJEB19102" alias="E-MTAB-5418" broker_name="ArrayExpress" center_name="University of Cambridge">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJEB19102</PRIMARY_ID>
+          <SECONDARY_ID>ERP021092</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of Cambridge">E-MTAB-5418</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Analysis of Zika Virus gene expression by Ribosome profiling and RNA sequencing</NAME>
+     <TITLE>Analysis of Zika Virus gene expression by Ribosome profiling and RNA sequencing</TITLE>
+     <DESCRIPTION>Ribosome profiling (Ribo-Seq) (maps positions of translating ribosomes on the transcriptome) and RNA-Seq (quantifies the transcriptome) analysis of African green monkey (Vero E6) cells and Aedes albopictus (C6/36) cells infected with Zika Virus (ZIKV) strain PE243. Cells were harvested at 24 h post infection (p.i.) and Ribo-Seq and RNA-Seq libraries were prepared and deep sequenced.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <URL_LINK>
+                    <URL>http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-5418</URL>
+                    <LABEL>E-MTAB-5418 in ArrayExpress</LABEL>
+               </URL_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA789926</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS1508486-ERS1508495</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX1865801-ERX1865810</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR1802070-ERR1802079</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB19102&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB19102&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-06-30</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2017-01-19</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA168527" alias="PRJNA168527" center_name="Washington University School of Medicine">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA168527</PRIMARY_ID>
+          <SECONDARY_ID>SRP014864</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Washington University School of Medicine">PRJNA168527</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Chlorocebus sabaeus</NAME>
+     <TITLE>Genome Sequencing of Chlorocebus aethiops sabaeus</TITLE>
+     <DESCRIPTION>This project will provide the genomic sequence of multiple Chlorocebus aethiops sabaeus individuals as part of the Vervet Subspecies Phylogeny project</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>60711</TAXON_ID>
+               <SCIENTIFIC_NAME>Chlorocebus sabaeus</SCIENTIFIC_NAME>
+               <STRAIN>sabaeus</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA108707"/>
+          </RELATED_PROJECT>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA176010"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS2108258-ERS2108260,ERS2108263-ERS2108270,SRS360936-SRS360942,SRS360944-SRS360955,SRS456262</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX183456-SRX183468,SRX183470-SRX183475,SRX319765,SRX3159441-SRX3159450,SRX3266835</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR556102,SRR556124,SRR556126,SRR556130,SRR556137,SRR556180-SRR556194,SRR931093-SRR931094,SRR6004166-SRR6004175,SRR6154998</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA168527&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA168527&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>168527</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-05-31</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA219197" alias="PRJNA219197" center_name="University of California, Los Angeles">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA219197</PRIMARY_ID>
+          <SECONDARY_ID>SRP033338</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of California, Los Angeles">PRJNA219197</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Chlorocebus sabaeus</NAME>
+     <TITLE>Transcriptomes of wild African green monkeys (Chlorocebus aethiops sabaeus and Chlorocebus aethiops pygerytherus) from Africa</TITLE>
+     <DESCRIPTION>This project is to characterize blood transcription of wild African green monkey (AGM) from Chlorocebus aethiops pygerythrus and Chlorocebus aethiops sabaeus subspecies from Africa. These populations are heavily infected with simian immunodeffciency virus (SIV), but despite the massive exposure to SIV a substantial fraction of exposed individuals remain uninfected representing, so called Exposed Seronegative/Uninfected (ESN/EU) cohorts. We aim to identify genomic factors underlying resistance to SIV infection in this species, and apply this knowledge to develop novel theraputical strategies against human immunodeficiency virus (HIV) and AIDS.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>60711</TAXON_ID>
+               <SCIENTIFIC_NAME>Chlorocebus sabaeus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA108703"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>23349627</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS513376-SRS513426</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX389631-SRX389681</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1046707-SRR1046757</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA219197&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA219197&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>219197</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-12-24</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA219198" alias="PRJNA219198" center_name="University of California Los Angeles">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA219198</PRIMARY_ID>
+          <SECONDARY_ID>SRP033127</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of California Los Angeles">PRJNA219198</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Chlorocebus sabaeus</NAME>
+     <TITLE>Transcriptomic resource of African green monkey (Chlorocebus aethiops sabaues)</TITLE>
+     <DESCRIPTION>Characterization of transcriptomic variation is emerging as a critical tool for understanding how quantitative trait loci (QTL) contribute to complex phenotypes. Human transcriptomic studies are limited by factors such as the feasibility of invasive tissue collection or variable environmental exposures that can be readily overcome in non-human primate (NHP) models. We characterized transcriptomic variation across multiple tissues and developmental stages and between individuals in 59 vervet monkeys from the Vervet Research Colony extended pedigree. We conducted RNA sequencing across early (7, 90 days, and one year) and later (1.25, 1.5, 1.75, 2, 2.5, 3, and 4+ years old) developmental time points in 6 individuals at each stage in five tissue types: two brain tissues from hippocampus and caudate, two endocrine tissues (pituitary and adrenal) and two peripheral tissues serving as a source of biomarkers (blood and fibroblasts)</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>60711</TAXON_ID>
+               <SCIENTIFIC_NAME>Chlorocebus sabaeus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA108707"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS503663-SRS503668,SRS503681-SRS503698,SRS561975-SRS561978,SRS562013-SRS562020,SRS562032-SRS562053,SRS562078-SRS562095,SRS562108-SRS562127,SRS562130-SRS562154,SRS562178,SRS562180-SRS562196,SRS563010,SRS563027-SRS563049,SRS563186-SRS563190,SRS734675-SRS734853,SRS1993733,SRS1993735-SRS1993793,SRS2495480-SRS2495539</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX379091-SRX379235,SRX477341,SRX477358-SRX477404,SRX477550-SRX477559,SRX481894,SRX748681-SRX748859,SRX2579258-SRX2579317,SRX3164758-SRX3164817</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1032342-SRR1032474,SRR1032482-SRR1032505,SRR1178254,SRR1178275-SRR1178321,SRR1178500-SRR1178509,SRR1184473,SRR1636327-SRR1636505,SRR5275322-SRR5275381,SRR6010870-SRR6010929</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA219198&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA219198&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>219198</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-02-11</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA219331" alias="PRJNA219331" center_name="University of California Los Angeles">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA219331</PRIMARY_ID>
+          <SECONDARY_ID>SRP034664</SECONDARY_ID>
+          <SUBMITTER_ID namespace="University of California Los Angeles">PRJNA219331</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Chlorocebus sabaeus</NAME>
+     <TITLE>African green monkey (Chlorocebus aethiops sabaeus) transcriptome characteristics</TITLE>
+     <DESCRIPTION>Our goal is to enhance gene model predictions and maximize exon discovery for annotation of the African green monkey (AGM) genome. We conducted transcriptome profiling in two pools of RNA from different AGM tissues: Pool I comprising of total RNA without small RNA fraction from 18 tissues (DLPFC, caudate, cerebellum, Kidney, Liver, Lungs, Ventricle, Adrenal Gland, Large Intestine, Small Intestine, Testis, Ovary, Fat Adipose, Muscle, Pituitary, Thyroid, Thymus and fibroblasts), and Pool II comprising of total RNA enriched in fraction of small RNAs from six tissues (Fat Adipose, Muscle, Pituitary, Thyroid, Thymus and fibroblasts). Three different kinds of cDNA libraries for RNA-seq were created from RNA Pool I: Poly-A selected, Total RNA and UDG Poly-A selected (Parkhmochuk et al. 2009). From Pool II - small RNA-seq library was generated.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>60711</TAXON_ID>
+               <SCIENTIFIC_NAME>Chlorocebus sabaeus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA108707"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS517966-SRS517969</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX396995-SRX397007</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1056194-SRR1056206</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA219331&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA219331&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>219331</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-02-04</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA278844" alias="PRJNA278844" center_name="Bioinformatics and Biomedical Computing Laboratory, Computer Engineering and Computer Science, University of Louisville">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA278844</PRIMARY_ID>
+          <SECONDARY_ID>SRP056324</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE67063</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Bioinformatics and Biomedical Computing Laboratory, Computer Engineering and Computer Science, University of Louisville">PRJNA278844</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Chlorocebus sabaeus</NAME>
+     <TITLE>Understanding the role of Shoc2 protein in spatio-temporal regulation of extracellular signal-regulated kinase (ERK1/2) cascade</TITLE>
+     <DESCRIPTION>This study was designed to understanding changes in RNA transcription in cells depleted of Shoc2 scaffold. Overall design: 2 samples were analyzed (3 replicates for each sample were included). Cos1 is a control sample.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>60711</TAXON_ID>
+               <SCIENTIFIC_NAME>Chlorocebus sabaeus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA108707"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>26876614</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>27077079</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS876743-SRS876748</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX959605-SRX959610</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR1919325-SRR1919330</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA278844&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA278844&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>278844</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-10-10</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA314354" alias="PRJNA314354" center_name="UCSD">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA314354</PRIMARY_ID>
+          <SECONDARY_ID>SRP071158</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE78921</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="UCSD">PRJNA314354</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Chlorocebus sabaeus</NAME>
+     <TITLE>Whole transcriptome profiles of different brain regions from a Chlorocebus sabaeus model of Parkinson's disease with and without human parthenogenetic stem cell derived neural stem cell transplantation.</TITLE>
+     <DESCRIPTION>RNAseq was performed on caudate, putamen, and substantia nigra samples from animals treated with MPTP to induce a Parkinson's-like condition, and then transplanted with hpNSCs or control buffer. The goal of the study was to determine if there were any difference in gene expression caused by the transplanted cells. Overall design: Animals were treated with MPTP to induce a Parkinson's-like condition, and received either hpNSC transplantation or injections of buffer. Biopsies of the caudate, putamen, and substantia nigra from each animal were analyzed by RNAseq.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>60711</TAXON_ID>
+               <SCIENTIFIC_NAME>Chlorocebus sabaeus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA108707"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>27213850</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1323480-SRS1323515</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1613610-SRX1613645</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR3204309-SRR3204344</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA314354&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA314354&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>314354</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-03-06</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-02-27</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA319418" alias="PRJNA319418" center_name="Kunming Institute of Zoology, Chinese Academy of Sciences">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA319418</PRIMARY_ID>
+          <SECONDARY_ID>SRP073757</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Kunming Institute of Zoology, Chinese Academy of Sciences">PRJNA319418</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Chlorocebus sabaeus</NAME>
+     <TITLE>Chlorocebus sabaeus Raw sequence reads</TITLE>
+     <DESCRIPTION>We compared morphological, physiological and transcriptomic features between cells cultured in the sericin-substituted medium and those in the conventional FBS-containing medium</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>60711</TAXON_ID>
+               <SCIENTIFIC_NAME>Chlorocebus sabaeus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA108707"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1409535-SRS1409536</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3315493,SRX3315496</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR6206205-SRR6206206</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA319418&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA319418&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>319418</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-04-25</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA437302" alias="PRJNA437302" center_name="Nanjing Agricultural University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA437302</PRIMARY_ID>
+          <SECONDARY_ID>SRP134105</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE111530</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Nanjing Agricultural University">PRJNA437302</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Transcriptome analysis of ΔLMP1-MAVS transfected MARC-145 cells</NAME>
+     <TITLE>Transcriptome analysis of ΔLMP1-MAVS transfected MARC-145 cells</TITLE>
+     <DESCRIPTION>We found that fuse ΔLMP1 to MAVS could strengthen MAVS mediated inhibition of PRRSV replication in MARC-145 cells. To better understand the biological function of the fusion protein ΔLMP1-MAVS, overall gene expression of MARC-145 cells transfected with ΔLMP1-MAVS or MAVS was evaluated by mRNA-seq. The result showed that ΔLMP1-MAVS upregulated a number of genes associated with innate immune responses to viral infection, including plenty of interferon-stimulated genes. This study provides reference date to research the working mechanism of ΔLMP1-MAVS. Overall design: MARC-145 cells were transfected with ΔLMP1-MAVS or MAVS plasmid or empty vector respectively, mRNA profiles of the transfected cells were generated by deep sequencing at 24, 36 and 48 hours post transfection(hpt).</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>60711</TAXON_ID>
+               <SCIENTIFIC_NAME>Chlorocebus sabaeus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA108707"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS3026336-SRS3026344</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3771889-SRX3771897</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR6814925-SRR6814933</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA437302&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA437302&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>437302</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2019-03-07</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-03-07</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA496616" alias="PRJNA496616" center_name="Institut Hospital del Mar d'Investigacions Mèdiques">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA496616</PRIMARY_ID>
+          <SECONDARY_ID>SRP165848</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE121304</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Institut Hospital del Mar d'Investigacions Mèdiques">PRJNA496616</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>The scaffolding role of RNA in ribonucleoprotein complexes: TRA2A recruitment in FXTAS disease</NAME>
+     <TITLE>The scaffolding role of RNA in ribonucleoprotein complexes: TRA2A recruitment in FXTAS disease</TITLE>
+     <DESCRIPTION>To address the functional implications at highthroughput level of TRA2A recruitment in FXTAS nuclear inclusions we performed Clariom D splicing arrays with the COS-7 cell models. We compared the profiles of the cells upon CGG overexpression, TRA2A overexpression and knockdown, with the respective controls. Overall design: 18 samples were analyzed: controls (n=3); cond1 (n=3); cond2 (n=3); cond3 (n=3); cond4 (n=3); cond5 (n=3)</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>60711</TAXON_ID>
+               <SCIENTIFIC_NAME>Chlorocebus sabaeus</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA108707"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS3938971-SRS3938988</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX4891876-SRX4891893</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR8062405-SRR8062422</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA496616&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA496616&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>496616</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2019-03-21</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-03-21</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+</ROOT>

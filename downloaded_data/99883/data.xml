@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT request="tax_eq(99883) AND (instrument_model=&quot;HiSeq X Ten&quot; OR instrument_model=&quot;HiSeq X Five&quot; OR instrument_model=&quot;Illumina MiSeq&quot; OR instrument_model=&quot;Illumina NovaSeq 6000&quot; OR instrument_model=&quot;Illumina Genome Analyzer&quot; OR instrument_model=&quot;Illumina Genome Analyzer II&quot; OR instrument_model=&quot;Illumina Genome Analyzer IIx&quot; OR instrument_model=&quot;Illumina HiScanSQ&quot; OR instrument_model=&quot;Illumina HiSeq 1000&quot; OR instrument_model=&quot;Illumina HiSeq 1500&quot; OR instrument_model=&quot;Illumina HiSeq 2000&quot; OR instrument_model=&quot;Illumina HiSeq 2500&quot; OR instrument_model=&quot;Illumina HiSeq 3000&quot; OR instrument_model=&quot;Illumina HiSeq 4000&quot; OR instrument_model=&quot;NextSeq 500&quot; OR instrument_model=&quot;NextSeq 550&quot; OR instrument_model=&quot;Ion Torrent Proton&quot; OR instrument_model=&quot;Ion Torrent S5&quot; OR instrument_model=&quot;Ion Torrent S5 XL&quot;)AND library_strategy=&quot;RNA-Seq&quot; AND library_source=&quot;TRANSCRIPTOMIC&quot;">
+<PROJECT accession="PRJEB10132" alias="E-MTAB-3804" broker_name="ArrayExpress" center_name="Stazione Zoologica Anton Dohrn Computational Genomics Biology and Evolution of Marine Organisms">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJEB10132</PRIMARY_ID>
+          <SECONDARY_ID>ERP011338</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Stazione Zoologica Anton Dohrn Computational Genomics Biology and Evolution of Marine Organisms">E-MTAB-3804</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>The Tetraodon Nigroviridis Transcriptome During Early Development.</NAME>
+     <TITLE>The Tetraodon Nigroviridis Transcriptome During Early Development.</TITLE>
+     <DESCRIPTION>Tetraodon embryos were obtained by in vitro fertilization of eggs and their development was observed through brightfield microscopy. The embryo development was divided into distinct stages using morphological features as described for normal development of other fish species like medaka (Oryzias latipes), zebrafish (Danio rerio), and fugu (Takifugu rubripes). Total RNA was extracted with Trizol (Invitrogen) according to the manufacturer s protocol from eggs, whole embryo at 30% epiboly (30 epi) and whole embryo at 24 hours post fertilisation (24 hpf). The RNA samples were treated with 2U Dnase I (Qiagen) per μg RNA sample at 37°C for 10 minutes. Digested samples were then treated with 20 mg/mL proteinase K (Sigma Aldrich) at 37°C for 45 minutes. The quality and quantity of total RNA were assessed with the Bioanalyzer 2100 (Agilent) and no sign of degradation was detected (RIN > 9.0). Sequencing libraries were generated from total RNA samples following the Truseq RNA protocol (Illumina). Single end reads (1 x 50 nucleotides) were obtained from 3 lanes on a Hiseq1000 using SBS v3 kits (Illumina).</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <URL_LINK>
+                    <URL>http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-3804</URL>
+                    <LABEL>E-MTAB-3804 in ArrayExpress</LABEL>
+               </URL_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA463009</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS805040-ERS805042</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX1054373-ERX1054375</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR977390-ERR977392</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB10132&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJEB10132&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-07-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2016-05-20</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA122153" alias="PRJNA122153" center_name="Daniel Zilberman, Plant and Microbial Biology, University of California at Berkeley">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA122153</PRIMARY_ID>
+          <SECONDARY_ID>SRP002417</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE19824</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Daniel Zilberman, Plant and Microbial Biology, University of California at Berkeley">PRJNA122153</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Genome-wide evolutionary analysis of eukaryotic DNA methylation</NAME>
+     <TITLE>Genome-wide evolutionary analysis of eukaryotic DNA methylation</TITLE>
+     <DESCRIPTION>Eukaryotic cytosine methylation represses transposable elements, but also occurs in bodies of active genes. The extent to which these processes are conserved is unclear, and little is known about methylation outside of mammals, Arabidopsis thaliana, and Neurospora crassa. Utilizing deep bisulfite sequencing, we have quantified DNA methylation in five plant, seven animal, and five fungal genomes. We find that gene body methylation is conserved between plants and animals, whereas selective methylation of transposons has evolved independently in the vertebrate lineage. We show that methylation of plant transposons in the CHG context extends to green algae, and present evidence for RNA-directed DNA methylation of fungal genes. We also show that antagonism between DNA methylation and histone H2A.Z is conserved between plants and animals. Our data demonstrate that extant DNA methylation systems are mosaics of conserved and derived features, and indicate that gene body methylation is an ancient property of eukaryotic genomes. Keywords: Epigenetics Overall design: Examination of DNA methylation and transcription in plant, animal, and fungal genomes, and examination of how H2A.Z deposition relates to both methylation and transcription in puffer fish. Descriptions of the Samples' raw and processed data (provided as supplementary files) can be found in GSE19824_README.txt at the foot of this record.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>20395474</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS070561-SRS070575,SRS072439-SRS072455,SRS085328</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX020112-SRX020126,SRX020137-SRX020138,SRX020141-SRX020144,SRX020146-SRX020150,SRX020152-SRX020165,SRX023824-SRX023828</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR042523-SRR042536,SRR042538-SRR042541,SRR042617-SRR042620,SRR042623-SRR042628,SRR042630-SRR042636,SRR042638-SRR042660,SRR060806-SRR060807,SRR060811-SRR060812,SRR063322,SRR063324,SRR063326</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA122153&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA122153&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>122153</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-05-31</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA176589" alias="PRJNA176589" center_name="Blencowe, The Donnelly Centre, University of Toronto">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA176589</PRIMARY_ID>
+          <SECONDARY_ID>SRP015997</SECONDARY_ID>
+          <EXTERNAL_ID namespace="GEO">GSE41338</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="Blencowe, The Donnelly Centre, University of Toronto">PRJNA176589</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>The evolutionary landscape of alternative splicing in vertebrate species</NAME>
+     <TITLE>The evolutionary landscape of alternative splicing in vertebrate species</TITLE>
+     <DESCRIPTION>How species with similar repertoires of protein coding genes differ so dramatically at the phenotypic level is poorly understood. From comparing the transcriptomes of multiple organs from vertebrate species spanning ~350 million years of evolution, we observe significant differences in alternative splicing complexity between the main vertebrate lineages, with the highest complexity in the primate lineage. Moreover, within as little as six million years, the splicing profiles of physiologically-equivalent organs have diverged to the extent that they are more strongly related to the identity of a species than they are to organ type. Most vertebrate species-specific splicing patterns are governed by the highly variable use of a largely conserved cis-regulatory code. However, a smaller number of pronounced species-dependent splicing changes are predicted to remodel interactions involving factors acting at multiple steps in gene regulation. These events are expected to further contribute to the dramatic diversification of alternative splicing as well as to other gene regulatory changes that contribute to phenotypic differences among vertebrate species. Overall design: mRNA profiles of several organs (brain, liver, kidney, heart, skeletal muscle) in multiple vertebrate species (mouse, chicken, lizard, frog, pufferfish) generated by deep sequencing using Illumina HiSeq</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+     </SUBMISSION_PROJECT>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>23258890</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS366858-SRS366878</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX191149-SRX191169</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR579545-SRR579565</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA176589&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA176589&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>176589</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-05-31</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+</ROOT>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT request="tax_eq(4528) AND (instrument_model=&quot;HiSeq X Ten&quot; OR instrument_model=&quot;HiSeq X Five&quot; OR instrument_model=&quot;Illumina MiSeq&quot; OR instrument_model=&quot;Illumina NovaSeq 6000&quot; OR instrument_model=&quot;Illumina Genome Analyzer&quot; OR instrument_model=&quot;Illumina Genome Analyzer II&quot; OR instrument_model=&quot;Illumina Genome Analyzer IIx&quot; OR instrument_model=&quot;Illumina HiScanSQ&quot; OR instrument_model=&quot;Illumina HiSeq 1000&quot; OR instrument_model=&quot;Illumina HiSeq 1500&quot; OR instrument_model=&quot;Illumina HiSeq 2000&quot; OR instrument_model=&quot;Illumina HiSeq 2500&quot; OR instrument_model=&quot;Illumina HiSeq 3000&quot; OR instrument_model=&quot;Illumina HiSeq 4000&quot; OR instrument_model=&quot;NextSeq 500&quot; OR instrument_model=&quot;NextSeq 550&quot; OR instrument_model=&quot;Ion Torrent Proton&quot; OR instrument_model=&quot;Ion Torrent S5&quot; OR instrument_model=&quot;Ion Torrent S5 XL&quot;)AND library_strategy=&quot;RNA-Seq&quot; AND library_source=&quot;TRANSCRIPTOMIC&quot;">
+<PROJECT accession="PRJDB6351" alias="PRJDB6351" center_name="Laboratory of Molecular Biosystems, Bioscience and Biotechnology Center, Nagoya University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJDB6351</PRIMARY_ID>
+          <SECONDARY_ID>DRP003970</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Laboratory of Molecular Biosystems, Bioscience and Biotechnology Center, Nagoya University">PRJDB6351</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Oryza longistaminata strain:IRGC110404</NAME>
+     <TITLE>Tissue transcriptome of Oryza longistaminata</TITLE>
+     <DESCRIPTION>The transcriptome of eight tissues from the African wild rice Oryza longistaminata (accession IRGC110404) was sequenced. The tissues were: leaf, root, SAM, tiller bud, rhizome bud stage 1, rhizome bud stage 2, rhizome tip, rhizome node. The resulting transcriptome was used to aid in the assembly of a reference transcriptome and to study gene expression in rhizome tissues.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT>
+               <LOCUS_TAG_PREFIX>C0549</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>C0550</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>C0551</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>C0552</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>C0553</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>C0554</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>C0555</LOCUS_TAG_PREFIX>
+               <LOCUS_TAG_PREFIX>C0556</LOCUS_TAG_PREFIX>
+          </SEQUENCING_PROJECT>
+          <ORGANISM>
+               <TAXON_ID>4528</TAXON_ID>
+               <SCIENTIFIC_NAME>Oryza longistaminata</SCIENTIFIC_NAME>
+               <STRAIN>IRGC110404</STRAIN>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA45813"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>DRS057184-DRS057191</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>DRX094796-DRX094811</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>DRR101376-DRR101391</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJDB6351&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJDB6351&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>428177</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-01-04</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-31</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<PROJECT accession="PRJNA196977" alias="PRJNA196977" center_name="Washington State University">
+     <IDENTIFIERS>
+          <PRIMARY_ID>PRJNA196977</PRIMARY_ID>
+          <SECONDARY_ID>SRP021117</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Washington State University">PRJNA196977</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <NAME>Oryza longistaminata</NAME>
+     <TITLE>Oryza longistaminata Transcriptome or Gene expression</TITLE>
+     <DESCRIPTION>Oryza longistaminata is a perennial wild rice species that possesses many valuable traits that could be used to improve cultivated rice cultivars, including rhizomatousness, disease resistance and drought tolerance.</DESCRIPTION>
+     <SUBMISSION_PROJECT>
+          <SEQUENCING_PROJECT/>
+          <ORGANISM>
+               <TAXON_ID>4528</TAXON_ID>
+               <SCIENTIFIC_NAME>Oryza longistaminata</SCIENTIFIC_NAME>
+          </ORGANISM>
+     </SUBMISSION_PROJECT>
+     <RELATED_PROJECTS>
+          <RELATED_PROJECT>
+               <PARENT_PROJECT accession="PRJNA45813"/>
+          </RELATED_PROJECT>
+     </RELATED_PROJECTS>
+     <PROJECT_LINKS>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS413523,SRS413904,SRS414702</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX268084,SRX268816,SRX268821,SRX268830,SRX268889,SRX271447</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR828682,SRR830212,SRR830652,SRR831108,SRR831166,SRR833549,SRR834501-SRR834502</ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA196977&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+          <PROJECT_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=PRJNA196977&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </PROJECT_LINK>
+     </PROJECT_LINKS>
+     <PROJECT_ATTRIBUTES>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-REFSEQ</TAG>
+               <VALUE>N</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>PROJECT-ID</TAG>
+               <VALUE>196977</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>NCBI-PROJECT-TYPE</TAG>
+               <VALUE>SUBMISSION</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-05-31</VALUE>
+          </PROJECT_ATTRIBUTE>
+          <PROJECT_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-01-28</VALUE>
+          </PROJECT_ATTRIBUTE>
+     </PROJECT_ATTRIBUTES>
+</PROJECT>
+<STUDY accession="SRP011058" alias="O.longistaminata transcriptomes" center_name="KIZ" broker_name="NCBI">
+     <IDENTIFIERS>
+          <PRIMARY_ID>SRP011058</PRIMARY_ID>
+          <SUBMITTER_ID namespace="KIZ">O.longistaminata transcriptomes</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>A draft genome assembly and comparative transcriptomics of the African wild rice species Oryza longistaminata</STUDY_TITLE>
+          <STUDY_TYPE existing_study_type="Transcriptome Analysis"/>
+          <STUDY_ABSTRACT>Background: Oryza longistaminata, an African wild AA genome (2n=24) relative of Asian cultivated rice (Oryza sativa L.), is characterized by a number of valuable traits that could be used for improvement of cultivars. Here we report the draft genome assembly of O. longistaminata and transcriptomes of four pairs of relative traits’ tissues.   Results: Although high heterozygosity from obligate outcrossing obstructed our ability to generate a high-quality reference genome, we were able to produce a relatively good draft genome assembly that can be used to annotate 34,090 protein-coding genes. The total length of the assembled draft genome is 373 Mb with a scaffold N50 size of 82.52 kb. The average sequence divergence between O. longistaminata and O. sativa is 5.23% in aligned regions. Consistent with the fact that O. longistaminata is highly resistant to many plant pathogens, our genome annotation revealed more disease resistant genes than in cultivated rice. Detailed analysis of four pairs of transcriptomes permitted the identification of some rhizome- and self-incompatibility-related genes.   Conclusions: These large quantities of data not only provides a valuable resource of many genes for cultivated rice improvement, but also offers new insights into the evolution of the genus Oryza and genic basis of rhizome and self-incompatibility.</STUDY_ABSTRACT>
+          <CENTER_PROJECT_NAME/>
+          <STUDY_DESCRIPTION/>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS295178-SRS295185</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX122281-SRX122288</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR413967-SRR413974</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>SRA050286</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=SRP011058&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[http://www.ebi.ac.uk/ena/data/warehouse/filereport?accession=SRP011058&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>139557527</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>20933629050</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-03-04</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2015-06-22</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+</ROOT>
