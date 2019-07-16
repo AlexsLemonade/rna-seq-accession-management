@@ -53,6 +53,10 @@ while read -r taxon_id; do
     ../../more_rna_accessions.py --percent-experiments=1 --xml-file=data.xml\
 				 --exclude-list=<(cat ../../previous_accessions/**/*${taxon_id}.txt 2>/dev/null)
 
+    # Sort new_accessions.txt so that the file is deterministic. Otherwise, every time more_rna_accessions.py runs,
+    # it results in a different order, making git track more changes than it needs to
+    sort -o new_accessions.txt new_accessions.txt 
+
     cat new_accessions.txt >> ../../"$OUTPUT_FILE"
 
     popd > /dev/null || exit 
