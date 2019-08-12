@@ -42,24 +42,24 @@ while read -r taxon_id; do
     mkdir -p "downloaded_data/$taxon_id"
     pushd "downloaded_data/$taxon_id" > /dev/null || exit
 
-    formatted_query="$(python ../../format_query.py "$taxon_id")"
+    formatted_query="$(python3 ../../format_query.py "$taxon_id")"
     formatted_data="result=READ_STUDY&query=${formatted_query}&display=xml"
-    
+
     if $UPDATE || [ ! -e data.xml ]; then
     	curl 'https://www.ebi.ac.uk/ena/data/warehouse/search' --data "$formatted_data" --compressed > data.xml
     fi
     # Yes, I'm sure we want to glob here
     # shellcheck disable=2086
-    ../../more_rna_accessions.py --percent-experiments=1 --xml-file=data.xml\
+    ../../more_rna_accessions.py --num-experiments=200 --xml-file=data.xml\
 				 --exclude-list=<(cat ../../previous_accessions/**/*${taxon_id}.txt 2>/dev/null)
 
     # Sort new_accessions.txt so that the file is deterministic. Otherwise, every time more_rna_accessions.py runs,
     # it results in a different order, making git track more changes than it needs to
-    sort -o new_accessions.txt new_accessions.txt 
+    sort -o new_accessions.txt new_accessions.txt
 
     cat new_accessions.txt >> ../../"$OUTPUT_FILE"
 
-    popd > /dev/null || exit 
+    popd > /dev/null || exit
 done < "$ACCESSION_LIST"
 
 echo "All new accessions written to $OUTPUT_FILE"
