@@ -45,7 +45,6 @@ while read -r taxon_id; do
     formatted_query="$(python3 ../../format_query.py "$taxon_id")"
     formatted_data="result=READ_STUDY&query=${formatted_query}&display=xml"
 
-    echo $formatted_data
     if $REFRESH || [ ! -e data.xml ]; then
         curl "https://www.ebi.ac.uk/ena/browser/api/xml/search?${formatted_data}" --compressed > data.xml
     fi
