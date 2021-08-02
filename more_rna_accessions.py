@@ -3,11 +3,19 @@
 import argparse
 import xml.etree.ElementTree as ET
 
-parser = argparse.ArgumentParser(description="Generate a list of SRA experiments which haven't been run before.")
-parser.add_argument('--num-experiments', type=int, help='Number of experiments to output.')
-parser.add_argument('--percent-experiments', type=int, help='Percentage of all experiments to output.')
-parser.add_argument('--xml-file', type=str, help='XML file to pull SRA experiments from.')
-parser.add_argument('--exclude-list', type=str, help='A file with one accesion per line which should be excluded from the output.')
+parser = argparse.ArgumentParser(
+    description="Generate a list of SRA experiments which haven't been run before."
+)
+parser.add_argument("--num-experiments", type=int, help="Number of experiments to output.")
+parser.add_argument(
+    "--percent-experiments", type=int, help="Percentage of all experiments to output."
+)
+parser.add_argument("--xml-file", type=str, help="XML file to pull SRA experiments from.")
+parser.add_argument(
+    "--exclude-list",
+    type=str,
+    help="A file with one accesion per line which should be excluded from the output.",
+)
 
 args = parser.parse_args()
 
@@ -25,9 +33,11 @@ study_accessions = set()
 for study in xml_root:
     for identifiers in study.findall("IDENTIFIERS"):
         for child in identifiers:
-            if str.startswith(child.text, "DRP") \
-               or str.startswith(child.text, "ERP") \
-               or str.startswith(child.text, "SRP"):
+            if (
+                str.startswith(child.text, "DRP")
+                or str.startswith(child.text, "ERP")
+                or str.startswith(child.text, "SRP")
+            ):
                 study_accessions.add(child.text)
 
 
